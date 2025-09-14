@@ -1,0 +1,382 @@
+/* ===== SYSTÈME D'ICÔNES UNIFIÉ ET PROFESSIONNEL ===== */
+
+/* === STYLE UNIFIÉ POUR TOUTES LES ICÔNES === */
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: all 0.2s ease-in-out;
+}
+
+/* === TAILLES STANDARDISÉES === */
+.icon-xs { width: 12px; height: 12px; }
+.icon-sm { width: 16px; height: 16px; }
+.icon-md { width: 20px; height: 20px; }
+.icon-lg { width: 24px; height: 24px; }
+.icon-xl { width: 32px; height: 32px; }
+.icon-2xl { width: 40px; height: 40px; }
+.icon-3xl { width: 48px; height: 48px; }
+
+/* === COULEURS D'ICÔNES PAR CONTEXTE === */
+.icon-primary { color: var(--primary-500); }
+.icon-secondary { color: var(--secondary-500); }
+.icon-success { color: var(--success-500); }
+.icon-warning { color: var(--warning-500); }
+.icon-danger { color: var(--danger-500); }
+.icon-info { color: var(--info-500); }
+.icon-neutral { color: var(--neutral-500); }
+.icon-muted { color: var(--text-muted); }
+
+/* === ICÔNES DE STATUT (petits points) === */
+.icon-status {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  background-color: currentColor;
+}
+
+.icon-status-online { background-color: var(--success-500); }
+.icon-status-offline { background-color: var(--neutral-400); }
+.icon-status-busy { background-color: var(--warning-500); }
+.icon-status-away { background-color: var(--danger-500); }
+
+/* === ICÔNES SPÉCIALISÉES AVEC FOND GRADIENT === */
+.icon-badge {
+  background: linear-gradient(135deg, var(--warning-400), var(--warning-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-trophy {
+  background: linear-gradient(135deg, var(--warning-400), var(--warning-500));
+  border-radius: 50%;
+  padding: 12px;
+  color: white;
+}
+
+.icon-star {
+  background: linear-gradient(135deg, var(--warning-400), var(--warning-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-chart {
+  background: linear-gradient(135deg, var(--info-400), var(--info-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-calendar {
+  background: linear-gradient(135deg, var(--secondary-400), var(--secondary-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-homework {
+  background: linear-gradient(135deg, var(--success-400), var(--success-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-quiz {
+  background: linear-gradient(135deg, var(--primary-400), var(--primary-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-book {
+  background: linear-gradient(135deg, var(--primary-400), var(--primary-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-document {
+  background: linear-gradient(135deg, var(--info-400), var(--info-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-check {
+  background: linear-gradient(135deg, var(--success-400), var(--success-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-chat {
+  background: linear-gradient(135deg, var(--secondary-400), var(--secondary-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-pen {
+  background: linear-gradient(135deg, var(--info-400), var(--info-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-bar-chart {
+  background: linear-gradient(135deg, var(--primary-400), var(--primary-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+.icon-trending-up {
+  background: linear-gradient(135deg, var(--success-400), var(--success-500));
+  border-radius: 50%;
+  padding: 8px;
+  color: white;
+}
+
+/* === ICÔNES DE CARTE === */
+.icon-card {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-md);
+}
+
+.icon-card-primary { background: linear-gradient(135deg, var(--primary-400), var(--primary-500)); }
+.icon-card-secondary { background: linear-gradient(135deg, var(--secondary-400), var(--secondary-500)); }
+.icon-card-success { background: linear-gradient(135deg, var(--success-400), var(--success-500)); }
+.icon-card-warning { background: linear-gradient(135deg, var(--warning-400), var(--warning-500)); }
+.icon-card-danger { background: linear-gradient(135deg, var(--danger-400), var(--danger-500)); }
+.icon-card-info { background: linear-gradient(135deg, var(--info-400), var(--info-500)); }
+
+.icon-card .icon {
+  color: white;
+  width: 24px;
+  height: 24px;
+}
+
+/* === EFFETS D'ICÔNES === */
+.icon-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-hover:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.icon-pulse {
+  animation: icon-pulse 2s infinite;
+}
+
+.icon-bounce {
+  animation: icon-bounce 1s infinite;
+}
+
+.icon-rotate {
+  animation: icon-rotate 2s linear infinite;
+}
+
+.icon-glow {
+  filter: drop-shadow(0 0 8px currentColor);
+}
+
+/* === ANIMATIONS D'ICÔNES === */
+@keyframes icon-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes icon-bounce {
+  0%, 20%, 53%, 80%, 100% { transform: translate3d(0,0,0); }
+  40%, 43% { transform: translate3d(0,-8px,0); }
+  70% { transform: translate3d(0,-4px,0); }
+  90% { transform: translate3d(0,-2px,0); }
+}
+
+@keyframes icon-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* === ICÔNES DE PROGRESSION === */
+.icon-progress {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-progress-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: conic-gradient(var(--primary-500) 0deg, var(--neutral-200) 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon-progress-circle::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+}
+
+.icon-progress-text {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary-500);
+}
+
+/* === ICÔNES DE NOTIFICATION === */
+.icon-notification {
+  position: relative;
+}
+
+.icon-notification-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: var(--danger-500);
+  color: white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+/* === ICÔNES DE NAVIGATION === */
+.icon-nav {
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-nav:hover {
+  transform: translateX(2px);
+  color: var(--primary-600);
+}
+
+.icon-nav.active {
+  color: var(--primary-500);
+  transform: scale(1.1);
+}
+
+/* === ICÔNES DE BOUTON === */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background-color: var(--neutral-100);
+  transform: translateY(-1px);
+}
+
+.icon-button:active {
+  transform: translateY(0);
+}
+
+/* === ICÔNES DE BOUTON AVEC ICÔNES === */
+.btn-unified .icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.btn-unified-icon-only {
+  padding: 12px;
+  min-width: 44px;
+}
+
+.btn-unified-icon-only .icon {
+  margin-right: 0;
+}
+
+/* === ICÔNES POUR LES TABS === */
+.tab-unified .icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+/* === ICÔNES POUR LES ALERTES === */
+.alert-unified .icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* === ICÔNES POUR LES MODALS === */
+.modal-unified-header .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* === ICÔNES POUR LES BADGES === */
+.badge-unified .icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}
+
+/* === ICÔNES POUR LES PROGRESS BARS === */
+.progress-unified .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* === ICÔNES POUR LES INPUTS === */
+.input-unified .icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+/* === ICÔNES POUR LES SELECTS === */
+.select-unified .icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  pointer-events: none;
+}

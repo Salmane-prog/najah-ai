@@ -1,0 +1,195 @@
+/* ===== PALETTE DE COULEURS UNIFIÉE ===== */
+
+:root {
+  /* === COULEURS PRIMAIRES === */
+  --primary-50: #eff6ff;
+  --primary-100: #dbeafe;
+  --primary-200: #bfdbfe;
+  --primary-300: #93c5fd;
+  --primary-400: #60a5fa;
+  --primary-500: #3b82f6;  /* Couleur principale */
+  --primary-600: #2563eb;
+  --primary-700: #1d4ed8;
+  --primary-800: #1e40af;
+  --primary-900: #1e3a8a;
+
+  /* === COULEURS SECONDAIRES === */
+  --secondary-50: #f5f3ff;
+  --secondary-100: #ede9fe;
+  --secondary-200: #ddd6fe;
+  --secondary-300: #c4b5fd;
+  --secondary-400: #a78bfa;
+  --secondary-500: #8b5cf6;  /* Violet */
+  --secondary-600: #7c3aed;
+  --secondary-700: #6d28d9;
+  --secondary-800: #5b21b6;
+  --secondary-900: #4c1d95;
+
+  /* === COULEURS DE SUCCÈS === */
+  --success-50: #ecfdf5;
+  --success-100: #d1fae5;
+  --success-200: #a7f3d0;
+  --success-300: #6ee7b7;
+  --success-400: #34d399;
+  --success-500: #10b981;  /* Vert */
+  --success-600: #059669;
+  --success-700: #047857;
+  --success-800: #065f46;
+  --success-900: #064e3b;
+
+  /* === COULEURS D'ATTENTION === */
+  --warning-50: #fffbeb;
+  --warning-100: #fef3c7;
+  --warning-200: #fde68a;
+  --warning-300: #fcd34d;
+  --warning-400: #fbbf24;
+  --warning-500: #f59e0b;  /* Orange */
+  --warning-600: #d97706;
+  --warning-700: #b45309;
+  --warning-800: #92400e;
+  --warning-900: #78350f;
+
+  /* === COULEURS DE DANGER === */
+  --danger-50: #fef2f2;
+  --danger-100: #fee2e2;
+  --danger-200: #fecaca;
+  --danger-300: #fca5a5;
+  --danger-400: #f87171;
+  --danger-500: #ef4444;  /* Rouge */
+  --danger-600: #dc2626;
+  --danger-700: #b91c1c;
+  --danger-800: #991b1b;
+  --danger-900: #7f1d1d;
+
+  /* === COULEURS D'INFO === */
+  --info-50: #f0f9ff;
+  --info-100: #e0f2fe;
+  --info-200: #bae6fd;
+  --info-300: #7dd3fc;
+  --info-400: #38bdf8;
+  --info-500: #0ea5e9;  /* Bleu ciel */
+  --info-600: #0284c7;
+  --info-700: #0369a1;
+  --info-800: #075985;
+  --info-900: #0c4a6e;
+
+  /* === COULEURS NEUTRES === */
+  --neutral-50: #fafafa;
+  --neutral-100: #f5f5f5;
+  --neutral-200: #e5e5e5;
+  --neutral-300: #d4d4d4;
+  --neutral-400: #a3a3a3;
+  --neutral-500: #737373;
+  --neutral-600: #525252;
+  --neutral-700: #404040;
+  --neutral-800: #262626;
+  --neutral-900: #171717;
+
+  /* === COULEURS DE FOND === */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-overlay: rgba(0, 0, 0, 0.5);
+
+  /* === COULEURS DE TEXTE === */
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  --text-muted: #94a3b8;
+  --text-inverse: #ffffff;
+
+  /* === COULEURS DE BORDURE === */
+  --border-light: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-dark: #94a3b8;
+  --border-focus: #3b82f6;
+
+  /* === COULEURS D'OMBRE === */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* === COULEURS DE PROGRESSION === */
+  --progress-start: #8b5cf6;
+  --progress-middle: #3b82f6;
+  --progress-end: #10b981;
+  --progress-bg: #f1f5f9;
+
+  /* === COULEURS DE GAMIFICATION === */
+  --level-bronze: #cd7f32;
+  --level-silver: #c0c0c0;
+  --level-gold: #ffd700;
+  --level-platinum: #e5e4e2;
+  --level-diamond: #b9f2ff;
+}
+
+/* === UTILITAIRES DE COULEURS === */
+.text-primary { color: var(--primary-500); }
+.text-secondary { color: var(--secondary-500); }
+.text-success { color: var(--success-500); }
+.text-warning { color: var(--warning-500); }
+.text-danger { color: var(--danger-500); }
+.text-info { color: var(--info-500); }
+
+.bg-primary { background-color: var(--primary-500); }
+.bg-secondary { background-color: var(--secondary-500); }
+.bg-success { background-color: var(--success-500); }
+.bg-warning { background-color: var(--warning-500); }
+.bg-danger { background-color: var(--danger-500); }
+.bg-info { background-color: var(--info-500); }
+
+.border-primary { border-color: var(--primary-500); }
+.border-secondary { border-color: var(--secondary-500); }
+.border-success { border-color: var(--success-500); }
+.border-warning { border-color: var(--warning-500); }
+.border-danger { border-color: var(--danger-500); }
+.border-info { border-color: var(--info-500); }
+
+/* === GRADIENTS UNIFIÉS === */
+.gradient-primary {
+  background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
+}
+
+.gradient-secondary {
+  background: linear-gradient(135deg, var(--secondary-500), var(--secondary-600));
+}
+
+.gradient-success {
+  background: linear-gradient(135deg, var(--success-500), var(--success-600));
+}
+
+.gradient-warning {
+  background: linear-gradient(135deg, var(--warning-500), var(--warning-600));
+}
+
+.gradient-danger {
+  background: linear-gradient(135deg, var(--danger-500), var(--danger-600));
+}
+
+.gradient-info {
+  background: linear-gradient(135deg, var(--info-500), var(--info-600));
+}
+
+.gradient-progress {
+  background: linear-gradient(90deg, var(--progress-start), var(--progress-middle), var(--progress-end));
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+}
+
+/* === COULEURS DE STATUT === */
+.status-pending { color: var(--warning-500); background-color: var(--warning-50); }
+.status-in-progress { color: var(--info-500); background-color: var(--info-50); }
+.status-completed { color: var(--success-500); background-color: var(--success-50); }
+.status-overdue { color: var(--danger-500); background-color: var(--danger-50); }
+
+/* === COULEURS DE NIVEAU === */
+.level-beginner { color: var(--info-500); background-color: var(--info-50); }
+.level-intermediate { color: var(--warning-500); background-color: var(--warning-50); }
+.level-advanced { color: var(--success-500); background-color: var(--success-50); }
+.level-expert { color: var(--secondary-500); background-color: var(--secondary-50); }
+.level-master { color: var(--primary-500); background-color: var(--primary-50); }
+

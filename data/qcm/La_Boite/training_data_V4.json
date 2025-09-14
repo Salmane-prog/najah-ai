@@ -1,0 +1,2421 @@
+{
+  "metadata": {
+    "titre": "La Boîte à Merveilles - Dataset d'entraînement complet 12 chapitres",
+    "auteur": "Ahmed Sefrioui",
+    "format": "préfixe: texte_d_entrée -> texte_cible",
+    "usage": "Entraînement de modèles BARThez pour génération de QCM adaptatifs",
+    "nombre_exemples": 240,
+    "version": "4.0_complete",
+    "chapitres_couverts": 12,
+    "questions_par_chapitre": 20,
+    "ameliorations": [
+      "Formatage strict et cohérent",
+      "Options plus distinctes et pertinentes",
+      "Réponses correctes référençant exactement les options",
+      "Explications plus détaillées",
+      "Distracteurs plus sophistiqués"
+    ]
+  },
+  "dataset_entrainement_complet": [
+    {
+      "id": "ch1_q1",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "presentation_narrateur",
+      "prefixe": "générer une question:",
+      "texte_entree": "Présentation du narrateur enfant solitaire qui évoque ses rêveries nocturnes et sa boîte à merveilles. Introduction à l'univers de la médina de Fès.",
+      "texte_cible": "Qui est le narrateur principal de La Boîte à Merveilles ?\nA) Un homme adulte qui se souvient de son enfance\nB) Un enfant de 6 ans nommé Sidi Mohamed\nC) La mère Rahma qui raconte l'histoire de son fils\nD) Un observateur extérieur à la famille\nRéponse correcte: B) Un enfant de 6 ans nommé Sidi Mohamed\nExplication: Le narrateur est Sidi Mohamed, un enfant d'environ 6 ans qui raconte ses propres souvenirs d'enfance avec un regard innocent et poétique."
+    },
+    {
+      "id": "ch1_q2",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "symbolisme_boite",
+      "prefixe": "générer une question:",
+      "texte_entree": "La boîte à merveilles contient des objets hétéroclites qui stimulent l'imagination de l'enfant et l'aident à échapper à sa solitude.",
+      "texte_cible": "Que symbolise principalement la boîte à merveilles dans le roman ?\nA) La richesse matérielle et les biens de famille\nB) L'univers imaginaire et les rêves d'enfant\nC) Les traditions artisanales marocaines\nD) L'héritage culturel transmis par les parents\nRéponse correcte: B) L'univers imaginaire et les rêves d'enfant\nExplication: La boîte à merveilles représente l'imagination débordante de l'enfant et son refuge contre la solitude, transformant des objets ordinaires en sources d'évasion."
+    },
+    {
+      "id": "ch1_q3",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "routine_nocturne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le soir, quand tous dorment, je reste éveillé. Je fais le bilan de ma journée. L'enfant évoque sa solitude et ses rêveries dans la médina de Fès.",
+      "texte_cible": "Que fait l'enfant le soir quand tous dorment ?\nA) Il joue avec ses jouets préférés\nB) Il reste éveillé et fait le bilan de sa journée\nC) Il lit des livres d'aventures\nD) Il écoute les conversations des adultes\nRéponse correcte: B) Il reste éveillé et fait le bilan de sa journée\nExplication: Cette habitude nocturne révèle la nature réflexive et introspective de l'enfant, caractéristique de l'incipit du roman."
+    },
+    {
+      "id": "ch1_q4",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "technique_narrative",
+      "prefixe": "générer une question:",
+      "texte_entree": "Ahmed Sefrioui utilise la narration à la première personne pour raconter ses propres souvenirs d'enfance, créant un récit autobiographique authentique.",
+      "texte_cible": "Quel type de narration Ahmed Sefrioui utilise-t-il dans ce roman ?\nA) Narration à la troisième personne omnisciente\nB) Récit autobiographique à la première personne\nC) Narration alternée entre plusieurs personnages\nD) Dialogue théâtral sans narrateur\nRéponse correcte: B) Récit autobiographique à la première personne\nExplication: L'auteur utilise le 'je' narratif pour raconter ses propres souvenirs d'enfance, créant une authenticité et une intimité particulières."
+    },
+    {
+      "id": "ch1_q5",
+      "chapitre": 1,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "cadre_spatial",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'action se déroule dans la médina de Fès, avec ses ruelles étroites, ses maisons traditionnelles et son atmosphère authentiquement marocaine des années 1940.",
+      "texte_cible": "Dans quelle ville se déroule principalement l'action du roman ?\nA) Rabat, la capitale administrative\nB) Casablanca, la métropole économique\nC) Fès, la capitale spirituelle\nD) Marrakech, la perle du Sud\nRéponse correcte: C) Fès, la capitale spirituelle\nExplication: L'action se déroule dans la médina de Fès, ville traditionnelle et centre culturel du Maroc, particulièrement dans les années 1940."
+    },
+    {
+      "id": "ch1_q6",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "solitude_enfantine",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant compense sa solitude par ses rêveries et son imagination débordante, transformant les objets de sa boîte en compagnons imaginaires.",
+      "texte_cible": "Comment l'enfant surmonte-t-il sa solitude ?\nA) En se liant d'amitié avec les enfants du quartier\nB) En se réfugiant dans l'imagination et les rêveries\nC) En passant tout son temps à étudier\nD) En accompagnant constamment ses parents\nRéponse correcte: B) En se réfugiant dans l'imagination et les rêveries\nExplication: L'imagination devient le principal moyen d'évasion de l'enfant face à l'isolement social, illustrant la richesse de sa vie intérieure."
+    },
+    {
+      "id": "ch1_q7",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "voisinage_dar_chouafa",
+      "prefixe": "générer une question:",
+      "texte_entree": "La maison où habite la famille, Dar Chouafa, est partagée avec plusieurs autres locataires, dont une voyante au rez-de-chaussée.",
+      "texte_cible": "Qui donne son nom à la maison où habite la famille ?\nA) Une couturière réputée du quartier\nB) Une voyante appelée la Chouafa\nC) Une ancienne propriétaire décédée\nD) La mère du narrateur\nRéponse correcte: B) Une voyante appelée la Chouafa\nExplication: La maison tire son nom de la voyante, la Chouafa, qui y habite au rez-de-chaussée et exerce son activité de divination."
+    },
+    {
+      "id": "ch1_q8",
+      "chapitre": 1,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "croyances_populaires",
+      "prefixe": "générer une question:",
+      "texte_entree": "La Chouafa organise des séances de musique et de danses nègres, évoquant des rituels de la confrérie des Gnaouas, mêlant religion et croyances populaires.",
+      "texte_cible": "À quelle confrérie religieuse la Chouafa fait-elle référence ?\nA) Les Aïssaouas, confrérie du Maroc central\nB) Les Gnaouas, confrérie d'origine subsaharienne\nC) Les Hmadcha, confrérie du Nord du Maroc\nD) Les Tijanes, confrérie soufie\nRéponse correcte: B) Les Gnaouas, confrérie d'origine subsaharienne\nExplication: Le texte mentionne explicitement les rituels des Gnaouas, confrérie mystique d'origine subsaharienne caractérisée par ses musiques et danses spirituelles."
+    },
+    {
+      "id": "ch1_q9",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "perception_sensorielle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le narrateur est marqué par les odeurs d'encens et de benjoin et les sons des crotales et guimbris, montrant une perception très sensorielle de son environnement.",
+      "texte_cible": "Comment le narrateur perçoit-il le monde qui l'entoure ?\nA) De manière purement intellectuelle et rationnelle\nB) À travers une approche exclusivement visuelle\nC) Par une perception très sensorielle : odeurs, sons, textures\nD) De manière distante et détachée\nRéponse correcte: C) Par une perception très sensorielle : odeurs, sons, textures\nExplication: Le récit est riche en descriptions sensorielles qui révèlent la sensibilité particulière de l'enfant à son environnement sonore et olfactif."
+    },
+    {
+      "id": "ch1_q10",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "personnages_voisins",
+      "prefixe": "générer une question:",
+      "texte_entree": "Au premier étage de Dar Chouafa habitent Driss El Aouad, sa femme Rahma et leur fille Zineb, avec qui le narrateur a des relations conflictuelles.",
+      "texte_cible": "Qui compose la famille habitant au premier étage ?\nA) Le narrateur et ses parents\nB) Driss El Aouad, Rahma et leur fille Zineb\nC) La Chouafa et sa famille\nD) Fatma Bziouya et ses proches\nRéponse correcte: B) Driss El Aouad, Rahma et leur fille Zineb\nExplication: Cette famille de voisins joue un rôle important dans le récit, particulièrement Zineb qui entretient des relations tendues avec le narrateur."
+    },
+    {
+      "id": "ch1_q11",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "atmosphere_nocturne",
+      "prefixe": "générer une question:",
+      "texte_entree": "La nuit, la maison s'anime d'une vie mystérieuse avec les bruits des rituels de la Chouafa et les conversations des voisins.",
+      "texte_cible": "Quelle atmosphère caractérise les nuits à Dar Chouafa ?\nA) Un silence complet et reposant\nB) Une ambiance mystérieuse et animée\nC) Des disputes constantes entre voisins\nD) Une routine monotone et ennuyeuse\nRéponse correcte: B) Une ambiance mystérieuse et animée\nExplication: Les nuits sont marquées par les rituels de la Chouafa et les interactions sociales, créant une atmosphère particulière qui nourrit l'imagination de l'enfant."
+    },
+    {
+      "id": "ch1_q12",
+      "chapitre": 1,
+      "type": "culture",
+      "difficulte": "difficile",
+      "theme_semantique": "architecture_traditionnelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Dar Chouafa représente l'architecture traditionnelle de la médina avec sa cour intérieure, ses étages et la cohabitation de plusieurs familles.",
+      "texte_cible": "Que représente Dar Chouafa dans l'architecture marocaine ?\nA) Un palais aristocratique de la médina\nB) Une maison traditionnelle à cour intérieure\nC) Une construction moderne des années 1940\nD) Un établissement commercial du souk\nRéponse correcte: B) Une maison traditionnelle à cour intérieure\nExplication: Dar Chouafa illustre le modèle architectural typique de la médina marocaine, avec sa cour centrale et ses étages abritant plusieurs familles."
+    },
+    {
+      "id": "ch1_q13",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "objets_boite",
+      "prefixe": "générer une question:",
+      "texte_entree": "La boîte contient des objets disparates : boutons, clés, bagues, perles, boîtes vides qui deviennent des trésors pour l'enfant.",
+      "texte_cible": "Que contient la boîte à merveilles ?\nA) Des jouets coûteux et modernes\nB) Des objets disparates : boutons, clés, bagues, perles\nC) Des livres et des cahiers d'école\nD) Des bijoux précieux de famille\nRéponse correcte: B) Des objets disparates : boutons, clés, bagues, perles\nExplication: La boîte contient des objets ordinaires qui deviennent extraordinaires grâce à l'imagination de l'enfant, illustrant la poésie du quotidien."
+    },
+    {
+      "id": "ch1_q14",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "transformation_poetique",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant transforme poétiquement les objets ordinaires en éléments magiques, révélant sa capacité à transfigurer le réel.",
+      "texte_cible": "Comment l'enfant transforme-t-il les objets ordinaires ?\nA) En les vendant au marché pour gagner de l'argent\nB) En les transformant poétiquement en éléments magiques\nC) En les cassant pour découvrir leur fonctionnement\nD) En les cachant pour éviter les punitions\nRéponse correcte: B) En les transformant poétiquement en éléments magiques\nExplication: Cette transformation poétique révèle le génie créateur de l'enfant qui transfigure le quotidien par son imagination."
+    },
+    {
+      "id": "ch1_q15",
+      "chapitre": 1,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "vie_medina",
+      "prefixe": "générer une question:",
+      "texte_entree": "La médina de Fès apparaît comme un microcosme social où se côtoient artisans, commerçants, familles et personnages pittoresques.",
+      "texte_cible": "Comment la médina de Fès est-elle présentée dans le roman ?\nA) Comme un lieu isolé et coupé du monde\nB) Comme un microcosme social riche et diversifié\nC) Comme un environnement hostile et dangereux\nD) Comme un décor folklorique sans vie\nRéponse correcte: B) Comme un microcosme social riche et diversifié\nExplication: La médina est dépeinte comme un monde en miniature où coexistent différentes classes sociales et activités, créant une mosaïque humaine complexe."
+    },
+    {
+      "id": "ch1_q16",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "memoire_enfantine",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le récit mélange souvenirs précis et impressions floues, caractéristiques de la mémoire enfantine qui retient l'essentiel émotionnel.",
+      "texte_cible": "Comment se caractérise la mémoire du narrateur enfant ?\nA) Par une précision photographique de tous les détails\nB) Par un mélange de souvenirs précis et d'impressions floues\nC) Par une amnésie totale de la période\nD) Par une reconstruction imaginaire des événements\nRéponse correcte: B) Par un mélange de souvenirs précis et d'impressions floues\nExplication: Cette caractéristique de la mémoire enfantine donne au récit son authenticité, privilégiant les émotions et les sensations sur les faits bruts."
+    },
+    {
+      "id": "ch1_q17",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "relation_mere_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "La mère du narrateur, Lalla Zoubida, apparaît comme une figure protectrice et aimante, pilier de la stabilité familiale.",
+      "texte_cible": "Comment est présentée la mère du narrateur ?\nA) Comme une femme sévère et distante\nB) Comme une figure protectrice et aimante\nC) Comme une personne toujours absente\nD) Comme un personnage secondaire sans importance\nRéponse correcte: B) Comme une figure protectrice et aimante\nExplication: Lalla Zoubida incarne la sécurité affective et la stabilité dans l'univers de l'enfant, représentant l'amour maternel inconditionnel."
+    },
+    {
+      "id": "ch1_q18",
+      "chapitre": 1,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "societe_annees_1940",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le roman dépeint la société marocaine des années 1940, mélange de traditions séculaires et d'influences de la modernité naissante.",
+      "texte_cible": "Quelle époque le roman évoque-t-il ?\nA) Le Maroc médiéval du 15ème siècle\nB) La société marocaine des années 1940\nC) Le Maroc contemporain des années 1980\nD) La période coloniale du 19ème siècle\nRéponse correcte: B) La société marocaine des années 1940\nExplication: Le roman se situe dans les années 1940, période charnière entre traditions ancestrales et influences de la modernité occidentale."
+    },
+    {
+      "id": "ch1_q19",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "regard_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le regard de l'enfant sur le monde adulte révèle les contradictions et les mystères de la société, offrant une perspective unique et authentique.",
+      "texte_cible": "Que révèle le regard de l'enfant sur le monde adulte ?\nA) Une compréhension parfaite de tous les enjeux\nB) Les contradictions et les mystères de la société\nC) Une indifférence totale aux problèmes des grands\nD) Une vision idéalisée et sans nuances\nRéponse correcte: B) Les contradictions et les mystères de la société\nExplication: Le regard innocent de l'enfant permet de dévoiler les aspects cachés et contradictoires du monde adulte avec une fraîcheur particulière."
+    },
+    {
+      "id": "ch1_q20",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "titre_roman",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le titre 'La Boîte à Merveilles' annonce l'importance centrale de cet objet dans l'univers imaginaire et affectif de l'enfant.",
+      "texte_cible": "Pourquoi le titre 'La Boîte à Merveilles' est-il significatif ?\nA) Il évoque la richesse matérielle de la famille\nB) Il annonce l'importance centrale de cet objet pour l'enfant\nC) Il fait référence à un magasin du quartier\nD) Il symbolise les traditions artisanales marocaines\nRéponse correcte: B) Il annonce l'importance centrale de cet objet pour l'enfant\nExplication: Le titre met en évidence le rôle fondamental de la boîte dans l'univers imaginaire et affectif de l'enfant, véritable fil conducteur du récit."
+    },
+    {
+      "id": "ch2_q1",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "visite_nocturne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Visite nocturne de Driss El Aouad. Discussion entre adultes sur les affaires commerciales et présentation des relations sociales.",
+      "texte_cible": "Qui rend visite à la famille du narrateur pendant la nuit ?\nA) Le Fqih de l'école coranique\nB) Driss El Aouad, un ami commerçant\nC) Un médecin appelé d'urgence\nD) La Chouafa du rez-de-chaussée\nRéponse correcte: B) Driss El Aouad, un ami commerçant\nExplication: Driss El Aouad, ami du père et commerçant, arrive tard dans la nuit pour discuter d'affaires commerciales, illustrant l'importance des relations sociales."
+    },
+    {
+      "id": "ch2_q2",
+      "chapitre": 2,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "hospitalite_marocaine",
+      "prefixe": "générer une question:",
+      "texte_entree": "Malgré l'heure tardive, la famille accueille Driss El Aouad avec thé, pâtisseries et conversation chaleureuse, illustrant l'hospitalité marocaine traditionnelle.",
+      "texte_cible": "Comment la famille accueille-t-elle le visiteur nocturne ?\nA) Avec méfiance et réticence à cause de l'heure tardive\nB) Avec un simple salut et une conversation brève\nC) Avec hospitalité complète : thé, pâtisseries et conversation\nD) En le renvoyant poliment au lendemain\nRéponse correcte: C) Avec hospitalité complète : thé, pâtisseries et conversation\nExplication: Cette scène illustre parfaitement l'hospitalité marocaine traditionnelle, où l'accueil chaleureux des invités prime sur les contraintes horaires."
+    },
+    {
+      "id": "ch2_q3",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "relations_sociales",
+      "prefixe": "générer une question:",
+      "texte_entree": "Cette visite nocturne révèle l'importance des liens sociaux et de la solidarité dans la communauté traditionnelle marocaine.",
+      "texte_cible": "Que révèle cette visite nocturne sur la société traditionnelle ?\nA) L'insécurité et la méfiance du quartier\nB) L'importance des liens sociaux et de la solidarité\nC) La richesse excessive de certaines familles\nD) L'isolement des familles dans leurs maisons\nRéponse correcte: B) L'importance des liens sociaux et de la solidarité\nExplication: Cette scène démontre les valeurs de solidarité et d'entraide qui caractérisent la société marocaine traditionnelle."
+    },
+    {
+      "id": "ch2_q4",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "moyen",
+      "theme_semantique": "monde_adulte",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant observe en silence les conversations entre adultes, découvrant progressivement les préoccupations du monde des grands.",
+      "texte_cible": "Quelle attitude l'enfant adopte-t-il pendant la visite ?\nA) Il participe activement aux conversations d'affaires\nB) Il observe silencieusement le monde des adultes\nC) Il dérange constamment les discussions\nD) Il s'endort rapidement malgré le bruit\nRéponse correcte: B) Il observe silencieusement le monde des adultes\nExplication: L'enfant adopte une posture de spectateur attentif, découvrant par observation les codes et préoccupations du monde adulte."
+    },
+    {
+      "id": "ch2_q5",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "apprentissage_social",
+      "prefixe": "générer une question:",
+      "texte_entree": "Cette visite constitue pour l'enfant une leçon d'observation des codes sociaux et des rituels de politesse de la société adulte.",
+      "texte_cible": "Quel apprentissage cette scène représente-t-elle pour l'enfant ?\nA) L'initiation aux techniques commerciales\nB) La découverte des codes sociaux et rituels adultes\nC) L'apprentissage de la langue arabe classique\nD) L'éducation religieuse et spirituelle\nRéponse correcte: B) La découverte des codes sociaux et rituels adultes\nExplication: L'enfant apprend par observation les règles de sociabilité, les rituels d'hospitalité et les conventions sociales de sa communauté."
+    },
+    {
+      "id": "ch2_q6",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "visite_lalla_aicha",
+      "prefixe": "générer une question:",
+      "texte_entree": "Lalla Aïcha, une ancienne voisine respectée, rend visite à la mère du narrateur, qui se plaint de ses maux physiques et moraux.",
+      "texte_cible": "Qui rend visite à la mère du narrateur ?\nA) La Chouafa du rez-de-chaussée\nB) Lalla Aïcha, une ancienne voisine respectée\nC) Fatma Bziouya, une commerçante\nD) Une parente éloignée de la famille\nRéponse correcte: B) Lalla Aïcha, une ancienne voisine respectée\nExplication: Lalla Aïcha, ancienne voisine et amie de confiance, vient rendre visite à la mère pour l'écouter et lui apporter son soutien."
+    },
+    {
+      "id": "ch2_q7",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "superstition_croyance",
+      "prefixe": "générer une question:",
+      "texte_entree": "Pour guérir le narrateur, jugé malade à cause du 'mauvais œil', Lalla Aïcha propose de visiter le sanctuaire de Sidi Ali Boughaleb.",
+      "texte_cible": "Quelle solution Lalla Aïcha propose-t-elle pour guérir l'enfant ?\nA) Consulter un médecin français moderne\nB) Se rendre au sanctuaire de Sidi Ali Boughaleb\nC) Utiliser uniquement des plantes médicinales\nD) Garder l'enfant au repos complet\nRéponse correcte: B) Se rendre au sanctuaire de Sidi Ali Boughaleb\nExplication: Cette proposition révèle l'importance des croyances populaires et des pratiques religieuses traditionnelles dans les méthodes de guérison."
+    },
+    {
+      "id": "ch2_q8",
+      "chapitre": 2,
+      "type": "culture",
+      "difficulte": "difficile",
+      "theme_semantique": "statut_cherif",
+      "prefixe": "générer une question:",
+      "texte_entree": "La mère oblige son fils à baiser la main de Lalla Aïcha car elle est 'chérifa', c'est-à-dire une descendante du Prophète.",
+      "texte_cible": "Pourquoi le narrateur doit-il baiser la main de Lalla Aïcha ?\nA) Elle est la plus âgée de l'assemblée\nB) Elle est chérifa, descendante du Prophète\nC) Elle est une guérisseuse reconnue\nD) Elle est la propriétaire de la maison\nRéponse correcte: B) Elle est chérifa, descendante du Prophète\nExplication: Le statut de chérifa confère à Lalla Aïcha un respect particulier dans la société marocaine, justifiant ce geste de vénération."
+    },
+    {
+      "id": "ch2_q9",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "mauvais_oeil",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le narrateur est considéré comme victime du 'mauvais œil', croyance populaire selon laquelle certains regards peuvent porter malheur.",
+      "texte_cible": "Quelle croyance populaire explique la maladie de l'enfant ?\nA) La possession par des esprits maléfiques\nB) Le mauvais œil jeté par des envieux\nC) La malédiction d'un ancêtre\nD) L'influence néfaste des saisons\nRéponse correcte: B) Le mauvais œil jeté par des envieux\nExplication: Le 'mauvais œil' est une croyance profondément enracinée dans la culture populaire marocaine, attribuant les malheurs à des regards malveillants."
+    },
+    {
+      "id": "ch2_q10",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "projet_pelerinage",
+      "prefixe": "générer une question:",
+      "texte_entree": "Lalla Aïcha et la mère du narrateur décident d'organiser un pèlerinage au sanctuaire de Sidi Ali Boughaleb pour guérir l'enfant.",
+      "texte_cible": "Quel projet les deux femmes organisent-elles ?\nA) Un voyage d'affaires à Casablanca\nB) Un pèlerinage au sanctuaire de Sidi Ali Boughaleb\nC) Une visite chez un médecin français\nD) Un séjour à la campagne chez des parents\nRéponse correcte: B) Un pèlerinage au sanctuaire de Sidi Ali Boughaleb\nExplication: Ce pèlerinage représente une solution spirituelle traditionnelle pour guérir l'enfant, combinant foi et espoir de guérison."
+    },
+    {
+      "id": "ch2_q11",
+      "chapitre": 2,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "sanctuaire_saint",
+      "prefixe": "générer une question:",
+      "texte_entree": "Sidi Ali Boughaleb est un saint local vénéré, dont le sanctuaire attire de nombreux pèlerins en quête de guérison et de bénédiction.",
+      "texte_cible": "Qui est Sidi Ali Boughaleb ?\nA) Un médecin célèbre de Fès\nB) Un saint local vénéré dans la région\nC) Un ancien dirigeant politique\nD) Un riche commerçant philanthrope\nRéponse correcte: B) Un saint local vénéré dans la région\nExplication: Sidi Ali Boughaleb est un saint (wali) de la tradition soufie marocaine, dont le sanctuaire est un lieu de pèlerinage et de dévotion."
+    },
+    {
+      "id": "ch2_q12",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "solidarite_feminine",
+      "prefixe": "générer une question:",
+      "texte_entree": "La solidarité entre Lalla Aïcha et la mère du narrateur illustre les liens de soutien mutuel entre femmes de la médina.",
+      "texte_cible": "Que révèle la relation entre Lalla Aïcha et la mère du narrateur ?\nA) La rivalité entre voisines de milieux différents\nB) La solidarité et l'entraide entre femmes\nC) L'indifférence des relations de voisinage\nD) La méfiance vis-à-vis des étrangers\nRéponse correcte: B) La solidarité et l'entraide entre femmes\nExplication: Cette relation illustre les réseaux de solidarité féminine qui caractérisent la société traditionnelle de la médina."
+    },
+    {
+      "id": "ch2_q13",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "preparation_voyage",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les préparatifs du pèlerinage incluent la recherche d'un moyen de transport, l'organisation des provisions et la planification de l'itinéraire.",
+      "texte_cible": "Que préparent les femmes pour le pèlerinage ?\nA) Des cadeaux pour les autorités locales\nB) Transport, provisions et itinéraire\nC) Des vêtements neufs pour l'occasion\nD) Des offrandes en argent et bijoux\nRéponse correcte: B) Transport, provisions et itinéraire\nExplication: Ces préparatifs pratiques montrent l'importance accordée à ce pèlerinage et l'organisation nécessaire pour un tel voyage."
+    },
+    {
+      "id": "ch2_q14",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "medecine_traditionnelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le recours au pèlerinage illustre la médecine traditionnelle marocaine qui combine spiritualité, herbes médicinales et pratiques rituelles.",
+      "texte_cible": "Que révèle le recours au pèlerinage sur la médecine traditionnelle ?\nA) L'absence totale de connaissances médicales\nB) La combinaison de spiritualité et de pratiques rituelles\nC) La supériorité des méthodes modernes\nD) L'inefficacité des remèdes traditionnels\nRéponse correcte: B) La combinaison de spiritualité et de pratiques rituelles\nExplication: La médecine traditionnelle marocaine intègre harmonieusement les dimensions spirituelle, psychologique et thérapeutique."
+    },
+    {
+      "id": "ch2_q15",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "moyen",
+      "theme_semantique": "reaction_pere",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le père du narrateur accepte le projet de pèlerinage, montrant son respect pour les traditions et sa confiance en sa femme.",
+      "texte_cible": "Quelle est la réaction du père face au projet de pèlerinage ?\nA) Il s'oppose fermement à ce voyage\nB) Il accepte en montrant son respect des traditions\nC) Il propose une alternative moderne\nD) Il reste indifférent à la décision\nRéponse correcte: B) Il accepte en montrant son respect des traditions\nExplication: Cette acceptation révèle l'harmonie familiale et le respect mutuel entre les époux dans les décisions importantes."
+    },
+    {
+      "id": "ch2_q16",
+      "chapitre": 2,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "role_femme",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les femmes prennent l'initiative du pèlerinage, montrant leur rôle actif dans les questions de santé et de spiritualité familiales.",
+      "texte_cible": "Quel rôle les femmes jouent-elles dans cette décision ?\nA) Elles subissent passivement les décisions masculines\nB) Elles prennent l'initiative dans les questions de santé\nC) Elles s'occupent uniquement des tâches domestiques\nD) Elles délèguent toutes les décisions aux hommes\nRéponse correcte: B) Elles prennent l'initiative dans les questions de santé\nExplication: Cette scène révèle l'influence et l'autonomie des femmes dans certains domaines de la vie familiale et sociale."
+    },
+    {
+      "id": "ch2_q17",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "espoir_guerison",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le pèlerinage représente l'espoir de guérison et la foi en la baraka des saints, éléments centraux de la spiritualité populaire.",
+      "texte_cible": "Que représente le pèlerinage pour la famille ?\nA) Une simple tradition folklorique\nB) Un espoir de guérison et de bénédiction\nC) Une obligation sociale contraignante\nD) Une dépense inutile mais nécessaire\nRéponse correcte: B) Un espoir de guérison et de bénédiction\nExplication: Le pèlerinage incarne la foi profonde en la baraka (bénédiction) des saints et l'espoir de guérison spirituelle et physique."
+    },
+    {
+      "id": "ch2_q18",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "emotion_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant éprouve des sentiments mélangés face à ce projet : curiosité pour l'aventure et inquiétude face à l'inconnu.",
+      "texte_cible": "Quels sentiments l'enfant éprouve-t-il face au projet ?\nA) Une joie pure et sans mélange\nB) Une curiosité mêlée d'inquiétude\nC) Une peur paralysante du voyage\nD) Une indifférence totale au projet\nRéponse correcte: B) Une curiosité mêlée d'inquiétude\nExplication: Ces sentiments ambivalents reflètent la psychologie enfantine face à l'inconnu, mélange d'excitation et d'appréhension."
+    },
+    {
+      "id": "ch2_q19",
+      "chapitre": 2,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "pelerinage_populaire",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le pèlerinage aux sanctuaires locaux fait partie intégrante de la religiosité populaire marocaine, distincte des obligations islamiques officielles.",
+      "texte_cible": "À quelle tradition religieuse appartient ce pèlerinage ?\nA) Aux cinq piliers de l'Islam orthodoxe\nB) À la religiosité populaire marocaine\nC) Aux pratiques chrétiennes adaptées\nD) Aux rituels berbères préislamiques\nRéponse correcte: B) À la religiosité populaire marocaine\nExplication: Ces pèlerinages locaux relèvent de la tradition soufie et de la piété populaire, complémentaires à l'Islam officiel."
+    },
+    {
+      "id": "ch2_q20",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "narration_enfantine",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant narrateur comprend partiellement les enjeux adultes, créant un décalage narratif entre perception enfantine et réalité complexe.",
+      "texte_cible": "Quel effet crée la narration enfantine sur la compréhension des événements ?\nA) Une clarification parfaite de tous les enjeux\nB) Un décalage entre perception enfantine et réalité\nC) Une vision objective et distanciée\nD) Une compréhension immédiate des subtilités\nRéponse correcte: B) Un décalage entre perception enfantine et réalité\nExplication: Ce décalage narratif enrichit le récit en créant une double lecture : celle de l'enfant et celle que le lecteur adulte peut reconstituer."
+    },
+    {
+      "id": "ch3_q1",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "preparation_depart",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le jour du départ approche. La mère prépare minutieusement les bagages et les provisions pour le voyage au sanctuaire.",
+      "texte_cible": "Que fait la mère avant le départ pour le pèlerinage ?\nA) Elle consulte d'autres guérisseurs\nB) Elle prépare bagages et provisions\nC) Elle cherche des compagnons de voyage\nD) Elle prie pendant des heures\nRéponse correcte: B) Elle prépare bagages et provisions\nExplication: Ces préparatifs minutieux montrent l'importance accordée au voyage et l'organisation nécessaire pour cette entreprise spirituelle."
+    },
+    {
+      "id": "ch3_q2",
+      "chapitre": 3,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "transport_traditionnel",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le voyage se fait en charrette tirée par un mulet, moyen de transport traditionnel pour les déplacements dans la campagne marocaine.",
+      "texte_cible": "Quel moyen de transport utilisent-ils pour le pèlerinage ?\nA) Un autocar moderne de l'époque\nB) Une charrette tirée par un mulet\nC) Des chevaux de selle\nD) Un camion de marchandises\nRéponse correcte: B) Une charrette tirée par un mulet\nExplication: Ce moyen de transport traditionnel reflète les réalités du Maroc des années 1940 et l'aspect populaire du pèlerinage."
+    },
+    {
+      "id": "ch3_q3",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "decouverte_paysage",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant découvre pour la première fois la campagne marocaine, ses paysages, ses couleurs et ses parfums, élargissant son univers habituel.",
+      "texte_cible": "Que découvre l'enfant pendant le voyage ?\nA) D'autres enfants de son âge\nB) Les paysages et parfums de la campagne\nC) Des histoires racontées par le charretier\nD) Des jeux nouveaux pour s'amuser\nRéponse correcte: B) Les paysages et parfums de la campagne\nExplication: Cette découverte sensorielle marque une étape importante dans l'ouverture de l'enfant au monde extérieur à la médina."
+    },
+    {
+      "id": "ch3_q4",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "arrivee_sanctuaire",
+      "prefixe": "générer une question:",
+      "texte_entree": "À l'arrivée au sanctuaire de Sidi Ali Boughaleb, la famille rejoint d'autres pèlerins venus chercher la baraka du saint.",
+      "texte_cible": "Qui trouvent-ils au sanctuaire ?\nA) Uniquement le gardien du lieu\nB) D'autres pèlerins venus chercher la baraka\nC) Des touristes étrangers curieux\nD) Des commerçants vendant des souvenirs\nRéponse correcte: B) D'autres pèlerins venus chercher la baraka\nExplication: La présence d'autres pèlerins illustre la popularité du saint et l'importance des pèlerinages dans la spiritualité populaire."
+    },
+    {
+      "id": "ch3_q5",
+      "chapitre": 3,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "rituel_pelerinage",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les pèlerins accomplissent des rituels traditionnels : prières, offrandes, circumambulation autour du tombeau du saint.",
+      "texte_cible": "Quels rituels accomplissent les pèlerins ?\nA) Des danses folkloriques régionales\nB) Prières, offrandes et circumambulation\nC) Des récitations de poésie classique\nD) Des consultations divinatoires\nRéponse correcte: B) Prières, offrandes et circumambulation\nExplication: Ces rituels traditionnels s'inscrivent dans la piété populaire et les pratiques du soufisme marocain."
+    },
+    {
+      "id": "ch3_q6",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "foi_esperance",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'atmosphère du sanctuaire mélange ferveur religieuse et espoir de guérison, créant une émotion collective intense.",
+      "texte_cible": "Quelle atmosphère règne au sanctuaire ?\nA) Une ambiance festive et détendue\nB) Une ferveur religieuse mêlée d'espoir\nC) Une tristesse solennelle et silencieuse\nD) Une confusion bruyante et désordonnée\nRéponse correcte: B) Une ferveur religieuse mêlée d'espoir\nExplication: Cette atmosphère particulière reflète la foi profonde des pèlerins et leur espoir en la baraka du saint."
+    },
+    {
+      "id": "ch3_q7",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "moyen",
+      "theme_semantique": "reaction_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant est impressionné par la solennité du lieu et la dévotion des pèlerins, découvrant une dimension spirituelle nouvelle.",
+      "texte_cible": "Comment l'enfant réagit-il face au sanctuaire ?\nA) Il s'ennuie et veut repartir rapidement\nB) Il est impressionné par la solennité du lieu\nC) Il a peur et se cache derrière sa mère\nD) Il reste indifférent à ce qui l'entoure\nRéponse correcte: B) Il est impressionné par la solennité du lieu\nExplication: Cette impression révèle la sensibilité de l'enfant aux atmosphères spirituelles et son éveil à la dimension religieuse."
+    },
+    {
+      "id": "ch3_q8",
+      "chapitre": 3,
+      "type": "culture",
+      "difficulte": "difficile",
+      "theme_semantique": "concept_baraka",
+      "prefixe": "générer une question:",
+      "texte_entree": "La baraka, concept central du soufisme marocain, désigne la bénédiction divine transmise par les saints à leurs visiteurs.",
+      "texte_cible": "Que signifie la baraka dans la spiritualité marocaine ?\nA) La richesse matérielle et l'abondance\nB) La bénédiction divine transmise par les saints\nC) La sagesse acquise par l'étude\nD) La protection contre les maladies\nRéponse correcte: B) La bénédiction divine transmise par les saints\nExplication: La baraka est un concept spirituel fondamental, représentant la grâce divine qui se transmet et peut apporter guérison et protection."
+    },
+    {
+      "id": "ch3_q9",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "transformation_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "Cette expérience spirituelle marque une étape dans la maturation de l'enfant, qui découvre des dimensions nouvelles de l'existence.",
+      "texte_cible": "Quel impact cette expérience a-t-elle sur l'enfant ?\nA) Elle le laisse complètement indifférent\nB) Elle marque une étape de sa maturation\nC) Elle le traumatise et l'inquiète\nD) Elle ne change rien à sa personnalité\nRéponse correcte: B) Elle marque une étape de sa maturation\nExplication: Cette première expérience spirituelle enrichit l'univers intérieur de l'enfant et participe à sa construction identitaire."
+    },
+    {
+      "id": "ch3_q10",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "retour_maison",
+      "prefixe": "générer une question:",
+      "texte_entree": "Après la visite au sanctuaire, la famille reprend le chemin du retour vers Fès, l'enfant gardant en mémoire cette expérience marquante.",
+      "texte_cible": "Que fait la famille après la visite au sanctuaire ?\nA) Elle reste plusieurs jours sur place\nB) Elle repart immédiatement vers Fès\nC) Elle visite d'autres sanctuaires\nD) Elle rend visite à des parents\nRéponse correcte: B) Elle repart immédiatement vers Fès\nExplication: Le retour immédiat montre le caractère ponctuel mais intense de cette expérience spirituelle."
+    },
+    {
+      "id": "ch3_q11",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "memoire_sensorielle",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant conserve une mémoire sensorielle intense du pèlerinage : odeurs d'encens, chants des pèlerins, lumière dorée du sanctuaire.",
+      "texte_cible": "Comment l'enfant conserve-t-il le souvenir du pèlerinage ?\nA) Par des notes écrites dans un carnet\nB) Grâce à une mémoire sensorielle intense\nC) En dessinant les lieux visités\nD) Par des récits répétés à ses amis\nRéponse correcte: B) Grâce à une mémoire sensorielle intense\nExplication: Cette mémoire sensorielle illustre la façon dont l'enfant appréhende et conserve les expériences marquantes."
+    },
+    {
+      "id": "ch3_q12",
+      "chapitre": 3,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "pelerinage_regional",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le pèlerinage aux sanctuaires régionaux complète le grand pèlerinage à La Mecque, créant une géographie sacrée locale.",
+      "texte_cible": "Quel rôle joue ce pèlerinage dans la religiosité marocaine ?\nA) Il remplace complètement le pèlerinage à La Mecque\nB) Il complète le grand pèlerinage en créant une géographie sacrée locale\nC) Il n'a aucun rapport avec l'Islam officiel\nD) Il s'oppose aux pratiques religieuses traditionnelles\nRéponse correcte: B) Il complète le grand pèlerinage en créant une géographie sacrée locale\nExplication: Ces pèlerinages locaux s'inscrivent dans une pratique religieuse populaire qui enrichit l'Islam officiel."
+    },
+    {
+      "id": "ch3_q13",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "dimension_therapeutique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le pèlerinage combine dimension spirituelle et thérapeutique, illustrant une approche holistique de la guérison dans la culture marocaine.",
+      "texte_cible": "Quelle approche de la guérison le pèlerinage illustre-t-il ?\nA) Une médecine purement scientifique\nB) Une approche holistique combinant spirituel et thérapeutique\nC) Une superstition sans fondement\nD) Une alternative à toute médecine\nRéponse correcte: B) Une approche holistique combinant spirituel et thérapeutique\nExplication: Cette approche globale de la guérison intègre les dimensions physique, psychologique et spirituelle de la personne."
+    },
+    {
+      "id": "ch3_q14",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "espoir_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "La famille espère que cette visite au sanctuaire apportera la guérison à l'enfant et éloignera les influences néfastes.",
+      "texte_cible": "Qu'espère la famille de cette visite ?\nA) Rencontrer d'autres familles de pèlerins\nB) Obtenir la guérison de l'enfant\nC) Découvrir de nouveaux paysages\nD) Faire des achats dans la région\nRéponse correcte: B) Obtenir la guérison de l'enfant\nExplication: Cet espoir de guérison motive entièrement l'entreprise familiale et révèle l'amour parental."
+    },
+    {
+      "id": "ch3_q15",
+      "chapitre": 3,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "offrandes_votives",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les pèlerins déposent des offrandes votives au sanctuaire : bougies, tissus, argent, en signe de dévotion et d'espoir.",
+      "texte_cible": "Que déposent les pèlerins au sanctuaire ?\nA) Des lettres de demande personnelles\nB) Des offrandes votives : bougies, tissus, argent\nC) Des objets personnels à faire bénir\nD) Des fleurs cueillies en chemin\nRéponse correcte: B) Des offrandes votives : bougies, tissus, argent\nExplication: Ces offrandes traditionnelles expriment la dévotion des fidèles et leur espoir en l'intercession du saint."
+    },
+    {
+      "id": "ch3_q16",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "contraste_medina",
+      "prefixe": "générer une question:",
+      "texte_entree": "La campagne offre un contraste saisissant avec l'univers urbain de la médina, élargissant l'horizon géographique et culturel de l'enfant.",
+      "texte_cible": "Quel contraste la campagne offre-t-elle avec la médina ?\nA) Une similitude parfaite avec l'environnement urbain\nB) Un élargissement de l'horizon géographique et culturel\nC) Une régression vers des modes de vie primitifs\nD) Une complication inutile de l'existence\nRéponse correcte: B) Un élargissement de l'horizon géographique et culturel\nExplication: Cette découverte géographique enrichit l'univers de l'enfant et lui fait découvrir la diversité du Maroc."
+    },
+    {
+      "id": "ch3_q17",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "moyen",
+      "theme_semantique": "solidarite_pelerins",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les pèlerins partagent leurs provisions et s'entraident, créant une communauté temporaire unie par la foi commune.",
+      "texte_cible": "Comment se comportent les pèlerins entre eux ?\nA) Ils restent isolés et méfiants\nB) Ils partagent et s'entraident\nC) Ils se disputent les meilleures places\nD) Ils ignorent complètement les autres\nRéponse correcte: B) Ils partagent et s'entraident\nExplication: Cette solidarité spontanée illustre l'esprit communautaire que crée la foi partagée."
+    },
+    {
+      "id": "ch3_q18",
+      "chapitre": 3,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "voyage_initiatique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Ce voyage à la campagne constitue un véritable voyage initiatique pour l'enfant, marquant une étape importante de sa maturation.",
+      "texte_cible": "Que représente ce voyage pour l'enfant ?\nA) Une simple distraction sans importance\nB) Un voyage initiatique marquant sa maturation\nC) Une obligation familiale contraignante\nD) Une perte de temps regrettable\nRéponse correcte: B) Un voyage initiatique marquant sa maturation\nExplication: Le voyage symbolise le passage de l'enfance vers une conscience plus large du monde et de ses complexités."
+    },
+    {
+      "id": "ch3_q19",
+      "chapitre": 3,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "traditions_religieuses",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les récits de miracles et les légendes entourant le saint local font partie intégrante de la culture populaire marocaine.",
+      "texte_cible": "Que représentent les récits de miracles dans la culture marocaine ?\nA) Des superstitions dépassées\nB) Une partie intégrante de la culture populaire\nC) Des inventions modernes\nD) Des influences étrangères\nRéponse correcte: B) Une partie intégrante de la culture populaire\nExplication: Ces récits constituent un patrimoine oral précieux qui nourrit l'imaginaire collectif et renforce l'identité culturelle."
+    },
+    {
+      "id": "ch3_q20",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "retour_medina",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le retour à la médina après ce voyage enrichit la perception que l'enfant a de son environnement habituel.",
+      "texte_cible": "Quel effet le voyage a-t-il sur la perception de l'enfant ?\nA) Il ne change rien à sa vision du monde\nB) Il enrichit sa perception de son environnement\nC) Il le rend nostalgique du passé\nD) Il le déçoit complètement\nRéponse correcte: B) Il enrichit sa perception de son environnement\nExplication: L'expérience du voyage permet à l'enfant de porter un regard nouveau et plus nuancé sur son quotidien."
+    },
+    {
+      "id": "ch4_q1",
+      "chapitre": 4,
+      "type": "personnage",
+      "difficulte": "facile",
+      "theme_semantique": "maalam_abdeslam",
+      "prefixe": "générer une question:",
+      "texte_entree": "Maalam Abdeslam est un artisan menuisier respecté du quartier, connu pour son savoir-faire et sa sagesse.",
+      "texte_cible": "Qui est Maalam Abdeslam ?\nA) Un marchand de tissus\nB) Un artisan menuisier respecté\nC) Un instituteur du quartier\nD) Un gardien de mosquée\nRéponse correcte: B) Un artisan menuisier respecté\nExplication: Maalam Abdeslam représente la figure de l'artisan traditionnel marocain, gardien des techniques ancestrales."
+    },
+    {
+      "id": "ch4_q2",
+      "chapitre": 4,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "atelier_menuiserie",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'atelier de menuiserie fascine l'enfant par l'odeur du bois, le bruit des outils et la précision des gestes de l'artisan.",
+      "texte_cible": "Qu'est-ce qui fascine l'enfant dans l'atelier ?\nA) Les conversations des clients\nB) L'odeur du bois, le bruit des outils et la précision des gestes\nC) La richesse des matériaux utilisés\nD) Les histoires racontées par l'artisan\nRéponse correcte: B) L'odeur du bois, le bruit des outils et la précision des gestes\nExplication: Cette fascination sensuelle révèle l'attrait de l'enfant pour l'univers artisanal et créatif."
+    },
+    {
+      "id": "ch4_q3",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "transmission_savoir",
+      "prefixe": "générer une question:",
+      "texte_entree": "La transmission du savoir-faire artisanal se fait par observation et imitation, dans une relation maître-apprenti séculaire.",
+      "texte_cible": "Comment se transmet le savoir-faire artisanal ?\nA) Par des cours théoriques formels\nB) Par observation et imitation dans une relation maître-apprenti\nC) Par des manuels techniques détaillés\nD) Par des démonstrations publiques\nRéponse correcte: B) Par observation et imitation dans une relation maître-apprenti\nExplication: Cette méthode traditionnelle preserve non seulement les techniques mais aussi les valeurs et l'éthique du métier."
+    },
+    {
+      "id": "ch4_q4",
+      "chapitre": 4,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "creation_artistique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le processus de création d'un objet en bois révèle la dimension artistique et spirituelle du travail artisanal.",
+      "texte_cible": "Que révèle le processus de création d'un objet en bois ?\nA) Uniquement des préoccupations commerciales\nB) La dimension artistique et spirituelle du travail\nC) La facilité de la production artisanale\nD) L'absence de créativité personnelle\nRéponse correcte: B) La dimension artistique et spirituelle du travail\nExplication: L'artisanat transcende la simple production utilitaire pour devenir une forme d'expression artistique et spirituelle."
+    },
+    {
+      "id": "ch4_q5",
+      "chapitre": 4,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "geometrie_islamique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les motifs géométriques qui ornent les objets reflètent l'esthétique islamique et sa conception de l'harmonie universelle.",
+      "texte_cible": "Que reflètent les motifs géométriques des objets ?\nA) Une simple décoration sans signification\nB) L'esthétique islamique et l'harmonie universelle\nC) L'influence des cultures étrangères\nD) La fantaisie personnelle de l'artisan\nRéponse correcte: B) L'esthétique islamique et l'harmonie universelle\nExplication: Ces motifs traduisent une vision du monde où l'art exprime l'ordre divin et la beauté de la création."
+    },
+    {
+      "id": "ch4_q6",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "moyen",
+      "theme_semantique": "apprentissage_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant observe attentivement les gestes de l'artisan et tente de reproduire ses mouvements avec des copeaux de bois.",
+      "texte_cible": "Comment l'enfant apprend-il dans l'atelier ?\nA) En posant des questions théoriques\nB) En observant et tentant de reproduire les gestes\nC) En lisant des manuels techniques\nD) En regardant sans participer\nRéponse correcte: B) En observant et tentant de reproduire les gestes\nExplication: Cette méthode d'apprentissage par mimétisme illustre la pédagogie traditionnelle de l'artisanat."
+    },
+    {
+      "id": "ch4_q7",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "modernite_tradition",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'atelier traditionnel contraste avec les mutations que connaît la société marocaine face à la modernité.",
+      "texte_cible": "Que représente l'atelier face aux mutations sociales ?\nA) Un symbole de résistance aux changements\nB) Un contraste avec la modernité naissante\nC) Une adaptation parfaite aux nouveautés\nD) Une indifférence totale aux évolutions\nRéponse correcte: B) Un contraste avec la modernité naissante\nExplication: L'atelier symbolise la permanence des traditions face aux transformations sociales de l'époque."
+    },
+    {
+      "id": "ch4_q8",
+      "chapitre": 4,
+      "type": "personnage",
+      "difficulte": "facile",
+      "theme_semantique": "sagesse_artisan",
+      "prefixe": "générer une question:",
+      "texte_entree": "Maalam Abdeslam dispense des conseils de vie à travers ses paroles et ses gestes, incarnant la sagesse populaire.",
+      "texte_cible": "Comment Maalam Abdeslam transmet-il sa sagesse ?\nA) Uniquement par des sermons moralisateurs\nB) À travers ses paroles et ses gestes\nC) Par des récits historiques complexes\nD) Sans jamais s'adresser à l'enfant\nRéponse correcte: B) À travers ses paroles et ses gestes\nExplication: Cette transmission naturelle de la sagesse s'inscrit dans la tradition orale marocaine."
+    },
+    {
+      "id": "ch4_q9",
+      "chapitre": 4,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "outils_artisan",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les outils de l'artisan, polis par l'usage, témoignent de décennies de travail minutieux et passionné.",
+      "texte_cible": "Que révèlent les outils de l'artisan ?\nA) Leur caractère moderne et performant\nB) Des décennies de travail minutieux et passionné\nC) L'influence de techniques étrangères\nD) La facilité du métier d'artisan\nRéponse correcte: B) Des décennies de travail minutieux et passionné\nExplication: Ces outils patinés symbolisent l'expérience et le dévouement de l'artisan à son art."
+    },
+    {
+      "id": "ch4_q10",
+      "chapitre": 4,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "creation_divine",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'acte de création artisanale est perçu comme une participation à l'œuvre divine, transformant la matière brute en beauté.",
+      "texte_cible": "Comment est perçu l'acte de création artisanale ?\nA) Comme un simple travail commercial\nB) Comme une participation à l'œuvre divine\nC) Comme une activité purement mécanique\nD) Comme une obligation sociale contraignante\nRéponse correcte: B) Comme une participation à l'œuvre divine\nExplication: Cette vision spirituelle du travail artisanal reflète la conception islamique de l'art comme reflet de la beauté divine."
+    },
+    {
+      "id": "ch4_q11",
+      "chapitre": 4,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "hierarchie_atelier",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'atelier respecte une hiérarchie traditionnelle entre le maître, les compagnons et les apprentis.",
+      "texte_cible": "Quelle organisation régit l'atelier ?\nA) Une égalité parfaite entre tous les travailleurs\nB) Une hiérarchie traditionnelle maître-compagnons-apprentis\nC) Une organisation moderne de type industriel\nD) Une gestion collective sans responsable\nRéponse correcte: B) Une hiérarchie traditionnelle maître-compagnons-apprentis\nExplication: Cette organisation perpétue les structures corporatives traditionnelles de l'artisanat marocain."
+    },
+    {
+      "id": "ch4_q12",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "fascination_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant est fasciné par la transformation progressive d'un simple morceau de bois en objet d'art.",
+      "texte_cible": "Par quoi l'enfant est-il fasciné ?\nA) Par les conversations des artisans\nB) Par la transformation du bois en objet d'art\nC) Par le bruit des machines\nD) Par l'argent gagné par l'artisan\nRéponse correcte: B) Par la transformation du bois en objet d'art\nExplication: Cette fascination révèle l'éveil artistique de l'enfant face au processus créatif."
+    },
+    {
+      "id": "ch4_q13",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "patrimoine_artisanal",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'atelier représente un patrimoine artisanal menacé par l'évolution des modes de vie et de consommation.",
+      "texte_cible": "Que représente l'atelier du point de vue patrimonial ?\nA) Une innovation révolutionnaire\nB) Un patrimoine artisanal menacé\nC) Une curiosité sans valeur\nD) Une mode passagère\nRéponse correcte: B) Un patrimoine artisanal menacé\nExplication: L'atelier symbolise la fragilité des traditions face aux transformations socio-économiques."
+    },
+    {
+      "id": "ch4_q14",
+      "chapitre": 4,
+      "type": "personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "respect_maitre",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le respect que inspire Maalam Abdeslam dépasse sa simple compétence technique pour toucher à sa dimension humaine.",
+      "texte_cible": "Pourquoi Maalam Abdeslam inspire-t-il le respect ?\nA) Uniquement pour sa richesse matérielle\nB) Pour sa dimension humaine autant que technique\nC) Pour sa sévérité avec les apprentis\nD) Pour ses relations avec les notables\nRéponse correcte: B) Pour sa dimension humaine autant que technique\nExplication: Cette reconnaissance globale illustre l'idéal de l'artisan accompli, maître de son art et sage dans la vie."
+    },
+    {
+      "id": "ch4_q15",
+      "chapitre": 4,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "benediction_travail",
+      "prefixe": "générer une question:",
+      "texte_entree": "Chaque journée de travail commence par une invocation divine qui bénit l'ouvrage à accomplir.",
+      "texte_cible": "Comment commence chaque journée de travail ?\nA) Par une réunion technique\nB) Par une invocation divine\nC) Par la vérification des commandes\nD) Par le nettoyage des outils\nRéponse correcte: B) Par une invocation divine\nExplication: Cette pratique spirituelle inscrit le travail artisanal dans une dimension religieuse et communautaire."
+    },
+    {
+      "id": "ch4_q16",
+      "chapitre": 4,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "matiere_esprit",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le travail du bois symbolise la rencontre entre la matière et l'esprit, entre le terrestre et le céleste.",
+      "texte_cible": "Que symbolise le travail du bois ?\nA) La domination de l'homme sur la nature\nB) La rencontre entre la matière et l'esprit\nC) La simplicité de la vie rurale\nD) La supériorité de l'artisanat urbain\nRéponse correcte: B) La rencontre entre la matière et l'esprit\nExplication: Cette symbolique exprime la vision spirituelle de l'artisanat comme médiation entre les mondes visible et invisible."
+    },
+    {
+      "id": "ch4_q17",
+      "chapitre": 4,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "ambiance_atelier",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'atmosphère de l'atelier mêle concentration au travail et convivialité, créant un environnement propice à l'apprentissage.",
+      "texte_cible": "Comment peut-on décrire l'atmosphère de l'atelier ?\nA) Strictement silencieuse et austère\nB) Mêlant concentration et convivialité\nC) Bruyante et désorganisée\nD) Froide et impersonnelle\nRéponse correcte: B) Mêlant concentration et convivialité\nExplication: Cette atmosphère équilibrée favorise à la fois l'efficacité du travail et la transmission des valeurs."
+    },
+    {
+      "id": "ch4_q18",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "evolution_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "La fréquentation de l'atelier contribue à l'évolution psychologique et sociale de l'enfant narrateur.",
+      "texte_cible": "Quel impact l'atelier a-t-il sur l'enfant ?\nA) Il le détourne de ses études\nB) Il contribue à son évolution psychologique et sociale\nC) Il lui fait perdre son temps\nD) Il l'isole de sa famille\nRéponse correcte: B) Il contribue à son évolution psychologique et sociale\nExplication: Cette expérience enrichit la personnalité de l'enfant et élargit sa compréhension du monde adulte."
+    },
+    {
+      "id": "ch4_q19",
+      "chapitre": 4,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "valeurs_artisanales",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'artisanat véhicule des valeurs de patience, de persévérance et de respect de la tradition.",
+      "texte_cible": "Quelles valeurs véhicule l'artisanat ?\nA) La rapidité et l'efficacité moderne\nB) La patience, la persévérance et le respect de la tradition\nC) L'individualisme et la compétition\nD) L'innovation et le changement constant\nRéponse correcte: B) La patience, la persévérance et le respect de la tradition\nExplication: Ces valeurs fondamentales de l'artisanat s'opposent à la logique de la modernité industrielle."
+    },
+    {
+      "id": "ch4_q20",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "lien_enfant_artisan",
+      "prefixe": "générer une question:",
+      "texte_entree": "Une relation privilégiée se développe entre l'enfant et l'artisan, basée sur la confiance mutuelle et l'admiration.",
+      "texte_cible": "Sur quoi se base la relation entre l'enfant et l'artisan ?\nA) Sur un simple rapport commercial\nB) Sur la confiance mutuelle et l'admiration\nC) Sur la crainte et l'obéissance\nD) Sur l'intérêt et le calcul\nRéponse correcte: B) Sur la confiance mutuelle et l'admiration\nExplication: Cette relation authentique illustre la capacité de l'enfant à nouer des liens profonds avec le monde adulte."
+    },
+    {
+      "id": "ch5_q1",
+      "chapitre": 5,
+      "type": "personnage",
+      "difficulte": "facile",
+      "theme_semantique": "rahma",
+      "prefixe": "générer une question:",
+      "texte_entree": "Rahma est une femme de la maison voisine, connue pour sa gentillesse et sa générosité envers les enfants du quartier.",
+      "texte_cible": "Qui est Rahma ?\nA) Une marchande du souk\nB) Une femme de la maison voisine, gentille et généreuse\nC) Une institutrice de l'école coranique\nD) Une servante de la famille\nRéponse correcte: B) Une femme de la maison voisine, gentille et généreuse\nExplication: Rahma représente la figure maternelle bienveillante qui enrichit l'univers affectif de l'enfant."
+    },
+    {
+      "id": "ch5_q2",
+      "chapitre": 5,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "cuisine_traditionnelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "La cuisine de Rahma embaume les épices et les parfums, révélant les secrets de la gastronomie marocaine.",
+      "texte_cible": "Comment est décrite la cuisine de Rahma ?\nA) Moderne et équipée d'appareils électriques\nB) Embaumant les épices et les parfums\nC) Petite et mal aérée\nD) Strictement fonctionnelle sans charme\nRéponse correcte: B) Embaumant les épices et les parfums\nExplication: Cette description sensorielle évoque la richesse et l'authenticité de la cuisine marocaine traditionnelle."
+    },
+    {
+      "id": "ch5_q3",
+      "chapitre": 5,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "art_culinaire",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'art culinaire marocain se transmet de mère en fille, préservant les recettes ancestrales et leurs secrets.",
+      "texte_cible": "Comment se transmet l'art culinaire marocain ?\nA) Par des livres de recettes modernes\nB) De mère en fille, préservant les recettes ancestrales\nC) Par des cours de cuisine formels\nD) Par imitation des voisines uniquement\nRéponse correcte: B) De mère en fille, préservant les recettes ancestrales\nExplication: Cette transmission orale perpétue un patrimoine gastronomique riche et authentique."
+    },
+    {
+      "id": "ch5_q4",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "hospitalite_marocaine",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'hospitalité de Rahma illustre les valeurs profondes de la société marocaine traditionnelle.",
+      "texte_cible": "Que illustre l'hospitalité de Rahma ?\nA) Une simple politesse de surface\nB) Les valeurs profondes de la société marocaine traditionnelle\nC) Un calcul intéressé\nD) Une tradition dépassée\nRéponse correcte: B) Les valeurs profondes de la société marocaine traditionnelle\nExplication: Cette hospitalité authentique reflète l'importance des liens communautaires et de la générosité dans la culture marocaine."
+    },
+    {
+      "id": "ch5_q5",
+      "chapitre": 5,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "nourriture_amour",
+      "prefixe": "générer une question:",
+      "texte_entree": "La nourriture préparée avec amour devient un langage d'affection et de soin maternel.",
+      "texte_cible": "Que représente la nourriture préparée avec amour ?\nA) Un simple besoin physiologique\nB) Un langage d'affection et de soin maternel\nC) Une obligation sociale contraignante\nD) Un moyen d'économiser l'argent\nRéponse correcte: B) Un langage d'affection et de soin maternel\nExplication: Cette symbolique transforme l'acte culinaire en expression d'amour et de tendresse."
+    },
+    {
+      "id": "ch5_q6",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "moyen",
+      "theme_semantique": "apprentissage_culinaire",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant observe Rahma préparer les plats traditionnels et apprend les gestes ancestraux de la cuisine marocaine.",
+      "texte_cible": "Comment l'enfant apprend-il les gestes culinaires ?\nA) Par des leçons théoriques\nB) En observant Rahma préparer les plats traditionnels\nC) En lisant des livres de cuisine\nD) En expérimentant seul\nRéponse correcte: B) En observant Rahma préparer les plats traditionnels\nExplication: Cette pédagogie de l'observation s'inscrit dans la tradition orale de transmission des savoirs."
+    },
+    {
+      "id": "ch5_q7",
+      "chapitre": 5,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "rituel_the",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le rituel du thé à la menthe chez Rahma transforme chaque visite en moment de communion et de partage.",
+      "texte_cible": "Que représente le rituel du thé chez Rahma ?\nA) Une simple habitude quotidienne\nB) Un moment de communion et de partage\nC) Une perte de temps regrettable\nD) Une obligation sociale formelle\nRéponse correcte: B) Un moment de communion et de partage\nExplication: Ce rituel sacré crée des liens sociaux et exprime l'art de vivre marocain."
+    },
+    {
+      "id": "ch5_q8",
+      "chapitre": 5,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "epices_parfums",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'usage des épices et des parfums dans la cuisine révèle une science ancestrale des saveurs et des bienfaits.",
+      "texte_cible": "Que révèle l'usage des épices en cuisine ?\nA) Une fantaisie culinaire moderne\nB) Une science ancestrale des saveurs et des bienfaits\nC) Une imitation des cuisines étrangères\nD) Un goût pour l'exotisme\nRéponse correcte: B) Une science ancestrale des saveurs et des bienfaits\nExplication: Cette sagesse culinaire combine plaisir gustatif et vertus thérapeutiques des plantes."
+    },
+    {
+      "id": "ch5_q9",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "feminite_traditionnelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Rahma incarne un modèle de féminité traditionnelle, alliant force intérieure et douceur maternelle.",
+      "texte_cible": "Quel modèle de féminité Rahma incarne-t-elle ?\nA) Une soumission passive aux hommes\nB) Une féminité traditionnelle alliant force et douceur\nC) Une modernité révolutionnaire\nD) Une indépendance totale\nRéponse correcte: B) Une féminité traditionnelle alliant force et douceur\nExplication: Ce portrait nuancé révèle la complexité du rôle féminin dans la société marocaine traditionnelle."
+    },
+    {
+      "id": "ch5_q10",
+      "chapitre": 5,
+      "type": "personnage",
+      "difficulte": "facile",
+      "theme_semantique": "relation_enfant_rahma",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant trouve chez Rahma une écoute bienveillante et une tendresse qui complètent l'affection maternelle.",
+      "texte_cible": "Que trouve l'enfant chez Rahma ?\nA) Des leçons de morale sévères\nB) Une écoute bienveillante et une tendresse\nC) Des critiques de sa conduite\nD) Une indifférence polie\nRéponse correcte: B) Une écoute bienveillante et une tendresse\nExplication: Cette relation privilégiée enrichit l'univers affectif de l'enfant et lui offre un refuge maternel."
+    },
+    {
+      "id": "ch5_q11",
+      "chapitre": 5,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "solidarite_feminine",
+      "prefixe": "générer une question:",
+      "texte_entree": "La solidarité entre femmes du quartier se manifeste par l'entraide quotidienne et le partage des responsabilités.",
+      "texte_cible": "Comment se manifeste la solidarité féminine ?\nA) Par la compétition et la jalousie\nB) Par l'entraide quotidienne et le partage des responsabilités\nC) Par l'isolement de chaque famille\nD) Par la médisance et les commérages\nRéponse correcte: B) Par l'entraide quotidienne et le partage des responsabilités\nExplication: Cette solidarité constitue le fondement de la cohésion sociale dans les quartiers traditionnels."
+    },
+    {
+      "id": "ch5_q12",
+      "chapitre": 5,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "foyer_sacre",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le foyer de Rahma devient un espace sacré où se perpétuent les traditions et les valeurs ancestrales.",
+      "texte_cible": "Que représente le foyer de Rahma ?\nA) Un simple lieu de résidence\nB) Un espace sacré perpétuant les traditions\nC) Un endroit de passage sans importance\nD) Un refuge contre la modernité\nRéponse correcte: B) Un espace sacré perpétuant les traditions\nExplication: Cette sacralisation du foyer exprime l'importance du cadre domestique dans la préservation culturelle."
+    },
+    {
+      "id": "ch5_q13",
+      "chapitre": 5,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "gestes_rituels",
+      "prefixe": "générer une question:",
+      "texte_entree": "Chaque geste de Rahma dans sa cuisine obéit à un rituel précis, hérité de générations de femmes.",
+      "texte_cible": "Comment sont décrits les gestes de Rahma ?\nA) Improvisés et fantaisistes\nB) Obéissant à un rituel précis hérité\nC) Modernes et efficaces\nD) Négligents et approximatifs\nRéponse correcte: B) Obéissant à un rituel précis hérité\nExplication: Cette ritualisation des gestes domestiques révèle la dimension sacrée du travail féminin traditionnel."
+    },
+    {
+      "id": "ch5_q14",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "memoire_feminine",
+      "prefixe": "générer une question:",
+      "texte_entree": "Rahma est la gardienne d'une mémoire féminine collective, riche de savoirs et de traditions orales.",
+      "texte_cible": "Quel rôle Rahma joue-t-elle dans la mémoire collective ?\nA) Elle rejette complètement le passé\nB) Elle est gardienne d'une mémoire féminine collective\nC) Elle ne s'intéresse qu'au présent\nD) Elle critique les traditions ancestrales\nRéponse correcte: B) Elle est gardienne d'une mémoire féminine collective\nExplication: Cette fonction de transmission fait de Rahma un maillon essentiel de la continuité culturelle."
+    },
+    {
+      "id": "ch5_q15",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "moyen",
+      "theme_semantique": "apprentissage_social",
+      "prefixe": "générer une question:",
+      "texte_entree": "Auprès de Rahma, l'enfant apprend les codes sociaux et les bonnes manières de la société traditionnelle.",
+      "texte_cible": "Qu'apprend l'enfant auprès de Rahma ?\nA) Uniquement les recettes de cuisine\nB) Les codes sociaux et les bonnes manières\nC) Les techniques artisanales\nD) Les matières scolaires\nRéponse correcte: B) Les codes sociaux et les bonnes manières\nExplication: Cette éducation informelle complète la formation de l'enfant et l'intègre dans la communauté."
+    },
+    {
+      "id": "ch5_q16",
+      "chapitre": 5,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "ceremonies_domestiques",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les petites cérémonies domestiques chez Rahma marquent le rythme de la vie quotidienne et des saisons.",
+      "texte_cible": "Que marquent les cérémonies domestiques chez Rahma ?\nA) Des événements exceptionnels seulement\nB) Le rythme de la vie quotidienne et des saisons\nC) Des traditions importées d'autres pays\nD) Des obligations religieuses strictes\nRéponse correcte: B) Le rythme de la vie quotidienne et des saisons\nExplication: Ces rituels domestiques structurent le temps et créent une harmonie entre l'homme et la nature."
+    },{
+      "id": "ch5_q17",
+      "chapitre": 5,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "nourrir_spirituel",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'acte de nourrir transcende le simple besoin physique pour devenir un acte spirituel de don et d'amour.",
+      "texte_cible": "Que représente l'acte de nourrir chez Rahma ?\nA) Un simple besoin physiologique\nB) Un acte spirituel de don et d'amour\nC) Une obligation sociale contraignante\nD) Un moyen de contrôler les autres\nRéponse correcte: B) Un acte spirituel de don et d'amour\nExplication: Cette dimension spirituelle transforme la cuisine en un acte d'amour et de générosité envers autrui."
+    },
+    {
+      "id": "ch5_q18",
+      "chapitre": 5,
+      "type": "personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "influence_rahma",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'influence bienveillante de Rahma sur l'enfant contribue à façonner sa personnalité et ses valeurs morales.",
+      "texte_cible": "Quelle influence Rahma exerce-t-elle sur l'enfant ?\nA) Une influence négative et perturbatrice\nB) Une influence bienveillante façonnant sa personnalité\nC) Aucune influence particulière\nD) Une influence autoritaire et rigide\nRéponse correcte: B) Une influence bienveillante façonnant sa personnalité\nExplication: Cette influence positive contribue à l'épanouissement moral et affectif de l'enfant."
+    },
+    {
+      "id": "ch5_q19",
+      "chapitre": 5,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "transmission_orale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Rahma perpétue la tradition orale en racontant des histoires et des légendes populaires à l'enfant.",
+      "texte_cible": "Comment Rahma perpétue-t-elle la tradition orale ?\nA) En écrivant des livres d'histoires\nB) En racontant des histoires et des légendes populaires\nC) En organisant des spectacles publics\nD) En enseignant dans les écoles\nRéponse correcte: B) En racontant des histoires et des légendes populaires\nExplication: Cette transmission orale enrichit l'imaginaire de l'enfant et préserve le patrimoine culturel."
+    },
+    {
+      "id": "ch5_q20",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "refuge_affectif",
+      "prefixe": "générer une question:",
+      "texte_entree": "La maison de Rahma devient un refuge affectif où l'enfant trouve réconfort et sécurité émotionnelle.",
+      "texte_cible": "Que représente la maison de Rahma pour l'enfant ?\nA) Un lieu de travail obligatoire\nB) Un refuge affectif procurant réconfort et sécurité\nC) Un endroit ennuyeux et monotone\nD) Une simple maison comme les autres\nRéponse correcte: B) Un refuge affectif procurant réconfort et sécurité\nExplication: Cette fonction protectrice complète l'environnement familial et offre à l'enfant un espace de bien-être."
+    },
+    {
+      "id": "ch6_q1",
+      "chapitre": 6,
+      "type": "événement",
+      "difficulte": "facile",
+      "theme_semantique": "maladie_pere",
+      "prefixe": "générer une question:",
+      "texte_entree": "La maladie du père plonge la famille dans l'inquiétude et transforme l'atmosphère habituelle de la maison.",
+      "texte_cible": "Quel événement transforme l'atmosphère de la maison ?\nA) L'arrivée d'un nouveau bébé\nB) La maladie du père\nC) Un déménagement imminent\nD) La visite de la famille élargie\nRéponse correcte: B) La maladie du père\nExplication: Cette épreuve familiale marque un tournant dans la vie de l'enfant et révèle la fragilité de l'équilibre familial."
+    },
+    {
+      "id": "ch6_q2",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "angoisse_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'angoisse de l'enfant face à la maladie paternelle révèle sa vulnérabilité et sa dépendance affective.",
+      "texte_cible": "Que révèle l'angoisse de l'enfant face à la maladie ?\nA) Son manque de maturité émotionnelle\nB) Sa vulnérabilité et sa dépendance affective\nC) Son indifférence envers la famille\nD) Sa capacité à gérer les crises\nRéponse correcte: B) Sa vulnérabilité et sa dépendance affective\nExplication: Cette réaction émotionnelle souligne l'importance du père dans l'équilibre psychologique de l'enfant."
+    },
+    {
+      "id": "ch6_q3",
+      "chapitre": 6,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "medecine_traditionnelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "La famille fait appel à la médecine traditionnelle, mêlant remèdes ancestraux et pratiques spirituelles.",
+      "texte_cible": "À quoi la famille fait-elle appel pour soigner le père ?\nA) Uniquement à la médecine moderne\nB) À la médecine traditionnelle mêlant remèdes et spiritualité\nC) À des charlatans sans compétence\nD) À l'automédication exclusive\nRéponse correcte: B) À la médecine traditionnelle mêlant remèdes et spiritualité\nExplication: Cette approche holistique reflète la conception traditionnelle de la santé intégrant corps et esprit."
+    },
+    {
+      "id": "ch6_q4",
+      "chapitre": 6,
+      "type": "personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "solidarite_voisinage",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les voisins manifestent leur solidarité en offrant aide et réconfort à la famille éprouvée.",
+      "texte_cible": "Comment les voisins réagissent-ils à la maladie du père ?\nA) Ils évitent la famille par peur de la contagion\nB) Ils manifestent leur solidarité en offrant aide et réconfort\nC) Ils restent indifférents aux problèmes d'autrui\nD) Ils profitent de la situation pour critiquer\nRéponse correcte: B) Ils manifestent leur solidarité en offrant aide et réconfort\nExplication: Cette solidarité communautaire illustre les valeurs d'entraide de la société traditionnelle."
+    },
+    {
+      "id": "ch6_q5",
+      "chapitre": 6,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "fragilite_existence",
+      "prefixe": "générer une question:",
+      "texte_entree": "La maladie révèle la fragilité de l'existence humaine et la précarité du bonheur familial.",
+      "texte_cible": "Que révèle la maladie selon le narrateur ?\nA) L'importance de l'argent et du confort\nB) La fragilité de l'existence et la précarité du bonheur\nC) La supériorité de la médecine moderne\nD) L'inutilité des liens familiaux\nRéponse correcte: B) La fragilité de l'existence et la précarité du bonheur\nExplication: Cette prise de conscience existentielle marque une étape importante dans la maturation de l'enfant."
+    },
+    {
+      "id": "ch6_q6",
+      "chapitre": 6,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "atmosphere_maison",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'atmosphère de la maison devient lourde et silencieuse, marquée par l'inquiétude et l'attente.",
+      "texte_cible": "Comment l'atmosphère de la maison évolue-t-elle ?\nA) Elle devient plus joyeuse et animée\nB) Elle devient lourde et silencieuse\nC) Elle reste identique à l'habitude\nD) Elle devient chaotique et désorganisée\nRéponse correcte: B) Elle devient lourde et silencieuse\nExplication: Cette transformation atmosphérique reflète l'impact psychologique de la maladie sur toute la famille."
+    },
+    {
+      "id": "ch6_q7",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "maturation_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "Cette épreuve familiale accélère la maturation de l'enfant qui découvre les réalités douloureuses de la vie.",
+      "texte_cible": "Quel effet l'épreuve familiale a-t-elle sur l'enfant ?\nA) Elle le rend plus immature et capricieux\nB) Elle accélère sa maturation\nC) Elle n'a aucun impact sur lui\nD) Elle le rend indifférent aux autres\nRéponse correcte: B) Elle accélère sa maturation\nExplication: Cette confrontation avec la souffrance constitue un passage initiatique vers l'âge adulte."
+    },
+    {
+      "id": "ch6_q8",
+      "chapitre": 6,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "prieres_guerison",
+      "prefixe": "générer une question:",
+      "texte_entree": "Des prières collectives sont organisées pour demander la guérison du malade et l'intercession divine.",
+      "texte_cible": "Que fait la communauté pour aider le malade ?\nA) Elle organise des collectes d'argent\nB) Elle organise des prières collectives\nC) Elle évite tout contact avec la famille\nD) Elle donne uniquement des conseils médicaux\nRéponse correcte: B) Elle organise des prières collectives\nExplication: Ces pratiques religieuses communautaires expriment la foi collective et la solidarité spirituelle."
+    },
+    {
+      "id": "ch6_q9",
+      "chapitre": 6,
+      "type": "personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "courage_mere",
+      "prefixe": "générer une question:",
+      "texte_entree": "La mère fait preuve d'un courage remarquable, dissimulant ses angoisses pour préserver la famille.",
+      "texte_cible": "Comment la mère réagit-elle face à la maladie ?\nA) Elle s'effondre complètement\nB) Elle fait preuve d'un courage remarquable\nC) Elle fuit ses responsabilités\nD) Elle accuse les autres de négligence\nRéponse correcte: B) Elle fait preuve d'un courage remarquable\nExplication: Cette attitude héroïque révèle la force intérieure de la femme marocaine face à l'adversité."
+    },
+    {
+      "id": "ch6_q10",
+      "chapitre": 6,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "test_divin",
+      "prefixe": "générer une question:",
+      "texte_entree": "La maladie est perçue comme un test divin qui éprouve la foi et la résistance de la famille.",
+      "texte_cible": "Comment la maladie est-elle perçue spirituellement ?\nA) Comme une punition méritée\nB) Comme un test divin éprouvant la foi\nC) Comme un hasard sans signification\nD) Comme une malédiction familiale\nRéponse correcte: B) Comme un test divin éprouvant la foi\nExplication: Cette interprétation spirituelle donne un sens à la souffrance et renforce la dimension religieuse de l'épreuve."
+    },
+    {
+      "id": "ch6_q11",
+      "chapitre": 6,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "rituels_guerison",
+      "prefixe": "générer une question:",
+      "texte_entree": "Des rituels de guérison traditionnels sont pratiqués, associant herbes médicinales et incantations sacrées.",
+      "texte_cible": "Que comprennent les rituels de guérison ?\nA) Uniquement des médicaments modernes\nB) Herbes médicinales et incantations sacrées\nC) Seulement des prières silencieuses\nD) Des consultations médicales exclusives\nRéponse correcte: B) Herbes médicinales et incantations sacrées\nExplication: Ces pratiques ancestrales témoignent de la richesse de la pharmacopée traditionnelle marocaine."
+    },
+    {
+      "id": "ch6_q12",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "unite_familiale",
+      "preficulte": "générer une question:",
+      "texte_entree": "L'épreuve renforce paradoxalement l'unité familiale et révèle la profondeur des liens affectifs.",
+      "texte_cible": "Quel effet paradoxal l'épreuve a-t-elle sur la famille ?\nA) Elle divise et affaiblit les liens\nB) Elle renforce l'unité familiale\nC) Elle crée des conflits permanents\nD) Elle pousse à l'individualisme\nRéponse correcte: B) Elle renforce l'unité familiale\nExplication: Cette solidarité face à l'adversité révèle la force des liens familiaux traditionnels."
+    },
+    {
+      "id": "ch6_q13",
+      "chapitre": 6,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "sagesse_populaire",
+      "prefixe": "générer une question:",
+      "texte_entree": "La sagesse populaire s'exprime à travers proverbes et dictons qui donnent sens à la souffrance.",
+      "texte_cible": "Comment la sagesse populaire s'exprime-t-elle ?\nA) Par des théories scientifiques complexes\nB) À travers proverbes et dictons\nC) Par des discours philosophiques savants\nD) Par des analyses psychologiques modernes\nRéponse correcte: B) À travers proverbes et dictons\nExplication: Cette sagesse traditionnelle offre des clés de compréhension et de résilience face aux épreuves."
+    },
+    {
+      "id": "ch6_q14",
+      "chapitre": 6,
+      "type": "personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "evolution_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant développe une nouvelle sensibilité aux souffrances d'autrui et à la fragilité humaine.",
+      "texte_cible": "Quelle nouvelle sensibilité l'enfant développe-t-il ?\nA) Une indifférence aux problèmes des autres\nB) Une sensibilité aux souffrances d'autrui\nC) Une peur excessive de la maladie\nD) Un cynisme précoce envers la vie\nRéponse correcte: B) Une sensibilité aux souffrances d'autrui\nExplication: Cette évolution psychologique enrichit la personnalité de l'enfant et développe son empathie."
+    },
+    {
+      "id": "ch6_q15",
+      "chapitre": 6,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "passage_initiatique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Cette épreuve constitue un véritable passage initiatique qui fait découvrir à l'enfant les mystères de l'existence.",
+      "texte_cible": "Que constitue cette épreuve pour l'enfant ?\nA) Une simple contrariété passagère\nB) Un véritable passage initiatique\nC) Une expérience sans importance\nD) Une source de régression psychologique\nRéponse correcte: B) Un véritable passage initiatique\nExplication: Cette initiation à la souffrance marque une étape cruciale dans la formation de la conscience de l'enfant."
+    },
+    {
+      "id": "ch6_q16",
+      "chapitre": 6,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "guerisseur_traditionnel",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le guérisseur traditionnel impressionne par sa gravité et ses connaissances ancestrales des maux du corps et de l'âme.",
+      "texte_cible": "Comment le guérisseur traditionnel est-il décrit ?\nA) Comme un charlatan sans compétence\nB) Impressionnant par sa gravité et ses connaissances ancestrales\nC) Comme un médecin moderne déguisé\nD) Comme un homme ordinaire sans charisme\nRéponse correcte: B) Impressionnant par sa gravité et ses connaissances ancestrales\nExplication: Cette figure respectée incarne la médecine traditionnelle et sa dimension spirituelle."
+    },
+    {
+      "id": "ch6_q17",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "temps_epreuve",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le temps de l'épreuve s'étire et transforme la perception habituelle de la durée et de l'attente.",
+      "texte_cible": "Comment l'épreuve transforme-t-elle la perception du temps ?\nA) Elle accélère le passage du temps\nB) Elle étire le temps et transforme la perception de la durée\nC) Elle n'influence pas la perception temporelle\nD) Elle crée une confusion totale des repères\nRéponse correcte: B) Elle étire le temps et transforme la perception de la durée\nExplication: Cette dilatation temporelle reflète l'impact psychologique de l'angoisse sur la conscience."
+    },
+    {
+      "id": "ch6_q18",
+      "chapitre": 6,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "femmes_solidaires",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les femmes du quartier se relaient au chevet du malade, perpétuant la tradition de solidarité féminine.",
+      "texte_cible": "Comment les femmes du quartier manifestent-elles leur solidarité ?\nA) En évitant tout contact avec la famille\nB) En se relayant au chevet du malade\nC) En donnant seulement des conseils à distance\nD) En critiquant les soins prodigués\nRéponse correcte: B) En se relayant au chevet du malade\nExplication: Cette solidarité active illustre les valeurs d'entraide et de compassion de la communauté féminine."
+    },
+    {
+      "id": "ch6_q19",
+      "chapitre": 6,
+      "type": "personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "responsabilite_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'enfant assume de nouvelles responsabilités et découvre le poids des obligations familiales.",
+      "texte_cible": "Que découvre l'enfant durant cette épreuve ?\nA) La facilité de la vie d'adulte\nB) Le poids des obligations familiales\nC) L'inutilité des liens familiaux\nD) La supériorité de l'indépendance\nRéponse correcte: B) Le poids des obligations familiales\nExplication: Cette découverte marque une étape importante dans la socialisation et la maturation de l'enfant."
+    },
+    {
+      "id": "ch6_q20",
+      "chapitre": 6,
+      "type": "symbolisme",
+      "difficulte": "difficile",
+      "theme_semantique": "esperance_guerison",
+      "prefixe": "générer une question:",
+      "texte_entree": "Malgré l'angoisse, l'espérance de guérison maintient la cohésion familiale et nourrit la foi collective.",
+      "texte_cible": "Que maintient l'espérance de guérison ?\nA) L'indifférence face à la souffrance\nB) La cohésion familiale et la foi collective\nC) La division et les conflits\nD) Le désespoir et la résignation\nRéponse correcte: B) La cohésion familiale et la foi collective\nExplication: Cette espérance constitue un pilier spirituel qui permet à la famille de traverser l'épreuve."
+    },
+    {
+      "id": "ch7_q1",
+      "chapitre": 7,
+      "type": "événement",
+      "difficulte": "facile",
+      "theme_semantique": "guerison_pere",
+      "prefixe": "générer une question:",
+      "texte_entree": "La guérison du père apporte un immense soulagement et restaure la joie au sein de la famille.",
+      "texte_cible": "Quel événement apporte le soulagement à la famille ?\nA) L'arrivée d'un héritage inattendu\nB) La guérison du père\nC) Le retour d'un parent éloigné\nD) L'amélioration de la situation financière\nRéponse correcte: B) La guérison du père\nExplication: Cette guérison marque la fin de l'épreuve et le retour à l'équilibre familial."
+    },
+    {
+      "id": "ch7_q2",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "reconnaissance_divine",
+      "prefixe": "générer une question:",
+      "texte_entree": "La famille exprime sa reconnaissance envers la providence divine qui a exaucé ses prières.",
+      "texte_cible": "Comment la famille exprime-t-elle sa gratitude ?\nA) Par des fêtes somptueuses et coûteuses\nB) Par la reconnaissance envers la providence divine\nC) Par des critiques envers les médecins\nD) Par l'indifférence envers la spiritualité\nRéponse correcte: B) Par la reconnaissance envers la providence divine\nExplication: Cette gratitude spirituelle renforce la foi familiale et la dimension religieuse de l'existence."
+    },
+    {
+      "id": "ch7_q3",
+      "chapitre": 7,
+      "type": "culture",
+      "difficulte": "moyen",
+      "theme_semantique": "rituel_gratitude",
+      "prefixe": "générer une question:",
+      "texte_entree": "Des rituels de gratitude sont accomplis pour remercier le Tout-Puissant de sa miséricorde.",
+      "texte_cible": "Pourquoi des rituels de gratitude sont-ils accomplis ?\nA) Pour impressionner les voisins\nB) Pour remercier le Tout-Puissant de sa miséricorde\nC) Pour critiquer les méthodes de guérison\nD) Pour célébrer la richesse retrouvée\nRéponse correcte: B) Pour remercier le Tout-Puissant de sa miséricorde\nExplication: Ces pratiques rituelles expriment la reconnaissance religieuse et renforcent la dimension spirituelle de la guérison."
+    },
+    {
+      "id": "ch7_q4",
+      "chapitre": 7,
+      "type": "personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "joie_enfant",
+      "prefixe": "générer une question:",
+      "texte_entree": "La joie de l'enfant éclate spontanément, libérée des angoisses qui l'oppressaient durant la maladie.",
+      "texte_cible": "Comment se manifeste la joie de l'enfant ?\nA) De manière retenue et contrôlée\nB) Elle éclate spontanément\nC) Avec méfiance et prudence\nD) Elle reste invisible et secrète\nRéponse correcte: B) Elle éclate spontanément\nExplication: Cette explosion de joie traduit la libération psychologique de l'enfant après l'épreuve."
+    },
+    {
+      "id": "ch7_q5",
+      "chapitre": 7,
+      "type": "description",
+      "difficulte": "moyen",
+      "theme_semantique": "renaissance_maison",
+      "prefixe": "générer une question:",
+      "texte_entree": "La maison retrouve ses couleurs et ses sons habituels, comme si elle renaissait après un long sommeil.",
+      "texte_cible": "Comment la maison évolue-t-elle après la guérison ?\nA) Elle reste marquée par la tristesse\nB) Elle retrouve ses couleurs et ses sons habituels\nC) Elle devient plus silencieuse qu'avant\nD) Elle se transforme complètement\nRéponse correcte: B) Elle retrouve ses couleurs et ses sons habituels\nExplication: Cette renaissance symbolique exprime le retour à la normalité et à l'harmonie familiale."
+    },
+    {
+  "id": "ch7_q6",
+  "chapitre": 7,
+  "type": "psychologie",
+  "difficulte": "difficile",
+  "theme_semantique": "equilibre_retrouve",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'équilibre familial se reconstitue progressivement, chaque membre retrouvant sa place naturelle.",
+  "texte_cible": "Comment l'équilibre familial évolue-t-il ?\nA) Il reste définitivement perturbé\nB) Il se reconstitue progressivement\nC) Il change radicalement de nature\nD) Il devient plus fragile qu'avant\nRéponse correcte: B) Il se reconstitue progressivement\nExplication: Cette reconstruction graduelle montre la résilience de la cellule familiale face aux épreuves."
+},
+{
+  "id": "ch7_q7",
+  "chapitre": 7,
+  "type": "symbolique",
+  "difficulte": "difficile",
+  "theme_semantique": "lumiere_esperance",
+  "prefixe": "générer une question:",
+  "texte_entree": "La lumière filtrée par les fenêtres semble porter en elle une promesse de jours meilleurs.",
+  "texte_cible": "Que symbolise la lumière dans ce contexte ?\nA) La fin de l'hiver\nB) Une promesse de jours meilleurs\nC) Le changement de saison\nD) L'heure de la prière\nRéponse correcte: B) Une promesse de jours meilleurs\nExplication: Cette métaphore lumineuse exprime l'espoir et l'optimisme qui renaissent après l'épreuve."
+},
+{
+  "id": "ch7_q8",
+  "chapitre": 7,
+  "type": "emotion",
+  "difficulte": "moyen",
+  "theme_semantique": "reconnaissance_mere",
+  "prefixe": "générer une question:",
+  "texte_entree": "La mère exprime sa reconnaissance envers tous ceux qui l'ont soutenue durant cette épreuve.",
+  "texte_cible": "Que ressent la mère après la guérison ?\nA) De la colère envers le destin\nB) De la reconnaissance envers ceux qui l'ont soutenue\nC) De la méfiance envers les autres\nD) De l'indifférence totale\nRéponse correcte: B) De la reconnaissance envers ceux qui l'ont soutenue\nExplication: Cette gratitude révèle l'importance des liens communautaires dans la société traditionnelle."
+},
+{
+  "id": "ch7_q9",
+  "chapitre": 7,
+  "type": "social",
+  "difficulte": "moyen",
+  "theme_semantique": "solidarite_voisinage",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les voisins continuent de manifester leur solidarité même après la fin de la crise.",
+  "texte_cible": "Comment les voisins agissent-ils après la guérison ?\nA) Ils s'éloignent de la famille\nB) Ils continuent de manifester leur solidarité\nC) Ils deviennent indifférents\nD) Ils critiquent les méthodes utilisées\nRéponse correcte: B) Ils continuent de manifester leur solidarité\nExplication: Cette persistance de la solidarité illustre la force des liens sociaux traditionnels."
+},
+{
+  "id": "ch7_q10",
+  "chapitre": 7,
+  "type": "narratif",
+  "difficulte": "facile",
+  "theme_semantique": "retour_normalite",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le narrateur décrit le retour progressif à la vie normale après les moments difficiles.",
+  "texte_cible": "Que décrit le narrateur ?\nA) L'aggravation de la situation\nB) Le retour progressif à la vie normale\nC) Un nouveau départ radical\nD) La persistance des problèmes\nRéponse correcte: B) Le retour progressif à la vie normale\nExplication: Cette description marque la fin de la crise et le retour à l'équilibre quotidien."
+},
+{
+  "id": "ch7_q11",
+  "chapitre": 7,
+  "type": "culture",
+  "difficulte": "moyen",
+  "theme_semantique": "sagesse_traditionnelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "La sagesse traditionnelle trouve sa validation dans l'efficacité des remèdes ancestraux.",
+  "texte_cible": "Comment la sagesse traditionnelle est-elle perçue ?\nA) Comme dépassée et inefficace\nB) Elle trouve sa validation dans l'efficacité des remèdes\nC) Comme dangereuse pour la santé\nD) Elle est complètement ignorée\nRéponse correcte: B) Elle trouve sa validation dans l'efficacité des remèdes\nExplication: Cette validation renforce la crédibilité des pratiques ancestrales face à la modernité."
+},
+{
+  "id": "ch7_q12",
+  "chapitre": 7,
+  "type": "personnage",
+  "difficulte": "moyen",
+  "theme_semantique": "metamorphose_enfant",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'enfant semble avoir mûri à travers cette épreuve, gagnant en sagesse et en compréhension.",
+  "texte_cible": "Comment l'enfant évolue-t-il après cette épreuve ?\nA) Il devient plus capricieux\nB) Il semble avoir mûri, gagnant en sagesse\nC) Il reste exactement le même\nD) Il devient plus fragile\nRéponse correcte: B) Il semble avoir mûri, gagnant en sagesse\nExplication: Cette maturation précoce illustre l'effet transformateur des épreuves sur la personnalité."
+},
+{
+  "id": "ch7_q13",
+  "chapitre": 7,
+  "type": "atmosphere",
+  "difficulte": "moyen",
+  "theme_semantique": "apaisement_general",
+  "prefixe": "générer une question:",
+  "texte_entree": "Un sentiment général d'apaisement envahit tous les habitants de la maison.",
+  "texte_cible": "Quelle atmosphère règne dans la maison ?\nA) De tension permanente\nB) Un sentiment général d'apaisement\nC) D'inquiétude croissante\nD) De méfiance mutuelle\nRéponse correcte: B) Un sentiment général d'apaisement\nExplication: Cet apaisement collectif traduit la résolution de la crise et le retour à l'harmonie."
+},
+{
+  "id": "ch7_q14",
+  "chapitre": 7,
+  "type": "reflexion",
+  "difficulte": "difficile",
+  "theme_semantique": "lecons_epreuve",
+  "prefixe": "générer une question:",
+  "texte_entree": "Cette épreuve laisse des enseignements durables sur la fragilité de l'existence et l'importance des liens familiaux.",
+  "texte_cible": "Quels enseignements cette épreuve laisse-t-elle ?\nA) L'inutilité des efforts humains\nB) La fragilité de l'existence et l'importance des liens familiaux\nC) La supériorité de la médecine moderne\nD) L'impossibilité de guérir naturellement\nRéponse correcte: B) La fragilité de l'existence et l'importance des liens familiaux\nExplication: Ces leçons philosophiques enrichissent la dimension réflexive du récit autobiographique."
+},
+{
+  "id": "ch7_q15",
+  "chapitre": 7,
+  "type": "style",
+  "difficulte": "difficile",
+  "theme_semantique": "tonalite_optimiste",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le ton du récit se teinte d'optimisme, contrastant avec l'angoisse des passages précédents.",
+  "texte_cible": "Comment évolue le ton du récit ?\nA) Il reste sombre et pessimiste\nB) Il se teinte d'optimisme\nC) Il devient neutre et détaché\nD) Il exprime de la colère\nRéponse correcte: B) Il se teinte d'optimisme\nExplication: Cette évolution tonale accompagne la résolution positive de la crise narrative."
+},
+{
+  "id": "ch7_q16",
+  "chapitre": 7,
+  "type": "temporel",
+  "difficulte": "moyen",
+  "theme_semantique": "duree_convalescence",
+  "prefixe": "générer une question:",
+  "texte_entree": "La convalescence s'étend sur plusieurs semaines, permettant une récupération complète.",
+  "texte_cible": "Combien de temps dure la convalescence ?\nA) Quelques jours seulement\nB) Plusieurs semaines\nC) Plusieurs mois\nD) Une année entière\nRéponse correcte: B) Plusieurs semaines\nExplication: Cette durée réaliste permet d'ancrer le récit dans la vraisemblance médicale."
+},
+{
+  "id": "ch7_q17",
+  "chapitre": 7,
+  "type": "relationnel",
+  "difficulte": "moyen",
+  "theme_semantique": "renforcement_liens",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les liens familiaux se trouvent renforcés par l'épreuve commune traversée ensemble.",
+  "texte_cible": "Comment l'épreuve affecte-t-elle les liens familiaux ?\nA) Elle les affaiblit définitivement\nB) Elle les renforce\nC) Elle les laisse inchangés\nD) Elle les complique inutilement\nRéponse correcte: B) Elle les renforce\nExplication: Cette consolidation illustre l'effet positif des épreuves partagées sur la cohésion familiale."
+},
+{
+  "id": "ch7_q18",
+  "chapitre": 7,
+  "type": "psychologique",
+  "difficulte": "moyen",
+  "theme_semantique": "confiance_retrouvee",
+  "prefixe": "générer une question:",
+  "texte_entree": "La confiance en l'avenir se reconstruit lentement dans le cœur de chaque membre de la famille.",
+  "texte_cible": "Comment évolue la confiance familiale ?\nA) Elle disparaît complètement\nB) Elle se reconstruit lentement\nC) Elle devient excessive\nD) Elle reste inchangée\nRéponse correcte: B) Elle se reconstruit lentement\nExplication: Cette reconstruction graduelle traduit la résilience psychologique face aux traumatismes."
+},
+{
+  "id": "ch7_q19",
+  "chapitre": 7,
+  "type": "sociologique",
+  "difficulte": "difficile",
+  "theme_semantique": "role_communaute",
+  "prefixe": "générer une question:",
+  "texte_entree": "La communauté joue un rôle essentiel dans la guérison, apportant soutien moral et pratique.",
+  "texte_cible": "Quel rôle joue la communauté dans la guérison ?\nA) Elle reste indifférente aux problèmes\nB) Elle apporte soutien moral et pratique\nC) Elle critique les méthodes utilisées\nD) Elle aggrave la situation\nRéponse correcte: B) Elle apporte soutien moral et pratique\nExplication: Cette solidarité communautaire illustre l'importance du tissu social traditionnel."
+},
+{
+  "id": "ch7_q20",
+  "chapitre": 7,
+  "type": "symbolique",
+  "difficulte": "difficile",
+  "theme_semantique": "renaissance_symbolique",
+  "prefixe": "générer une question:",
+  "texte_entree": "La guérison représente une renaissance symbolique, un nouveau départ pour toute la famille.",
+  "texte_cible": "Que représente symboliquement la guérison ?\nA) La fin de tous les problèmes\nB) Une renaissance, un nouveau départ\nC) Un retour en arrière\nD) Une victoire sur les ennemis\nRéponse correcte: B) Une renaissance, un nouveau départ\nExplication: Cette métaphore de la renaissance exprime la transformation positive issue de l'épreuve."
+},
+{
+  "id": "ch8_q1",
+  "chapitre": 8,
+  "type": "narratif",
+  "difficulte": "facile",
+  "theme_semantique": "retour_ecole",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le retour à l'école marque une étape importante dans la vie normale de l'enfant.",
+  "texte_cible": "Qu'est-ce qui marque une étape importante pour l'enfant ?\nA) Le déménagement de la famille\nB) Le retour à l'école\nC) L'arrivée d'un nouveau bébé\nD) Le voyage à la campagne\nRéponse correcte: B) Le retour à l'école\nExplication: Cette reprise scolaire symbolise le retour à la normalité après la période de maladie."
+},
+{
+  "id": "ch8_q2",
+  "chapitre": 8,
+  "type": "social",
+  "difficulte": "moyen",
+  "theme_semantique": "integration_classe",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'intégration dans la classe nécessite un effort d'adaptation après la longue absence.",
+  "texte_cible": "Que nécessite l'intégration dans la classe ?\nA) Aucun effort particulier\nB) Un effort d'adaptation après la longue absence\nC) Le changement d'établissement\nD) L'aide d'un tuteur privé\nRéponse correcte: B) Un effort d'adaptation après la longue absence\nExplication: Cette difficulté d'adaptation illustre les conséquences sociales de l'interruption scolaire."
+},
+{
+  "id": "ch8_q3",
+  "chapitre": 8,
+  "type": "personnage",
+  "difficulte": "moyen",
+  "theme_semantique": "evolution_camarades",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les camarades de classe ont évolué pendant l'absence, créant un sentiment de décalage.",
+  "texte_cible": "Comment l'enfant perçoit-il ses camarades ?\nA) Ils sont restés exactement les mêmes\nB) Ils ont évolué, créant un sentiment de décalage\nC) Ils sont devenus hostiles\nD) Ils l'ont complètement oublié\nRéponse correcte: B) Ils ont évolué, créant un sentiment de décalage\nExplication: Ce décalage temporel souligne l'impact psychologique de l'isolement sur l'enfant."
+},
+{
+  "id": "ch8_q4",
+  "chapitre": 8,
+  "type": "apprentissage",
+  "difficulte": "moyen",
+  "theme_semantique": "rattrapage_scolaire",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le rattrapage scolaire demande des efforts soutenus pour combler le retard accumulé.",
+  "texte_cible": "Que demande le rattrapage scolaire ?\nA) Peu d'efforts supplémentaires\nB) Des efforts soutenus pour combler le retard\nC) Le redoublement de l'année\nD) L'abandon des études\nRéponse correcte: B) Des efforts soutenus pour combler le retard\nExplication: Cette nécessité d'efforts illustre la détermination de l'enfant à surmonter les obstacles."
+},
+{
+  "id": "ch8_q5",
+  "chapitre": 8,
+  "type": "psychologique",
+  "difficulte": "moyen",
+  "theme_semantique": "confiance_soi",
+  "prefixe": "générer une question:",
+  "texte_entree": "La confiance en soi se reconstruit progressivement à travers les petites victoires quotidiennes.",
+  "texte_cible": "Comment se reconstruit la confiance en soi ?\nA) D'un coup, instantanément\nB) Progressivement à travers les petites victoires quotidiennes\nC) Elle ne se reconstruit jamais\nD) Grâce à l'aide exclusive des adultes\nRéponse correcte: B) Progressivement à travers les petites victoires quotidiennes\nExplication: Cette reconstruction graduelle montre l'importance des succès mineurs dans la résilience."
+},
+{
+  "id": "ch8_q6",
+  "chapitre": 8,
+  "type": "relationnel",
+  "difficulte": "moyen",
+  "theme_semantique": "amities_renouvelees",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les amitiés se renouvellent et se redéfinissent dans ce nouveau contexte scolaire.",
+  "texte_cible": "Comment évoluent les amitiés ?\nA) Elles restent identiques\nB) Elles se renouvellent et se redéfinissent\nC) Elles disparaissent toutes\nD) Elles deviennent superficielles\nRéponse correcte: B) Elles se renouvellent et se redéfinissent\nExplication: Cette évolution relationnelle accompagne la croissance personnelle de l'enfant."
+},
+{
+  "id": "ch8_q7",
+  "chapitre": 8,
+  "type": "culturel",
+  "difficulte": "difficile",
+  "theme_semantique": "enseignement_traditionnel",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'enseignement traditionnel continue de transmettre les valeurs et les savoirs ancestraux.",
+  "texte_cible": "Que transmet l'enseignement traditionnel ?\nA) Uniquement les matières modernes\nB) Les valeurs et les savoirs ancestraux\nC) Seulement les techniques nouvelles\nD) Exclusivement les langues étrangères\nRéponse correcte: B) Les valeurs et les savoirs ancestraux\nExplication: Cette transmission culturelle assure la continuité des traditions dans l'éducation."
+},
+{
+  "id": "ch8_q8",
+  "chapitre": 8,
+  "type": "atmosphere",
+  "difficulte": "moyen",
+  "theme_semantique": "ambiance_classe",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'ambiance de la classe mélange discipline stricte et moments de complicité entre élèves.",
+  "texte_cible": "Comment peut-on décrire l'ambiance de la classe ?\nA) Uniquement stricte et rigide\nB) Mélange de discipline stricte et moments de complicité\nC) Complètement détendue\nD) Hostile et agressive\nRéponse correcte: B) Mélange de discipline stricte et moments de complicité\nExplication: Cette dualité reflète l'équilibre entre autorité pédagogique et relations humaines."
+},
+{
+  "id": "ch8_q9",
+  "chapitre": 8,
+  "type": "temporel",
+  "difficulte": "facile",
+  "theme_semantique": "rythme_scolaire",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le rythme scolaire impose une nouvelle organisation du temps quotidien.",
+  "texte_cible": "Qu'impose le rythme scolaire ?\nA) Plus de liberté dans l'emploi du temps\nB) Une nouvelle organisation du temps quotidien\nC) L'abandon des activités familiales\nD) La suppression des loisirs\nRéponse correcte: B) Une nouvelle organisation du temps quotidien\nExplication: Cette restructuration temporelle marque l'adaptation à la vie scolaire régulière."
+},
+{
+  "id": "ch8_q10",
+  "chapitre": 8,
+  "type": "pedagogique",
+  "difficulte": "moyen",
+  "theme_semantique": "methodes_enseignement",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les méthodes d'enseignement privilégient la mémorisation et la répétition des leçons.",
+  "texte_cible": "Sur quoi se basent les méthodes d'enseignement ?\nA) Sur l'expérimentation libre\nB) Sur la mémorisation et la répétition\nC) Sur le travail en groupe exclusivement\nD) Sur l'usage d'outils modernes\nRéponse correcte: B) Sur la mémorisation et la répétition\nExplication: Cette pédagogie traditionnelle correspond aux pratiques éducatives de l'époque."
+},
+{
+  "id": "ch8_q11",
+  "chapitre": 8,
+  "type": "description",
+  "difficulte": "moyen",
+  "theme_semantique": "materiel_scolaire",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le matériel scolaire simple mais fonctionnel accompagne l'apprentissage quotidien.",
+  "texte_cible": "Comment est le matériel scolaire ?\nA) Très sophistiqué et coûteux\nB) Simple mais fonctionnel\nC) Inexistant ou défaillant\nD) Exclusivement moderne\nRéponse correcte: B) Simple mais fonctionnel\nExplication: Cette simplicité matérielle contraste avec la richesse de l'enseignement reçu."
+},
+{
+  "id": "ch8_q12",
+  "chapitre": 8,
+  "type": "emotion",
+  "difficulte": "moyen",
+  "theme_semantique": "fierte_progres",
+  "prefixe": "générer une question:",
+  "texte_entree": "La fierté des premiers progrès accompagne la renaissance de l'appétit d'apprendre.",
+  "texte_cible": "Qu'accompagne la fierté des premiers progrès ?\nA) L'abandon des efforts\nB) La renaissance de l'appétit d'apprendre\nC) La peur de l'échec\nD) L'indifférence aux résultats\nRéponse correcte: B) La renaissance de l'appétit d'apprendre\nExplication: Cette fierté motivante illustre l'importance de la réussite dans l'engagement scolaire."
+},
+{
+  "id": "ch8_q13",
+  "chapitre": 8,
+  "type": "social",
+  "difficulte": "difficile",
+  "theme_semantique": "hierarchie_scolaire",
+  "prefixe": "générer une question:",
+  "texte_entree": "La hiérarchie scolaire reflète les codes sociaux de l'époque et structure les relations.",
+  "texte_cible": "Que reflète la hiérarchie scolaire ?\nA) L'anarchie et le désordre\nB) Les codes sociaux de l'époque\nC) L'égalité parfaite entre tous\nD) L'absence de règles\nRéponse correcte: B) Les codes sociaux de l'époque\nExplication: Cette hiérarchie reproduit les structures sociales traditionnelles dans l'espace éducatif."
+},
+{
+  "id": "ch8_q14",
+  "chapitre": 8,
+  "type": "linguistique",
+  "difficulte": "moyen",
+  "theme_semantique": "apprentissage_arabe",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'apprentissage de l'arabe classique constitue un pilier fondamental de l'éducation.",
+  "texte_cible": "Que constitue l'apprentissage de l'arabe classique ?\nA) Une matière optionnelle\nB) Un pilier fondamental de l'éducation\nC) Un obstacle à l'apprentissage\nD) Une tradition dépassée\nRéponse correcte: B) Un pilier fondamental de l'éducation\nExplication: Cette importance linguistique souligne le rôle central de la langue arabe dans la culture."
+},
+{
+  "id": "ch8_q15",
+  "chapitre": 8,
+  "type": "comparaison",
+  "difficulte": "difficile",
+  "theme_semantique": "avant_apres_maladie",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'expérience scolaire d'avant la maladie contraste avec la nouvelle perception plus mature.",
+  "texte_cible": "Comment l'expérience scolaire a-t-elle évolué ?\nA) Elle est restée identique\nB) Elle contraste avec une nouvelle perception plus mature\nC) Elle est devenue plus superficielle\nD) Elle a perdu tout intérêt\nRéponse correcte: B) Elle contraste avec une nouvelle perception plus mature\nExplication: Cette évolution perceptuelle traduit la croissance personnelle de l'enfant."
+},
+{
+  "id": "ch8_q16",
+  "chapitre": 8,
+  "type": "motivation",
+  "difficulte": "moyen",
+  "theme_semantique": "determination_reussir",
+  "prefixe": "générer une question:",
+  "texte_entree": "La détermination à réussir se nourrit du désir de rattraper le temps perdu.",
+  "texte_cible": "De quoi se nourrit la détermination à réussir ?\nA) De la peur de l'échec\nB) Du désir de rattraper le temps perdu\nC) De la compétition avec les autres\nD) De l'obligation familiale\nRéponse correcte: B) Du désir de rattraper le temps perdu\nExplication: Cette motivation réparatrice illustre la résilience de l'enfant face aux obstacles."
+},
+{
+  "id": "ch8_q17",
+  "chapitre": 8,
+  "type": "routine",
+  "difficulte": "facile",
+  "theme_semantique": "habitudes_quotidiennes",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les habitudes quotidiennes se réinstallent progressivement dans la vie de l'enfant.",
+  "texte_cible": "Comment se réinstallent les habitudes quotidiennes ?\nA) Brutalement et difficilement\nB) Progressivement\nC) Elles ne reviennent jamais\nD) Instantanément\nRéponse correcte: B) Progressivement\nExplication: Cette reprise graduelle montre l'adaptation naturelle à la routine scolaire."
+},
+{
+  "id": "ch8_q18",
+  "chapitre": 8,
+  "type": "observation",
+  "difficulte": "moyen",
+  "theme_semantique": "regard_nouveau",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le regard de l'enfant sur le monde scolaire s'enrichit d'une nouvelle profondeur.",
+  "texte_cible": "Comment évolue le regard de l'enfant ?\nA) Il devient plus superficiel\nB) Il s'enrichit d'une nouvelle profondeur\nC) Il reste exactement le même\nD) Il devient désintéressé\nRéponse correcte: B) Il s'enrichit d'une nouvelle profondeur\nExplication: Cette maturation du regard illustre l'enrichissement personnel issu de l'épreuve."
+},
+{
+  "id": "ch8_q19",
+  "chapitre": 8,
+  "type": "aspiration",
+  "difficulte": "moyen",
+  "theme_semantique": "projets_avenir",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les projets d'avenir commencent à prendre forme dans l'esprit de l'enfant.",
+  "texte_cible": "Que commencent à faire les projets d'avenir ?\nA) Ils disparaissent complètement\nB) Ils commencent à prendre forme\nC) Ils restent totalement flous\nD) Ils deviennent irréalisables\nRéponse correcte: B) Ils commencent à prendre forme\nExplication: Cette projection future montre l'émergence d'une conscience temporelle élargie."
+},
+    {
+  "id": "ch8_q20",
+  "chapitre": 8,
+  "type": "bilan",
+  "difficulte": "difficile",
+  "theme_semantique": "croissance_personnelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "La croissance personnelle se mesure autant aux épreuves surmontées qu'aux savoirs acquis.",
+  "texte_cible": "À quoi se mesure la croissance personnelle ?\nA) Uniquement aux notes obtenues\nB) Aux épreuves surmontées et aux savoirs acquis\nC) Seulement à l'âge chronologique\nD) Exclusivement aux récompenses reçues\nRéponse correcte: B) Aux épreuves surmontées et aux savoirs acquis\nExplication: Cette double mesure souligne l'importance de l'expérience vécue dans le développement personnel."
+},
+{
+  "id": "ch9_q1",
+  "chapitre": 9,
+  "type": "saisons",
+  "difficulte": "facile",
+  "theme_semantique": "arrivee_printemps",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'arrivée du printemps transforme l'atmosphère de la maison et du quartier.",
+  "texte_cible": "Qu'est-ce qui transforme l'atmosphère de la maison ?\nA) L'arrivée de nouveaux voisins\nB) L'arrivée du printemps\nC) Le départ en voyage\nD) L'achat de nouveaux meubles\nRéponse correcte: B) L'arrivée du printemps\nExplication: Cette transformation saisonnière symbolise le renouveau et l'espoir après les épreuves."
+},
+{
+  "id": "ch9_q2",
+  "chapitre": 9,
+  "type": "description",
+  "difficulte": "moyen",
+  "theme_semantique": "jardins_fleuris",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les jardins se parent de mille couleurs, offrant un spectacle enchanteur aux yeux de l'enfant.",
+  "texte_cible": "Comment les jardins apparaissent-ils ?\nA) Ternes et monotones\nB) Ils se parent de mille couleurs\nC) Abandonnés et négligés\nD) Couverts de neige\nRéponse correcte: B) Ils se parent de mille couleurs\nExplication: Cette richesse chromatique exprime la beauté naturelle qui émerveille l'enfant."
+},
+{
+  "id": "ch9_q3",
+  "chapitre": 9,
+  "type": "sensoriel",
+  "difficulte": "moyen",
+  "theme_semantique": "parfums_printemps",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les parfums du printemps envahissent les ruelles, créant une atmosphère enivrante.",
+  "texte_cible": "Que font les parfums du printemps ?\nA) Ils disparaissent rapidement\nB) Ils envahissent les ruelles\nC) Ils restent imperceptibles\nD) Ils créent des allergies\nRéponse correcte: B) Ils envahissent les ruelles\nExplication: Cette invasion sensorielle illustre l'intensité de l'expérience printanière."
+},
+{
+  "id": "ch9_q4",
+  "chapitre": 9,
+  "type": "social",
+  "difficulte": "moyen",
+  "theme_semantique": "activites_communautaires",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les activités communautaires reprennent avec plus d'intensité à la belle saison.",
+  "texte_cible": "Comment évoluent les activités communautaires ?\nA) Elles s'arrêtent complètement\nB) Elles reprennent avec plus d'intensité\nC) Elles restent identiques\nD) Elles se déplacent à l'intérieur\nRéponse correcte: B) Elles reprennent avec plus d'intensité\nExplication: Cette intensification sociale reflète l'influence positive du climat sur la vie collective."
+},
+{
+  "id": "ch9_q5",
+  "chapitre": 9,
+  "type": "festivites",
+  "difficulte": "moyen",
+  "theme_semantique": "celebrations_religieuses",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les célébrations religieuses du printemps rassemblent toute la communauté dans la joie.",
+  "texte_cible": "Que font les célébrations religieuses ?\nA) Elles divisent la communauté\nB) Elles rassemblent toute la communauté dans la joie\nC) Elles n'intéressent personne\nD) Elles créent des conflits\nRéponse correcte: B) Elles rassemblent toute la communauté dans la joie\nExplication: Cette union festive illustre la cohésion sociale autour des traditions religieuses."
+},
+{
+  "id": "ch9_q6",
+  "chapitre": 9,
+  "type": "enfance",
+  "difficulte": "moyen",
+  "theme_semantique": "jeux_exterieurs",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les jeux extérieurs reprennent leurs droits dans la cour et les ruelles avoisinantes.",
+  "texte_cible": "Où reprennent les jeux extérieurs ?\nA) Dans les maisons fermées\nB) Dans la cour et les ruelles avoisinantes\nC) Dans les écoles uniquement\nD) Dans les magasins\nRéponse correcte: B) Dans la cour et les ruelles avoisinantes\nExplication: Cette reconquête de l'espace extérieur marque le retour à la vie sociale enfantine."
+},
+{
+  "id": "ch9_q7",
+  "chapitre": 9,
+  "type": "famille",
+  "difficulte": "moyen",
+  "theme_semantique": "projets_familiaux",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les projets familiaux pour la belle saison commencent à se dessiner et à prendre forme.",
+  "texte_cible": "Que font les projets familiaux ?\nA) Ils sont abandonnés définitivement\nB) Ils commencent à se dessiner et à prendre forme\nC) Ils restent totalement flous\nD) Ils créent des disputes\nRéponse correcte: B) Ils commencent à se dessiner et à prendre forme\nExplication: Cette projection familiale illustre l'optimisme et l'espoir liés au renouveau saisonnier."
+},
+{
+  "id": "ch9_q8",
+  "chapitre": 9,
+  "type": "tradition",
+  "difficulte": "difficile",
+  "theme_semantique": "rituels_saisonniers",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les rituels saisonniers perpétuent les traditions ancestrales liées au cycle naturel.",
+  "texte_cible": "Que perpétuent les rituels saisonniers ?\nA) Les conflits du passé\nB) Les traditions ancestrales liées au cycle naturel\nC) Les habitudes modernes\nD) Les pratiques étrangères\nRéponse correcte: B) Les traditions ancestrales liées au cycle naturel\nExplication: Cette perpétuation culturelle assure la continuité des liens entre l'homme et la nature."
+},
+{
+  "id": "ch9_q9",
+  "chapitre": 9,
+  "type": "psychologie",
+  "difficulte": "moyen",
+  "theme_semantique": "moral_ameliore",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le moral de tous les habitants s'améliore visiblement avec l'allongement des jours.",
+  "texte_cible": "Comment évolue le moral des habitants ?\nA) Il se détériore rapidement\nB) Il s'améliore visiblement\nC) Il reste stable\nD) Il devient imprévisible\nRéponse correcte: B) Il s'améliore visiblement\nExplication: Cette amélioration psychologique démontre l'influence positive de la lumière sur l'humeur."
+},
+{
+  "id": "ch9_q10",
+  "chapitre": 9,
+  "type": "commerce",
+  "difficulte": "moyen",
+  "theme_semantique": "marches_animes",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les marchés s'animent davantage, proposant les premiers fruits et légumes de saison.",
+  "texte_cible": "Comment évoluent les marchés ?\nA) Ils ferment temporairement\nB) Ils s'animent davantage\nC) Ils deviennent plus chers\nD) Ils perdent leur attractivité\nRéponse correcte: B) Ils s'animent davantage\nExplication: Cette animation commerciale reflète le dynamisme économique lié aux saisons."
+},
+{
+  "id": "ch9_q11",
+  "chapitre": 9,
+  "type": "nature",
+  "difficulte": "facile",
+  "theme_semantique": "reveille_nature",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le réveil de la nature se fait sentir partout, des plus petits bourgeons aux grands arbres.",
+  "texte_cible": "Où se fait sentir le réveil de la nature ?\nA) Seulement dans les jardins privés\nB) Partout, des plus petits bourgeons aux grands arbres\nC) Uniquement dans les montagnes\nD) Seulement près des rivières\nRéponse correcte: B) Partout, des plus petits bourgeons aux grands arbres\nExplication: Cette universalité du réveil naturel exprime la puissance transformatrice du printemps."
+},
+{
+  "id": "ch9_q12",
+  "chapitre": 9,
+  "type": "architecture",
+  "difficulte": "moyen",
+  "theme_semantique": "terrasses_fleuries",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les terrasses se parent de fleurs et de plantes, créant de véritables jardins suspendus.",
+  "texte_cible": "Comment les terrasses se transforment-elles ?\nA) Elles restent nues et vides\nB) Elles se parent de fleurs et de plantes\nC) Elles sont abandonnées\nD) Elles servent uniquement au séchage\nRéponse correcte: B) Elles se parent de fleurs et de plantes\nExplication: Cette transformation architecturale illustre l'harmonisation entre l'habitat et la nature."
+},
+{
+  "id": "ch9_q13",
+  "chapitre": 9,
+  "type": "temporel",
+  "difficulte": "moyen",
+  "theme_semantique": "rythme_ralenti",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le rythme de vie semble se ralentir, invitant à la contemplation et à la sérénité.",
+  "texte_cible": "Comment évolue le rythme de vie ?\nA) Il s'accélère considérablement\nB) Il semble se ralentir\nC) Il devient chaotique\nD) Il reste exactement le même\nRéponse correcte: B) Il semble se ralentir\nExplication: Ce ralentissement temporel favorise l'introspection et la paix intérieure."
+},
+{
+  "id": "ch9_q14",
+  "chapitre": 9,
+  "type": "spirituel",
+  "difficulte": "difficile",
+  "theme_semantique": "meditation_nature",
+  "prefixe": "générer une question:",
+  "texte_entree": "La méditation devant la beauté naturelle devient un exercice spirituel quotidien.",
+  "texte_cible": "Que devient la méditation devant la beauté naturelle ?\nA) Une perte de temps\nB) Un exercice spirituel quotidien\nC) Une activité occasionnelle\nD) Une pratique interdite\nRéponse correcte: B) Un exercice spirituel quotidien\nExplication: Cette pratique contemplative enrichit la dimension spirituelle de l'existence."
+},
+{
+  "id": "ch9_q15",
+  "chapitre": 9,
+  "type": "symbolique",
+  "difficulte": "difficile",
+  "theme_semantique": "renaissance_universelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "La renaissance universelle du printemps symbolise l'espoir et la continuité de la vie.",
+  "texte_cible": "Que symbolise la renaissance universelle du printemps ?\nA) La fin de toute chose\nB) L'espoir et la continuité de la vie\nC) L'immobilité du temps\nD) La fragilité de l'existence\nRéponse correcte: B) L'espoir et la continuité de la vie\nExplication: Cette symbolique universelle exprime les cycles perpétuels de mort et de renaissance."
+},
+{
+  "id": "ch9_q16",
+  "chapitre": 9,
+  "type": "couleurs",
+  "difficulte": "moyen",
+  "theme_semantique": "palette_chromatique",
+  "prefixe": "générer une question:",
+  "texte_entree": "La palette chromatique du printemps transforme le paysage urbain en tableau vivant.",
+  "texte_cible": "En quoi la palette chromatique transforme-t-elle le paysage ?\nA) En désert monotone\nB) En tableau vivant\nC) En zone industrielle\nD) En espace vide\nRéponse correcte: B) En tableau vivant\nExplication: Cette métaphore picturale souligne la beauté artistique de la transformation naturelle."
+},
+{
+  "id": "ch9_q17",
+  "chapitre": 9,
+  "type": "sons",
+  "difficulte": "moyen",
+  "theme_semantique": "symphonie_sonore",
+  "prefixe": "générer une question:",
+  "texte_entree": "La symphonie sonore du printemps mélange chants d'oiseaux et voix humaines.",
+  "texte_cible": "Que mélange la symphonie sonore du printemps ?\nA) Bruits de machines et klaxons\nB) Chants d'oiseaux et voix humaines\nC) Silence et solitude\nD) Sons artificiels uniquement\nRéponse correcte: B) Chants d'oiseaux et voix humaines\nExplication: Cette harmonie sonore illustre la réconciliation entre nature et humanité."
+},
+{
+  "id": "ch9_q18",
+  "chapitre": 9,
+  "type": "emergence",
+  "difficulte": "moyen",
+  "theme_semantique": "nouvelle_vitalite",
+  "prefixe": "générer une question:",
+  "texte_entree": "Une nouvelle vitalité anime tous les êtres, des plus jeunes aux plus âgés.",
+  "texte_cible": "Qui anime la nouvelle vitalité ?\nA) Seulement les enfants\nB) Tous les êtres, des plus jeunes aux plus âgés\nC) Uniquement les adultes\nD) Personne en particulier\nRéponse correcte: B) Tous les êtres, des plus jeunes aux plus âgés\nExplication: Cette vitalité universelle transcende les âges et unit la communauté."
+},
+{
+  "id": "ch9_q19",
+  "chapitre": 9,
+  "type": "metamorphose",
+  "difficulte": "difficile",
+  "theme_semantique": "transformation_progressive",
+  "prefixe": "générer une question:",
+  "texte_entree": "La transformation progressive du décor urbain révèle la puissance créatrice de la nature.",
+  "texte_cible": "Que révèle la transformation progressive du décor urbain ?\nA) La faiblesse de l'environnement\nB) La puissance créatrice de la nature\nC) L'inutilité des changements\nD) La domination de l'homme\nRéponse correcte: B) La puissance créatrice de la nature\nExplication: Cette révélation souligne la force transformatrice supérieure de la nature."
+},
+{
+  "id": "ch9_q20",
+  "chapitre": 9,
+  "type": "poetique",
+  "difficulte": "difficile",
+  "theme_semantique": "beaute_ephemere",
+  "prefixe": "générer une question:",
+  "texte_entree": "La beauté éphémère du printemps enseigne la préciosité de chaque instant de bonheur.",
+  "texte_cible": "Qu'enseigne la beauté éphémère du printemps ?\nA) L'indifférence au temps\nB) La préciosité de chaque instant de bonheur\nC) L'inutilité de la contemplation\nD) La permanence de toute chose\nRéponse correcte: B) La préciosité de chaque instant de bonheur\nExplication: Cette leçon philosophique invite à valoriser les moments fugaces de félicité."
+},
+{
+  "id": "ch10_q1",
+  "chapitre": 10,
+  "type": "preparation",
+  "difficulte": "facile",
+  "theme_semantique": "preparatifs_ete",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les préparatifs de l'été commencent bien avant l'arrivée de la saison chaude.",
+  "texte_cible": "Quand commencent les préparatifs de l'été ?\nA) Pendant l'été même\nB) Bien avant l'arrivée de la saison chaude\nC) Après la fin de l'été\nD) Seulement en cas de nécessité\nRéponse correcte: B) Bien avant l'arrivée de la saison chaude\nExplication: Cette anticipation démontre l'importance de la planification dans la vie familiale."
+},
+{
+  "id": "ch10_q2",
+  "chapitre": 10,
+  "type": "domestique",
+  "difficulte": "moyen",
+  "theme_semantique": "amenagement_maison",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'aménagement de la maison s'adapte pour faire face aux fortes chaleurs estivales.",
+  "texte_cible": "Pourquoi l'aménagement de la maison s'adapte-t-il ?\nA) Pour recevoir plus d'invités\nB) Pour faire face aux fortes chaleurs estivales\nC) Pour économiser l'argent\nD) Pour suivre la mode\nRéponse correcte: B) Pour faire face aux fortes chaleurs estivales\nExplication: Cette adaptation pratique illustre l'ingéniosité domestique face aux contraintes climatiques."
+},
+{
+  "id": "ch10_q3",
+  "chapitre": 10,
+  "type": "textile",
+  "difficulte": "moyen",
+  "theme_semantique": "vetements_legers",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les vêtements légers sortent des coffres, remplaçant les tenues d'hiver.",
+  "texte_cible": "Que font les vêtements légers ?\nA) Ils restent dans les coffres\nB) Ils sortent des coffres, remplaçant les tenues d'hiver\nC) Ils sont vendus au marché\nD) Ils sont donnés aux pauvres\nRéponse correcte: B) Ils sortent des coffres, remplaçant les tenues d'hiver\nExplication: Cette transition vestimentaire marque l'adaptation saisonnière du mode de vie."
+},
+{
+  "id": "ch10_q4",
+  "chapitre": 10,
+  "type": "alimentation",
+  "difficulte": "moyen",
+  "theme_semantique": "nourriture_fraiche",
+  "prefixe": "générer une question:",
+  "texte_entree": "La nourriture fraîche devient prioritaire dans l'alimentation quotidienne.",
+  "texte_cible": "Que devient la nourriture fraîche ?\nA) Elle est évitée complètement\nB) Elle devient prioritaire dans l'alimentation quotidienne\nC) Elle est réservée aux invités\nD) Elle coûte trop cher\nRéponse correcte: B) Elle devient prioritaire dans l'alimentation quotidienne\nExplication: Cette priorité alimentaire répond aux besoins nutritionnels adaptés à la chaleur."
+},
+{
+  "id": "ch10_q5",
+  "chapitre": 10,
+  "type": "horaires",
+  "difficulte": "moyen",
+  "theme_semantique": "rythme_adapte",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le rythme quotidien s'adapte aux contraintes de la chaleur, privilégiant les heures fraîches.",
+  "texte_cible": "Comment s'adapte le rythme quotidien ?\nA) Il reste identique toute l'année\nB) Il privilégie les heures fraîches\nC) Il s'accélère considérablement\nD) Il devient imprévisible\nRéponse correcte: B) Il privilégie les heures fraîches\nExplication: Cette adaptation temporelle optimise le confort et l'efficacité des activités."
+},
+{
+  "id": "ch10_q6",
+  "chapitre": 10,
+  "type": "architecture",
+  "difficulte": "moyen",
+  "theme_semantique": "patios_ombres",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les patios et espaces ombragés deviennent les lieux privilégiés de la vie quotidienne.",
+  "texte_cible": "Que deviennent les patios et espaces ombragés ?\nA) Ils sont abandonnés\nB) Ils deviennent les lieux privilégiés de la vie quotidienne\nC) Ils servent uniquement de décoration\nD) Ils sont transformés en chambres\nRéponse correcte: B) Ils deviennent les lieux privilégiés de la vie quotidienne\nExplication: Cette valorisation spatiale illustre l'adaptation architecturale au climat."
+},
+{
+  "id": "ch10_q7",
+  "chapitre": 10,
+  "type": "social",
+  "difficulte": "moyen",
+  "theme_semantique": "visite_matinales",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les visites matinales se multiplient pour éviter les heures les plus chaudes.",
+  "texte_cible": "Pourquoi les visites matinales se multiplient-elles ?\nA) Par tradition familiale\nB) Pour éviter les heures les plus chaudes\nC) Pour économiser l'argent\nD) Par obligation sociale\nRéponse correcte: B) Pour éviter les heures les plus chaudes\nExplication: Cette adaptation sociale démontre l'influence du climat sur les relations interpersonnelles."
+},
+{
+  "id": "ch10_q8",
+  "chapitre": 10,
+  "type": "rafraichissement",
+  "difficulte": "moyen",
+  "theme_semantique": "moyens_rafraichir",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les moyens traditionnels de se rafraîchir sont remis en usage avec ingéniosité.",
+  "texte_cible": "Comment sont utilisés les moyens traditionnels de se rafraîchir ?\nA) Ils sont oubliés complètement\nB) Ils sont remis en usage avec ingéniosité\nC) Ils sont remplacés par des machines\nD) Ils sont jugés inefficaces\nRéponse correcte: B) Ils sont remis en usage avec ingéniosité\nExplication: Cette réutilisation créative valorise les savoirs ancestraux face aux défis climatiques."
+},
+{
+  "id": "ch10_q9",
+  "chapitre": 10,
+  "type": "eau",
+  "difficulte": "moyen",
+  "theme_semantique": "gestion_eau",
+  "prefixe": "générer une question:",
+  "texte_entree": "La gestion de l'eau devient un enjeu quotidien primordial pour toute la famille.",
+  "texte_cible": "Que devient la gestion de l'eau ?\nA) Un problème mineur\nB) Un enjeu quotidien primordial\nC) Une préoccupation occasionnelle\nD) Une tâche négligeable\nRéponse correcte: B) Un enjeu quotidien primordial\nExplication: Cette priorité hydrique souligne l'importance vitale de l'eau en climat chaud."
+},
+{
+  "id": "ch10_q10",
+  "chapitre": 10,
+  "type": "enfance",
+  "difficulte": "moyen",
+  "theme_semantique": "jeux_adaptes",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les jeux des enfants s'adaptent aux contraintes thermiques, privilégiant l'ombre et la fraîcheur.",
+  "texte_cible": "Comment s'adaptent les jeux des enfants ?\nA) Ils restent identiques\nB) Ils privilégient l'ombre et la fraîcheur\nC) Ils deviennent plus violents\nD) Ils disparaissent complètement\nRéponse correcte: B) Ils privilégient l'ombre et la fraîcheur\nExplication: Cette adaptation ludique montre l'intelligence naturelle des enfants face aux conditions environnementales."
+},
+{
+  "id": "ch10_q11",
+  "chapitre": 10,
+  "type": "sieste",
+  "difficulte": "facile",
+  "theme_semantique": "repos_meridien",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le repos méridien devient une nécessité absolue pendant les heures les plus chaudes.",
+  "texte_cible": "Que devient le repos méridien ?\nA) Une option facultative\nB) Une nécessité absolue\nC) Une perte de temps\nD) Une habitude dépassée\nRéponse correcte: B) Une nécessité absolue\nExplication: Cette obligation physiologique illustre l'adaptation corporelle aux rythmes climatiques."
+},
+{
+  "id": "ch10_q12",
+  "chapitre": 10,
+  "type": "economie",
+  "difficulte": "moyen",
+  "theme_semantique": "commerce_adapte",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le commerce s'adapte aux nouvelles habitudes, proposant des produits saisonniers spécifiques.",
+  "texte_cible": "Comment s'adapte le commerce ?\nA) Il ferme pendant l'été\nB) Il propose des produits saisonniers spécifiques\nC) Il garde la même offre\nD) Il augmente tous les prix\nRéponse correcte: B) Il propose des produits saisonniers spécifiques\nExplication: Cette adaptation commerciale répond aux besoins spécifiques de la saison chaude."
+},
+{
+  "id": "ch10_q13",
+  "chapitre": 10,
+  "type": "ventilation",
+  "difficulte": "moyen",
+  "theme_semantique": "circulation_air",
+  "prefixe": "générer une question:",
+  "texte_entree": "La circulation de l'air dans la maison fait l'objet d'une attention particulière.",
+  "texte_cible": "Que fait l'objet d'une attention particulière ?\nA) La décoration intérieure\nB) La circulation de l'air dans la maison\nC) L'éclairage artificiel\nD) Le rangement des meubles\nRéponse correcte: B) La circulation de l'air dans la maison\nExplication: Cette préoccupation aérienne illustre l'importance de la ventilation naturelle pour le confort."
+},
+    {
+  "id": "ch10_q14",
+  "chapitre": 10,
+  "type": "alimentation",
+  "difficulte": "facile",
+  "theme_semantique": "nourriture_ete",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les repas deviennent plus légers et plus rafraîchissants durant cette période.",
+  "texte_cible": "Comment deviennent les repas ?\nA) Plus copieux et chauds\nB) Plus légers et plus rafraîchissants\nC) Plus épicés et lourds\nD) Identiques toute l'année\nRéponse correcte: B) Plus légers et plus rafraîchissants\nExplication: Cette adaptation culinaire répond aux besoins physiologiques de la saison chaude."
+},
+{
+  "id": "ch10_q15",
+  "chapitre": 10,
+  "type": "hygiene",
+  "difficulte": "moyen",
+  "theme_semantique": "proprete_corporelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les ablutions fréquentes deviennent un rituel quotidien indispensable.",
+  "texte_cible": "Que deviennent les ablutions fréquentes ?\nA) Une corvée pénible\nB) Un rituel quotidien indispensable\nC) Une pratique occasionnelle\nD) Une perte de temps\nRéponse correcte: B) Un rituel quotidien indispensable\nExplication: Cette nécessité hygiénique illustre l'importance de la propreté corporelle pendant la chaleur."
+},
+{
+  "id": "ch10_q16",
+  "chapitre": 10,
+  "type": "sommeil",
+  "difficulte": "difficile",
+  "theme_semantique": "repos_nocturne",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le sommeil devient fragmenté entre les différents moments de fraîcheur.",
+  "texte_cible": "Comment devient le sommeil ?\nA) Plus profond et continu\nB) Fragmenté entre les différents moments de fraîcheur\nC) Complètement impossible\nD) Identique aux autres saisons\nRéponse correcte: B) Fragmenté entre les différents moments de fraîcheur\nExplication: Cette adaptation du rythme du sommeil montre l'influence de la température sur le repos."
+},
+{
+  "id": "ch10_q17",
+  "chapitre": 10,
+  "type": "travail",
+  "difficulte": "moyen",
+  "theme_semantique": "activite_professionnelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les activités professionnelles s'organisent selon les heures les moins chaudes.",
+  "texte_cible": "Comment s'organisent les activités professionnelles ?\nA) Sans tenir compte de la température\nB) Selon les heures les moins chaudes\nC) Uniquement la nuit\nD) Seulement le matin\nRéponse correcte: B) Selon les heures les moins chaudes\nExplication: Cette organisation temporelle illustre l'adaptation du travail aux contraintes climatiques."
+},
+{
+  "id": "ch10_q18",
+  "chapitre": 10,
+  "type": "social",
+  "difficulte": "facile",
+  "theme_semantique": "relations_communautaires",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les relations sociales se renforcent autour des espaces communs ombragés.",
+  "texte_cible": "Où se renforcent les relations sociales ?\nA) Dans les maisons individuelles\nB) Autour des espaces communs ombragés\nC) Dans les lieux fermés\nD) Uniquement à l'intérieur\nRéponse correcte: B) Autour des espaces communs ombragés\nExplication: Cette sociabilité d'ombre montre l'importance des espaces frais pour la vie communautaire."
+},
+{
+  "id": "ch10_q19",
+  "chapitre": 10,
+  "type": "adaptation",
+  "difficulte": "difficile",
+  "theme_semantique": "resilience_climatique",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'adaptation collective témoigne de la résilience face aux défis climatiques.",
+  "texte_cible": "De quoi témoigne l'adaptation collective ?\nA) De la faiblesse humaine\nB) De la résilience face aux défis climatiques\nC) De l'impossibilité de s'adapter\nD) De la nécessité de fuir\nRéponse correcte: B) De la résilience face aux défis climatiques\nExplication: Cette capacité d'adaptation illustre la force collective face aux contraintes environnementales."
+},
+{
+  "id": "ch10_q20",
+  "chapitre": 10,
+  "type": "sagesse",
+  "difficulte": "moyen",
+  "theme_semantique": "enseignement_traditionnel",
+  "prefixe": "générer une question:",
+  "texte_entree": "Cette expérience estivale enrichit la compréhension des cycles naturels.",
+  "texte_cible": "Qu'enrichit cette expérience estivale ?\nA) La compréhension des cycles naturels\nB) La connaissance des machines\nC) L'apprentissage des langues\nD) La maîtrise des mathématiques\nRéponse correcte: A) La compréhension des cycles naturels\nExplication: Cette sagesse saisonnière illustre l'importance de l'harmonie avec les rythmes naturels."
+},
+
+{
+  "id": "ch11_q1",
+  "chapitre": 11,
+  "type": "preparation",
+  "difficulte": "facile",
+  "theme_semantique": "rentree_scolaire",
+  "prefixe": "générer une question:",
+  "texte_entree": "La rentrée scolaire approche et avec elle les préparatifs nécessaires.",
+  "texte_cible": "Qu'est-ce qui approche ?\nA) Les vacances d'été\nB) La rentrée scolaire\nC) La fin de l'année\nD) Le début de l'hiver\nRéponse correcte: B) La rentrée scolaire\nExplication: Cette anticipation marque la transition vers une nouvelle période d'apprentissage."
+},
+{
+  "id": "ch11_q2",
+  "chapitre": 11,
+  "type": "emotion",
+  "difficulte": "moyen",
+  "theme_semantique": "anxiete_anticipation",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'anxiété se mêle à l'excitation devant cette nouvelle étape.",
+  "texte_cible": "À quoi se mêle l'anxiété ?\nA) À la tristesse\nB) À l'excitation\nC) À la colère\nD) À l'indifférence\nRéponse correcte: B) À l'excitation\nExplication: Cette ambivalence émotionnelle illustre la complexité des sentiments face au changement."
+},
+{
+  "id": "ch11_q3",
+  "chapitre": 11,
+  "type": "fournitures",
+  "difficulte": "facile",
+  "theme_semantique": "materiel_scolaire",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le cartable neuf et les cahiers vierges symbolisent un nouveau départ.",
+  "texte_cible": "Que symbolisent le cartable neuf et les cahiers vierges ?\nA) La fin des études\nB) Un nouveau départ\nC) Les vacances passées\nD) L'échec scolaire\nRéponse correcte: B) Un nouveau départ\nExplication: Ces objets neufs représentent les possibilités et l'espoir d'une nouvelle année scolaire."
+},
+{
+  "id": "ch11_q4",
+  "chapitre": 11,
+  "type": "famille",
+  "difficulte": "moyen",
+  "theme_semantique": "soutien_parental",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les parents prodiguent leurs conseils pour cette nouvelle aventure.",
+  "texte_cible": "Que prodiguent les parents ?\nA) Des critiques sévères\nB) Leurs conseils\nC) Des punitions\nD) De l'indifférence\nRéponse correcte: B) Leurs conseils\nExplication: Cette guidance parentale illustre l'importance du soutien familial dans l'éducation."
+},
+{
+  "id": "ch11_q5",
+  "chapitre": 11,
+  "type": "uniforme",
+  "difficulte": "facile",
+  "theme_semantique": "vetements_scolaires",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'uniforme scolaire marque l'appartenance à la communauté éducative.",
+  "texte_cible": "Que marque l'uniforme scolaire ?\nA) La richesse des familles\nB) L'appartenance à la communauté éducative\nC) L'individualité de chacun\nD) La pauvreté des élèves\nRéponse correcte: B) L'appartenance à la communauté éducative\nExplication: Cette tenue commune symbolise l'égalité et l'unité dans l'apprentissage."
+},
+{
+  "id": "ch11_q6",
+  "chapitre": 11,
+  "type": "routine",
+  "difficulte": "moyen",
+  "theme_semantique": "organisation_quotidienne",
+  "prefixe": "générer une question:",
+  "texte_entree": "La routine quotidienne doit s'adapter aux horaires scolaires.",
+  "texte_cible": "À quoi doit s'adapter la routine quotidienne ?\nA) Aux horaires de télévision\nB) Aux horaires scolaires\nC) Aux horaires de travail du père\nD) Aux horaires des amis\nRéponse correcte: B) Aux horaires scolaires\nExplication: Cette adaptation temporelle illustre l'importance de l'organisation dans la vie étudiante."
+},
+{
+  "id": "ch11_q7",
+  "chapitre": 11,
+  "type": "camarades",
+  "difficulte": "moyen",
+  "theme_semantique": "amities_scolaires",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les retrouvailles avec les camarades promettent de nouveaux partages.",
+  "texte_cible": "Que promettent les retrouvailles avec les camarades ?\nA) Des disputes fréquentes\nB) De nouveaux partages\nC) L'isolement social\nD) Des compétitions féroces\nRéponse correcte: B) De nouveaux partages\nExplication: Ces relations sociales illustrent l'importance de l'amitié dans l'environnement scolaire."
+},
+{
+  "id": "ch11_q8",
+  "chapitre": 11,
+  "type": "professeur",
+  "difficulte": "facile",
+  "theme_semantique": "autorite_pedagogique",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le nouveau maître inspire respect et curiosité.",
+  "texte_cible": "Qu'inspire le nouveau maître ?\nA) La peur et la méfiance\nB) Le respect et la curiosité\nC) L'indifférence totale\nD) La colère et la rébellion\nRéponse correcte: B) Le respect et la curiosité\nExplication: Cette attitude positive illustre l'importance de la figure d'autorité bienveillante."
+},
+{
+  "id": "ch11_q9",
+  "chapitre": 11,
+  "type": "apprentissage",
+  "difficulte": "difficile",
+  "theme_semantique": "soif_connaissance",
+  "prefixe": "générer une question:",
+  "texte_entree": "La soif d'apprendre grandit avec chaque nouveau défi intellectuel.",
+  "texte_cible": "Avec quoi grandit la soif d'apprendre ?\nA) Avec l'âge seulement\nB) Avec chaque nouveau défi intellectuel\nC) Avec les punitions\nD) Avec la fatigue\nRéponse correcte: B) Avec chaque nouveau défi intellectuel\nExplication: Cette progression cognitive illustre l'importance de la stimulation intellectuelle dans l'apprentissage."
+},
+{
+  "id": "ch11_q10",
+  "chapitre": 11,
+  "type": "progression",
+  "difficulte": "moyen",
+  "theme_semantique": "evolution_personnelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "Chaque jour apporte sa part de découvertes et d'apprentissages.",
+  "texte_cible": "Qu'apporte chaque jour ?\nA) Sa part de découvertes et d'apprentissages\nB) Des problèmes insolubles\nC) De l'ennui constant\nD) Des échecs répétés\nRéponse correcte: A) Sa part de découvertes et d'apprentissages\nExplication: Cette richesse quotidienne illustre l'importance de rester ouvert aux nouvelles expériences."
+},
+{
+  "id": "ch11_q11",
+  "chapitre": 11,
+  "type": "discipline",
+  "difficulte": "moyen",
+  "theme_semantique": "regles_scolaires",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les règles scolaires structurent la vie collective de la classe.",
+  "texte_cible": "Que structurent les règles scolaires ?\nA) Les vacances scolaires\nB) La vie collective de la classe\nC) Les relations familiales\nD) Les loisirs personnels\nRéponse correcte: B) La vie collective de la classe\nExplication: Cette organisation collective illustre l'importance du cadre pour l'apprentissage en groupe."
+},
+{
+  "id": "ch11_q12",
+  "chapitre": 11,
+  "type": "evaluation",
+  "difficulte": "difficile",
+  "theme_semantique": "controle_connaissances",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les évaluations régulières permettent de mesurer les progrès accomplis.",
+  "texte_cible": "Que permettent les évaluations régulières ?\nA) De punir les élèves\nB) De mesurer les progrès accomplis\nC) De créer de l'angoisse\nD) De perdre du temps\nRéponse correcte: B) De mesurer les progrès accomplis\nExplication: Cette fonction pédagogique illustre l'importance de l'évaluation dans le processus d'apprentissage."
+},
+{
+  "id": "ch11_q13",
+  "chapitre": 11,
+  "type": "recreation",
+  "difficulte": "facile",
+  "theme_semantique": "temps_libre_scolaire",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les récréations offrent des moments de détente et de jeu.",
+  "texte_cible": "Qu'offrent les récréations ?\nA) Des moments de détente et de jeu\nB) Du travail supplémentaire\nC) Des punitions collectives\nD) De l'ennui profond\nRéponse correcte: A) Des moments de détente et de jeu\nExplication: Ces pauses ludiques illustrent l'importance de l'équilibre entre travail et détente."
+},
+{
+  "id": "ch11_q14",
+  "chapitre": 11,
+  "type": "bibliotheque",
+  "difficulte": "moyen",
+  "theme_semantique": "acces_livres",
+  "prefixe": "générer une question:",
+  "texte_entree": "La bibliothèque scolaire ouvre les portes de nouveaux univers.",
+  "texte_cible": "Qu'ouvre la bibliothèque scolaire ?\nA) Les portes de nouveaux univers\nB) Seulement des livres ennuyeux\nC) Des problèmes de discipline\nD) Des difficultés de lecture\nRéponse correcte: A) Les portes de nouveaux univers\nExplication: Cette métaphore illustre le pouvoir transformateur de la lecture et de l'accès aux livres."
+},
+{
+  "id": "ch11_q15",
+  "chapitre": 11,
+  "type": "devoirs",
+  "difficulte": "moyen",
+  "theme_semantique": "travail_maison",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les devoirs à la maison prolongent l'apprentissage scolaire.",
+  "texte_cible": "Que prolongent les devoirs à la maison ?\nA) Les vacances scolaires\nB) L'apprentissage scolaire\nC) Les disputes familiales\nD) Les moments de jeu\nRéponse correcte: B) L'apprentissage scolaire\nExplication: Cette continuité pédagogique illustre l'importance du travail personnel dans l'éducation."
+},
+{
+  "id": "ch11_q16",
+  "chapitre": 11,
+  "type": "competition",
+  "difficulte": "difficile",
+  "theme_semantique": "emulation_scolaire",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'émulation saine stimule les efforts de chacun.",
+  "texte_cible": "Que stimule l'émulation saine ?\nA) La jalousie entre élèves\nB) Les efforts de chacun\nC) Les conflits personnels\nD) L'abandon scolaire\nRéponse correcte: B) Les efforts de chacun\nExplication: Cette dynamique positive illustre l'importance de la motivation collective dans l'apprentissage."
+},
+{
+  "id": "ch11_q17",
+  "chapitre": 11,
+  "type": "respect",
+  "difficulte": "moyen",
+  "theme_semantique": "valeurs_morales",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le respect mutuel forge le caractère des futurs citoyens.",
+  "texte_cible": "Que forge le respect mutuel ?\nA) Des barrières sociales\nB) Le caractère des futurs citoyens\nC) Des inégalités profondes\nD) De la méfiance générale\nRéponse correcte: B) Le caractère des futurs citoyens\nExplication: Cette formation civique illustre l'importance des valeurs morales dans l'éducation."
+},
+{
+  "id": "ch11_q18",
+  "chapitre": 11,
+  "type": "curiosite",
+  "difficulte": "facile",
+  "theme_semantique": "eveil_intellectuel",
+  "prefixe": "générer une question:",
+  "texte_entree": "La curiosité naturelle trouve son terrain d'expression privilégié.",
+  "texte_cible": "Que trouve la curiosité naturelle ?\nA) Des obstacles insurmontables\nB) Son terrain d'expression privilégié\nC) Des interdictions strictes\nD) Des déceptions constantes\nRéponse correcte: B) Son terrain d'expression privilégié\nExplication: Cette épanouissement intellectuel illustre l'importance de cultiver la curiosité naturelle."
+},
+{
+  "id": "ch11_q19",
+  "chapitre": 11,
+  "type": "perseverance",
+  "difficulte": "difficile",
+  "theme_semantique": "effort_continu",
+  "prefixe": "générer une question:",
+  "texte_entree": "La persévérance face aux difficultés forge la détermination.",
+  "texte_cible": "Que forge la persévérance face aux difficultés ?\nA) La détermination\nB) Le découragement\nC) L'abandon facile\nD) La médiocrité\nRéponse correcte: A) La détermination\nExplication: Cette qualité morale illustre l'importance de l'effort continu dans le développement personnel."
+},
+{
+  "id": "ch11_q20",
+  "chapitre": 11,
+  "type": "avenir",
+  "difficulte": "moyen",
+  "theme_semantique": "perspective_future",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'école prépare les bases d'un avenir prometteur.",
+  "texte_cible": "Que prépare l'école ?\nA) Des échecs futurs\nB) Les bases d'un avenir prometteur\nC) Des problèmes sociaux\nD) Des inégalités durables\nRéponse correcte: B) Les bases d'un avenir prometteur\nExplication: Cette vision optimiste illustre l'importance de l'éducation dans la construction de l'avenir."
+},
+
+{
+  "id": "ch12_q1",
+  "chapitre": 12,
+  "type": "maturite",
+  "difficulte": "moyen",
+  "theme_semantique": "evolution_personnelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "La maturité acquise se reflète dans les nouvelles perspectives.",
+  "texte_cible": "Où se reflète la maturité acquise ?\nA) Dans les nouvelles perspectives\nB) Dans les anciennes habitudes\nC) Dans les échecs passés\nD) Dans les regrets constants\nRéponse correcte: A) Dans les nouvelles perspectives\nExplication: Cette évolution cognitive illustre l'importance de la croissance personnelle."
+},
+{
+  "id": "ch12_q2",
+  "chapitre": 12,
+  "type": "bilan",
+  "difficulte": "difficile",
+  "theme_semantique": "retrospective_annuelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le bilan de l'année révèle les transformations accomplies.",
+  "texte_cible": "Que révèle le bilan de l'année ?\nA) Les transformations accomplies\nB) L'absence de changement\nC) Les échecs répétés\nD) La stagnation totale\nRéponse correcte: A) Les transformations accomplies\nExplication: Cette introspection illustre l'importance de l'auto-évaluation dans le développement personnel."
+},
+{
+  "id": "ch12_q3",
+  "chapitre": 12,
+  "type": "sagesse",
+  "difficulte": "moyen",
+  "theme_semantique": "enseignements_tires",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les enseignements tirés enrichissent la compréhension du monde.",
+  "texte_cible": "Qu'enrichissent les enseignements tirés ?\nA) La compréhension du monde\nB) Les préjugés personnels\nC) Les peurs irrationnelles\nD) Les illusions dangereuses\nRéponse correcte: A) La compréhension du monde\nExplication: Cette sagesse acquise illustre l'importance de l'apprentissage continu."
+},
+{
+  "id": "ch12_q4",
+  "chapitre": 12,
+  "type": "reconnaissance",
+  "difficulte": "facile",
+  "theme_semantique": "gratitude_famille",
+  "prefixe": "générer une question:",
+  "texte_entree": "La reconnaissance envers la famille grandit avec l'âge.",
+  "texte_cible": "Avec quoi grandit la reconnaissance envers la famille ?\nA) Avec l'âge\nB) Avec la richesse\nC) Avec les conflits\nD) Avec l'éloignement\nRéponse correcte: A) Avec l'âge\nExplication: Cette gratitude illustre l'importance de la famille dans le développement personnel."
+},
+{
+  "id": "ch12_q5",
+  "chapitre": 12,
+  "type": "heritage",
+  "difficulte": "difficile",
+  "theme_semantique": "transmission_culturelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'héritage culturel se transmet à travers les générations.",
+  "texte_cible": "Comment se transmet l'héritage culturel ?\nA) Par les livres seulement\nB) À travers les générations\nC) Par l'école uniquement\nD) Par la télévision\nRéponse correcte: B) À travers les générations\nExplication: Cette continuité culturelle illustre l'importance de la transmission intergénérationnelle."
+},
+{
+  "id": "ch12_q6",
+  "chapitre": 12,
+  "type": "responsabilite",
+  "difficulte": "moyen",
+  "theme_semantique": "engagement_personnel",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les responsabilités grandissent avec la conscience sociale.",
+  "texte_cible": "Avec quoi grandissent les responsabilités ?\nA) Avec la conscience sociale\nB) Avec l'ignorance\nC) Avec l'égoïsme\nD) Avec l'indifférence\nRéponse correcte: A) Avec la conscience sociale\nExplication: Cette évolution civique illustre l'importance de l'engagement dans la société."
+},
+{
+  "id": "ch12_q7",
+  "chapitre": 12,
+  "type": "espoir",
+  "difficulte": "facile",
+  "theme_semantique": "optimisme_futur",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'espoir en un avenir meilleur guide les actions présentes.",
+  "texte_cible": "Que guide l'espoir en un avenir meilleur ?\nA) Les actions présentes\nB) Les regrets passés\nC) Les peurs irrationnelles\nD) Les échecs futurs\nRéponse correcte: A) Les actions présentes\nExplication: Cette motivation positive illustre l'importance de l'optimisme dans l'action."
+},
+{
+  "id": "ch12_q8",
+  "chapitre": 12,
+  "type": "memoire",
+  "difficulte": "moyen",
+  "theme_semantique": "souvenirs_precieux",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les souvenirs précieux forment le trésor de l'expérience.",
+  "texte_cible": "Que forment les souvenirs précieux ?\nA) Le trésor de l'expérience\nB) Des obstacles au bonheur\nC) Des sources de tristesse\nD) Des illusions dangereuses\nRéponse correcte: A) Le trésor de l'expérience\nExplication: Cette richesse mémorielle illustre l'importance du vécu dans la construction personnelle."
+},
+{
+  "id": "ch12_q9",
+  "chapitre": 12,
+  "type": "transformation",
+  "difficulte": "difficile",
+  "theme_semantique": "metamorphose_personnelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "La transformation personnelle s'opère imperceptiblement mais sûrement.",
+  "texte_cible": "Comment s'opère la transformation personnelle ?\nA) Brutalement et visiblement\nB) Imperceptiblement mais sûrement\nC) Jamais véritablement\nD) Seulement dans l'enfance\nRéponse correcte: B) Imperceptiblement mais sûrement\nExplication: Cette évolution graduelle illustre la nature progressive du développement personnel."
+},
+{
+  "id": "ch12_q10",
+  "chapitre": 12,
+  "type": "continuite",
+  "difficulte": "moyen",
+  "theme_semantique": "lien_temporel",
+  "prefixe": "générer une question:",
+  "texte_entree": "La continuité entre passé et présent façonne l'identité.",
+  "texte_cible": "Que façonne la continuité entre passé et présent ?\nA) L'identité\nB) La confusion\nC) L'oubli\nD) La régression\nRéponse correcte: A) L'identité\nExplication: Cette cohérence temporelle illustre l'importance de l'histoire personnelle dans la construction de soi."
+},{
+  "id": "ch12_q11",
+  "chapitre": 12,
+  "type": "acceptation",
+  "difficulte": "facile",
+  "theme_semantique": "paix_interieure",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'acceptation de soi apporte une paix intérieure durable.",
+  "texte_cible": "Qu'apporte l'acceptation de soi ?\nA) Une paix intérieure durable\nB) Des conflits constants\nC) Une agitation perpétuelle\nD) Des regrets amers\nRéponse correcte: A) Une paix intérieure durable\nExplication: Cette sérénité personnelle illustre l'importance de l'auto-acceptation dans l'équilibre psychologique."
+},
+{
+  "id": "ch12_q12",
+  "chapitre": 12,
+  "type": "heritage",
+  "difficulte": "moyen",
+  "theme_semantique": "transmission_culturelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'héritage culturel se transmet de génération en génération.",
+  "texte_cible": "Comment se transmet l'héritage culturel ?\nA) De génération en génération\nB) Uniquement par l'école\nC) Seulement par les livres\nD) Jamais complètement\nRéponse correcte: A) De génération en génération\nExplication: Cette transmission familiale illustre la continuité des traditions et valeurs culturelles."
+},
+{
+  "id": "ch12_q13",
+  "chapitre": 12,
+  "type": "evolution",
+  "difficulte": "difficile",
+  "theme_semantique": "maturite_progressive",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'évolution personnelle nécessite du temps et de la patience.",
+  "texte_cible": "Que nécessite l'évolution personnelle ?\nA) Du temps et de la patience\nB) Seulement la volonté\nC) Uniquement l'intelligence\nD) Rien de particulier\nRéponse correcte: A) Du temps et de la patience\nExplication: Cette maturation progressive illustre la nature graduelle du développement personnel."
+},
+{
+  "id": "ch12_q14",
+  "chapitre": 12,
+  "type": "reconciliation",
+  "difficulte": "moyen",
+  "theme_semantique": "harmonie_interieure",
+  "prefixe": "générer une question:",
+  "texte_entree": "La réconciliation avec le passé libère l'avenir.",
+  "texte_cible": "Que libère la réconciliation avec le passé ?\nA) L'avenir\nB) Les remords\nC) La colère\nD) La tristesse\nRéponse correcte: A) L'avenir\nExplication: Cette libération émotionnelle illustre l'importance de faire la paix avec son histoire personnelle."
+},
+{
+  "id": "ch12_q15",
+  "chapitre": 12,
+  "type": "gratitude",
+  "difficulte": "facile",
+  "theme_semantique": "reconnaissance_positive",
+  "prefixe": "générer une question:",
+  "texte_entree": "La gratitude envers la vie enrichit l'existence.",
+  "texte_cible": "Qu'enrichit la gratitude envers la vie ?\nA) L'existence\nB) L'amertume\nC) La jalousie\nD) La frustration\nRéponse correcte: A) L'existence\nExplication: Cette reconnaissance positive illustre l'importance de l'appréciation dans l'épanouissement personnel."
+},
+{
+  "id": "ch12_q16",
+  "chapitre": 12,
+  "type": "cycle",
+  "difficulte": "difficile",
+  "theme_semantique": "eternel_recommencement",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le cycle de la vie perpétue l'espoir et le renouveau.",
+  "texte_cible": "Que perpétue le cycle de la vie ?\nA) L'espoir et le renouveau\nB) La stagnation\nC) Le désespoir\nD) L'immobilité\nRéponse correcte: A) L'espoir et le renouveau\nExplication: Cette continuité cyclique illustre la nature régénératrice de l'existence."
+},
+{
+  "id": "ch12_q17",
+  "chapitre": 12,
+  "type": "bilan",
+  "difficulte": "moyen",
+  "theme_semantique": "reflexion_retrospective",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le bilan personnel révèle les leçons apprises.",
+  "texte_cible": "Que révèle le bilan personnel ?\nA) Les leçons apprises\nB) Les échecs uniquement\nC) Les illusions perdues\nD) Les opportunités manquées\nRéponse correcte: A) Les leçons apprises\nExplication: Cette réflexion introspective illustre l'importance de l'auto-évaluation dans la croissance personnelle."
+},
+{
+  "id": "ch12_q18",
+  "chapitre": 12,
+  "type": "promesse",
+  "difficulte": "facile",
+  "theme_semantique": "engagement_futur",
+  "prefixe": "générer une question:",
+  "texte_entree": "La promesse d'un avenir meilleur motive l'action présente.",
+  "texte_cible": "Que motive la promesse d'un avenir meilleur ?\nA) L'action présente\nB) La passivité\nC) L'indifférence\nD) La résignation\nRéponse correcte: A) L'action présente\nExplication: Cette motivation future illustre l'importance de l'espoir dans la dynamique personnelle."
+},
+{
+  "id": "ch12_q19",
+  "chapitre": 12,
+  "type": "synthese",
+  "difficulte": "difficile",
+  "theme_semantique": "integration_globale",
+  "prefixe": "générer une question:",
+  "texte_entree": "La synthèse des expériences forme la sagesse personnelle.",
+  "texte_cible": "Que forme la synthèse des expériences ?\nA) La sagesse personnelle\nB) La confusion mentale\nC) L'ignorance profonde\nD) La naïveté persistante\nRéponse correcte: A) La sagesse personnelle\nExplication: Cette intégration expérientielle illustre la transformation de l'expérience en connaissance profonde."
+},
+{
+  "id": "ch12_q20",
+  "chapitre": 12,
+  "type": "conclusion",
+  "difficulte": "moyen",
+  "theme_semantique": "accomplissement_personnel",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'accomplissement personnel couronne le parcours de vie.",
+  "texte_cible": "Que couronne l'accomplissement personnel ?\nA) Le parcours de vie\nB) Les échecs accumulés\nC) Les regrets persistants\nD) Les occasions manquées\nRéponse correcte: A) Le parcours de vie\nExplication: Cette réalisation finale illustre l'aboutissement positif du développement personnel et de la croissance intérieure."
+}
+]
+}

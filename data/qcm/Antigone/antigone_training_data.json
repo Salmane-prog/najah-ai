@@ -1,0 +1,1821 @@
+{
+  "metadata": {
+    "titre": "Antigone - Dataset d'entraînement enrichi 6 sections",
+    "auteur": "Jean Anouilh",
+    "format": "préfixe: texte_d_entrée -> texte_cible",
+    "usage": "Entraînement de modèles BARThez pour génération de QCM adaptatifs",
+    "nombre_exemples": 180,
+    "version": "2.0_enrichi",
+    "sections_couvertes": 6,
+    "questions_par_section": 30,
+    "ameliorations": [
+      "Variété des types de questions (échecs, négations, situations complexes)",
+      "Distracteurs plus sophistiqués",
+      "Questions sur les nuances et ambiguïtés",
+      "Analyse des relations dysfonctionnelles",
+      "Exploration des paradoxes et contradictions"
+    ]
+  },
+  "dataset_entrainement_enrichi": [
+    {
+      "id": "section1_q1",
+      "section": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "presentation_prologue",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le Prologue présente tous les personnages et annonce la tragédie qui va se jouer, créant un effet de fatalité dès le début de la pièce.",
+      "texte_cible": "Quel est le rôle du Prologue dans Antigone ?\nA) Il présente les personnages et annonce la tragédie\nB) Il raconte l'histoire d'Œdipe en détail\nC) Il explique les règles du théâtre antique\nD) Il critique la société contemporaine\nRéponse correcte: A) Il présente les personnages et annonce la tragédie\nExplication: Le Prologue d'Anouilh a pour fonction d'introduire tous les personnages et de créer dès le début un sentiment de fatalité tragique."
+    },
+    {
+      "id": "section1_q2",
+      "section": 1,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "impossibilite_changement",
+      "prefixe": "générer une question:",
+      "texte_entree": "Selon le Prologue, les personnages ne peuvent pas changer le cours de l'histoire car tout est déjà écrit et la tragédie est inéluctable.",
+      "texte_cible": "Que ne peuvent PAS faire les personnages selon le Prologue ?\nA) Exprimer leurs sentiments\nB) Changer le cours de l'histoire\nC) Dialoguer entre eux\nD) Comprendre leur situation\nRéponse correcte: B) Changer le cours de l'histoire\nExplication: L'impossibilité de modifier le destin constitue le fondement même de la tragédie selon Anouilh."
+    },
+    {
+      "id": "section1_q3",
+      "section": 1,
+      "type": "echec_relationnel",
+      "difficulte": "difficile",
+      "theme_semantique": "incomprehension_mutuelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Dès le début, on comprend que tous les efforts de réconciliation échoueront car Antigone et Créon représentent deux mondes incompatibles.",
+      "texte_cible": "Pourquoi les tentatives de réconciliation sont-elles vouées à l'échec ?\nA) Par manque de temps pour dialoguer\nB) À cause de l'orgueil des protagonistes\nC) Parce qu'ils représentent deux mondes incompatibles\nD) Par manque de médiateurs efficaces\nRéponse correcte: C) Parce qu'ils représentent deux mondes incompatibles\nExplication: L'incompatibilité fondamentale entre leurs visions du monde rend impossible tout compromis durable."
+    },
+    {
+      "id": "section1_q4",
+      "section": 1,
+      "type": "analyse_paradoxe",
+      "difficulte": "moyen",
+      "theme_semantique": "modernite_antique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Paradoxalement, Anouilh rend le mythe antique plus actuel en y mêlant des éléments anachroniques comme les cigarettes et les voitures.",
+      "texte_cible": "Quel paradoxe caractérise l'adaptation d'Anouilh ?\nA) Il modernise le mythe en y ajoutant des éléments anachroniques\nB) Il respecte scrupuleusement l'original tout en l'adaptant\nC) Il transpose l'action à l'époque moderne\nD) Il supprime les éléments antiques\nRéponse correcte: A) Il modernise le mythe en y ajoutant des éléments anachroniques\nExplication: Cette technique paradoxale permet de rapprocher le mythe antique de la sensibilité contemporaine."
+    },
+    {
+      "id": "section1_q5",
+      "section": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "personnages_principaux",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone et Créon sont les deux protagonistes principaux, représentant deux visions opposées du devoir et de la justice.",
+      "texte_cible": "Qui sont les deux personnages principaux d'Antigone ?\nA) Antigone et Ismène\nB) Antigone et Créon\nC) Créon et Hémon\nD) Antigone et Hémon\nRéponse correcte: B) Antigone et Créon\nExplication: Antigone et Créon constituent le couple d'opposants principaux, incarnant le conflit central de la pièce."
+    },
+    {
+      "id": "section1_q6",
+      "section": 1,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "limite_pouvoir",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le pouvoir de Créon montre ses limites face à la détermination d'Antigone, révélant que l'autorité politique ne peut pas tout contrôler.",
+      "texte_cible": "Quelle limite du pouvoir politique la pièce révèle-t-elle ?\nA) Il ne peut pas contrôler l'économie\nB) Il ne peut pas tout contrôler face aux convictions individuelles\nC) Il ne peut pas gérer les relations familiales\nD) Il ne peut pas maintenir l'ordre public\nRéponse correcte: B) Il ne peut pas tout contrôler face aux convictions individuelles\nExplication: L'échec de Créon illustre l'impuissance du pouvoir face à la résistance morale absolue."
+    },
+    {
+      "id": "section1_q7",
+      "section": 1,
+      "type": "negation_absolue",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_compromis",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone refuse catégoriquement tout compromis, même quand Créon lui propose de faire semblant de ne rien avoir vu.",
+      "texte_cible": "Que refuse absolument Antigone ?\nA) De se marier avec Hémon\nB) De quitter Thèbes\nC) Tout compromis avec l'autorité\nD) De parler à sa sœur\nRéponse correcte: C) Tout compromis avec l'autorité\nExplication: Le refus absolu du compromis caractérise l'intransigeance d'Antigone et son attachement à l'absolu."
+    },
+    {
+      "id": "section1_q8",
+      "section": 1,
+      "type": "culture_historique",
+      "difficulte": "moyen",
+      "theme_semantique": "contexte_occupation",
+      "prefixe": "générer une question:",
+      "texte_entree": "Écrite en 1942 sous l'Occupation, la pièce peut être lue comme une allégorie de la résistance face à l'oppression nazie.",
+      "texte_cible": "Dans quel contexte historique Anouilh a-t-il écrit Antigone ?\nA) Pendant la Première Guerre mondiale\nB) Pendant l'Occupation allemande (1942)\nC) Pendant la guerre d'Algérie\nD) Pendant la Révolution française\nRéponse correcte: B) Pendant l'Occupation allemande (1942)\nExplication: Le contexte de l'Occupation donne une dimension politique à la pièce, Antigone incarnant la résistance."
+    },
+    {
+      "id": "section1_q9",
+      "section": 1,
+      "type": "echec_pedagogique",
+      "difficulte": "difficile",
+      "theme_semantique": "education_ratee",
+      "prefixe": "générer une question:",
+      "texte_entree": "Malgré ses efforts pour éduquer Antigone sur les réalités du pouvoir, Créon échoue à la faire changer d'avis, montrant les limites de la pédagogie.",
+      "texte_cible": "Pourquoi la tentative pédagogique de Créon échoue-t-elle ?\nA) Parce qu'il manque de patience\nB) Parce qu'Antigone refuse d'apprendre\nC) Parce que leurs valeurs sont incompatibles\nD) Parce qu'il utilise de mauvais arguments\nRéponse correcte: C) Parce que leurs valeurs sont incompatibles\nExplication: L'échec pédagogique révèle que certaines différences de valeurs ne peuvent être surmontées par l'éducation."
+    },
+    {
+      "id": "section1_q10",
+      "section": 1,
+      "type": "analyse_contradiction",
+      "difficulte": "moyen",
+      "theme_semantique": "contradiction_creon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon se trouve dans une situation contradictoire : il doit appliquer une loi qu'il sait injuste pour maintenir son autorité.",
+      "texte_cible": "Quelle contradiction Créon doit-il affronter ?\nA) Aimer Antigone tout en la condamnant\nB) Appliquer une loi injuste pour maintenir son autorité\nC) Être roi tout en restant simple citoyen\nD) Protéger Thèbes tout en la divisant\nRéponse correcte: B) Appliquer une loi injuste pour maintenir son autorité\nExplication: Cette contradiction illustre le dilemme moral du dirigeant politique face à la raison d'État."
+    },
+    {
+      "id": "section1_q11",
+      "section": 1,
+      "type": "negation_familiale",
+      "difficulte": "facile",
+      "theme_semantique": "abandon_ismene",
+      "prefixe": "générer une question:",
+      "texte_entree": "Ismène n'accompagne pas sa sœur dans sa révolte, choisissant la prudence plutôt que la résistance héroïque.",
+      "texte_cible": "Qu'est-ce qu'Ismène ne fait PAS ?\nA) Elle ne comprend pas Antigone\nB) Elle n'accompagne pas sa sœur dans sa révolte\nC) Elle ne respecte pas les traditions\nD) Elle ne pleure pas ses frères\nRéponse correcte: B) Elle n'accompagne pas sa sœur dans sa révolte\nExplication: Le refus d'Ismène de suivre sa sœur accentue la solitude héroïque d'Antigone."
+    },
+    {
+      "id": "section1_q12",
+      "section": 1,
+      "type": "echec_communication",
+      "difficulte": "moyen",
+      "theme_semantique": "dialogue_impossible",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les dialogues entre Antigone et Créon échouent à établir une véritable communication, chacun restant enfermé dans sa logique.",
+      "texte_cible": "Pourquoi les dialogues n'établissent-ils pas de vraie communication ?\nA) Parce qu'ils parlent trop vite\nB) Parce qu'ils s'interrompent constamment\nC) Parce que chacun reste enfermé dans sa logique\nD) Parce qu'ils utilisent des langues différentes\nRéponse correcte: C) Parce que chacun reste enfermé dans sa logique\nExplication: L'échec communicationnel révèle l'impossibilité de concilier deux visions du monde radicalement opposées."
+    },
+    {
+      "id": "section1_q13",
+      "section": 1,
+      "type": "analyse_temporelle",
+      "difficulte": "moyen",
+      "theme_semantique": "unite_temps",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'action se déroule en une journée, respectant l'unité de temps et créant une concentration dramatique intense.",
+      "texte_cible": "Quelle unité classique Anouilh respecte-t-il ?\nA) L'unité de lieu uniquement\nB) L'unité d'action uniquement\nC) L'unité de temps (une journée)\nD) Aucune unité classique\nRéponse correcte: C) L'unité de temps (une journée)\nExplication: Cette concentration temporelle intensifie l'effet tragique et maintient la tension dramatique."
+    },
+    {
+      "id": "section1_q14",
+      "section": 1,
+      "type": "echec_preventif",
+      "difficulte": "difficile",
+      "theme_semantique": "prevention_impossible",
+      "prefixe": "générer une question:",
+      "texte_entree": "Malgré tous les avertissements de son entourage, Antigone ne peut être détournée de son projet fatal.",
+      "texte_cible": "Pourquoi les avertissements ne parviennent-ils pas à sauver Antigone ?\nA) Parce qu'ils arrivent trop tard\nB) Parce qu'elle ne les comprend pas\nC) Parce qu'elle est déterminée à accomplir son destin\nD) Parce qu'ils manquent de sincérité\nRéponse correcte: C) Parce qu'elle est déterminée à accomplir son destin\nExplication: La détermination tragique d'Antigone rend vaine toute tentative de prévention."
+    },
+    {
+      "id": "section1_q15",
+      "section": 1,
+      "type": "negation_sociale",
+      "difficulte": "moyen",
+      "theme_semantique": "rejet_conventions",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne se conforme pas aux attentes sociales concernant le rôle des femmes dans la société antique.",
+      "texte_cible": "À quoi Antigone ne se conforme-t-elle PAS ?\nA) Aux lois divines\nB) Aux attentes sociales sur le rôle des femmes\nC) Aux traditions familiales\nD) Aux règles de bienséance\nRéponse correcte: B) Aux attentes sociales sur le rôle des femmes\nExplication: Le refus des conventions sociales fait d'Antigone une figure de la transgression féminine."
+    },
+    {
+      "id": "section1_q16",
+      "section": 1,
+      "type": "analyse_dualite",
+      "difficulte": "moyen",
+      "theme_semantique": "registres_meles",
+      "prefixe": "générer une question:",
+      "texte_entree": "Anouilh mêle habilement le registre tragique noble et le registre familier quotidien, créant une tonalité unique.",
+      "texte_cible": "Quelle innovation stylistique caractérise la pièce d'Anouilh ?\nA) L'utilisation exclusive du vers alexandrin\nB) Le mélange des registres tragique et familier\nC) L'emploi du patois régional\nD) L'adoption du style épique\nRéponse correcte: B) Le mélange des registres tragique et familier\nExplication: Cette innovation permet de moderniser la tragédie tout en conservant sa dimension universelle."
+    },
+    {
+      "id": "section1_q17",
+      "section": 1,
+      "type": "echec_institutionnel",
+      "difficulte": "difficile",
+      "theme_semantique": "justice_defaillante",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'institution judiciaire échoue à rendre une justice équitable, prisonnière des contraintes politiques et de la raison d'État.",
+      "texte_cible": "Pourquoi l'institution judiciaire échoue-t-elle ?\nA) Par manque de compétences techniques\nB) À cause de la corruption des juges\nC) Prisonnière des contraintes politiques\nD) Par excès de clémence\nRéponse correcte: C) Prisonnière des contraintes politiques\nExplication: L'échec institutionnel révèle la subordination de la justice aux impératifs politiques."
+    },
+    {
+      "id": "section1_q18",
+      "section": 1,
+      "type": "negation_maternelle",
+      "difficulte": "facile",
+      "theme_semantique": "impuissance_nourrice",
+      "prefixe": "générer une question:",
+      "texte_entree": "La Nourrice ne parvient pas à protéger Antigone malgré tout son amour maternel, révélant l'impuissance de l'affection face au destin.",
+      "texte_cible": "Que ne peut PAS faire la Nourrice ?\nA) Exprimer son amour à Antigone\nB) Protéger Antigone malgré son affection\nC) Comprendre les motivations d'Antigone\nD) Servir fidèlement la famille\nRéponse correcte: B) Protéger Antigone malgré son affection\nExplication: L'impuissance de la Nourrice illustre les limites de l'amour face à la fatalité tragique."
+    },
+    {
+      "id": "section1_q19",
+      "section": 1,
+      "type": "analyse_ironie",
+      "difficulte": "moyen",
+      "theme_semantique": "ironie_tragique",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'ironie tragique veut que Créon, en voulant protéger l'État, finisse par détruire sa propre famille.",
+      "texte_cible": "Quelle ironie tragique caractérise le sort de Créon ?\nA) Il perd le pouvoir en voulant le conserver\nB) Il détruit sa famille en voulant protéger l'État\nC) Il devient populaire en étant sévère\nD) Il trouve la paix en acceptant la guerre\nRéponse correcte: B) Il détruit sa famille en voulant protéger l'État\nExplication: Cette ironie tragique révèle les contradictions inhérentes à l'exercice du pouvoir politique."
+    },
+    {
+      "id": "section1_q20",
+      "section": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "titre_signification",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le titre met en avant le personnage d'Antigone, héroïne tragique qui donne son nom à la pièce et incarne la résistance.",
+      "texte_cible": "Pourquoi la pièce porte-t-elle le nom d'Antigone ?\nA) C'est le personnage le plus âgé\nB) C'est l'héroïne tragique qui incarne la résistance\nC) C'est le personnage le plus populaire\nD) C'est la seule femme de la pièce\nRéponse correcte: B) C'est l'héroïne tragique qui incarne la résistance\nExplication: Antigone est l'héroïne éponyme qui cristallise les enjeux tragiques et symbolise la résistance à l'oppression."
+    },
+    {
+      "id": "section1_q21",
+      "section": 1,
+      "type": "echec_generationnel",
+      "difficulte": "difficile",
+      "theme_semantique": "incomprehension_ages",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'incompréhension entre Antigone et Créon illustre aussi l'échec du dialogue intergénérationnel, la jeunesse idéaliste face à l'âge mûr pragmatique.",
+      "texte_cible": "Quel type d'incompréhension le conflit illustre-t-il également ?\nA) L'incompréhension entre les classes sociales\nB) L'incompréhension entre les sexes\nC) L'incompréhension intergénérationnelle\nD) L'incompréhension entre les religions\nRéponse correcte: C) L'incompréhension intergénérationnelle\nExplication: Le conflit révèle l'opposition classique entre l'idéalisme de la jeunesse et le pragmatisme de l'âge mûr."
+    },
+    {
+      "id": "section1_q22",
+      "section": 1,
+      "type": "negation_logique",
+      "difficulte": "moyen",
+      "theme_semantique": "rejet_rationalite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne suit pas la logique rationnelle que lui expose Créon, privilégiant l'émotion et l'intuition morale.",
+      "texte_cible": "Que ne suit PAS Antigone dans son comportement ?\nA) Ses sentiments profonds\nB) La logique rationnelle de Créon\nC) Ses convictions morales\nD) L'exemple de ses ancêtres\nRéponse correcte: B) La logique rationnelle de Créon\nExplication: Le rejet de la rationalité politique au profit de l'intuition morale caractérise l'héroïsme d'Antigone."
+    },
+    {
+      "id": "section1_q23",
+      "section": 1,
+      "type": "analyse_ambiguite",
+      "difficulte": "difficile",
+      "theme_semantique": "complexite_morale",
+      "prefixe": "générer une question:",
+      "texte_entree": "La pièce présente une ambiguïté morale car ni Antigone ni Créon ne sont entièrement dans l'erreur ou dans la vérité.",
+      "texte_cible": "Quelle caractéristique morale la pièce présente-t-elle ?\nA) Une morale claire et tranchée\nB) Une ambiguïté morale complexe\nC) Une absence totale de morale\nD) Une morale uniquement religieuse\nRéponse correcte: B) Une ambiguïté morale complexe\nExplication: Cette ambiguïté morale enrichit la pièce en évitant le manichéisme et en reflétant la complexité de la condition humaine."
+    },
+    {
+      "id": "section1_q24",
+      "section": 1,
+      "type": "echec_amoureux",
+      "difficulte": "moyen",
+      "theme_semantique": "sacrifice_amour",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'amour entre Antigone et Hémon ne peut triompher des circonstances tragiques, illustrant l'échec de l'amour face au destin.",
+      "texte_cible": "Pourquoi l'amour d'Antigone et Hémon échoue-t-il ?\nA) Par manque de sincérité mutuelle\nB) À cause de l'opposition des familles\nC) Face aux circonstances tragiques\nD) Par différence de classe sociale\nRéponse correcte: C) Face aux circonstances tragiques\nExplication: L'échec amoureux illustre l'impuissance des sentiments individuels face à la fatalité tragique."
+    },
+    {
+      "id": "section1_q25",
+      "section": 1,
+      "type": "negation_espoir",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_redemption",
+      "prefixe": "générer une question:",
+      "texte_entree": "Contrairement à d'autres tragédies, celle d'Anouilh n'offre pas de rédemption finale ou de réconciliation possible.",
+      "texte_cible": "Que n'offre PAS la tragédie d'Anouilh ?\nA) Une réflexion sur la condition humaine\nB) Une rédemption finale ou réconciliation\nC) Une analyse des rapports de pouvoir\nD) Une dimension politique\nRéponse correcte: B) Une rédemption finale ou réconciliation\nExplication: L'absence de rédemption accentue le pessimisme de la vision tragique d'Anouilh."
+    },
+    {
+      "id": "section1_q26",
+      "section": 1,
+      "type": "analyse_metatheatrale",
+      "difficulte": "difficile",
+      "theme_semantique": "theatre_dans_theatre",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le Prologue crée un effet métathéâtral en rappelant constamment au spectateur qu'il assiste à une représentation théâtrale.",
+      "texte_cible": "Quel effet le Prologue crée-t-il ?\nA) Un effet de surprise total\nB) Un effet métathéâtral de distanciation\nC) Un effet de suspense intense\nD) Un effet de réalisme absolu\nRéponse correcte: B) Un effet métathéâtral de distanciation\nExplication: Cette technique brechtienne avant la lettre permet une prise de distance critique sur l'action représentée."
+    },
+    {
+      "id": "section1_q27",
+      "section": 1,
+      "type": "echec_collectif",
+      "difficulte": "moyen",
+      "theme_semantique": "societe_impuissante",
+      "prefixe": "générer une question:",
+      "texte_entree": "La société thébaine dans son ensemble échoue à empêcher la tragédie, révélant l'impuissance collective face aux forces du destin.",
+      "texte_cible": "Quelle impuissance la société thébaine révèle-t-elle ?\nA) L'impuissance économique\nB) L'impuissance militaire\nC) L'impuissance collective face au destin\nD) L'impuissance technologique\nRéponse correcte: C) L'impuissance collective face au destin\nExplication: L'échec collectif souligne que la tragédie dépasse les capacités d'action individuelles et sociales."
+    },
+    {
+      "id": "section1_q28",
+      "section": 1,
+      "type": "negation_traditionelle",
+      "difficulte": "facile",
+      "theme_semantique": "rupture_codes",
+      "prefixe": "générer une question:",
+      "texte_entree": "La pièce ne respecte pas entièrement les codes traditionnels de la tragédie classique, innovant dans sa forme et son langage.",
+      "texte_cible": "Que ne respecte PAS entièrement la pièce d'Anouilh ?\nA) Les thèmes tragiques universels\nB) Les codes traditionnels de la tragédie classique\nC) La psychologie des personnages\nD) L'intrigue mythologique de base\nRéponse correcte: B) Les codes traditionnels de la tragédie classique\nExplication: Cette innovation formelle permet à Anouilh de renouveler le genre tragique pour son époque."
+    },
+    {
+      "id": "section1_q29",
+      "section": 1,
+      "type": "analyse_paradoxe_final",
+      "difficulte": "difficile",
+      "theme_semantique": "victoire_defaite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Paradoxalement, Antigone remporte une victoire morale en mourant, tandis que Créon, vivant, subit une défaite spirituelle.",
+      "texte_cible": "Quel paradoxe final caractérise l'issue de la pièce ?\nA) Le faible vainc le fort\nB) La mort d'Antigone devient victoire morale\nC) La justice triomphe de l'injustice\nD) L'amour vainc la haine\nRéponse correcte: B) La mort d'Antigone devient victoire morale\nExplication: Ce paradoxe illustre que la victoire tragique ne se mesure pas à la survie physique mais à l'intégrité morale."
+    },
+    {
+      "id": "section1_q30",
+      "section": 1,
+      "type": "synthese_echecs",
+      "difficulte": "difficile",
+      "theme_semantique": "multiplicite_echecs",
+      "prefixe": "générer une question:",
+      "texte_entree": "La pièce accumule les échecs : échec du dialogue, de la politique, de l'amour, de la famille, créant une vision pessimiste de la condition humaine.",
+      "texte_cible": "Quels types d'échecs la pièce accumule-t-elle ?\nA) Échecs économiques et sociaux uniquement\nB) Échecs du dialogue, de la politique, de l'amour, de la famille\nC) Échecs militaires et diplomatiques\nD) Échecs artistiques et culturels\nRéponse correcte: B) Échecs du dialogue, de la politique, de l'amour, de la famille\nExplication: Cette accumulation d'échecs multiples crée une vision pessimiste mais lucide de la condition humaine moderne."
+    },
+    {
+      "id": "section2_q1",
+      "section": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "confrontation_initiale",
+      "prefixe": "générer une question:",
+      "texte_entree": "La première confrontation entre Antigone et Créon révèle immédiatement l'irréductibilité de leurs positions respectives.",
+      "texte_cible": "Que révèle la première confrontation entre les protagonistes ?\nA) Leur possibilité de réconciliation\nB) L'irréductibilité de leurs positions\nC) Leur amour mutuel\nD) Leur incompétence politique\nRéponse correcte: B) L'irréductibilité de leurs positions\nExplication: Cette confrontation initiale établit d'emblée l'impossibilité de tout compromis entre les deux visions du monde."
+    },
+    {
+      "id": "section2_q2",
+      "section": 2,
+      "type": "negation_autoritaire",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_obeissance",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne reconnaît pas l'autorité de Créon, contestant la légitimité même de son pouvoir sur les questions morales.",
+      "texte_cible": "Que ne reconnaît PAS Antigone chez Créon ?\nA) Son intelligence politique\nB) Son autorité sur les questions morales\nC) Ses qualités humaines\nD) Son statut de roi\nRéponse correcte: B) Son autorité sur les questions morales\nExplication: Ce refus de reconnaissance révèle la distinction fondamentale entre pouvoir politique et autorité morale."
+    },
+    {
+      "id": "section2_q3",
+      "section": 2,
+      "type": "echec_persuasion",
+      "difficulte": "difficile",
+      "theme_semantique": "rhetorique_impuissante",
+      "prefixe": "générer une question:",
+      "texte_entree": "Malgré sa maîtrise rhétorique et ses arguments rationnels, Créon échoue à convaincre Antigone de la justesse de sa position.",
+      "texte_cible": "Pourquoi la rhétorique de Créon échoue-t-elle ?\nA) Par manque de sincérité\nB) Par mauvaise maîtrise technique\nC) Face à l'irréductibilité des convictions d'Antigone\nD) Par excès de complexité\nRéponse correcte: C) Face à l'irréductibilité des convictions d'Antigone\nExplication: L'échec rhétorique illustre les limites de la persuasion face aux convictions absolues."
+    },
+    {
+      "id": "section2_q4",
+      "section": 2,
+      "type": "analyse_revelation",
+      "difficulte": "moyen",
+      "theme_semantique": "verite_eteocle_polynice",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon révèle à Antigone que ses deux frères étaient également corrompus, tentant de détruire ses illusions héroïques.",
+      "texte_cible": "Quelle révélation Créon fait-il à Antigone ?\nA) Que Polynice était innocent\nB) Que ses deux frères étaient corrompus\nC) Que la guerre était évitable\nD) Que leur père était coupable\nRéponse correcte: B) Que ses deux frères étaient corrompus\nExplication: Cette révélation cynique vise à détruire les illusions d'Antigone sur la noblesse de sa cause."
+    },
+    {
+      "id": "section2_q5",
+      "section": 2,
+      "type": "negation_desillusion",
+      "difficulte": "moyen",
+      "theme_semantique": "resistance_verite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne se laisse pas ébranler par les révélations de Créon sur la corruption de ses frères, maintenant sa détermination.",
+      "texte_cible": "Que ne fait PAS Antigone face aux révélations de Créon ?\nA) Elle ne les conteste pas\nB) Elle ne se laisse pas ébranler\nC) Elle ne les comprend pas\nD) Elle ne les accepte pas\nRéponse correcte: B) Elle ne se laisse pas ébranler\nExplication: Cette résistance aux révélations démontre que sa motivation dépasse les circonstances particulières."
+    },
+    {
+      "id": "section2_q6",
+      "section": 2,
+      "type": "echec_chantage",
+      "difficulte": "difficile",
+      "theme_semantique": "manipulation_inefficace",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les tentatives de chantage affectif de Créon échouent car Antigone a déjà accepté de sacrifier son bonheur personnel.",
+      "texte_cible": "Pourquoi le chantage affectif de Créon échoue-t-il ?\nA) Parce qu'Antigone ne l'aime pas\nB) Parce qu'elle a déjà accepté le sacrifice\nC) Parce qu'elle ne comprend pas\nD) Parce qu'elle est trop jeune\nRéponse correcte: B) Parce qu'elle a déjà accepté le sacrifice\nExplication: L'échec du chantage révèle qu'Antigone a dépassé l'attachement aux biens terrestres."
+    },
+    {
+      "id": "section2_q7",
+      "section": 2,
+      "type": "analyse_pragmatisme",
+      "difficulte": "moyen",
+      "theme_semantique": "realisme_politique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon expose son pragmatisme politique, expliquant que gouverner implique parfois de faire des choix moralement discutables.",
+      "texte_cible": "Quelle conception du pouvoir Créon défend-il ?\nA) Le pouvoir absolu et tyrannique\nB) Le pragmatisme politique réaliste\nC) L'idéalisme moral pur\nD) L'anarchisme libertaire\nRéponse correcte: B) Le pragmatisme politique réaliste\nExplication: Cette conception pragmatique s'oppose à l'idéalisme absolu d'Antigone."
+    },
+    {
+      "id": "section2_q8",
+      "section": 2,
+      "type": "negation_compromise",
+      "difficulte": "facile",
+      "theme_semantique": "inflexibilite_morale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne transige pas sur ses principes moraux, même face aux arguments les plus convaincants de Créon.",
+      "texte_cible": "Sur quoi Antigone ne transige-t-elle PAS ?\nA) Sur ses sentiments amoureux\nB) Sur ses principes moraux\nC) Sur ses goûts personnels\nD) Sur ses projets d'avenir\nRéponse correcte: B) Sur ses principes moraux\nExplication: Cette inflexibilité morale caractérise l'héroïsme tragique d'Antigone."
+    },
+    {
+      "id": "section2_q9",
+      "section": 2,
+      "type": "echec_temporisation",
+      "difficulte": "difficile",
+      "theme_semantique": "urgence_tragique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon échoue à gagner du temps pour trouver une solution, car Antigone refuse tout délai et précipite le dénouement.",
+      "texte_cible": "Pourquoi Créon ne peut-il gagner du temps ?\nA) Par manque d'autorité\nB) Par pression populaire\nC) Parce qu'Antigone refuse tout délai\nD) Par contraintes légales\nRéponse correcte: C) Parce qu'Antigone refuse tout délai\nExplication: Ce refus du délai illustre l'urgence tragique qui caractérise l'action d'Antigone."
+    },
+    {
+      "id": "section2_q10",
+      "section": 2,
+      "type": "analyse_contradiction_creon",
+      "difficulte": "moyen",
+      "theme_semantique": "souffrance_dirigeant",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon révèle sa propre souffrance de dirigeant, contraint d'appliquer des décisions qu'il désapprouve personnellement.",
+      "texte_cible": "Quelle souffrance Créon révèle-t-il ?\nA) La souffrance de l'incompréhension\nB) La souffrance du dirigeant contraint\nC) La souffrance de la solitude\nD) La souffrance de l'injustice subie\nRéponse correcte: B) La souffrance du dirigeant contraint\nExplication: Cette souffrance humanise Créon et révèle les dilemmes moraux du pouvoir."
+    },
+    {
+      "id": "section2_q11",
+      "section": 2,
+      "type": "negation_emotionnelle",
+      "difficulte": "moyen",
+      "theme_semantique": "detachement_affectif",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne se laisse pas émouvoir par les arguments sentimentaux de Créon, maintenant sa détermination rationnelle.",
+      "texte_cible": "Par quoi Antigone ne se laisse-t-elle PAS émouvoir ?\nA) Par la beauté de la nature\nB) Par les arguments sentimentaux de Créon\nC) Par l'amour d'Hémon\nD) Par les pleurs de la Nourrice\nRéponse correcte: B) Par les arguments sentimentaux de Créon\nExplication: Ce détachement affectif révèle la supériorité morale d'Antigone sur les considérations émotionnelles."
+    },
+    {
+      "id": "section2_q12",
+      "section": 2,
+      "type": "echec_menace",
+      "difficulte": "difficile",
+      "theme_semantique": "intimidation_inefficace",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les menaces de Créon échouent à intimider Antigone, qui a déjà accepté les conséquences de ses actes.",
+      "texte_cible": "Pourquoi les menaces de Créon sont-elles inefficaces ?\nA) Parce qu'elles manquent de crédibilité\nB) Parce qu'Antigone a accepté les conséquences\nC) Parce qu'elles sont trop violentes\nD) Parce qu'elles arrivent trop tard\nRéponse correcte: B) Parce qu'Antigone a accepté les conséquences\nExplication: L'acceptation préalable des conséquences rend Antigone invulnérable aux menaces."
+    },
+    {
+      "id": "section2_q13",
+      "section": 2,
+      "type": "analyse_desespoir",
+      "difficulte": "moyen",
+      "theme_semantique": "impuissance_creon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le désespoir de Créon grandit au fur et à mesure qu'il réalise son impuissance face à la détermination d'Antigone.",
+      "texte_cible": "Quel sentiment grandit chez Créon pendant la confrontation ?\nA) La colère\nB) Le désespoir\nC) L'admiration\nD) L'indifférence\nRéponse correcte: B) Le désespoir\nExplication: Ce désespoir croissant révèle l'échec progressif de tous les moyens de persuasion de Créon."
+    },
+    {
+      "id": "section2_q14",
+      "section": 2,
+      "type": "negation_hierarchie",
+      "difficulte": "facile",
+      "theme_semantique": "egalite_morale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne reconnaît pas la hiérarchie sociale qui devrait la soumettre à l'autorité de Créon en tant que roi.",
+      "texte_cible": "Que ne reconnaît PAS Antigone ?\nA) L'intelligence de Créon\nB) La hiérarchie sociale\nC) Sa propre jeunesse\nD) Les traditions familiales\nRéponse correcte: B) La hiérarchie sociale\nExplication: Ce refus de la hiérarchie établit l'égalité morale fondamentale entre les individus."
+    },
+    {
+      "id": "section2_q15",
+      "section": 2,
+      "type": "echec_seduction",
+      "difficulte": "moyen",
+      "theme_semantique": "charme_impuissant",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon échoue à séduire Antigone par ses offres de bonheur bourgeois, qui ne correspondent pas à ses aspirations.",
+      "texte_cible": "Pourquoi les offres de bonheur de Créon échouent-elles ?\nA) Parce qu'elles sont insincères\nB) Parce qu'elles ne correspondent pas aux aspirations d'Antigone\nC) Parce qu'elles arrivent trop tard\nD) Parce qu'elles sont insuffisantes\nRéponse correcte: B) Parce qu'elles ne correspondent pas aux aspirations d'Antigone\nExplication: L'échec de la séduction révèle l'incompatibilité entre les valeurs bourgeoises et l'idéal tragique."
+    },
+    {
+      "id": "section2_q16",
+      "section": 2,
+      "type": "analyse_revelation_progressive",
+      "difficulte": "difficile",
+      "theme_semantique": "demasquage_mutuel",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le dialogue permet un démasquage progressif des vraies motivations de chaque personnage au-delà des apparences.",
+      "texte_cible": "Que permet le dialogue entre Antigone et Créon ?\nA) Une réconciliation progressive\nB) Un démasquage des vraies motivations\nC) Une compréhension mutuelle\nD) Une négociation équitable\nRéponse correcte: B) Un démasquage des vraies motivations\nExplication: Ce démasquage révèle la complexité psychologique des personnages au-delà des positions officielles."
+    },
+    {
+      "id": "section2_q17",
+      "section": 2,
+      "type": "negation_pitie",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_compassion",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne cherche pas à inspirer la pitié à Créon, refusant de se présenter comme une victime.",
+      "texte_cible": "Que ne cherche PAS Antigone à inspirer ?\nA) Le respect\nB) La pitié\nC) La compréhension\nD) L'admiration\nRéponse correcte: B) La pitié\nExplication: Ce refus de la pitié maintient la dignité héroïque d'Antigone et évite la victimisation."
+    },
+    {
+      "id": "section2_q18",
+      "section": 2,
+      "type": "echec_paternalisme",
+      "difficulte": "difficile",
+      "theme_semantique": "autorite_paternelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'attitude paternaliste de Créon échoue à créer une relation de confiance avec Antigone, qui rejette cette posture.",
+      "texte_cible": "Pourquoi l'attitude paternaliste de Créon échoue-t-elle ?\nA) Parce qu'elle manque de sincérité\nB) Parce qu'Antigone la rejette\nC) Parce qu'elle est mal exprimée\nD) Parce qu'elle arrive trop tard\nRéponse correcte: B) Parce qu'Antigone la rejette\nExplication: Ce rejet du paternalisme affirme l'autonomie morale d'Antigone face aux figures d'autorité."
+    },
+    {
+      "id": "section2_q19",
+      "section": 2,
+      "type": "analyse_intensite",
+      "difficulte": "moyen",
+      "theme_semantique": "crescendo_dramatique",
+      "prefixe": "générer une question:",
+      "texte_entree": "La tension dramatique s'intensifie progressivement pendant la confrontation jusqu'à atteindre un point de non-retour.",
+      "texte_cible": "Comment évolue la tension pendant la confrontation ?\nA) Elle diminue progressivement\nB) Elle reste constante\nC) Elle s'intensifie jusqu'au point de non-retour\nD) Elle fluctue de façon imprévisible\nRéponse correcte: C) Elle s'intensifie jusqu'au point de non-retour\nExplication: Cette intensification progressive crée l'effet cathartique propre à la tragédie."
+    },
+    {
+      "id": "section2_q20",
+      "section": 2,
+      "type": "negation_avenir",
+      "difficulte": "facile",
+      "theme_semantique": "refus_projection",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne se projette pas dans l'avenir que lui propose Créon, restant focalisée sur l'accomplissement de son devoir présent.",
+      "texte_cible": "Dans quoi Antigone ne se projette-t-elle PAS ?\nA) Dans ses souvenirs d'enfance\nB) Dans l'avenir proposé par Créon\nC) Dans ses relations familiales\nD) Dans ses convictions morales\nRéponse correcte: B) Dans l'avenir proposé par Créon\nExplication: Ce refus de projection révèle la concentration d'Antigone sur l'impératif moral immédiat."
+    },
+    {
+      "id": "section2_q21",
+      "section": 2,
+      "type": "echec_authorite_morale",
+      "difficulte": "difficile",
+      "theme_semantique": "legitimite_contestee",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon échoue à établir son autorité morale face à Antigone, qui conteste la légitimité de ses arguments éthiques.",
+      "texte_cible": "Quel type d'autorité Créon échoue-t-il à établir ?\nA) L'autorité politique\nB) L'autorité morale\nC) L'autorité familiale\nD) L'autorité militaire\nRéponse correcte: B) L'autorité morale\nExplication: Cet échec révèle que l'autorité politique ne confère pas automatiquement l'autorité morale."
+    },
+    {
+      "id": "section2_q22",
+      "section": 2,
+      "type": "analyse_solitude",
+      "difficulte": "moyen",
+      "theme_semantique": "isolement_heroique",
+      "prefixe": "générer une question:",
+      "texte_entree": "La confrontation révèle la solitude fondamentale d'Antigone, qui assume seule sa révolte contre l'ordre établi.",
+      "texte_cible": "Que révèle la confrontation sur Antigone ?\nA) Sa naïveté politique\nB) Sa solitude fondamentale\nC) Son manque d'expérience\nD) Sa peur secrète\nRéponse correcte: B) Sa solitude fondamentale\nExplication: Cette solitude héroïque caractérise la condition tragique de celui qui défie l'ordre établi."
+    },
+    {
+      "id": "section2_q23",
+      "section": 2,
+      "type": "negation_sagesse",
+      "difficulte": "moyen",
+      "theme_semantique": "rejet_experience",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne se laisse pas convaincre par la sagesse de l'expérience que lui oppose Créon, privilégiant l'élan de la jeunesse.",
+      "texte_cible": "Par quoi Antigone ne se laisse-t-elle PAS convaincre ?\nA) Par les arguments logiques\nB) Par la sagesse de l'expérience\nC) Par les preuves historiques\nD) Par les témoignages d'autrui\nRéponse correcte: B) Par la sagesse de l'expérience\nExplication: Ce refus illustre l'opposition entre la sagesse acquise et l'idéalisme juvénile."
+    },
+    {
+      "id": "section2_q24",
+      "section": 2,
+      "type": "echec_compromis_politique",
+      "difficulte": "difficile",
+      "theme_semantique": "impossibilite_negociation",
+      "prefixe": "générer une question:",
+      "texte_entree": "Toutes les tentatives de compromis politique échouent car Antigone refuse de considérer sa désobéissance comme négociable.",
+      "texte_cible": "Pourquoi les compromis politiques échouent-ils ?\nA) Par manque de temps\nB) Par manque de volonté\nC) Parce qu'Antigone refuse de négocier sa désobéissance\nD) Par manque de médiateurs\nRéponse correcte: C) Parce qu'Antigone refuse de négocier sa désobéissance\nExplication: Ce refus de négociation révèle le caractère absolu de la conviction morale d'Antigone."
+    },
+    {
+      "id": "section2_q25",
+      "section": 2,
+      "type": "analyse_revelation_creon",
+      "difficulte": "moyen",
+      "theme_semantique": "humanite_tyran",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon révèle son humanité derrière le masque du pouvoir, montrant qu'il n'est pas un tyran par nature mais par nécessité.",
+      "texte_cible": "Que révèle Créon sur lui-même ?\nA) Sa cruauté naturelle\nB) Son humanité derrière le masque du pouvoir\nC) Son incompétence politique\nD) Sa lâcheté fondamentale\nRéponse correcte: B) Son humanité derrière le masque du pouvoir\nExplication: Cette révélation humanise Créon et complexifie la vision manichéenne du pouvoir."
+    },
+    {
+      "id": "section2_q26",
+      "section": 2,
+      "type": "negation_realisme",
+      "difficulte": "moyen",
+      "theme_semantique": "idealisme_absolu",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne se laisse pas convaincre par les arguments réalistes de Créon, maintenant son idéalisme absolu.",
+      "texte_cible": "Par quoi Antigone ne se laisse-t-elle PAS convaincre ?\nA) Par les arguments réalistes\nB) Par les preuves concrètes\nC) Par les exemples historiques\nD) Par les témoignages directs\nRéponse correcte: A) Par les arguments réalistes\nExplication: Ce refus du réalisme maintient Antigone dans sa dimension héroïque et tragique."
+    },
+    {
+      "id": "section2_q27",
+      "section": 2,
+      "type": "echec_derniere_chance",
+      "difficulte": "difficile",
+      "theme_semantique": "ultime_tentative",
+      "prefixe": "générer une question:",
+      "texte_entree": "La dernière tentative de Créon pour sauver Antigone échoue car elle a déjà franchi le point de non-retour psychologique.",
+      "texte_cible": "Pourquoi la dernière tentative de Créon échoue-t-elle ?\nA) Par manque de conviction\nB) Par manque de temps\nC) Parce qu'Antigone a franchi le point de non-retour\nD) Par manque de moyens\nRéponse correcte: C) Parce qu'Antigone a franchi le point de non-retour\nExplication: Ce point de non-retour psychologique caractérise l'irréversibilité de la décision tragique."
+    },
+    {
+      "id": "section2_q28",
+      "section": 2,
+      "type": "analyse_double_echec",
+      "difficulte": "moyen",
+      "theme_semantique": "perdants_mutuels",
+      "prefixe": "générer une question:",
+      "texte_entree": "La confrontation se solde par un double échec : Créon ne peut sauver Antigone, et Antigone ne peut convaincre Créon.",
+      "texte_cible": "Par quoi se solde la confrontation ?\nA) Par la victoire d'Antigone\nB) Par la victoire de Créon\nC) Par un double échec\nD) Par une réconciliation\nRéponse correcte: C) Par un double échec\nExplication: Ce double échec illustre l'impossibilité tragique de concilier des visions du monde opposées."
+    },
+    {
+      "id": "section2_q29",
+      "section": 2,
+      "type": "negation_final",
+      "difficulte": "facile",
+      "theme_semantique": "refus_ultime",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne cède pas jusqu'au bout, maintenant son refus jusqu'à la fin de la confrontation.",
+      "texte_cible": "Que ne fait PAS Antigone jusqu'au bout ?\nA) Elle ne cède pas\nB) Elle ne comprend pas\nC) Elle ne répond pas\nD) Elle ne pleure pas\nRéponse correcte: A) Elle ne cède pas\nExplication: Cette constance dans le refus caractérise la fermeté héroïque d'Antigone."
+    },
+    {
+      "id": "section2_q30",
+      "section": 2,
+      "type": "synthese_confrontation",
+      "difficulte": "difficile",
+      "theme_semantique": "essence_tragique",
+      "prefixe": "générer une question:",
+      "texte_entree": "La confrontation entre Antigone et Créon cristallise l'essence même de la tragédie : l'affrontement irréductible entre deux absolus.",
+      "texte_cible": "Que cristallise la confrontation entre les protagonistes ?\nA) L'opposition des générations\nB) L'essence même de la tragédie\nC) Le conflit des classes sociales\nD) La lutte entre les sexes\nRéponse correcte: B) L'essence même de la tragédie\nExplication: Cette cristallisation révèle que la tragédie naît de l'impossibilité de concilier deux absolus moraux."
+    },
+    {
+  "id": "section3_q1",
+  "section": 3,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "intervention_hemon",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon intervient pour tenter de sauver Antigone, sa fiancée, en essayant de convaincre son père Créon de la clémence.",
+  "texte_cible": "Pourquoi Hémon intervient-il dans la pièce ?\nA) Pour conquérir le pouvoir\nB) Pour sauver Antigone sa fiancée\nC) Pour venger ses frères\nD) Pour défendre Thèbes\nRéponse correcte: B) Pour sauver Antigone sa fiancée\nExplication: L'intervention d'Hémon est motivée par l'amour et le désir de sauver sa fiancée de la mort."
+},
+{
+  "id": "section3_q2",
+  "section": 3,
+  "type": "negation_filiation",
+  "difficulte": "moyen",
+  "theme_semantique": "rupture_pere_fils",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon ne peut accepter la décision de son père et remet en question l'autorité paternelle pour la première fois.",
+  "texte_cible": "Que ne peut PAS accepter Hémon ?\nA) Le mariage avec Antigone\nB) La décision paternelle de condamner Antigone\nC) Son rôle de prince héritier\nD) La guerre civile à Thèbes\nRéponse correcte: B) La décision paternelle de condamner Antigone\nExplication: Cette rupture marque la première rébellion d'Hémon contre l'autorité de son père."
+},
+{
+  "id": "section3_q3",
+  "section": 3,
+  "type": "echec_relationnel",
+  "difficulte": "difficile",
+  "theme_semantique": "dialogue_impossible",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le dialogue entre Hémon et Créon échoue car ils parlent de deux amours différents : l'amour filial et l'amour passionné.",
+  "texte_cible": "Pourquoi le dialogue père-fils échoue-t-il ?\nA) Par manque de temps pour s'expliquer\nB) Parce qu'ils parlent de deux amours différents\nC) À cause de l'orgueil mutuel\nD) Par incompréhension générationnelle\nRéponse correcte: B) Parce qu'ils parlent de deux amours différents\nExplication: L'échec vient de l'incompréhension entre amour filial et amour passionné."
+},
+{
+  "id": "section3_q4",
+  "section": 3,
+  "type": "analyse_paradoxe",
+  "difficulte": "moyen",
+  "theme_semantique": "amour_destructeur",
+  "prefixe": "générer une question:",
+  "texte_entree": "Paradoxalement, l'amour d'Hémon pour Antigone le mène à la destruction et à la mort.",
+  "texte_cible": "Quel paradoxe caractérise l'amour d'Hémon ?\nA) Il aime sans être aimé en retour\nB) Il détruit ce qu'il veut protéger\nC) Il le mène à la destruction\nD) Il le rend aveugle à la réalité\nRéponse correcte: C) Il le mène à la destruction\nExplication: L'amour, force créatrice, devient paradoxalement force destructrice pour Hémon."
+},
+{
+  "id": "section3_q5",
+  "section": 3,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "suicide_hemon",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon se suicide après avoir découvert le corps d'Antigone, ne supportant pas de vivre sans elle.",
+  "texte_cible": "Comment Hémon réagit-il à la mort d'Antigone ?\nA) Il se résigne à son sort\nB) Il se suicide\nC) Il exile son père\nD) Il renonce au trône\nRéponse correcte: B) Il se suicide\nExplication: Le suicide d'Hémon révèle la profondeur de son amour et son refus de vivre sans Antigone."
+},
+{
+  "id": "section3_q6",
+  "section": 3,
+  "type": "echec_pedagogique",
+  "difficulte": "difficile",
+  "theme_semantique": "education_ratee",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon échoue à éduquer son fils sur les nécessités politiques, montrant l'impuissance de la raison face à la passion.",
+  "texte_cible": "Pourquoi Créon échoue-t-il à convaincre son fils ?\nA) Par manque de temps\nB) Parce que la passion l'emporte sur la raison\nC) Par autoritarisme excessif\nD) Par manque d'arguments\nRéponse correcte: B) Parce que la passion l'emporte sur la raison\nExplication: L'échec révèle les limites de l'éducation rationnelle face aux élans passionnels."
+},
+{
+  "id": "section3_q7",
+  "section": 3,
+  "type": "negation",
+  "difficulte": "moyen",
+  "theme_semantique": "refus_sagesse",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon refuse la sagesse politique que son père veut lui transmettre, préférant l'idéalisme amoureux.",
+  "texte_cible": "Que refuse Hémon de son père ?\nA) L'héritage du trône\nB) La sagesse politique\nC) L'autorité paternelle\nD) Le mariage arrangé\nRéponse correcte: B) La sagesse politique\nExplication: Ce refus marque l'opposition entre pragmatisme politique et idéalisme juvénile."
+},
+{
+  "id": "section3_q8",
+  "section": 3,
+  "type": "analyse_contradiction",
+  "difficulte": "moyen",
+  "theme_semantique": "fils_contre_pere",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon se trouve dans la contradiction d'aimer son père tout en le combattant pour sauver Antigone.",
+  "texte_cible": "Quelle contradiction Hémon doit-il affronter ?\nA) Aimer son père tout en le combattant\nB) Être prince tout en restant simple\nC) Vouloir régner tout en fuyant le pouvoir\nD) Aimer Antigone tout en la craignant\nRéponse correcte: A) Aimer son père tout en le combattant\nExplication: Cette contradiction filiale illustre la déchirure entre loyauté familiale et conviction personnelle."
+},
+{
+  "id": "section3_q9",
+  "section": 3,
+  "type": "echec_systeme",
+  "difficulte": "difficile",
+  "theme_semantique": "succession_impossible",
+  "prefixe": "générer une question:",
+  "texte_entree": "La succession dynastique échoue car Hémon préfère mourir plutôt que d'accepter l'héritage politique de son père.",
+  "texte_cible": "Pourquoi la succession dynastique échoue-t-elle ?\nA) Par manque d'héritier légitime\nB) Parce qu'Hémon préfère mourir que régner\nC) À cause de l'opposition populaire\nD) Par intervention divine\nRéponse correcte: B) Parce qu'Hémon préfère mourir que régner\nExplication: L'échec de la succession révèle le rejet des valeurs politiques par la nouvelle génération."
+},
+{
+  "id": "section3_q10",
+  "section": 3,
+  "type": "culture_psychologique",
+  "difficulte": "moyen",
+  "theme_semantique": "conflit_oedipien",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le conflit entre Hémon et Créon peut être interprété comme un conflit œdipien moderne où le fils défie l'autorité paternelle.",
+  "texte_cible": "Comment peut-on interpréter le conflit Hémon-Créon ?\nA) Comme un conflit de générations\nB) Comme un conflit œdipien moderne\nC) Comme un conflit de classes\nD) Comme un conflit idéologique\nRéponse correcte: B) Comme un conflit œdipien moderne\nExplication: Cette interprétation psychanalytique éclaire la dimension inconsciente du conflit père-fils."
+},
+{
+  "id": "section3_q11",
+  "section": 3,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "emotion_creon",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon souffre de devoir s'opposer à son fils et montre une émotion qu'il essaie de dissimuler.",
+  "texte_cible": "Que ressent Créon face à l'opposition de son fils ?\nA) De la colère pure\nB) De la souffrance qu'il dissimule\nC) De l'indifférence\nD) De la fierté\nRéponse correcte: B) De la souffrance qu'il dissimule\nExplication: Cette souffrance révèle l'humanité de Créon derrière sa façade de dirigeant inflexible."
+},
+{
+  "id": "section3_q12",
+  "section": 3,
+  "type": "negation_absolue",
+  "difficulte": "moyen",
+  "theme_semantique": "refus_compromis_hemon",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon refuse absolument tout compromis qui pourrait sauver Antigone sans remettre en cause l'autorité de Créon.",
+  "texte_cible": "Que refuse absolument Hémon ?\nA) De parler à son père\nB) Tout compromis qui ne sauve pas Antigone\nC) De se marier\nD) D'hériter du trône\nRéponse correcte: B) Tout compromis qui ne sauve pas Antigone\nExplication: Ce refus absolu montre l'intransigeance d'Hémon, miroir de celle d'Antigone."
+},
+{
+  "id": "section3_q13",
+  "section": 3,
+  "type": "analyse_parallele",
+  "difficulte": "difficile",
+  "theme_semantique": "doubles_antigone_hemon",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon et Antigone forment un couple tragique uni dans l'intransigeance et le refus du monde adulte.",
+  "texte_cible": "Qu'unit Hémon et Antigone dans la tragédie ?\nA) L'amour passionné\nB) L'intransigeance et le refus du monde adulte\nC) La haine de Créon\nD) L'ambition politique\nRéponse correcte: B) L'intransigeance et le refus du monde adulte\nExplication: Cette union dans l'intransigeance fait d'eux les représentants de l'idéalisme juvénile."
+},
+{
+  "id": "section3_q14",
+  "section": 3,
+  "type": "echec_communication",
+  "difficulte": "moyen",
+  "theme_semantique": "surdite_mutuelle",
+  "prefixe": "générer une question:",
+  "texte_entree": "Père et fils ne s'entendent plus, chacun restant sourd aux arguments de l'autre.",
+  "texte_cible": "Que révèle l'échec de communication entre père et fils ?\nA) Un manque d'intelligence\nB) Une surdité mutuelle aux arguments\nC) Un manque de temps\nD) Une différence de langue\nRéponse correcte: B) Une surdité mutuelle aux arguments\nExplication: Cette surdité illustre l'impossibilité de communication entre deux visions du monde opposées."
+},
+{
+  "id": "section3_q15",
+  "section": 3,
+  "type": "culture_litteraire",
+  "difficulte": "moyen",
+  "theme_semantique": "tragedie_moderne",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le conflit familial d'Anouilh modernise la tragédie antique en y intégrant des problématiques psychologiques contemporaines.",
+  "texte_cible": "Comment Anouilh modernise-t-il la tragédie antique ?\nA) En changeant l'époque\nB) En intégrant des problématiques psychologiques contemporaines\nC) En supprimant les dieux\nD) En ajoutant des personnages\nRéponse correcte: B) En intégrant des problématiques psychologiques contemporaines\nExplication: Cette modernisation rend la tragédie accessible au public du XXe siècle."
+},
+{
+  "id": "section3_q16",
+  "section": 3,
+  "type": "analyse_ironie",
+  "difficulte": "difficile",
+  "theme_semantique": "ironie_tragique",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'ironie tragique veut que Créon, en voulant sauver son fils, provoque sa perte définitive.",
+  "texte_cible": "Quelle ironie tragique caractérise l'action de Créon ?\nA) Il sauve qui il veut perdre\nB) Il provoque la perte de qui il veut sauver\nC) Il comprend trop tard\nD) Il agit contre ses intérêts\nRéponse correcte: B) Il provoque la perte de qui il veut sauver\nExplication: Cette ironie révèle la cruauté du destin qui retourne les intentions contre leurs auteurs."
+},
+{
+  "id": "section3_q17",
+  "section": 3,
+  "type": "negation",
+  "difficulte": "moyen",
+  "theme_semantique": "incomprehension_jeunesse",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon ne comprend pas que la jeunesse puisse préférer la mort à la compromission.",
+  "texte_cible": "Que ne comprend PAS Créon chez les jeunes ?\nA) Leur besoin d'amour\nB) Leur préférence pour la mort plutôt que la compromission\nC) Leur éducation moderne\nD) Leur manque d'expérience\nRéponse correcte: B) Leur préférence pour la mort plutôt que la compromission\nExplication: Cette incompréhension révèle le fossé entre pragmatisme adulte et idéalisme juvénile."
+},
+{
+  "id": "section3_q18",
+  "section": 3,
+  "type": "echec_autorite",
+  "difficulte": "difficile",
+  "theme_semantique": "limite_pouvoir_paternel",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'autorité paternelle de Créon échoue face à la détermination amoureuse d'Hémon, révélant ses limites.",
+  "texte_cible": "Quelle limite de l'autorité paternelle la pièce révèle-t-elle ?\nA) Elle ne peut pas contrôler l'amour\nB) Elle ne peut pas éduquer\nC) Elle ne peut pas protéger\nD) Elle ne peut pas transmettre\nRéponse correcte: A) Elle ne peut pas contrôler l'amour\nExplication: Cette limite montre que l'amour échappe à toute autorité, même paternelle."
+},
+{
+  "id": "section3_q19",
+  "section": 3,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "desespoir_creon",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon exprime son désespoir de ne pouvoir sauver ni Antigone ni son fils de leur obstination.",
+  "texte_cible": "Que ressent Créon face à l'obstination des jeunes ?\nA) De la colère\nB) Du désespoir\nC) De l'admiration\nD) De l'indifférence\nRéponse correcte: B) Du désespoir\nExplication: Ce désespoir révèle l'impuissance de l'adulte face à l'intransigeance juvénile."
+},
+{
+  "id": "section3_q20",
+  "section": 3,
+  "type": "analyse_contradiction",
+  "difficulte": "moyen",
+  "theme_semantique": "amour_obstacle",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'amour d'Hémon pour Antigone devient paradoxalement un obstacle à sa propre survie.",
+  "texte_cible": "Quelle contradiction l'amour d'Hémon révèle-t-il ?\nA) Il aime qui le rejette\nB) Il devient un obstacle à sa survie\nC) Il détruit ce qu'il protège\nD) Il isole au lieu d'unir\nRéponse correcte: B) Il devient un obstacle à sa survie\nExplication: Cette contradiction montre que l'amour peut devenir autodestructeur."
+},
+{
+  "id": "section3_q21",
+  "section": 3,
+  "type": "echec_transmission",
+  "difficulte": "difficile",
+  "theme_semantique": "heritage_refuse",
+  "prefixe": "générer une question:",
+  "texte_entree": "La transmission des valeurs politiques échoue car Hémon rejette l'héritage moral de son père.",
+  "texte_cible": "Pourquoi la transmission des valeurs échoue-t-elle ?\nA) Par manque de dialogue\nB) Parce qu'Hémon rejette l'héritage moral paternel\nC) Par différence de génération\nD) Par manque de temps\nRéponse correcte: B) Parce qu'Hémon rejette l'héritage moral paternel\nExplication: Ce rejet illustre la rupture entre deux conceptions du monde."
+},
+{
+  "id": "section3_q22",
+  "section": 3,
+  "type": "negation",
+  "difficulte": "moyen",
+  "theme_semantique": "refus_realisme",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon refuse le réalisme politique de son père, préférant l'idéalisme même s'il mène à la mort.",
+  "texte_cible": "Que refuse Hémon de son père ?\nA) L'amour paternel\nB) Le réalisme politique\nC) L'autorité royale\nD) L'héritage du trône\nRéponse correcte: B) Le réalisme politique\nExplication: Ce refus oppose l'idéalisme juvénile au pragmatisme adulte."
+},
+{
+  "id": "section3_q23",
+  "section": 3,
+  "type": "analyse_symbolique",
+  "difficulte": "difficile",
+  "theme_semantique": "epee_symbolique",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'épée avec laquelle Hémon se tue symbolise le retournement de la force contre soi-même.",
+  "texte_cible": "Que symbolise l'épée d'Hémon ?\nA) La vengeance contre son père\nB) Le retournement de la force contre soi\nC) L'honneur chevaleresque\nD) La justice divine\nRéponse correcte: B) Le retournement de la force contre soi\nExplication: Ce symbole illustre l'autodestruction de la violence."
+},
+{
+  "id": "section3_q24",
+  "section": 3,
+  "type": "echec_reconciliation",
+  "difficulte": "moyen",
+  "theme_semantique": "impossible_pardon",
+  "prefixe": "générer une question:",
+  "texte_entree": "Aucune réconciliation n'est possible entre père et fils car leurs visions du monde sont inconciliables.",
+  "texte_cible": "Pourquoi la réconciliation père-fils est-elle impossible ?\nA) Par manque de temps\nB) Parce que leurs visions du monde sont inconciliables\nC) Par orgueil mutuel\nD) Par manque d'amour\nRéponse correcte: B) Parce que leurs visions du monde sont inconciliables\nExplication: Cette impossibilité révèle l'irréductibilité de certains conflits moraux."
+},
+{
+  "id": "section3_q25",
+  "section": 3,
+  "type": "culture_philosophique",
+  "difficulte": "difficile",
+  "theme_semantique": "conflit_generations",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le conflit générationnel illustre l'opposition entre l'expérience désabusée et l'idéalisme naïf mais pur.",
+  "texte_cible": "Qu'illustre le conflit générationnel dans la pièce ?\nA) L'évolution des mœurs\nB) L'opposition entre expérience désabusée et idéalisme pur\nC) La révolution sociale\nD) Le changement des valeurs\nRéponse correcte: B) L'opposition entre expérience désabusée et idéalisme pur\nExplication: Cette opposition révèle l'éternel conflit entre réalisme et idéalisme."
+},
+{
+  "id": "section3_q26",
+  "section": 3,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "derniere_tentative",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon fait une dernière tentative pour sauver son fils en lui proposant d'oublier Antigone.",
+  "texte_cible": "Que propose Créon à son fils en dernière tentative ?\nA) De partir en exil\nB) D'oublier Antigone\nC) De partager le pouvoir\nD) De choisir une autre épouse\nRéponse correcte: B) D'oublier Antigone\nExplication: Cette proposition révèle l'incompréhension de Créon face à la profondeur de l'amour d'Hémon."
+},
+{
+  "id": "section3_q27",
+  "section": 3,
+  "type": "negation_absolue",
+  "difficulte": "moyen",
+  "theme_semantique": "refus_oubli",
+  "prefixe": "générer une question:",
+  "texte_entree": "Hémon refuse absolument d'oublier Antigone car cela reviendrait à renier son être profond.",
+  "texte_cible": "Que refuse absolument Hémon ?\nA) De pardonner à son père\nB) D'oublier Antigone\nC) De régner sur Thèbes\nD) De se marier\nRéponse correcte: B) D'oublier Antigone\nExplication: Ce refus révèle que l'amour véritable ne peut être effacé par la volonté."
+},
+{
+  "id": "section3_q28",
+  "section": 3,
+  "type": "analyse_ironie",
+  "difficulte": "difficile",
+  "theme_semantique": "ironie_sauvetage",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'ironie veut que plus Créon tente de sauver son fils, plus il l'éloigne de lui et le pousse vers la mort.",
+  "texte_cible": "Quelle ironie caractérise les tentatives de Créon ?\nA) Il sauve qui il veut perdre\nB) Plus il tente de sauver son fils, plus il l'éloigne\nC) Il comprend trop tard\nD) Il obtient l'inverse de ce qu'il veut\nRéponse correcte: B) Plus il tente de sauver son fils, plus il l'éloigne\nExplication: Cette ironie révèle que l'amour maladroit peut devenir destructeur."
+},
+{
+  "id": "section3_q29",
+  "section": 3,
+  "type": "echec_final",
+  "difficulte": "moyen",
+  "theme_semantique": "double_perte",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon perd doublement : comme père qui voit mourir son fils, et comme roi qui voit s'éteindre sa lignée.",
+  "texte_cible": "Quelle double perte Créon subit-il ?\nA) Père et époux\nB) Père et roi\nC) Roi et juge\nD) Homme et dirigeant\nRéponse correcte: B) Père et roi\nExplication: Cette double perte illustre l'échec total de Créon dans ses deux rôles essentiels."
+},
+{
+  "id": "section3_q30",
+  "section": 3,
+  "type": "synthese_section",
+  "difficulte": "difficile",
+  "theme_semantique": "tragedie_filiation",
+  "prefixe": "générer une question:",
+  "texte_entree": "La section révèle que la tragédie de la filiation peut être plus douloureuse que la tragédie politique.",
+  "texte_cible": "Que révèle la section sur la tragédie de la filiation ?\nA) Elle est moins importante que la politique\nB) Elle peut être plus douloureuse que la tragédie politique\nC) Elle se résout facilement\nD) Elle n'affecte que les jeunes\nRéponse correcte: B) Elle peut être plus douloureuse que la tragédie politique\nExplication: Cette révélation montre que les liens familiaux transcendent les enjeux politiques."
+},
+ {
+      "id": "section4_q1",
+      "section": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "enterrement_polynice",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone décide d'enterrer son frère Polynice malgré l'interdiction de Créon, accomplissant ainsi son devoir familial.",
+      "texte_cible": "Quel acte Antigone décide-t-elle d'accomplir ?\nA) Venger la mort de ses frères\nB) Enterrer son frère Polynice\nC) Fuir Thèbes avec Hémon\nD) Défier publiquement Créon\nRéponse correcte: B) Enterrer son frère Polynice\nExplication: L'enterrement de Polynice constitue l'acte central qui déclenche toute la tragédie."
+    },
+    {
+      "id": "section4_q2",
+      "section": 4,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_loi_humaine",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne reconnaît pas la validité de la loi de Créon qu'elle considère comme injuste et contraire aux lois divines.",
+      "texte_cible": "Que ne reconnaît PAS Antigone ?\nA) L'autorité de Créon\nB) La validité de la loi humaine de Créon\nC) L'existence des dieux\nD) Ses devoirs de citoyenne\nRéponse correcte: B) La validité de la loi humaine de Créon\nExplication: Antigone oppose les lois divines aux lois humaines qu'elle juge illégitimes."
+    },
+    {
+      "id": "section4_q3",
+      "section": 4,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "justice_imparfaite",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'échec du système judiciaire apparaît quand Créon doit condamner quelqu'un qu'il voudrait épargner.",
+      "texte_cible": "Quel échec du système judiciaire la pièce révèle-t-elle ?\nA) L'absence de preuves suffisantes\nB) La corruption des juges\nC) L'obligation de condamner quelqu'un qu'on voudrait épargner\nD) L'inégalité devant la loi\nRéponse correcte: C) L'obligation de condamner quelqu'un qu'on voudrait épargner\nExplication: Ce dilemme illustre la rigidité parfois inhumaine du système judiciaire."
+    },
+    {
+      "id": "section4_q4",
+      "section": 4,
+      "type": "analyse_personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "motivation_antigone",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone agit par amour fraternel et par respect des traditions familiales, mais aussi par besoin de se distinguer d'Ismène.",
+      "texte_cible": "Quelles sont les motivations d'Antigone ?\nA) Seul l'amour fraternel\nB) Amour fraternel, respect des traditions et différenciation d'Ismène\nC) Uniquement la rébellion contre l'autorité\nD) La recherche de la gloire\nRéponse correcte: B) Amour fraternel, respect des traditions et différenciation d'Ismène\nExplication: Les motivations d'Antigone sont multiples et complexes."
+    },
+    {
+      "id": "section4_q5",
+      "section": 4,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "paradoxe_obeissance",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone désobéit à Créon pour obéir à une loi supérieure, créant un paradoxe entre rébellion et soumission.",
+      "texte_cible": "Quel paradoxe Antigone incarne-t-elle ?\nA) Elle est à la fois forte et faible\nB) Elle désobéit pour mieux obéir\nC) Elle aime et hait Créon\nD) Elle veut vivre et mourir\nRéponse correcte: B) Elle désobéit pour mieux obéir\nExplication: Antigone transgresse la loi humaine pour respecter la loi divine."
+    },
+    {
+      "id": "section4_q6",
+      "section": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "reaction_creon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon découvre que c'est Antigone qui a enterré Polynice et se trouve face à un dilemme personnel et politique.",
+      "texte_cible": "Quelle situation Créon découvre-t-il ?\nA) Que Polynice n'est pas mort\nB) Qu'Antigone a enterré Polynice\nC) Qu'Hémon l'a trahi\nD) Qu'Ismène a menti\nRéponse correcte: B) Qu'Antigone a enterré Polynice\nExplication: Cette découverte place Créon dans une situation impossible."
+    },
+    {
+      "id": "section4_q7",
+      "section": 4,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_compromis",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone refuse tous les compromis que Créon lui propose, ne voulant pas négocier sa position morale.",
+      "texte_cible": "Que refuse Antigone ?\nA) De parler à Créon\nB) De reconnaître ses torts\nC) Tous les compromis proposés par Créon\nD) De voir Hémon\nRéponse correcte: C) Tous les compromis proposés par Créon\nExplication: Antigone maintient une position morale absolue sans concession."
+    },
+    {
+      "id": "section4_q8",
+      "section": 4,
+      "type": "echec_communication",
+      "difficulte": "difficile",
+      "theme_semantique": "dialogue_impossible",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le dialogue entre Antigone et Créon échoue car ils ne parlent pas le même langage moral et politique.",
+      "texte_cible": "Pourquoi le dialogue entre Antigone et Créon échoue-t-il ?\nA) Ils ne se comprennent pas physiquement\nB) Ils ne parlent pas le même langage moral\nC) Ils sont trop en colère\nD) Ils manquent de temps\nRéponse correcte: B) Ils ne parlent pas le même langage moral\nExplication: L'incompréhension vient de référentiels moraux différents."
+    },
+    {
+      "id": "section4_q9",
+      "section": 4,
+      "type": "analyse_themes",
+      "difficulte": "moyen",
+      "theme_semantique": "conflit_lois",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le conflit central oppose les lois divines aux lois humaines, questionnant la légitimité du pouvoir politique.",
+      "texte_cible": "Quel conflit fondamental la pièce explore-t-elle ?\nA) Amour contre haine\nB) Lois divines contre lois humaines\nC) Jeunesse contre vieillesse\nD) Hommes contre femmes\nRéponse correcte: B) Lois divines contre lois humaines\nExplication: Ce conflit structure toute la tragédie d'Antigone."
+    },
+    {
+      "id": "section4_q10",
+      "section": 4,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "autorite_fragile",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon découvre que son autorité absolue le rend paradoxalement impuissant face à Antigone.",
+      "texte_cible": "Quel paradoxe Créon découvre-t-il ?\nA) Plus il punit, moins il est obéi\nB) Son autorité absolue le rend impuissant\nC) Il aime ceux qu'il doit haïr\nD) Il craint ceux qu'il domine\nRéponse correcte: B) Son autorité absolue le rend impuissant\nExplication: L'autorité absolue peut devenir un piège pour celui qui l'exerce."
+    },
+    {
+      "id": "section4_q11",
+      "section": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "defi_ordre",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'acte d'Antigone représente un défi direct à l'ordre établi par Créon et menace la stabilité du royaume.",
+      "texte_cible": "Que représente l'acte d'Antigone ?\nA) Un accident malheureux\nB) Un défi à l'ordre établi\nC) Une erreur de jeunesse\nD) Un malentendu\nRéponse correcte: B) Un défi à l'ordre établi\nExplication: Antigone remet en question l'ordre politique de Créon."
+    },
+    {
+      "id": "section4_q12",
+      "section": 4,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_regret",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne regrette pas son geste et ne demande pas pardon, maintenant sa détermination jusqu'au bout.",
+      "texte_cible": "Qu'Antigone ne fait-elle PAS ?\nA) Enterrer son frère\nB) Regretter son geste\nC) Affronter Créon\nD) Assumer ses actes\nRéponse correcte: B) Regretter son geste\nExplication: Antigone assume complètement ses choix sans regret."
+    },
+    {
+      "id": "section4_q13",
+      "section": 4,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "justice_aveugle",
+      "prefixe": "générer une question:",
+      "texte_entree": "La justice de Créon échoue car elle ne peut pas prendre en compte les circonstances particulières et les motivations personnelles.",
+      "texte_cible": "Pourquoi la justice de Créon échoue-t-elle ?\nA) Elle est corrompue\nB) Elle ne peut pas considérer les circonstances particulières\nC) Elle manque de témoins\nD) Elle est trop lente\nRéponse correcte: B) Elle ne peut pas considérer les circonstances particulières\nExplication: La rigidité de la justice empêche la nuance et la compassion."
+    },
+    {
+      "id": "section4_q14",
+      "section": 4,
+      "type": "analyse_personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "evolution_creon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon évolue de la certitude politique vers le doute moral, découvrant les limites de son pouvoir.",
+      "texte_cible": "Comment Créon évolue-t-il ?\nA) De la faiblesse vers la force\nB) De la certitude vers le doute\nC) De l'amour vers la haine\nD) De la jeunesse vers la sagesse\nRéponse correcte: B) De la certitude vers le doute\nExplication: Créon découvre progressivement les limites de ses convictions."
+    },
+    {
+      "id": "section4_q15",
+      "section": 4,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "amour_destruction",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'amour d'Antigone pour Polynice la mène à sa propre destruction, créant un paradoxe entre amour et mort.",
+      "texte_cible": "Quel paradoxe l'amour d'Antigone révèle-t-il ?\nA) L'amour rend aveugle\nB) L'amour mène à la destruction\nC) L'amour est impossible\nD) L'amour trompe toujours\nRéponse correcte: B) L'amour mène à la destruction\nExplication: L'amour fraternel devient source de tragédie."
+    },
+    {
+      "id": "section4_q16",
+      "section": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "consequence_acte",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'acte d'Antigone déclenche une série de conséquences tragiques qui affectent toute la famille royale.",
+      "texte_cible": "Qu'est-ce que l'acte d'Antigone déclenche ?\nA) Une révolution populaire\nB) Une série de conséquences tragiques\nC) Une réconciliation familiale\nD) Une guerre civile\nRéponse correcte: B) Une série de conséquences tragiques\nExplication: L'acte initial génère une cascade de malheurs."
+    },
+    {
+      "id": "section4_q17",
+      "section": 4,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_peur",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne craint pas la mort et ne cherche pas à éviter les conséquences de ses actes.",
+      "texte_cible": "Que ne craint PAS Antigone ?\nA) La colère de Créon\nB) La mort\nC) La solitude\nD) L'incompréhension\nRéponse correcte: B) La mort\nExplication: Antigone accepte la mort comme conséquence de ses choix."
+    },
+    {
+      "id": "section4_q18",
+      "section": 4,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "autorite_contestee",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'autorité de Créon s'effrite quand elle est contestée par quelqu'un qui ne reconnaît pas sa légitimité.",
+      "texte_cible": "Comment l'autorité de Créon s'effrite-t-elle ?\nA) Par manque de soldats\nB) Par la contestation de sa légitimité\nC) Par ses propres erreurs\nD) Par la trahison de ses proches\nRéponse correcte: B) Par la contestation de sa légitimité\nExplication: L'autorité dépend de la reconnaissance de sa légitimité."
+    },
+    {
+      "id": "section4_q19",
+      "section": 4,
+      "type": "analyse_themes",
+      "difficulte": "moyen",
+      "theme_semantique": "sacrifice_personnel",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone fait le sacrifice de sa vie pour respecter ses principes moraux et honorer la mémoire de son frère.",
+      "texte_cible": "Quel sacrifice Antigone fait-elle ?\nA) Sa liberté\nB) Son amour pour Hémon\nC) Sa vie pour ses principes\nD) Sa relation avec Ismène\nRéponse correcte: C) Sa vie pour ses principes\nExplication: Antigone accepte de mourir pour rester fidèle à ses valeurs."
+    },
+    {
+      "id": "section4_q20",
+      "section": 4,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "justice_injuste",
+      "prefixe": "générer une question:",
+      "texte_entree": "La justice de Créon devient injuste quand elle condamne quelqu'un qui agit selon une morale supérieure.",
+      "texte_cible": "Quel paradoxe la justice de Créon révèle-t-elle ?\nA) Elle est trop clémente\nB) Elle devient injuste en étant juste\nC) Elle manque de témoins\nD) Elle est trop lente\nRéponse correcte: B) Elle devient injuste en étant juste\nExplication: Appliquer la loi peut parfois créer une injustice morale."
+    },
+    {
+      "id": "section4_q21",
+      "section": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "isolement_antigone",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone se trouve isolée dans ses choix, même sa sœur Ismène refuse de la soutenir.",
+      "texte_cible": "Dans quelle situation Antigone se trouve-t-elle ?\nA) Soutenue par tous\nB) Isolée dans ses choix\nC) Encouragée par Créon\nD) Aidée par Hémon\nRéponse correcte: B) Isolée dans ses choix\nExplication: Antigone affronte seule les conséquences de ses décisions."
+    },
+    {
+      "id": "section4_q22",
+      "section": 4,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_negotiation",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone ne négocie pas avec Créon et refuse tout arrangement qui pourrait la sauver.",
+      "texte_cible": "Que refuse Antigone de faire avec Créon ?\nA) Lui parler\nB) Négocier ou faire des arrangements\nC) Reconnaître son autorité\nD) Écouter ses arguments\nRéponse correcte: B) Négocier ou faire des arrangements\nExplication: Antigone maintient une position absolue sans compromis."
+    },
+    {
+      "id": "section4_q23",
+      "section": 4,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "pouvoir_limite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le pouvoir de Créon atteint ses limites quand il ne peut pas changer les convictions profondes d'Antigone.",
+      "texte_cible": "Quelles limites le pouvoir de Créon atteint-il ?\nA) Ses ressources financières\nB) Sa capacité à changer les convictions\nC) Son autorité militaire\nD) Son influence politique\nRéponse correcte: B) Sa capacité à changer les convictions\nExplication: Le pouvoir politique ne peut pas transformer les croyances intimes."
+    },
+    {
+      "id": "section4_q24",
+      "section": 4,
+      "type": "analyse_personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "coherence_antigone",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone fait preuve d'une cohérence absolue entre ses valeurs morales et ses actions.",
+      "texte_cible": "Quelle qualité Antigone démontre-t-elle ?\nA) La prudence\nB) La cohérence entre valeurs et actions\nC) La diplomatie\nD) La patience\nRéponse correcte: B) La cohérence entre valeurs et actions\nExplication: Antigone incarne l'intégrité morale parfaite."
+    },
+    {
+      "id": "section4_q25",
+      "section": 4,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "liberte_contrainte",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone trouve sa liberté dans l'acceptation de la contrainte morale, paradoxe de l'obéissance libre.",
+      "texte_cible": "Quel paradoxe Antigone incarne-t-elle concernant la liberté ?\nA) Elle est libre mais prisonnière\nB) Elle trouve la liberté dans la contrainte morale\nC) Elle veut être libre mais reste dépendante\nD) Elle refuse la liberté qu'on lui offre\nRéponse correcte: B) Elle trouve la liberté dans la contrainte morale\nExplication: La vraie liberté peut résider dans l'obéissance à ses principes."
+    },
+    {
+      "id": "section4_q26",
+      "section": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "determination_antigone",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone montre une détermination inébranlable dans sa résolution d'honorer son frère.",
+      "texte_cible": "Quelle qualité Antigone manifeste-t-elle ?\nA) L'hésitation\nB) La détermination inébranlable\nC) L'indécision\nD) L'opportunisme\nRéponse correcte: B) La détermination inébranlable\nExplication: Antigone ne vacille jamais dans sa résolution."
+    },
+    {
+      "id": "section4_q27",
+      "section": 4,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_calcul",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone n'agit pas par calcul politique mais par impératif moral, sans considération des conséquences.",
+      "texte_cible": "Comment Antigone n'agit-elle PAS ?\nA) Par amour fraternel\nB) Par calcul politique\nC) Par conviction morale\nD) Par respect des dieux\nRéponse correcte: B) Par calcul politique\nExplication: Antigone agit selon sa conscience, pas selon l'opportunité."
+    },
+    {
+      "id": "section4_q28",
+      "section": 4,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "education_inefficace",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'éducation politique de Créon échoue à former une citoyenne obéissante en la personne d'Antigone.",
+      "texte_cible": "Quel échec éducatif la pièce révèle-t-elle ?\nA) L'échec de l'école\nB) L'échec de l'éducation politique à former l'obéissance\nC) L'échec de l'éducation religieuse\nD) L'échec de l'éducation familiale\nRéponse correcte: B) L'échec de l'éducation politique à former l'obéissance\nExplication: L'éducation ne peut pas garantir la soumission aux lois."
+    },
+    {
+      "id": "section4_q29",
+      "section": 4,
+      "type": "analyse_themes",
+      "difficulte": "moyen",
+      "theme_semantique": "heroisme_feminin",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone incarne un héroïsme féminin qui défie les attentes sociales de soumission et d'obéissance.",
+      "texte_cible": "Quel type d'héroïsme Antigone incarne-t-elle ?\nA) L'héroïsme guerrier\nB) L'héroïsme féminin défiant les attentes sociales\nC) L'héroïsme politique\nD) L'héroïsme religieux\nRéponse correcte: B) L'héroïsme féminin défiant les attentes sociales\nExplication: Antigone redéfinit l'héroïsme au féminin par sa résistance."
+    },
+    {
+      "id": "section4_q30",
+      "section": 4,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "victoire_defaite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone triomphe moralement dans sa défaite physique, inversant les notions de victoire et d'échec.",
+      "texte_cible": "Quel paradoxe final Antigone incarne-t-elle ?\nA) Elle gagne en perdant\nB) Elle triomphe dans sa défaite\nC) Elle vit en mourant\nD) Elle obéit en désobéissant\nRéponse correcte: B) Elle triomphe dans sa défaite\nExplication: La défaite physique peut être une victoire morale."
+    },
+    {
+      "id": "section5_q1",
+      "section": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "confrontation_hemon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon confronte son père Créon pour défendre Antigone, créant un conflit entre amour filial et amour romantique.",
+      "texte_cible": "Que fait Hémon face à son père ?\nA) Il lui obéit aveuglément\nB) Il le confronte pour défendre Antigone\nC) Il fuit la situation\nD) Il cherche un compromis\nRéponse correcte: B) Il le confronte pour défendre Antigone\nExplication: Hémon choisit l'amour d'Antigone contre l'obéissance paternelle."
+    },
+    {
+      "id": "section5_q2",
+      "section": 5,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_soumission",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon ne se soumet pas à la volonté paternelle et refuse d'abandonner Antigone malgré les pressions.",
+      "texte_cible": "À quoi Hémon ne se soumet-il PAS ?\nA) À l'autorité royale\nB) À la volonté paternelle\nC) Aux lois de la cité\nD) À ses propres sentiments\nRéponse correcte: B) À la volonté paternelle\nExplication: Hémon privilégie son amour sur l'obéissance filiale."
+    },
+    {
+      "id": "section5_q3",
+      "section": 5,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "transmission_autorite",
+      "prefixe": "générer une question:",
+      "texte_entree": "La transmission de l'autorité de Créon à Hémon échoue car le fils rejette les valeurs politiques du père.",
+      "texte_cible": "Quel échec de transmission la relation père-fils révèle-t-elle ?\nA) L'échec de l'éducation\nB) L'échec de la transmission de l'autorité\nC) L'échec de l'amour paternel\nD) L'échec de la communication\nRéponse correcte: B) L'échec de la transmission de l'autorité\nExplication: L'autorité ne se transmet pas automatiquement de père en fils."
+    },
+    {
+      "id": "section5_q4",
+      "section": 5,
+      "type": "analyse_personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "evolution_hemon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon évolue du fils obéissant au jeune homme rebelle qui défie l'autorité paternelle.",
+      "texte_cible": "Comment Hémon évolue-t-il ?\nA) De rebelle à obéissant\nB) De fils obéissant à jeune homme rebelle\nC) De faible à fort\nD) D'amoureux à indifférent\nRéponse correcte: B) De fils obéissant à jeune homme rebelle\nExplication: Hémon découvre son autonomie face à l'autorité paternelle."
+    },
+    {
+      "id": "section5_q5",
+      "section": 5,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "amour_destructeur",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'amour d'Hémon pour Antigone devient destructeur, détruisant ses liens familiaux et le menant à la mort.",
+      "texte_cible": "Quel paradoxe l'amour d'Hémon révèle-t-il ?\nA) L'amour rend aveugle\nB) L'amour devient destructeur\nC) L'amour est impossible\nD) L'amour est égoïste\nRéponse correcte: B) L'amour devient destructeur\nExplication: L'amour peut détruire ce qu'il cherche à protéger."
+    },
+    {
+      "id": "section5_q6",
+      "section": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "rupture_familiale",
+      "prefixe": "générer une question:",
+      "texte_entree": "La rupture entre Hémon et Créon marque la fin de leur relation père-fils harmonieuse.",
+      "texte_cible": "Qu'est-ce qui marque la fin de la relation harmonieuse entre Hémon et Créon ?\nA) Un malentendu\nB) La rupture causée par Antigone\nC) Une dispute d'argent\nD) Un conseil de famille\nRéponse correcte: B) La rupture causée par Antigone\nExplication: Antigone devient le point de rupture entre père et fils."
+    },
+    {
+      "id": "section5_q7",
+      "section": 5,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_compromis",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon ne cherche pas de compromis avec son père et maintient une position absolue en faveur d'Antigone.",
+      "texte_cible": "Que ne cherche PAS Hémon ?\nA) À sauver Antigone\nB) À comprendre son père\nC) Un compromis avec Créon\nD) À exprimer ses sentiments\nRéponse correcte: C) Un compromis avec Créon\nExplication: Hémon adopte une position aussi absolue qu'Antigone."
+    },
+    {
+      "id": "section5_q8",
+      "section": 5,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "education_paternelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'éducation paternelle de Créon échoue à former un héritier qui partage ses valeurs politiques.",
+      "texte_cible": "Quel échec éducatif la relation Créon-Hémon révèle-t-elle ?\nA) L'échec de l'école\nB) L'échec de l'éducation paternelle\nC) L'échec de l'éducation religieuse\nD) L'échec de l'éducation militaire\nRéponse correcte: B) L'échec de l'éducation paternelle\nExplication: Un père ne peut pas garantir que son fils adoptera ses valeurs."
+    },
+    {
+      "id": "section5_q9",
+      "section": 5,
+      "type": "analyse_themes",
+      "difficulte": "moyen",
+      "theme_semantique": "conflit_generationnel",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le conflit entre Hémon et Créon illustre l'opposition entre les générations et leurs valeurs différentes.",
+      "texte_cible": "Quel type de conflit Hémon et Créon incarnent-ils ?\nA) Conflit politique\nB) Conflit générationnel\nC) Conflit religieux\nD) Conflit social\nRéponse correcte: B) Conflit générationnel\nExplication: Le conflit révèle l'opposition entre anciennes et nouvelles valeurs."
+    },
+    {
+      "id": "section5_q10",
+      "section": 5,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "obeissance_rebellion",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon obéit à un devoir supérieur en désobéissant à son père, créant un paradoxe moral.",
+      "texte_cible": "Quel paradoxe moral Hémon incarne-t-il ?\nA) Il aime en haïssant\nB) Il obéit en désobéissant\nC) Il protège en détruisant\nD) Il unit en divisant\nRéponse correcte: B) Il obéit en désobéissant\nExplication: Hémon suit sa conscience en désobéissant à l'autorité paternelle."
+    },
+    {
+      "id": "section5_q11",
+      "section": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "choix_hemon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon doit choisir entre l'obéissance filiale et l'amour d'Antigone, optant pour cette dernière.",
+      "texte_cible": "Quel choix Hémon fait-il ?\nA) L'obéissance filiale\nB) L'amour d'Antigone\nC) La neutralité\nD) La fuite\nRéponse correcte: B) L'amour d'Antigone\nExplication: Hémon privilégie l'amour sur l'obéissance familiale."
+    },
+    {
+      "id": "section5_q12",
+      "section": 5,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_autorite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon ne reconnaît plus l'autorité morale de son père qu'il juge injuste envers Antigone.",
+      "texte_cible": "Que ne reconnaît plus Hémon ?\nA) L'existence d'Antigone\nB) L'autorité morale de son père\nC) Ses propres sentiments\nD) Les lois de la cité\nRéponse correcte: B) L'autorité morale de son père\nExplication: Hémon remet en question la légitimité morale de Créon."
+    },
+    {
+      "id": "section5_q13",
+      "section": 5,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "succession_politique",
+      "prefixe": "générer une question:",
+      "texte_entree": "La succession politique de Créon est compromise par la rébellion de son héritier naturel.",
+      "texte_cible": "Quel problème politique la rébellion d'Hémon crée-t-elle ?\nA) Une révolution populaire\nB) Une guerre civile\nC) Un problème de succession\nD) Une crise économique\nRéponse correcte: C) Un problème de succession\nExplication: La rébellion du fils remet en question la continuité du pouvoir."
+    },
+    {
+      "id": "section5_q14",
+      "section": 5,
+      "type": "analyse_personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "courage_hemon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon fait preuve de courage en s'opposant à son père malgré les conséquences personnelles.",
+      "texte_cible": "Quelle qualité Hémon démontre-t-il ?\nA) La prudence\nB) Le courage face à l'autorité\nC) La diplomatie\nD) La patience\nRéponse correcte: B) Le courage face à l'autorité\nExplication: Hémon brave l'autorité paternelle par amour et conviction."
+    },
+    {
+      "id": "section5_q15",
+      "section": 5,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "amour_filial_brise",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'amour filial d'Hémon se brise contre l'inflexibilité de Créon, transformant l'affection en opposition.",
+      "texte_cible": "Quel paradoxe affectif Hémon vit-il ?\nA) Il aime et hait simultanément\nB) L'amour filial se transforme en opposition\nC) Il cherche et fuit l'affection\nD) Il désire et rejette l'autorité\nRéponse correcte: B) L'amour filial se transforme en opposition\nExplication: L'intransigeance peut transformer l'amour en conflit."
+    },
+    {
+      "id": "section5_q16",
+      "section": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "desespoir_hemon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon sombre dans le désespoir face à l'impossibilité de sauver Antigone et de réconcilier ses loyautés.",
+      "texte_cible": "Dans quel état Hémon se trouve-t-il ?\nA) Dans la colère\nB) Dans le désespoir\nC) Dans l'indifférence\nD) Dans la résignation\nRéponse correcte: B) Dans le désespoir\nExplication: Hémon ne peut résoudre le conflit entre ses loyautés."
+    },
+    {
+      "id": "section5_q17",
+      "section": 5,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_solution",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon ne trouve pas de solution pour concilier son amour pour Antigone et son respect pour son père.",
+      "texte_cible": "Que ne trouve PAS Hémon ?\nA) Le courage de s'opposer\nB) Une solution pour concilier ses loyautés\nC) L'amour d'Antigone\nD) La force de lutter\nRéponse correcte: B) Une solution pour concilier ses loyautés\nExplication: Hémon est pris dans un dilemme insoluble."
+    },
+    {
+      "id": "section5_q18",
+      "section": 5,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "mediation_impossible",
+      "prefixe": "générer une question:",
+      "texte_entree": "La médiation d'Hémon entre Antigone et Créon échoue car les deux positions sont irréconciliables.",
+      "texte_cible": "Pourquoi la médiation d'Hémon échoue-t-elle ?\nA) Il manque d'autorité\nB) Les positions sont irréconciliables\nC) Il arrive trop tard\nD) Il manque de courage\nRéponse correcte: B) Les positions sont irréconciliables\nExplication: Certains conflits ne peuvent pas être résolus par la médiation."
+    },
+    {
+      "id": "section5_q19",
+      "section": 5,
+      "type": "analyse_themes",
+      "difficulte": "moyen",
+      "theme_semantique": "sacrifice_amour",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon sacrifie sa relation familiale pour son amour d'Antigone, choisissant l'amour romantique.",
+      "texte_cible": "Quel sacrifice Hémon fait-il ?\nA) Sa vie\nB) Sa relation familiale pour l'amour\nC) Ses ambitions politiques\nD) Sa liberté\nRéponse correcte: B) Sa relation familiale pour l'amour\nExplication: Hémon choisit l'amour romantique au détriment des liens familiaux."
+    },
+    {
+      "id": "section5_q20",
+      "section": 5,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "fidelite_infidelite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon reste fidèle à Antigone en étant infidèle à son père, créant un paradoxe de loyauté.",
+      "texte_cible": "Quel paradoxe de loyauté Hémon incarne-t-il ?\nA) Il trahit pour rester fidèle\nB) Il est fidèle en étant infidèle\nC) Il ment pour dire la vérité\nD) Il détruit pour construire\nRéponse correcte: B) Il est fidèle en étant infidèle\nExplication: La fidélité à une personne peut exiger l'infidélité à une autre."
+    },
+    {
+      "id": "section5_q21",
+      "section": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "mort_hemon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon choisit la mort plutôt que de vivre sans Antigone, suivant sa bien-aimée dans la mort.",
+      "texte_cible": "Quel choix final Hémon fait-il ?\nA) Fuir la cité\nB) Choisir la mort\nC) Se réconcilier avec son père\nD) Épouser une autre\nRéponse correcte: B) Choisir la mort\nExplication: Hémon préfère la mort à la vie sans Antigone."
+    },
+    {
+      "id": "section5_q22",
+      "section": 5,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "refus_survie",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon ne veut pas survivre à Antigone et refuse de construire une vie sans elle.",
+      "texte_cible": "À quoi Hémon ne veut-il PAS survivre ?\nA) À la guerre\nB) À Antigone\nC) À son père\nD) À la cité\nRéponse correcte: B) À Antigone\nExplication: Hémon considère la vie sans Antigone comme impossible."
+    },
+    {
+      "id": "section5_q23",
+      "section": 5,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "succession_brisee",
+      "prefixe": "générer une question:",
+      "texte_entree": "La succession dynastique de Créon s'effondre avec la mort d'Hémon, brisant la continuité du pouvoir.",
+      "texte_cible": "Quel effondrement la mort d'Hémon provoque-t-elle ?\nA) L'effondrement économique\nB) L'effondrement de la succession dynastique\nC) L'effondrement militaire\nD) L'effondrement social\nRéponse correcte: B) L'effondrement de la succession dynastique\nExplication: La mort de l'héritier compromet la continuité du pouvoir."
+    },
+    {
+      "id": "section5_q24",
+      "section": 5,
+      "type": "analyse_personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "passion_destructrice",
+      "prefixe": "générer une question:",
+      "texte_entree": "La passion d'Hémon pour Antigone devient destructrice, l'entraînant vers la mort.",
+      "texte_cible": "Quelle caractéristique la passion d'Hémon révèle-t-elle ?\nA) Sa beauté\nB) Sa nature destructrice\nC) Sa pureté\nD) Sa faiblesse\nRéponse correcte: B) Sa nature destructrice\nExplication: La passion peut devenir une force destructrice."
+    },
+    {
+      "id": "section5_q25",
+      "section": 5,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "union_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon trouve l'union avec Antigone dans la mort, paradoxe de l'amour qui unit dans la destruction.",
+      "texte_cible": "Quel paradoxe amoureux Hémon incarne-t-il ?\nA) Il aime en haïssant\nB) Il s'unit dans la mort\nC) Il possède en perdant\nD) Il sauve en détruisant\nRéponse correcte: B) Il s'unit dans la mort\nExplication: L'amour peut trouver son accomplissement dans la mort."
+    },
+    {
+      "id": "section5_q26",
+      "section": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "echec_pere",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon échoue comme père en perdant son fils à cause de son intransigeance politique.",
+      "texte_cible": "En quoi Créon échoue-t-il ?\nA) Comme roi\nB) Comme père\nC) Comme juge\nD) Comme citoyen\nRéponse correcte: B) Comme père\nExplication: L'intransigeance politique de Créon détruit sa paternité."
+    },
+    {
+      "id": "section5_q27",
+      "section": 5,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_pardon",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon ne pardonne pas à son père la condamnation d'Antigone et rompt définitivement avec lui.",
+      "texte_cible": "Que ne fait PAS Hémon envers son père ?\nA) Le défier\nB) Lui pardonner\nC) L'affronter\nD) Le quitter\nRéponse correcte: B) Lui pardonner\nExplication: Hémon ne peut pas pardonner ce qu'il considère comme injuste."
+    },
+    {
+      "id": "section5_q28",
+      "section": 5,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "dialogue_rompu",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le dialogue entre Hémon et Créon se rompt définitivement, illustrant l'échec de la communication familiale.",
+      "texte_cible": "Quel échec communicationnel la pièce illustre-t-elle ?\nA) L'échec du dialogue politique\nB) L'échec de la communication familiale\nC) L'échec de la communication publique\nD) L'échec du dialogue social\nRéponse correcte: B) L'échec de la communication familiale\nExplication: La famille peut échouer à maintenir le dialogue."
+    },
+    {
+      "id": "section5_q29",
+      "section": 5,
+      "type": "analyse_themes",
+      "difficulte": "moyen",
+      "theme_semantique": "jeunesse_ideale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Hémon représente la jeunesse idéaliste qui refuse les compromis de l'âge adulte.",
+      "texte_cible": "Que représente Hémon ?\nA) L'expérience de l'âge\nB) La jeunesse idéaliste\nC) La sagesse politique\nD) Le pragmatisme\nRéponse correcte: B) La jeunesse idéaliste\nExplication: Hémon incarne l'idéalisme juvénile face au pragmatisme adulte."
+    },
+    {
+      "id": "section5_q30",
+      "section": 5,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "amour_haine",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'amour d'Hémon pour son père se transforme en haine à cause de l'attitude de Créon envers Antigone.",
+      "texte_cible": "Quelle transformation émotionnelle Hémon subit-il ?\nA) De la haine à l'amour\nB) De l'amour à la haine\nC) De la peur au courage\nD) De la joie à la tristesse\nRéponse correcte: B) De l'amour à la haine\nExplication: L'amour filial peut se transformer en haine face à l'injustice."
+    },
+    {
+      "id": "section6_q1",
+      "section": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "catharsis_finale",
+      "prefixe": "générer une question:",
+      "texte_entree": "La fin de la pièce provoque une catharsis chez le spectateur à travers la purification des émotions.",
+      "texte_cible": "Quel effet la fin de la pièce provoque-t-elle ?\nA) La confusion\nB) La catharsis\nC) L'indifférence\nD) La révolte\nRéponse correcte: B) La catharsis\nExplication: La tragédie purifie les émotions du spectateur."
+    },
+    {
+      "id": "section6_q2",
+      "section": 6,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_resolution",
+      "prefixe": "générer une question:",
+      "texte_entree": "La pièce ne propose pas de résolution définitive au conflit entre lois divines et lois humaines.",
+      "texte_cible": "Que la pièce ne propose-t-elle PAS ?\nA) Une tragédie\nB) Une résolution définitive du conflit\nC) Une réflexion morale\nD) Une analyse politique\nRéponse correcte: B) Une résolution définitive du conflit\nExplication: Le conflit fondamental reste ouvert à la réflexion."
+    },
+    {
+      "id": "section6_q3",
+      "section": 6,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "pouvoir_isole",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon se retrouve isolé dans son pouvoir, ayant perdu famille et légitimité morale.",
+      "texte_cible": "Dans quel état final Créon se trouve-t-il ?\nA) Victorieux mais seul\nB) Isolé dans son pouvoir\nC) Réconcilié avec tous\nD) Abdiquant son trône\nRéponse correcte: B) Isolé dans son pouvoir\nExplication: Le pouvoir peut isoler celui qui l'exerce de manière absolue."
+    },
+    {
+      "id": "section6_q4",
+      "section": 6,
+      "type": "analyse_personnage",
+      "difficulte": "moyen",
+      "theme_semantique": "grandeur_tragique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Antigone atteint une grandeur tragique par sa mort héroïque au service de ses principes.",
+      "texte_cible": "Qu'est-ce qu'Antigone atteint par sa mort ?\nA) La célébrité\nB) La grandeur tragique\nC) La vengeance\nD) La réconciliation\nRéponse correcte: B) La grandeur tragique\nExplication: La mort héroïque confère une dimension tragique au personnage."
+    },
+    {
+      "id": "section6_q5",
+      "section": 6,
+      "type": "contradiction",
+      "difficulte": "difficile",
+      "theme_semantique": "victoire_defaite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Créon gagne politiquement mais perd humainement, illustrant la victoire qui est une défaite.",
+      "texte_cible": "Quel paradoxe final Créon incarne-t-il ?\nA) Il perd en gagnant\nB) Il gagne en perdant\nC) Il vit en mourant\nD) Il commande en obéissant\nRéponse correcte: A) Il perd en gagnant\nExplication: La victoire politique peut être une défaite humaine."
+    },
+    {
+      "id": "section6_q6",
+      "section": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "lecon_morale",
+      "prefixe": "générer une question:",
+      "texte_entree": "La pièce délivre une leçon morale sur les dangers de l'intransigeance et de l'absolutisme.",
+      "texte_cible": "Quelle leçon morale la pièce délivre-t-elle ?\nA) L'amour triomphe toujours\nB) Les dangers de l'intransigeance\nC) L'importance de l'obéissance\nD) La nécessité de la révolution\nRéponse correcte: B) Les dangers de l'intransigeance\nExplication: L'intransigeance mène à la tragédie pour tous."
+    },
+    {
+      "id": "section6_q7",
+      "section": 6,
+      "type": "negation",
+      "difficulte": "moyen",
+      "theme_semantique": "absence_redemption",
+      "prefixe": "générer une question:",
+      "texte_entree": "La pièce ne propose pas de rédemption possible pour Créon qui doit vivre avec ses choix.",
+      "texte_cible": "Que la pièce ne propose-t-elle PAS à Créon ?\nA) Une punition\nB) Une rédemption\nC) Une leçon\nD) Une souffrance\nRéponse correcte: B) Une rédemption\nExplication: Créon doit assumer définitivement les conséquences de ses actes."
+    },
+    {
+      "id": "section6_q8",
+      "section": 6,
+      "type": "echec_systeme",
+      "difficulte": "difficile",
+      "theme_semantique": "systeme_effondre",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le système politique de Créon s'effondre avec la mort de son héritier et l'isolement du pouvoir.",
+      "texte_cible": "Qu'arrive-t-il au système politique de Créon ?\nA) Il se renforce\nB) Il s'effondre\nC) Il se réforme\nD) Il se perpétue\nRéponse correcte: B) Il s'effondre\nExplication: La mort de l'héritier compromet la continuité du système."
+    },
+    {
+      "id": "section6_q9",
+      "section": 6,
+      "type": "analyse_themes",
+      "difficulte": "moyen",
+      "theme_semantique": "eternite_conflit",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le conflit entre conscience individuelle et ordre collectif apparaît comme éternel et insoluble.",
+      "texte_cible": "Quelle caractéristique le conflit central révèle-t-il ?\nA) Il est temporaire\nB) Il est éternel et insoluble\nC) Il est facile à résoudre\nD) Il est superficiel\nRéponse correcte: B) Il est éternel et insoluble\nExplication: Ce conflit fondamental traverse les époques sans résolution."
+    },
+    {
+  "id": "section6_q10",
+  "section": 6,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "chute_heros",
+  "prefixe": "générer une question:",
+  "texte_entree": "La chute d'Antigone illustre le destin tragique du héros qui défie l'ordre établi.",
+  "texte_cible": "Qu'illustre la chute d'Antigone ?\nA) La victoire du bien\nB) Le destin tragique du héros\nC) L'injustice divine\nD) La faiblesse humaine\nRéponse correcte: B) Le destin tragique du héros\nExplication: Le héros tragique est voué à la chute malgré sa noblesse."
+},
+{
+  "id": "section6_q11",
+  "section": 6,
+  "type": "negation",
+  "difficulte": "moyen",
+  "theme_semantique": "absence_reconciliation",
+  "prefixe": "générer une question:",
+  "texte_entree": "La tragédie ne permet pas de réconciliation entre les positions antagonistes d'Antigone et Créon.",
+  "texte_cible": "Que la tragédie ne permet-elle PAS ?\nA) Une leçon morale\nB) Une réconciliation des positions\nC) Une purification des émotions\nD) Une réflexion philosophique\nRéponse correcte: B) Une réconciliation des positions\nExplication: Les positions restent inconciliables jusqu'à la fin."
+},
+{
+  "id": "section6_q12",
+  "section": 6,
+  "type": "echec_systeme",
+  "difficulte": "difficile",
+  "theme_semantique": "autorite_fragilisee",
+  "prefixe": "générer une question:",
+  "texte_entree": "L'autorité de Créon est définitivement fragilisée par l'enchaînement des morts qu'il a provoquées.",
+  "texte_cible": "Quel est l'état final de l'autorité de Créon ?\nA) Renforcée par l'épreuve\nB) Définitivement fragilisée\nC) Temporairement affaiblie\nD) Intacte malgré tout\nRéponse correcte: B) Définitivement fragilisée\nExplication: Les morts successives détruisent la légitimité de son pouvoir."
+},
+{
+  "id": "section6_q13",
+  "section": 6,
+  "type": "analyse_personnage",
+  "difficulte": "moyen",
+  "theme_semantique": "creon_brise",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon termine brisé par la perte de son fils et de sa femme, prix de son intransigeance.",
+  "texte_cible": "Dans quel état Créon termine-t-il la pièce ?\nA) Triomphant\nB) Brisé par les pertes\nC) Indifférent\nD) Vengeur\nRéponse correcte: B) Brisé par les pertes\nExplication: Les morts de Hémon et Eurydice le détruisent psychologiquement."
+},
+{
+  "id": "section6_q14",
+  "section": 6,
+  "type": "contradiction",
+  "difficulte": "difficile",
+  "theme_semantique": "ordre_chaos",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon qui voulait préserver l'ordre a créé le chaos dans sa propre famille.",
+  "texte_cible": "Quel paradoxe caractérise l'action de Créon ?\nA) Il crée l'ordre en détruisant\nB) Il crée le chaos en voulant l'ordre\nC) Il unit en divisant\nD) Il apaise en punissant\nRéponse correcte: B) Il crée le chaos en voulant l'ordre\nExplication: Sa volonté d'ordre provoque le désordre familial."
+},
+{
+  "id": "section6_q15",
+  "section": 6,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "prix_pouvoir",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le pouvoir exige un prix que Créon découvre trop tard être sa famille.",
+  "texte_cible": "Quel prix le pouvoir exige-t-il de Créon ?\nA) Sa richesse\nB) Sa famille\nC) Sa santé\nD) Sa réputation\nRéponse correcte: B) Sa famille\nExplication: Créon perd fils et épouse à cause de ses décisions politiques."
+},
+{
+  "id": "section6_q16",
+  "section": 6,
+  "type": "negation",
+  "difficulte": "moyen",
+  "theme_semantique": "absence_esperance",
+  "prefixe": "générer une question:",
+  "texte_entree": "La fin de la pièce n'offre aucune espérance de réconciliation ou de paix future.",
+  "texte_cible": "Que la fin de la pièce n'offre-t-elle PAS ?\nA) Une leçon\nB) Une espérance de réconciliation\nC) Une conclusion\nD) Une émotion\nRéponse correcte: B) Une espérance de réconciliation\nExplication: La tragédie se clôt sur l'irrémédiable."
+},
+{
+  "id": "section6_q17",
+  "section": 6,
+  "type": "echec_systeme",
+  "difficulte": "difficile",
+  "theme_semantique": "justice_aveugle",
+  "prefixe": "générer une question:",
+  "texte_entree": "La justice humaine se révèle aveugle aux nuances morales et provoque plus de mal que de bien.",
+  "texte_cible": "Comment la justice humaine se révèle-t-elle ?\nA) Parfaitement équitable\nB) Aveugle aux nuances morales\nC) Trop clémente\nD) Respectueuse des dieux\nRéponse correcte: B) Aveugle aux nuances morales\nExplication: La rigidité de la justice humaine ignore la complexité morale."
+},
+{
+  "id": "section6_q18",
+  "section": 6,
+  "type": "analyse_themes",
+  "difficulte": "moyen",
+  "theme_semantique": "temps_revelation",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le temps révèle la vérité sur les personnages et leurs motivations profondes.",
+  "texte_cible": "Que révèle le temps dans la tragédie ?\nA) L'innocence des personnages\nB) La vérité sur leurs motivations\nC) La solution aux conflits\nD) L'inutilité des actions\nRéponse correcte: B) La vérité sur leurs motivations\nExplication: Le déroulement révèle les vraies intentions des protagonistes."
+},
+{
+  "id": "section6_q19",
+  "section": 6,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "memoire_tragique",
+  "prefixe": "générer une question:",
+  "texte_entree": "La mémoire d'Antigone survivra comme symbole de résistance à l'injustice.",
+  "texte_cible": "Comment la mémoire d'Antigone survivra-t-elle ?\nA) Comme exemple d'obéissance\nB) Comme symbole de résistance\nC) Comme modèle de patience\nD) Comme victime innocente\nRéponse correcte: B) Comme symbole de résistance\nExplication: Sa mort héroïque en fait un symbole de résistance morale."
+},
+{
+  "id": "section6_q20",
+  "section": 6,
+  "type": "negation",
+  "difficulte": "moyen",
+  "theme_semantique": "absence_sagesse",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon n'acquiert pas la sagesse malgré les avertissements répétés du devin Tirésias.",
+  "texte_cible": "Qu'est-ce que Créon n'acquiert PAS ?\nA) Le pouvoir\nB) La sagesse\nC) La souffrance\nD) L'expérience\nRéponse correcte: B) La sagesse\nExplication: Il reste sourd aux conseils jusqu'à ce qu'il soit trop tard."
+},
+{
+  "id": "section6_q21",
+  "section": 6,
+  "type": "echec_systeme",
+  "difficulte": "difficile",
+  "theme_semantique": "loi_destructrice",
+  "prefixe": "générer une question:",
+  "texte_entree": "La loi humaine devient destructrice quand elle ignore les lois morales supérieures.",
+  "texte_cible": "Quand la loi humaine devient-elle destructrice ?\nA) Quand elle est trop douce\nB) Quand elle ignore les lois morales supérieures\nC) Quand elle change souvent\nD) Quand elle est appliquée partiellement\nRéponse correcte: B) Quand elle ignore les lois morales supérieures\nExplication: L'ignorance des principes moraux rend la loi tyrannique."
+},
+{
+  "id": "section6_q22",
+  "section": 6,
+  "type": "analyse_personnage",
+  "difficulte": "moyen",
+  "theme_semantique": "eurydice_silence",
+  "prefixe": "générer une question:",
+  "texte_entree": "Eurydice meurt en silence, incarnant la douleur muette des victimes collatérales.",
+  "texte_cible": "Qu'incarne la mort d'Eurydice ?\nA) La révolte active\nB) La douleur muette des victimes\nC) La réconciliation\nD) La vengeance tardive\nRéponse correcte: B) La douleur muette des victimes\nExplication: Son suicide silencieux exprime la souffrance des innocents."
+},
+{
+  "id": "section6_q23",
+  "section": 6,
+  "type": "contradiction",
+  "difficulte": "difficile",
+  "theme_semantique": "force_faiblesse",
+  "prefixe": "générer une question:",
+  "texte_entree": "La force apparente de Créon révèle sa faiblesse fondamentale face aux véritables épreuves.",
+  "texte_cible": "Que révèle la force apparente de Créon ?\nA) Sa vraie puissance\nB) Sa faiblesse fondamentale\nC) Son courage authentique\nD) Sa détermination\nRéponse correcte: B) Sa faiblesse fondamentale\nExplication: L'autoritarisme cache souvent la fragilité intérieure."
+},
+{
+  "id": "section6_q24",
+  "section": 6,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "echo_eternel",
+  "prefixe": "générer une question:",
+  "texte_entree": "La tragédie résonne éternellement car elle pose des questions universelles sur le pouvoir et la morale.",
+  "texte_cible": "Pourquoi la tragédie résonne-t-elle éternellement ?\nA) Car elle est bien écrite\nB) Car elle pose des questions universelles\nC) Car elle est ancienne\nD) Car elle est célèbre\nRéponse correcte: B) Car elle pose des questions universelles\nExplication: Les questions morales et politiques restent d'actualité."
+},
+{
+  "id": "section6_q25",
+  "section": 6,
+  "type": "negation",
+  "difficulte": "moyen",
+  "theme_semantique": "absence_compassion",
+  "prefixe": "générer une question:",
+  "texte_entree": "Créon ne fait preuve d'aucune compassion envers Antigone jusqu'à sa mort.",
+  "texte_cible": "De quoi Créon ne fait-il PAS preuve envers Antigone ?\nA) D'autorité\nB) De compassion\nC) De fermeté\nD) De colère\nRéponse correcte: B) De compassion\nExplication: Il reste inflexible malgré les liens familiaux."
+},
+{
+  "id": "section6_q26",
+  "section": 6,
+  "type": "echec_systeme",
+  "difficulte": "difficile",
+  "theme_semantique": "dialogue_impossible",
+  "prefixe": "générer une question:",
+  "texte_entree": "Le dialogue devient impossible entre les personnages figés dans leurs certitudes absolues.",
+  "texte_cible": "Que devient le dialogue entre les personnages ?\nA) Plus intense\nB) Impossible\nC) Diplomatique\nD) Constructif\nRéponse correcte: B) Impossible\nExplication: L'absolutisme des positions empêche tout vrai dialogue."
+},
+{
+  "id": "section6_q27",
+  "section": 6,
+  "type": "analyse_themes",
+  "difficulte": "moyen",
+  "theme_semantique": "verite_tardive",
+  "prefixe": "générer une question:",
+  "texte_entree": "La vérité apparaît trop tard pour éviter la catastrophe finale.",
+  "texte_cible": "Quand la vérité apparaît-elle ?\nA) Dès le début\nB) Trop tard pour éviter la catastrophe\nC) Au bon moment\nD) Jamais complètement\nRéponse correcte: B) Trop tard pour éviter la catastrophe\nExplication: La reconnaissance tragique arrive après l'irrémédiable."
+},
+{
+  "id": "section6_q28",
+  "section": 6,
+  "type": "comprehension",
+  "difficulte": "facile",
+  "theme_semantique": "cycle_violence",
+  "prefixe": "générer une question:",
+  "texte_entree": "La violence engendre la violence dans un cycle destructeur qui consume tous les personnages.",
+  "texte_cible": "Qu'engendre la violence selon la pièce ?\nA) La paix\nB) La violence\nC) La justice\nD) Le pardon\nRéponse correcte: B) La violence\nExplication: La violence génère un cycle destructeur inéluctable."
+},
+{
+  "id": "section6_q29",
+  "section": 6,
+  "type": "negation",
+  "difficulte": "moyen",
+  "theme_semantique": "absence_evolution",
+  "prefixe": "générer une question:",
+  "texte_entree": "Les personnages n'évoluent pas et restent prisonniers de leurs positions initiales.",
+  "texte_cible": "Que ne font PAS les personnages ?\nA) Ils ne parlent pas\nB) Ils n'évoluent pas\nC) Ils ne souffrent pas\nD) Ils n'agissent pas\nRéponse correcte: B) Ils n'évoluent pas\nExplication: Ils restent figés dans leurs convictions jusqu'à la mort."
+},
+{
+  "id": "section6_q30",
+  "section": 6,
+  "type": "echec_systeme",
+  "difficulte": "difficile",
+  "theme_semantique": "heritage_maudit",
+  "prefixe": "générer une question:",
+  "texte_entree": "La tragédie se termine sur un héritage maudit qui pèsera sur les générations futures.",
+  "texte_cible": "Sur quoi la tragédie se termine-t-elle ?\nA) Une réconciliation\nB) Un héritage maudit\nC) Un nouveau départ\nD) Une leçon apprise\nRéponse correcte: B) Un héritage maudit\nExplication: Les conséquences tragiques marqueront l'avenir de la cité."
+}
+  ]
+} 

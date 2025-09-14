@@ -1,0 +1,46 @@
+from sqlalchemy import Column, Integer, String, Enum
+from core.database import Base
+import enum
+from sqlalchemy.orm import relationship
+
+class UserRole(str, enum.Enum):
+    student = "student"
+    parent = "parent"
+    teacher = "teacher"
+    admin = "admin"
+
+class User(Base):
+    __tablename__ = "users"
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String, unique=True, index=True, nullable=False)
+    email = Column(String, unique=True, index=True, nullable=False)
+    hashed_password = Column(String, nullable=False)
+    role = Column(Enum(UserRole), nullable=False, default=UserRole.student)
+    # Relations avec clés étrangères explicites
+    quiz_results = relationship("QuizResult", back_populates="student", foreign_keys="QuizResult.student_id")
+    quiz_assignments = relationship("QuizAssignment", back_populates="student", foreign_keys="QuizAssignment.student_id")
+    class_students = relationship("ClassStudent", back_populates="student", foreign_keys="ClassStudent.student_id")
+    teacher_classes = relationship("ClassGroup", back_populates="teacher", foreign_keys="ClassGroup.teacher_id")
+    badges = relationship("UserBadge", back_populates="user", foreign_keys="UserBadge.user_id")
+    learning_history = relationship("LearningHistory", back_populates="student", foreign_keys="LearningHistory.student_id")
+    messages = relationship("Message", back_populates="user", foreign_keys="Message.user_id")
+    assessments = relationship("Assessment", back_populates="student", foreign_keys="Assessment.student_id")
+    threads = relationship("Thread", back_populates="creator", foreign_keys="Thread.created_by")
+    # contents = relationship("Content", back_populates="creator", foreign_keys="Content.created_by")  # Commenté temporairement
+    level = relationship("UserLevel", back_populates="user", uselist=False)
+    user_challenges = relationship("UserChallenge", back_populates="user")
+    leaderboard_entries = relationship("LeaderboardEntry", back_populates="user")
+    user_achievements = relationship("UserAchievement", back_populates="user")
+    notes = relationship("Note", back_populates="user")
+
+# Import des modèles pour éviter les erreurs de mapper
+from .quiz import QuizResult, QuizAssignment
+from .badge import UserBadge
+from .class_group import ClassStudent, ClassGroup
+from .learning_history import LearningHistory
+from .message import Message
+from .assessment import Assessment
+from .thread import Thread
+# from .content import Content  # Commenté temporairement
+from .gamification import UserLevel, UserChallenge, LeaderboardEntry, UserAchievement
+from .note import Note 

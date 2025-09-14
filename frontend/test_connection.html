@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Connection</title>
+</head>
+<body>
+    <h1>Test de connexion au backend</h1>
+    <button onclick="testConnection()">Tester la connexion</button>
+    <div id="result"></div>
+
+    <script>
+        async function testConnection() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Test en cours...';
+            
+            try {
+                // Test 1: Endpoint de base
+                const baseResponse = await fetch('http://localhost:8000/');
+                const baseData = await baseResponse.text();
+                console.log('Base endpoint:', baseData);
+                
+                // Test 2: Endpoint d'authentification
+                const authResponse = await fetch('http://localhost:8000/api/v1/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        email: 'teacher@test.com',
+                        password: 'teacher123'
+                    })
+                });
+                
+                if (authResponse.ok) {
+                    const authData = await authResponse.json();
+                    console.log('Auth successful:', authData);
+                    
+                    // Test 3: Endpoint protégé avec token
+                    const token = authData.access_token;
+                    const quizResponse = await fetch('http://localhost:8000/api/v1/quizzes/', {
+                        headers: {
+                            'Authorization': `Bearer ${token}`
+                        }
+                    });
+                    
+                    if (quizResponse.ok) {
+                        const quizData = await quizResponse.json();
+                        console.log('Quiz endpoint:', quizData);
+                        resultDiv.innerHTML = '✅ Tous les tests réussis!';
+                    } else {
+                        resultDiv.innerHTML = '❌ Erreur quiz endpoint: ' + quizResponse.status;
+                    }
+                } else {
+                    resultDiv.innerHTML = '❌ Erreur auth: ' + authResponse.status;
+                }
+                
+            } catch (error) {
+                console.error('Erreur:', error);
+                resultDiv.innerHTML = '❌ Erreur de connexion: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html> 

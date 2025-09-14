@@ -1,0 +1,1541 @@
+{
+  "metadata": {
+    "titre": "Le Dernier Jour d'un Condamné - Dataset d'entraînement enrichi",
+    "auteur": "Victor Hugo",
+    "format": "préfixe: texte_d_entrée -> texte_cible",
+    "usage": "Entraînement de modèles BARThez pour génération de QCM adaptatifs",
+    "nombre_exemples": 152,
+    "version": "2.0_enriched",
+    "chapitres_couverts": 10,
+    "questions_par_chapitre": 20,
+    "ameliorations": [
+      "Formatage strict et cohérent",
+      "Options plus distinctes et pertinentes",
+      "Réponses correctes référençant exactement les options",
+      "Explications plus détaillées",
+      "Distracteurs plus sophistiqués"
+    ]
+  },
+  "dataset_entrainement_complet": [
+    {
+      "id": "ch1_q1",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "presentation_narrateur",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le narrateur est un condamné à mort qui raconte ses dernières heures dans sa cellule de Bicêtre. Il évoque sa situation et ses pensées.",
+      "texte_cible": "Qui est le narrateur du Dernier Jour d'un Condamné ?\nA) Un gardien de prison qui observe un condamné\nB) Un condamné à mort dans sa cellule\nC) Un avocat défendant un accusé\nD) Un juge présidant un procès\nRéponse correcte: B) Un condamné à mort dans sa cellule\nExplication: Le narrateur est un condamné à mort anonyme qui raconte ses dernières heures, créant un effet de proximité et d'immédiateté avec le lecteur."
+    },
+    {
+      "id": "ch1_q2",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "effet_immediatete",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'incipit plonge immédiatement le lecteur dans l'angoisse du condamné qui compte les heures qui lui restent à vivre.",
+      "texte_cible": "Quel effet produit l'incipit du Dernier Jour d'un Condamné ?\nA) Il crée une distance critique avec le personnage\nB) Il plonge immédiatement le lecteur dans l'angoisse\nC) Il présente un récit historique objectif\nD) Il développe une intrigue policière\nRéponse correcte: B) Il plonge immédiatement le lecteur dans l'angoisse\nExplication: L'incipit crée un effet d'immédiateté et d'empathie, permettant au lecteur de vivre les dernières heures du condamné de l'intérieur."
+    },
+    {
+      "id": "ch1_q3",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "lieu_detention",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné est enfermé dans la prison de Bicêtre, attendant son exécution. Il décrit son environnement carcéral.",
+      "texte_cible": "Dans quelle prison le condamné est-il enfermé ?\nA) La Conciergerie\nB) Bicêtre\nC) La Santé\nD) Fresnes\nRéponse correcte: B) Bicêtre\nExplication: Le condamné est détenu à Bicêtre, une prison parisienne historique où étaient enfermés les condamnés à mort avant leur exécution."
+    },
+    {
+      "id": "ch1_q4",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "monologue_interieur",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le récit prend la forme d'un monologue intérieur où le condamné s'adresse à lui-même et au lecteur, créant une intimité troublante.",
+      "texte_cible": "Quelle est la particularité narrative du Dernier Jour d'un Condamné ?\nA) C'est un récit à la troisième personne\nB) C'est un monologue intérieur à la première personne\nC) C'est un dialogue entre plusieurs personnages\nD) C'est un récit épistolaire\nRéponse correcte: B) C'est un monologue intérieur à la première personne\nExplication: Le récit est un monologue intérieur qui permet au lecteur d'entrer dans la conscience du condamné et de partager ses pensées les plus intimes."
+    },
+    {
+      "id": "ch1_q5",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "atmosphere_carcérale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné décrit l'atmosphère oppressante de sa cellule, les bruits de la prison, l'angoisse qui l'envahit.",
+      "texte_cible": "Comment le condamné décrit-il l'atmosphère de sa cellule ?\nA) Comme un lieu de paix et de sérénité\nB) Comme un lieu oppressant et angoissant\nC) Comme un lieu confortable et moderne\nD) Comme un lieu vide et silencieux\nRéponse correcte: B) Comme un lieu oppressant et angoissant\nExplication: Le condamné perçoit sa cellule comme un lieu d'oppression où l'angoisse de la mort imminente domine."
+    },
+    {
+      "id": "ch1_q6",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "temporalite_suspendue",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le temps semble s'être arrêté pour le condamné, chaque minute paraît une éternité dans l'attente de l'exécution.",
+      "texte_cible": "Comment le condamné perçoit-il le temps qui passe ?\nA) Il passe très rapidement\nB) Il semble s'être arrêté, chaque minute est une éternité\nC) Il est normal et régulier\nD) Il n'y pense pas\nRéponse correcte: B) Il semble s'être arrêté, chaque minute est une éternité\nExplication: Le condamné vit dans une temporalité suspendue où le temps paraît s'être figé dans l'attente de la mort."
+    },
+    {
+      "id": "ch1_q7",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "bruits_prison",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné écoute attentivement les bruits de la prison : les pas des gardiens, les cris des autres détenus, les clés qui cliquettent.",
+      "texte_cible": "Que fait le condamné en écoutant les bruits de la prison ?\nA) Il s'endort paisiblement\nB) Il écoute attentivement chaque son\nC) Il chante pour couvrir les bruits\nD) Il frappe contre les murs\nRéponse correcte: B) Il écoute attentivement chaque son\nExplication: Le condamné est hypervigilant, chaque bruit pouvant annoncer l'arrivée de ses bourreaux."
+    },
+    {
+      "id": "ch1_q8",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "angoisse_existentielle",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'angoisse du condamné dépasse la peur de la mort physique pour toucher aux questions fondamentales de l'existence.",
+      "texte_cible": "Quel type d'angoisse domine chez le condamné ?\nA) Une angoisse purement physique\nB) Une angoisse existentielle profonde\nC) Une angoisse sociale\nD) Une angoisse financière\nRéponse correcte: B) Une angoisse existentielle profonde\nExplication: L'angoisse du condamné touche aux questions fondamentales de l'existence, dépassant la simple peur de la mort."
+    },
+    {
+      "id": "ch1_q9",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "solitude_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se sent terriblement seul dans sa cellule, isolé du monde extérieur et de ses proches.",
+      "texte_cible": "Comment le condamné se sent-il dans sa cellule ?\nA) Entouré et soutenu\nB) Terriblement seul et isolé\nC) Indifférent à sa situation\nD) En colère contre tout le monde\nRéponse correcte: B) Terriblement seul et isolé\nExplication: La solitude est un thème central du récit, le condamné étant coupé du monde et de ses proches."
+    },
+    {
+      "id": "ch1_q10",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "reflexion_philosophique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se livre à des réflexions philosophiques sur la justice, l'injustice et le sens de la vie.",
+      "texte_cible": "Sur quoi le condamné réfléchit-il ?\nA) Sur ses projets d'avenir\nB) Sur la justice, l'injustice et le sens de la vie\nC) Sur ses souvenirs d'enfance\nD) Sur ses amis\nRéponse correcte: B) Sur la justice, l'injustice et le sens de la vie\nExplication: Le condamné développe une réflexion philosophique profonde sur les questions de justice et de sens."
+    },
+    {
+      "id": "ch1_q11",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "espoir_grace",
+      "prefixe": "générer une question:",
+      "texte_entree": "Malgré sa condamnation, le condamné nourrit encore un espoir, si mince soit-il, d'une possible grâce.",
+      "texte_cible": "Quel espoir nourrit encore le condamné ?\nA) L'espoir de s'évader\nB) L'espoir d'une grâce\nC) L'espoir de voir sa famille\nD) L'espoir de changer de prison\nRéponse correcte: B) L'espoir d'une grâce\nExplication: Même face à la certitude de sa mort, le condamné conserve un espoir, si ténu soit-il, d'une grâce possible."
+    },
+    {
+      "id": "ch1_q12",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "psychologie_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "La psychologie du condamné oscille entre différents états : espoir, désespoir, colère, résignation, créant un portrait complexe.",
+      "texte_cible": "Comment peut-on décrire la psychologie du condamné ?\nA) Elle est stable et constante\nB) Elle oscille entre différents états contradictoires\nC) Elle est uniquement marquée par la colère\nD) Elle est totalement indifférente\nRéponse correcte: B) Elle oscille entre différents états contradictoires\nExplication: La psychologie du condamné est complexe et mouvante, alternant entre espoir, désespoir, colère et résignation."
+    },
+    {
+      "id": "ch1_q13",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se remémore des moments de sa vie passée, cherchant à comprendre comment il en est arrivé là.",
+      "texte_cible": "Que fait le condamné avec ses souvenirs ?\nA) Il les oublie complètement\nB) Il les évoque pour comprendre son parcours\nC) Il les invente\nD) Il les raconte aux gardiens\nRéponse correcte: B) Il les évoque pour comprendre son parcours\nExplication: Le condamné revisite ses souvenirs pour tenter de comprendre l'enchaînement qui l'a mené à sa condamnation."
+    },
+    {
+      "id": "ch1_q14",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "denonciation_sociale",
+      "prefixe": "générer une question:",
+      "texte_entree": "À travers le récit du condamné, Victor Hugo dénonce implicitement la peine de mort et l'injustice du système judiciaire.",
+      "texte_cible": "Quel est l'objectif de Victor Hugo dans ce récit ?\nA) Divertir le lecteur\nB) Dénoncer la peine de mort et l'injustice\nC) Raconter une histoire d'amour\nD) Décrire la vie en prison\nRéponse correcte: B) Dénoncer la peine de mort et l'injustice\nExplication: Victor Hugo utilise ce récit comme un plaidoyer contre la peine de mort et l'injustice du système judiciaire."
+    },
+    {
+      "id": "ch1_q15",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "regrets_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve de profonds regrets, se demandant ce qu'il aurait pu faire différemment pour éviter cette situation.",
+      "texte_cible": "Quels sentiments éprouve le condamné envers son passé ?\nA) De la fierté\nB) De profonds regrets\nC) De l'indifférence\nD) De la satisfaction\nRéponse correcte: B) De profonds regrets\nExplication: Le condamné est habité par des regrets profonds, questionnant ses choix passés et leurs conséquences."
+    },
+    {
+      "id": "ch1_q16",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "universalite_theme",
+      "prefixe": "générer une question:",
+      "texte_entree": "Bien que spécifique à un condamné, le récit touche à des questions universelles sur la condition humaine et la mort.",
+      "texte_cible": "Pourquoi ce récit dépasse-t-il le cas particulier du condamné ?\nA) Il est très bien écrit\nB) Il touche à des questions universelles sur la condition humaine\nC) Il est très court\nD) Il est drôle\nRéponse correcte: B) Il touche à des questions universelles sur la condition humaine\nExplication: Le récit transcende le cas particulier pour aborder des questions universelles sur la mort et la condition humaine."
+    },
+    {
+      "id": "ch1_q17",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'angoisse de la mort imminente envahit complètement le condamné, influençant tous ses pensées et ses actions.",
+      "texte_cible": "Quel sentiment domine chez le condamné ?\nA) La joie de vivre\nB) L'angoisse de la mort imminente\nC) L'indifférence totale\nD) La colère contre la société\nRéponse correcte: B) L'angoisse de la mort imminente\nExplication: L'angoisse de la mort imminente est le sentiment dominant qui colore toutes les pensées du condamné."
+    },
+    {
+      "id": "ch1_q18",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "effet_lecteur",
+      "prefixe": "générer une question:",
+      "texte_entree": "En plongeant le lecteur dans la conscience du condamné, Victor Hugo crée un effet d'empathie et de proximité troublante.",
+      "texte_cible": "Quel effet Victor Hugo cherche-t-il à produire sur le lecteur ?\nA) L'effrayer\nB) Créer un effet d'empathie et de proximité\nC) Le faire rire\nD) L'endormir\nRéponse correcte: B) Créer un effet d'empathie et de proximité\nExplication: Victor Hugo cherche à créer une empathie forte entre le lecteur et le condamné pour dénoncer la peine de mort."
+    },
+    {
+      "id": "ch1_q19",
+      "chapitre": 1,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "isolement_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se sent complètement isolé du monde extérieur, coupé de tout contact humain normal.",
+      "texte_cible": "Comment le condamné se sent-il par rapport au monde extérieur ?\nA) Très connecté\nB) Complètement isolé et coupé\nC) Normalement intégré\nD) Indifférent\nRéponse correcte: B) Complètement isolé et coupé\nExplication: L'isolement du condamné est total, il se sent coupé du monde des vivants et de tout contact humain normal."
+    },
+    {
+      "id": "ch1_q20",
+      "chapitre": 1,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "style_litteraire",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le style de Victor Hugo dans ce récit est marqué par l'intensité émotionnelle et la force expressive des sentiments.",
+      "texte_cible": "Quelle caractéristique marque le style de Victor Hugo dans ce récit ?\nA) La froideur et la distance\nB) L'intensité émotionnelle et la force expressive\nC) L'humour et la légèreté\nD) La complexité syntaxique\nRéponse correcte: B) L'intensité émotionnelle et la force expressive\nExplication: Le style de Victor Hugo se caractérise par une intensité émotionnelle forte et une expression puissante des sentiments du condamné."
+    },
+    {
+      "id": "ch2_q1",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "souvenirs_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné évoque ses souvenirs d'enfance et pense à sa famille, particulièrement à sa mère et à sa fille.",
+      "texte_cible": "À qui le condamné pense-t-il particulièrement dans ses derniers moments ?\nA) Seulement à ses amis\nB) À sa famille, surtout sa mère et sa fille\nC) Uniquement à ses ennemis\nD) À ses collègues de travail\nRéponse correcte: B) À sa famille, surtout sa mère et sa fille\nExplication: Les pensées du condamné se tournent vers sa famille, révélant l'importance des liens affectifs face à la mort."
+    },
+    {
+      "id": "ch2_q2",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "regret_remords",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve des regrets et des remords, se demandant comment il en est arrivé là et ce qu'il aurait pu faire différemment.",
+      "texte_cible": "Quels sentiments dominent les pensées du condamné ?\nA) La colère et la haine\nB) Les regrets et les remords\nC) L'indifférence et l'apathie\nD) La joie et l'optimisme\nRéponse correcte: B) Les regrets et les remords\nExplication: Le condamné est habité par des regrets profonds et des remords, questionnant ses choix passés et leur conséquence fatale."
+    },
+    {
+      "id": "ch2_q3",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "temps_ecoule",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné compte les heures, les minutes qui lui restent, créant une tension dramatique croissante.",
+      "texte_cible": "Que fait le condamné pour mesurer le temps qui lui reste ?\nA) Il lit des livres\nB) Il compte les heures et les minutes\nC) Il dort le plus possible\nD) Il joue aux cartes\nRéponse correcte: B) Il compte les heures et les minutes\nExplication: Le condamné obsessivement compte le temps qui lui reste, ce qui intensifie l'angoisse et la tension dramatique du récit."
+    },
+    {
+      "id": "ch2_q4",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "psychologie_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné oscille entre l'espoir d'une grâce et la résignation, révélant la complexité psychologique de sa situation.",
+      "texte_cible": "Comment le condamné réagit-il psychologiquement à sa situation ?\nA) Il reste constamment optimiste\nB) Il oscille entre espoir et résignation\nC) Il est totalement indifférent\nD) Il éprouve uniquement de la colère\nRéponse correcte: B) Il oscille entre espoir et résignation\nExplication: La psychologie du condamné est complexe, alternant entre l'espoir d'une éventuelle grâce et la résignation face à son sort inéluctable."
+    },
+    {
+      "id": "ch2_q5",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_enfance",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se remémore des moments heureux de son enfance, contrastant avec sa situation actuelle tragique.",
+      "texte_cible": "Que fait le condamné avec ses souvenirs d'enfance ?\nA) Il les oublie\nB) Il les évoque pour échapper à sa situation\nC) Il les invente\nD) Il les raconte aux gardiens\nRéponse correcte: B) Il les évoque pour échapper à sa situation\nExplication: Les souvenirs d'enfance offrent au condamné un refuge temporaire contre l'angoisse de sa situation présente."
+    },
+    {
+      "id": "ch2_q6",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "contraste_innocence_tragedie",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les souvenirs d'enfance du condamné créent un contraste saisissant avec sa situation de condamné à mort.",
+      "texte_cible": "Quel effet produit le contraste entre les souvenirs d'enfance et la situation présente ?\nA) Il rend le récit comique\nB) Il crée un effet pathétique saisissant\nC) Il rend l'histoire banale\nD) Il supprime toute émotion\nRéponse correcte: B) Il crée un effet pathétique saisissant\nExplication: Le contraste entre l'innocence des souvenirs d'enfance et la tragédie de la condamnation à mort renforce l'effet pathétique et émotionnel du récit."
+    },
+    {
+      "id": "ch2_q7",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "reves_avenir",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se souvient de ses rêves d'avenir, de ses projets, de tout ce qu'il n'aura jamais le temps de réaliser.",
+      "texte_cible": "Que représentent les rêves d'avenir du condamné ?\nA) Des souvenirs heureux\nB) Tout ce qu'il n'aura jamais le temps de réaliser\nC) Des projets qu'il a accomplis\nD) Des regrets du passé\nRéponse correcte: B) Tout ce qu'il n'aura jamais le temps de réaliser\nExplication: Les rêves d'avenir du condamné symbolisent tout ce qui lui est désormais interdit, renforçant la tragédie de sa situation."
+    },
+    {
+      "id": "ch2_q8",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "temps_arrete",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné a l'impression que le temps s'est arrêté, que sa vie est figée dans l'attente de la mort.",
+      "texte_cible": "Comment le condamné perçoit-il le temps qui passe ?\nA) Il passe très rapidement\nB) Il s'est arrêté, sa vie est figée\nC) Il est normal et régulier\nD) Il n'y pense pas\nRéponse correcte: B) Il s'est arrêté, sa vie est figée\nExplication: Le condamné vit dans une temporalité suspendue où le temps semble s'être arrêté, créant une atmosphère d'attente angoissante."
+    },
+    {
+      "id": "ch2_q9",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "culpabilite_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une culpabilité profonde, se demandant s'il mérite vraiment son sort et ce qu'il aurait pu faire pour l'éviter.",
+      "texte_cible": "Quel sentiment éprouve le condamné envers sa situation ?\nA) De la fierté\nB) Une culpabilité profonde\nC) De l'indifférence\nD) De la satisfaction\nRéponse correcte: B) Une culpabilité profonde\nExplication: Le condamné est rongé par la culpabilité, questionnant la justice de sa condamnation et ses propres responsabilités."
+    },
+    {
+      "id": "ch2_q10",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "reflexion_justice",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné réfléchit sur la notion de justice, se demandant si sa condamnation est vraiment juste et équitable.",
+      "texte_cible": "Sur quoi le condamné réfléchit-il concernant sa condamnation ?\nA) Sur ses projets d'avenir\nB) Sur la justice et l'équité de sa condamnation\nC) Sur ses souvenirs d'enfance\nD) Sur ses amis\nRéponse correcte: B) Sur la justice et l'équité de sa condamnation\nExplication: Le condamné développe une réflexion critique sur la justice, questionnant la légitimité de sa condamnation."
+    },
+    {
+      "id": "ch2_q11",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné s'inquiète pour sa famille, se demandant comment elle va survivre sans lui et comment elle va supporter sa mort.",
+      "texte_cible": "De quoi le condamné s'inquiète-t-il le plus pour sa famille ?\nA) De leur bonheur\nB) De leur survie et de leur souffrance\nC) De leur richesse\nD) De leur réputation\nRéponse correcte: B) De leur survie et de leur souffrance\nExplication: Le condamné est torturé par l'angoisse de la souffrance que sa mort va causer à sa famille."
+    },
+    {
+      "id": "ch2_q12",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "humanite_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "À travers ses pensées et ses souvenirs, le condamné révèle sa pleine humanité, ses faiblesses et ses qualités.",
+      "texte_cible": "Que révèlent les pensées du condamné sur sa nature ?\nA) Sa cruauté\nB) Sa pleine humanité avec ses faiblesses et qualités\nC) Son indifférence\nD) Sa folie\nRéponse correcte: B) Sa pleine humanité avec ses faiblesses et qualités\nExplication: Les pensées du condamné révèlent sa complexité humaine, mêlant faiblesses et qualités, le rendant profondément humain."
+    },
+    {
+      "id": "ch2_q13",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "espoir_desespoir",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné oscille constamment entre l'espoir d'une grâce possible et le désespoir de sa situation inéluctable.",
+      "texte_cible": "Entre quels sentiments le condamné oscille-t-il ?\nA) La joie et la tristesse\nB) L'espoir et le désespoir\nC) La colère et la paix\nD) L'amour et la haine\nRéponse correcte: B) L'espoir et le désespoir\nExplication: Le condamné vit une oscillation constante entre l'espoir d'une éventuelle grâce et le désespoir face à l'inéluctabilité de sa mort."
+    },
+    {
+      "id": "ch2_q14",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "denonciation_peine_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "En montrant la souffrance psychologique du condamné, Victor Hugo dénonce implicitement la cruauté de la peine de mort.",
+      "texte_cible": "Que dénonce Victor Hugo à travers la souffrance du condamné ?\nA) La vie en prison\nB) La cruauté de la peine de mort\nC) La société en général\nD) La famille du condamné\nRéponse correcte: B) La cruauté de la peine de mort\nExplication: Victor Hugo utilise la souffrance psychologique du condamné pour dénoncer la cruauté et l'inhumanité de la peine de mort."
+    },
+    {
+      "id": "ch2_q15",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_mere",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se remémore particulièrement sa mère, évoquant des moments tendres et des regrets de ne plus la revoir.",
+      "texte_cible": "Quel souvenir familial est particulièrement important pour le condamné ?\nA) Celui de son père\nB) Celui de sa mère\nC) Celui de ses frères\nD) Celui de ses cousins\nRéponse correcte: B) Celui de sa mère\nExplication: La figure maternelle occupe une place centrale dans les souvenirs du condamné, symbolisant l'amour et la tendresse."
+    },
+    {
+      "id": "ch2_q16",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "universalite_souffrance",
+      "prefixe": "générer une question:",
+      "texte_entree": "La souffrance du condamné, bien que spécifique, touche à des questions universelles sur la mort et la condition humaine.",
+      "texte_cible": "Pourquoi la souffrance du condamné dépasse-t-elle son cas particulier ?\nA) Elle est très intense\nB) Elle touche à des questions universelles sur la mort\nC) Elle est bien décrite\nD) Elle est unique\nRéponse correcte: B) Elle touche à des questions universelles sur la mort\nExplication: La souffrance du condamné transcende son cas particulier pour aborder des questions universelles sur la mort et la condition humaine."
+    },
+    {
+      "id": "ch2_q17",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "regrets_choix",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné passe en revue les choix de sa vie, se demandant lesquels l'ont mené à sa condamnation actuelle.",
+      "texte_cible": "Que fait le condamné avec les choix de sa vie ?\nA) Il les oublie\nB) Il les passe en revue pour comprendre sa situation\nC) Il les invente\nD) Il les raconte aux gardiens\nRéponse correcte: B) Il les passe en revue pour comprendre sa situation\nExplication: Le condamné revisite ses choix passés pour tenter de comprendre l'enchaînement qui l'a mené à sa condamnation."
+    },
+    {
+      "id": "ch2_q18",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "psychologie_trauma",
+      "prefixe": "générer une question:",
+      "texte_entree": "La condamnation à mort crée un traumatisme psychologique profond chez le condamné, affectant sa perception du temps et de la réalité.",
+      "texte_cible": "Quel effet produit la condamnation à mort sur la psychologie du condamné ?\nA) Elle le rend plus fort\nB) Elle crée un traumatisme psychologique profond\nC) Elle l'indiffère\nD) Elle le rend joyeux\nRéponse correcte: B) Elle crée un traumatisme psychologique profond\nExplication: La condamnation à mort provoque un traumatisme psychologique majeur qui altère la perception du condamné."
+    },
+    {
+      "id": "ch2_q19",
+      "chapitre": 2,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_avenir",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné est obsédé par l'idée de son exécution imminente, ne pouvant penser à autre chose.",
+      "texte_cible": "De quoi le condamné est-il obsédé ?\nA) De sa famille\nB) De son exécution imminente\nC) De ses souvenirs\nD) De sa nourriture\nRéponse correcte: B) De son exécution imminente\nExplication: L'idée de son exécution imminente obsède complètement le condamné, envahissant toutes ses pensées."
+    },
+    {
+      "id": "ch2_q20",
+      "chapitre": 2,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "style_interieur",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le style de Victor Hugo dans ce chapitre privilégie le monologue intérieur pour créer une intimité maximale avec le lecteur.",
+      "texte_cible": "Quelle technique stylistique utilise Victor Hugo dans ce chapitre ?\nA) Le dialogue\nB) Le monologue intérieur\nC) La description\nD) L'action\nRéponse correcte: B) Le monologue intérieur\nExplication: Victor Hugo utilise le monologue intérieur pour créer une intimité maximale entre le lecteur et les pensées du condamné."
+    },
+    {
+      "id": "ch3_q1",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "visite_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "La famille du condamné vient le visiter en prison. Ces moments sont empreints d'émotion et de douleur.",
+      "texte_cible": "Qui vient visiter le condamné en prison ?\nA) Seulement ses amis\nB) Sa famille\nC) Ses avocats uniquement\nD) Personne ne vient le voir\nRéponse correcte: B) Sa famille\nExplication: La famille du condamné vient le visiter, créant des scènes d'une grande intensité émotionnelle et dramatique."
+    },
+    {
+      "id": "ch3_q2",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "douleur_familiale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les visites familiales sont des moments de grande souffrance, où le condamné doit faire face à la douleur de ses proches.",
+      "texte_cible": "Quel est l'effet des visites familiales sur le condamné ?\nA) Elles le réconfortent complètement\nB) Elles sont source de grande souffrance\nC) Elles l'indiffèrent totalement\nD) Elles le rendent joyeux\nRéponse correcte: B) Elles sont source de grande souffrance\nExplication: Les visites familiales, loin de réconforter le condamné, sont des moments de torture morale où il doit affronter la douleur de ses proches."
+    },
+    {
+      "id": "ch3_q3",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "fille_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné pense particulièrement à sa fille, s'inquiétant de son avenir et de ce qu'elle deviendra sans lui.",
+      "texte_cible": "Pourquoi la fille du condamné est-elle particulièrement importante dans le récit ?\nA) Elle est la seule à le visiter\nB) Il s'inquiète de son avenir sans lui\nC) Elle est la plus âgée de la famille\nD) Elle travaille dans la prison\nRéponse correcte: B) Il s'inquiète de son avenir sans lui\nExplication: Le condamné est particulièrement préoccupé par l'avenir de sa fille, symbolisant l'angoisse paternelle face à la mort."
+    },
+    {
+      "id": "ch3_q4",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "culpabilite_paternelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une culpabilité profonde envers sa famille, se sentant responsable de leur souffrance.",
+      "texte_cible": "Quel sentiment le condamné éprouve-t-il envers sa famille ?\nA) De la fierté\nB) Une culpabilité profonde\nC) De l'indifférence\nD) De la colère\nRéponse correcte: B) Une culpabilité profonde\nExplication: Le condamné se sent coupable de faire souffrir sa famille par sa situation, ajoutant une dimension morale à son drame personnel."
+    },
+    {
+      "id": "ch3_q5",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "emotion_visite",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les visites familiales sont des moments d'émotion intense, où le condamné doit affronter la douleur de ses proches.",
+      "texte_cible": "Quelle émotion domine lors des visites familiales ?\nA) La joie\nB) L'émotion intense et la douleur\nC) L'indifférence\nD) La colère\nRéponse correcte: B) L'émotion intense et la douleur\nExplication: Les visites familiales sont des moments d'émotion intense où le condamné doit affronter la souffrance de ses proches."
+    },
+    {
+      "id": "ch3_q6",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "torture_morale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les visites familiales deviennent une torture morale pour le condamné, qui doit voir souffrir ceux qu'il aime.",
+      "texte_cible": "Comment les visites familiales affectent-elles le condamné ?\nA) Elles le réconfortent\nB) Elles deviennent une torture morale\nC) Elles l'indiffèrent\nD) Elles le rendent joyeux\nRéponse correcte: B) Elles deviennent une torture morale\nExplication: Les visites familiales, loin de réconforter le condamné, deviennent une torture morale supplémentaire."
+    },
+    {
+      "id": "ch3_q7",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné garde précieusement en mémoire les derniers moments passés avec sa famille.",
+      "texte_cible": "Que fait le condamné avec les moments passés avec sa famille ?\nA) Il les oublie\nB) Il les garde précieusement en mémoire\nC) Il les invente\nD) Il les raconte aux gardiens\nRéponse correcte: B) Il les garde précieusement en mémoire\nExplication: Le condamné chérit ces derniers moments avec sa famille comme des trésors précieux."
+    },
+    {
+      "id": "ch3_q8",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "culpabilite_familiale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une culpabilité profonde envers sa famille, se sentant responsable de leur souffrance.",
+      "texte_cible": "Quel sentiment éprouve le condamné envers sa famille ?\nA) De la fierté\nB) Une culpabilité profonde\nC) De l'indifférence\nD) De la colère\nRéponse correcte: B) Une culpabilité profonde\nExplication: Le condamné se sent coupable de faire souffrir sa famille par sa situation, ajoutant une dimension morale à son drame personnel."
+    },
+    {
+      "id": "ch3_q9",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "derniers_mots_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné prononce ses derniers mots à sa famille, des paroles d'amour et de regret.",
+      "texte_cible": "Que dit le condamné à sa famille ?\nA) Des paroles de colère\nB) Des paroles d'amour et de regret\nC) Des paroles d'indifférence\nD) Des paroles de haine\nRéponse correcte: B) Des paroles d'amour et de regret\nExplication: Le condamné s'adresse à sa famille avec des paroles empreintes d'amour et de regret profond."
+    },
+    {
+      "id": "ch3_q10",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "denonciation_peine_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "À travers la souffrance de la famille, Victor Hugo dénonce l'impact de la peine de mort sur les proches.",
+      "texte_cible": "Que dénonce Victor Hugo à travers la souffrance de la famille ?\nA) La vie en prison\nB) L'impact de la peine de mort sur les proches\nC) La société en général\nD) La justice\nRéponse correcte: B) L'impact de la peine de mort sur les proches\nExplication: Victor Hugo montre que la peine de mort affecte non seulement le condamné mais aussi ses proches, élargissant le champ de la souffrance."
+    },
+    {
+      "id": "ch3_q11",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_separation",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une angoisse terrible à l'idée de se séparer définitivement de sa famille.",
+      "texte_cible": "Quelle angoisse éprouve le condamné concernant sa famille ?\nA) L'angoisse de les revoir\nB) L'angoisse de la séparation définitive\nC) L'angoisse de leur bonheur\nD) L'angoisse de leur colère\nRéponse correcte: B) L'angoisse de la séparation définitive\nExplication: Le condamné est torturé par l'idée de la séparation définitive d'avec sa famille."
+    },
+    {
+      "id": "ch3_q12",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "humanite_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les relations familiales du condamné révèlent sa pleine humanité et sa capacité d'aimer.",
+      "texte_cible": "Que révèlent les relations familiales du condamné ?\nA) Sa cruauté\nB) Sa pleine humanité et sa capacité d'aimer\nC) Son indifférence\nD) Sa folie\nRéponse correcte: B) Sa pleine humanité et sa capacité d'aimer\nExplication: Les relations familiales du condamné révèlent sa dimension humaine la plus profonde et sa capacité d'aimer."
+    },
+    {
+      "id": "ch3_q13",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "regrets_familiaux",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve des regrets profonds envers sa famille, se demandant comment il a pu les faire souffrir.",
+      "texte_cible": "Quels regrets éprouve le condamné envers sa famille ?\nA) Des regrets de les avoir connus\nB) Des regrets profonds de les avoir fait souffrir\nC) Des regrets de leur bonheur\nD) Des regrets de leur existence\nRéponse correcte: B) Des regrets profonds de les avoir fait souffrir\nExplication: Le condamné est rongé par les regrets d'avoir causé de la souffrance à sa famille."
+    },
+    {
+      "id": "ch3_q14",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "effet_pathétique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les scènes familiales créent un effet pathétique intense, renforçant l'émotion du lecteur.",
+      "texte_cible": "Quel effet produisent les scènes familiales ?\nA) Un effet comique\nB) Un effet pathétique intense\nC) Un effet neutre\nD) Un effet joyeux\nRéponse correcte: B) Un effet pathétique intense\nExplication: Les scènes familiales créent un pathos intense qui renforce l'émotion et l'empathie du lecteur."
+    },
+    {
+      "id": "ch3_q15",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_enfants",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné pense particulièrement à ses enfants, s'inquiétant de leur avenir sans lui.",
+      "texte_cible": "Pourquoi les enfants sont-ils particulièrement importants pour le condamné ?\nA) Ils sont les plus âgés\nB) Il s'inquiète de leur avenir sans lui\nC) Ils sont les plus riches\nD) Ils sont les plus intelligents\nRéponse correcte: B) Il s'inquiète de leur avenir sans lui\nExplication: Le condamné est particulièrement préoccupé par l'avenir de ses enfants, symbolisant l'angoisse paternelle face à la mort."
+    },
+    {
+      "id": "ch3_q16",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "universalite_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "La souffrance familiale du condamné touche à des questions universelles sur les liens familiaux et la mort.",
+      "texte_cible": "Pourquoi la souffrance familiale dépasse-t-elle le cas particulier ?\nA) Elle est très intense\nB) Elle touche à des questions universelles sur les liens familiaux\nC) Elle est bien décrite\nD) Elle est unique\nRéponse correcte: B) Elle touche à des questions universelles sur les liens familiaux\nExplication: La souffrance familiale transcende le cas particulier pour aborder des questions universelles sur les liens familiaux et la mort."
+    },
+    {
+      "id": "ch3_q17",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "derniers_instants",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné savoure chaque instant passé avec sa famille, sachant que ce sont les derniers.",
+      "texte_cible": "Comment le condamné vit-il les moments avec sa famille ?\nA) Il les ignore\nB) Il savoure chaque instant comme les derniers\nC) Il les invente\nD) Il les oublie\nRéponse correcte: B) Il savoure chaque instant comme les derniers\nExplication: Le condamné vit intensément chaque moment avec sa famille, conscient qu'ils sont les derniers."
+    },
+    {
+      "id": "ch3_q18",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "psychologie_familiale",
+      "prefixe": "générer une question:",
+      "texte_entree": "La psychologie du condamné face à sa famille révèle la complexité des émotions humaines face à la mort.",
+      "texte_cible": "Que révèle la psychologie du condamné face à sa famille ?\nA) Sa simplicité\nB) La complexité des émotions humaines face à la mort\nC) Son indifférence\nD) Sa folie\nRéponse correcte: B) La complexité des émotions humaines face à la mort\nExplication: La psychologie du condamné face à sa famille révèle toute la complexité des émotions humaines confrontées à la mort."
+    },
+    {
+      "id": "ch3_q19",
+      "chapitre": 3,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_avenir_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné est obsédé par l'idée de ce que deviendra sa famille après sa mort.",
+      "texte_cible": "De quoi le condamné est-il obsédé concernant sa famille ?\nA) De leur bonheur\nB) De ce qu'elle deviendra après sa mort\nC) De leur richesse\nD) De leur réputation\nRéponse correcte: B) De ce qu'elle deviendra après sa mort\nExplication: L'idée de l'avenir de sa famille après sa mort obsède complètement le condamné."
+    },
+    {
+      "id": "ch3_q20",
+      "chapitre": 3,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "style_emotionnel",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le style de Victor Hugo dans ce chapitre privilégie l'émotion et l'intensité dramatique des relations familiales.",
+      "texte_cible": "Quelle caractéristique marque le style de Victor Hugo dans ce chapitre ?\nA) La froideur\nB) L'émotion et l'intensité dramatique\nC) L'humour\nD) La complexité syntaxique\nRéponse correcte: B) L'émotion et l'intensité dramatique\nExplication: Le style de Victor Hugo se caractérise par une intensité émotionnelle forte dans la description des relations familiales."
+    },
+    {
+      "id": "ch4_q1",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "souvenirs_enfance",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se remémore son enfance, ses jeux, ses rêves d'avenir, contrastant avec sa situation actuelle.",
+      "texte_cible": "Que fait le condamné pour échapper à sa situation présente ?\nA) Il s'évade physiquement\nB) Il se remémore son enfance\nC) Il lit des romans\nD) Il dort constamment\nRéponse correcte: B) Il se remémore son enfance\nExplication: Le condamné trouve refuge dans ses souvenirs d'enfance, créant un contraste poignant entre l'innocence passée et la tragédie présente."
+    },
+    {
+      "id": "ch4_q2",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "contraste_innocence_tragedie",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les souvenirs d'enfance du condamné créent un contraste saisissant avec sa situation de condamné à mort.",
+      "texte_cible": "Quel effet produit le contraste entre les souvenirs d'enfance et la situation présente ?\nA) Il rend le récit comique\nB) Il crée un effet pathétique saisissant\nC) Il rend l'histoire banale\nD) Il supprime toute émotion\nRéponse correcte: B) Il crée un effet pathétique saisissant\nExplication: Le contraste entre l'innocence des souvenirs d'enfance et la tragédie de la condamnation à mort renforce l'effet pathétique et émotionnel du récit."
+    },
+    {
+      "id": "ch4_q3",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "reves_avenir",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se souvient de ses rêves d'avenir, de ses projets, de tout ce qu'il n'aura jamais le temps de réaliser.",
+      "texte_cible": "Que représentent les rêves d'avenir du condamné ?\nA) Des souvenirs heureux\nB) Tout ce qu'il n'aura jamais le temps de réaliser\nC) Des projets qu'il a accomplis\nD) Des regrets du passé\nRéponse correcte: B) Tout ce qu'il n'aura jamais le temps de réaliser\nExplication: Les rêves d'avenir du condamné symbolisent tout ce qui lui est désormais interdit, renforçant la tragédie de sa situation."
+    },
+    {
+      "id": "ch4_q4",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "temps_arrete",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné a l'impression que le temps s'est arrêté, que sa vie est figée dans l'attente de la mort.",
+      "texte_cible": "Comment le condamné perçoit-il le temps qui passe ?\nA) Il passe très rapidement\nB) Il s'est arrêté, sa vie est figée\nC) Il est normal et régulier\nD) Il n'y pense pas\nRéponse correcte: B) Il s'est arrêté, sa vie est figée\nExplication: Le condamné vit dans une temporalité suspendue où le temps semble s'être arrêté, créant une atmosphère d'attente angoissante."
+    },
+    {
+      "id": "ch4_q5",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "refuge_souvenirs",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les souvenirs d'enfance offrent au condamné un refuge temporaire contre l'angoisse de sa situation.",
+      "texte_cible": "Que représentent les souvenirs d'enfance pour le condamné ?\nA) Une source de douleur\nB) Un refuge temporaire contre l'angoisse\nC) Une source d'ennui\nD) Une source de colère\nRéponse correcte: B) Un refuge temporaire contre l'angoisse\nExplication: Les souvenirs d'enfance offrent au condamné un échappatoire temporaire à sa situation tragique."
+    },
+    {
+      "id": "ch4_q6",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "contraste_temporal",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le contraste entre l'innocence de l'enfance et la tragédie présente crée un effet dramatique puissant.",
+      "texte_cible": "Quel effet produit le contraste entre l'enfance et le présent ?\nA) Un effet comique\nB) Un effet dramatique puissant\nC) Un effet neutre\nD) Un effet joyeux\nRéponse correcte: B) Un effet dramatique puissant\nExplication: Le contraste entre l'innocence passée et la tragédie présente renforce l'impact dramatique du récit."
+    },
+    {
+      "id": "ch4_q7",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_jeux",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se remémore ses jeux d'enfant, ses rires, sa liberté perdue.",
+      "texte_cible": "Que se remémore le condamné de son enfance ?\nA) Ses peines\nB) Ses jeux, ses rires, sa liberté\nC) Ses ennemis\nD) Ses échecs\nRéponse correcte: B) Ses jeux, ses rires, sa liberté\nExplication: Le condamné évoque les moments joyeux de son enfance, contrastant avec sa situation actuelle."
+    },
+    {
+      "id": "ch4_q8",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "perte_innocence",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les souvenirs d'enfance symbolisent la perte de l'innocence et l'irréversibilité du temps.",
+      "texte_cible": "Que symbolisent les souvenirs d'enfance ?\nA) La joie éternelle\nB) La perte de l'innocence et l'irréversibilité du temps\nC) La réussite\nD) La richesse\nRéponse correcte: B) La perte de l'innocence et l'irréversibilité du temps\nExplication: Les souvenirs d'enfance symbolisent la perte définitive de l'innocence et l'irréversibilité du temps qui passe."
+    },
+    {
+      "id": "ch4_q9",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_mere_enfance",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se souvient de sa mère dans son enfance, de sa tendresse et de sa protection.",
+      "texte_cible": "Que se souvient le condamné de sa mère dans son enfance ?\nA) Sa sévérité\nB) Sa tendresse et sa protection\nC) Son indifférence\nD) Sa colère\nRéponse correcte: B) Sa tendresse et sa protection\nExplication: Le condamné évoque la figure maternelle protectrice et tendre de son enfance."
+    },
+    {
+      "id": "ch4_q10",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "nostalgie_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "La nostalgie du condamné pour son enfance révèle son désir de retourner à un état d'innocence perdue.",
+      "texte_cible": "Que révèle la nostalgie du condamné pour son enfance ?\nA) Son désir de vieillir\nB) Son désir de retourner à l'innocence perdue\nC) Son indifférence\nD) Sa haine du passé\nRéponse correcte: B) Son désir de retourner à l'innocence perdue\nExplication: La nostalgie du condamné révèle son désir profond de retrouver l'innocence et la pureté de l'enfance."
+    },
+    {
+      "id": "ch4_q11",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_liberté",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se souvient de sa liberté d'enfant, contrastant avec son enfermement actuel.",
+      "texte_cible": "Que se souvient le condamné de sa liberté d'enfant ?\nA) Sa contrainte\nB) Sa liberté, contrastant avec son enfermement\nC) Son ennui\nD) Sa peur\nRéponse correcte: B) Sa liberté, contrastant avec son enfermement\nExplication: Le condamné évoque sa liberté d'enfant, créant un contraste saisissant avec son enfermement actuel."
+    },
+    {
+      "id": "ch4_q12",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "temps_cyclique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les souvenirs d'enfance créent une temporalité cyclique qui s'oppose au temps linéaire de la condamnation.",
+      "texte_cible": "Comment les souvenirs d'enfance affectent-ils la perception du temps ?\nA) Ils l'accélèrent\nB) Ils créent une temporalité cyclique opposée au temps linéaire\nC) Ils l'arrêtent\nD) Ils le rendent confus\nRéponse correcte: B) Ils créent une temporalité cyclique opposée au temps linéaire\nExplication: Les souvenirs d'enfance créent une temporalité cyclique qui s'oppose au temps linéaire et irréversible de la condamnation."
+    },
+    {
+      "id": "ch4_q13",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_amis",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se souvient de ses amis d'enfance, de leurs jeux et de leur camaraderie.",
+      "texte_cible": "Que se souvient le condamné de ses amis d'enfance ?\nA) Leurs disputes\nB) Leurs jeux et leur camaraderie\nC) Leur méchanceté\nD) Leur indifférence\nRéponse correcte: B) Leurs jeux et leur camaraderie\nExplication: Le condamné évoque les moments de camaraderie et de jeux partagés avec ses amis d'enfance."
+    },
+    {
+      "id": "ch4_q14",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "regret_innocence",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné regrette profondément d'avoir perdu l'innocence de son enfance.",
+      "texte_cible": "Que regrette le condamné concernant son enfance ?\nA) Sa pauvreté\nB) D'avoir perdu l'innocence de son enfance\nC) Sa richesse\nD) Sa beauté\nRéponse correcte: B) D'avoir perdu l'innocence de son enfance\nExplication: Le condamné éprouve un regret profond d'avoir perdu l'innocence et la pureté de son enfance."
+    },
+    {
+      "id": "ch4_q15",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_ecole",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se souvient de son école, de ses maîtres et de ses apprentissages.",
+      "texte_cible": "Que se souvient le condamné de son école ?\nA) Ses punitions\nB) Ses maîtres et ses apprentissages\nC) Ses échecs\nD) Sa haine\nRéponse correcte: B) Ses maîtres et ses apprentissages\nExplication: Le condamné évoque ses souvenirs d'école, de ses enseignants et de ses apprentissages."
+    },
+    {
+      "id": "ch4_q16",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "universalite_enfance",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les souvenirs d'enfance du condamné touchent à des questions universelles sur l'innocence et la perte.",
+      "texte_cible": "Pourquoi les souvenirs d'enfance dépassent-ils le cas particulier ?\nA) Ils sont très détaillés\nB) Ils touchent à des questions universelles sur l'innocence\nC) Ils sont drôles\nD) Ils sont courts\nRéponse correcte: B) Ils touchent à des questions universelles sur l'innocence\nExplication: Les souvenirs d'enfance transcendent le cas particulier pour aborder des questions universelles sur l'innocence et la perte."
+    },
+    {
+      "id": "ch4_q17",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_nature",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se souvient de la nature de son enfance, des arbres, des fleurs, du ciel libre.",
+      "texte_cible": "Que se souvient le condamné de la nature de son enfance ?\nA) Sa laideur\nB) Des arbres, des fleurs, du ciel libre\nC) Sa dangerosité\nD) Son ennui\nRéponse correcte: B) Des arbres, des fleurs, du ciel libre\nExplication: Le condamné évoque la beauté de la nature de son enfance, contrastant avec son enfermement actuel."
+    },
+    {
+      "id": "ch4_q18",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "psychologie_regression",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le recours aux souvenirs d'enfance révèle une régression psychologique du condamné face à l'angoisse.",
+      "texte_cible": "Que révèle le recours aux souvenirs d'enfance ?\nA) Sa maturité\nB) Une régression psychologique face à l'angoisse\nC) Son indifférence\nD) Sa folie\nRéponse correcte: B) Une régression psychologique face à l'angoisse\nExplication: Le recours aux souvenirs d'enfance révèle une régression psychologique du condamné face à l'angoisse de la mort."
+    },
+    {
+      "id": "ch4_q19",
+      "chapitre": 4,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_innocence",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se souvient de son innocence d'enfant, de sa pureté perdue.",
+      "texte_cible": "Que se souvient le condamné de son innocence d'enfant ?\nA) Sa méchanceté\nB) Sa pureté perdue\nC) Son indifférence\nD) Sa colère\nRéponse correcte: B) Sa pureté perdue\nExplication: Le condamné évoque son innocence et sa pureté d'enfant, contrastant avec sa situation actuelle."
+    },
+    {
+      "id": "ch4_q20",
+      "chapitre": 4,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "style_poetique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le style de Victor Hugo dans ce chapitre adopte un ton poétique pour évoquer l'enfance perdue.",
+      "texte_cible": "Quelle caractéristique marque le style de Victor Hugo dans ce chapitre ?\nA) La froideur\nB) Un ton poétique pour évoquer l'enfance\nC) L'humour\nD) La complexité syntaxique\nRéponse correcte: B) Un ton poétique pour évoquer l'enfance\nExplication: Le style de Victor Hugo adopte un ton poétique et nostalgique pour évoquer l'enfance perdue du condamné."
+    },
+    {
+      "id": "ch5_q1",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "reflexion_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur la mort, sur ce que signifie mourir, sur l'instant de l'exécution.",
+      "texte_cible": "Sur quoi le condamné médite-t-il dans ce chapitre ?\nA) Sur ses projets d'avenir\nB) Sur la mort et l'exécution\nC) Sur ses souvenirs d'enfance\nD) Sur ses amis\nRéponse correcte: B) Sur la mort et l'exécution\nExplication: Le condamné se livre à une réflexion profonde sur la mort, anticipant l'instant de son exécution et ses implications."
+    },
+    {
+      "id": "ch5_q2",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "angoisse_existentialiste",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les réflexions du condamné sur la mort révèlent une angoisse existentielle profonde et universelle.",
+      "texte_cible": "Quel type d'angoisse révèlent les réflexions du condamné ?\nA) Une angoisse sociale\nB) Une angoisse existentielle profonde\nC) Une angoisse financière\nD) Une angoisse professionnelle\nRéponse correcte: B) Une angoisse existentielle profonde\nExplication: Les méditations du condamné sur la mort touchent aux questions fondamentales de l'existence, révélant une angoisse existentielle universelle."
+    },
+    {
+      "id": "ch5_q3",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "instant_execution",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné imagine l'instant de son exécution, les détails de la guillotine, la foule qui assiste au spectacle.",
+      "texte_cible": "Que fait le condamné concernant son exécution ?\nA) Il l'ignore complètement\nB) Il l'imagine dans ses détails\nC) Il s'en réjouit\nD) Il la reporte\nRéponse correcte: B) Il l'imagine dans ses détails\nExplication: Le condamné ne peut s'empêcher d'imaginer l'instant de son exécution, anticipant tous les détails de ce moment fatal."
+    },
+    {
+      "id": "ch5_q4",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "spectacle_public",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné évoque le caractère public et spectaculaire de l'exécution, dénonçant implicitement cette pratique.",
+      "texte_cible": "Quel aspect de l'exécution le condamné critique-t-il implicitement ?\nA) Son caractère privé\nB) Son caractère public et spectaculaire\nC) Son coût financier\nD) Sa rapidité\nRéponse correcte: B) Son caractère public et spectaculaire\nExplication: Le condamné dénonce implicitement le caractère public et spectaculaire de l'exécution, qui transforme la mort en spectacle de foule."
+    },
+    {
+      "id": "ch5_q5",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se livre à une méditation profonde sur la mort et son sens.",
+      "texte_cible": "Que fait le condamné concernant la mort ?\nA) Il l'ignore\nB) Il se livre à une méditation profonde\nC) Il en rit\nD) Il l'oublie\nRéponse correcte: B) Il se livre à une méditation profonde\nExplication: Le condamné développe une réflexion profonde et philosophique sur la mort et son sens."
+    },
+    {
+      "id": "ch5_q6",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "philosophie_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les réflexions du condamné sur la mort touchent aux questions philosophiques les plus fondamentales.",
+      "texte_cible": "Quel type de questions abordent les réflexions du condamné ?\nA) Des questions pratiques\nB) Des questions philosophiques fondamentales\nC) Des questions triviales\nD) Des questions techniques\nRéponse correcte: B) Des questions philosophiques fondamentales\nExplication: Les réflexions du condamné touchent aux questions philosophiques les plus essentielles sur la mort et l'existence."
+    },
+    {
+      "id": "ch5_q7",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_inexistence",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une angoisse terrible à l'idée de ne plus exister.",
+      "texte_cible": "Quelle angoisse éprouve le condamné face à la mort ?\nA) L'angoisse de la douleur\nB) L'angoisse de ne plus exister\nC) L'angoisse de la solitude\nD) L'angoisse de l'oubli\nRéponse correcte: B) L'angoisse de ne plus exister\nExplication: Le condamné est torturé par l'idée de l'inexistence totale qui l'attend."
+    },
+    {
+      "id": "ch5_q8",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "existentialisme",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les réflexions du condamné préfigurent les questions existentialistes sur le sens de l'existence.",
+      "texte_cible": "Que préfigurent les réflexions du condamné ?\nA) Le positivisme\nB) Les questions existentialistes sur le sens de l'existence\nC) Le matérialisme\nD) L'idéalisme\nRéponse correcte: B) Les questions existentialistes sur le sens de l'existence\nExplication: Les réflexions du condamné anticipent les questionnements existentialistes sur le sens de l'existence."
+    },
+    {
+      "id": "ch5_q9",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_instant",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur l'instant précis de sa mort, sur ce qu'il ressentira.",
+      "texte_cible": "Sur quoi médite le condamné concernant sa mort ?\nA) Sur le passé\nB) Sur l'instant précis de sa mort\nC) Sur l'avenir\nD) Sur les autres\nRéponse correcte: B) Sur l'instant précis de sa mort\nExplication: Le condamné se concentre sur l'instant précis de sa mort, anticipant ses sensations."
+    },
+    {
+      "id": "ch5_q10",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "psychologie_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "La psychologie du condamné face à la mort révèle les mécanismes de défense humains.",
+      "texte_cible": "Que révèle la psychologie du condamné face à la mort ?\nA) Sa faiblesse\nB) Les mécanismes de défense humains\nC) Son indifférence\nD) Sa folie\nRéponse correcte: B) Les mécanismes de défense humains\nExplication: La psychologie du condamné révèle les mécanismes de défense que l'être humain développe face à la mort."
+    },
+    {
+      "id": "ch5_q11",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_au_dela",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se demande ce qu'il y a au-delà de la mort, s'il y a une vie après.",
+      "texte_cible": "Sur quoi se questionne le condamné concernant la mort ?\nA) Sur le passé\nB) Sur ce qu'il y a au-delà de la mort\nC) Sur le présent\nD) Sur les autres\nRéponse correcte: B) Sur ce qu'il y a au-delà de la mort\nExplication: Le condamné se questionne sur l'existence d'une vie après la mort."
+    },
+    {
+      "id": "ch5_q12",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "metaphysique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les réflexions du condamné touchent aux questions métaphysiques les plus profondes.",
+      "texte_cible": "Quel type de questions abordent les réflexions du condamné ?\nA) Des questions pratiques\nB) Des questions métaphysiques profondes\nC) Des questions triviales\nD) Des questions techniques\nRéponse correcte: B) Des questions métaphysiques profondes\nExplication: Les réflexions du condamné touchent aux questions métaphysiques les plus essentielles sur l'existence."
+    },
+    {
+      "id": "ch5_q13",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_oubli",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une angoisse terrible à l'idée d'être oublié après sa mort.",
+      "texte_cible": "Quelle angoisse éprouve le condamné concernant l'après-mort ?\nA) L'angoisse de la douleur\nB) L'angoisse d'être oublié\nC) L'angoisse de la solitude\nD) L'angoisse de l'inexistence\nRéponse correcte: B) L'angoisse d'être oublié\nExplication: Le condamné est torturé par l'idée d'être oublié et de disparaître de la mémoire des vivants."
+    },
+    {
+      "id": "ch5_q14",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "denonciation_peine_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "À travers les réflexions du condamné, Victor Hugo dénonce l'inhumanité de la peine de mort.",
+      "texte_cible": "Que dénonce Victor Hugo à travers les réflexions du condamné ?\nA) La vie en prison\nB) L'inhumanité de la peine de mort\nC) La société\nD) La justice\nRéponse correcte: B) L'inhumanité de la peine de mort\nExplication: Victor Hugo utilise les réflexions du condamné pour dénoncer l'inhumanité de la peine de mort."
+    },
+    {
+      "id": "ch5_q15",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_justice",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur la justice de sa condamnation, se demandant s'il la mérite.",
+      "texte_cible": "Sur quoi médite le condamné concernant sa condamnation ?\nA) Sur sa richesse\nB) Sur la justice de sa condamnation\nC) Sur sa beauté\nD) Sur sa force\nRéponse correcte: B) Sur la justice de sa condamnation\nExplication: Le condamné questionne la justice et la légitimité de sa condamnation à mort."
+    },
+    {
+      "id": "ch5_q16",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "universalite_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les réflexions du condamné sur la mort touchent à des questions universelles sur la condition humaine.",
+      "texte_cible": "Pourquoi les réflexions du condamné dépassent-elles son cas particulier ?\nA) Elles sont très détaillées\nB) Elles touchent à des questions universelles sur la condition humaine\nC) Elles sont drôles\nD) Elles sont courtes\nRéponse correcte: B) Elles touchent à des questions universelles sur la condition humaine\nExplication: Les réflexions du condamné transcendent son cas particulier pour aborder des questions universelles sur la mort et la condition humaine."
+    },
+    {
+      "id": "ch5_q17",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_instant_execution",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné imagine l'instant précis de son exécution, anticipant ses dernières sensations.",
+      "texte_cible": "Que fait le condamné concernant son exécution ?\nA) Il l'ignore\nB) Il imagine l'instant précis et ses sensations\nC) Il en rit\nD) Il l'oublie\nRéponse correcte: B) Il imagine l'instant précis et ses sensations\nExplication: Le condamné anticipe l'instant de son exécution, imaginant ses dernières sensations."
+    },
+    {
+      "id": "ch5_q18",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "psychologie_anticipation",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'anticipation de la mort crée une angoisse psychologique intense chez le condamné.",
+      "texte_cible": "Quel effet produit l'anticipation de la mort sur le condamné ?\nA) Elle le calme\nB) Elle crée une angoisse psychologique intense\nC) Elle l'indiffère\nD) Elle le rend joyeux\nRéponse correcte: B) Elle crée une angoisse psychologique intense\nExplication: L'anticipation de la mort provoque une angoisse psychologique majeure chez le condamné."
+    },
+    {
+      "id": "ch5_q19",
+      "chapitre": 5,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_legs",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur ce qu'il laissera derrière lui, sur son héritage.",
+      "texte_cible": "Sur quoi médite le condamné concernant son héritage ?\nA) Sur sa richesse\nB) Sur ce qu'il laissera derrière lui\nC) Sur sa beauté\nD) Sur sa force\nRéponse correcte: B) Sur ce qu'il laissera derrière lui\nExplication: Le condamné réfléchit sur son héritage et sur ce qu'il laissera après sa mort."
+    },
+    {
+      "id": "ch5_q20",
+      "chapitre": 5,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "style_philosophique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le style de Victor Hugo dans ce chapitre adopte un ton philosophique pour les réflexions sur la mort.",
+      "texte_cible": "Quelle caractéristique marque le style de Victor Hugo dans ce chapitre ?\nA) La légèreté\nB) Un ton philosophique pour les réflexions sur la mort\nC) L'humour\nD) La simplicité\nRéponse correcte: B) Un ton philosophique pour les réflexions sur la mort\nExplication: Le style de Victor Hugo adopte un ton philosophique et profond pour traiter des réflexions sur la mort."
+    },
+    {
+      "id": "ch6_q1",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "priere_religion",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné se tourne vers la religion, prie, cherche un réconfort spirituel dans ses derniers moments.",
+      "texte_cible": "Vers quoi le condamné se tourne-t-il pour trouver du réconfort ?\nA) Vers l'alcool\nB) Vers la religion et la prière\nC) Vers la violence\nD) Vers l'évasion\nRéponse correcte: B) Vers la religion et la prière\nExplication: Face à l'angoisse de la mort, le condamné cherche réconfort dans la religion et la prière, révélant un besoin spirituel profond."
+    },
+    {
+      "id": "ch6_q2",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "crise_spirituelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné traverse une crise spirituelle, questionnant sa foi et cherchant des réponses à ses interrogations existentielles.",
+      "texte_cible": "Quelle crise traverse le condamné dans ce chapitre ?\nA) Une crise financière\nB) Une crise spirituelle\nC) Une crise de santé\nD) Une crise professionnelle\nRéponse correcte: B) Une crise spirituelle\nExplication: Le condamné vit une crise spirituelle profonde, remettant en question ses croyances et cherchant un sens à sa situation tragique."
+    },
+    {
+      "id": "ch6_q3",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "aumonier_prison",
+      "prefixe": "générer une question:",
+      "texte_entree": "Un aumônier vient rendre visite au condamné, lui proposant les derniers sacrements et un réconfort spirituel.",
+      "texte_cible": "Qui vient proposer un réconfort spirituel au condamné ?\nA) Un médecin\nB) Un avocat\nC) Un aumônier\nD) Un gardien\nRéponse correcte: C) Un aumônier\nExplication: L'aumônier de la prison vient offrir un réconfort spirituel au condamné, proposant les derniers sacrements et un accompagnement religieux."
+    },
+    {
+      "id": "ch6_q4",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "doute_religieux",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve des doutes religieux, se demandant pourquoi Dieu permet une telle injustice.",
+      "texte_cible": "Quel sentiment éprouve le condamné envers la religion ?\nA) Une confiance aveugle\nB) Des doutes et des interrogations\nC) De l'indifférence totale\nD) De la haine\nRéponse correcte: B) Des doutes et des interrogations\nExplication: Le condamné traverse des doutes religieux profonds, questionnant la justice divine face à l'injustice de sa condamnation."
+    },
+    {
+      "id": "ch6_q5",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "crise_foi",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné traverse une crise de foi profonde, questionnant l'existence de Dieu.",
+      "texte_cible": "Quelle crise traverse le condamné dans ce chapitre ?\nA) Une crise financière\nB) Une crise de foi profonde\nC) Une crise de santé\nD) Une crise professionnelle\nRéponse correcte: B) Une crise de foi profonde\nExplication: Le condamné vit une crise spirituelle profonde, remettant en question ses croyances religieuses."
+    },
+    {
+      "id": "ch6_q6",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "doute_religieux",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les doutes religieux du condamné révèlent sa recherche désespérée de sens face à la mort.",
+      "texte_cible": "Que révèlent les doutes religieux du condamné ?\nA) Son indifférence\nB) Sa recherche désespérée de sens face à la mort\nC) Sa colère\nD) Sa folie\nRéponse correcte: B) Sa recherche désespérée de sens face à la mort\nExplication: Les doutes religieux du condamné révèlent sa quête désespérée de trouver un sens à sa situation tragique."
+    },
+    {
+      "id": "ch6_q7",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "priere_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné prie avec ferveur, cherchant un réconfort spirituel dans ses derniers moments.",
+      "texte_cible": "Que fait le condamné pour trouver du réconfort spirituel ?\nA) Il médite\nB) Il prie avec ferveur\nC) Il chante\nD) Il danse\nRéponse correcte: B) Il prie avec ferveur\nExplication: Le condamné se tourne vers la prière pour chercher un réconfort spirituel face à la mort."
+    },
+    {
+      "id": "ch6_q8",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "psychologie_religieuse",
+      "prefixe": "générer une question:",
+      "texte_entree": "La psychologie religieuse du condamné révèle les mécanismes de défense face à l'angoisse de la mort.",
+      "texte_cible": "Que révèle la psychologie religieuse du condamné ?\nA) Sa faiblesse\nB) Les mécanismes de défense face à l'angoisse de la mort\nC) Son indifférence\nD) Sa folie\nRéponse correcte: B) Les mécanismes de défense face à l'angoisse de la mort\nExplication: La psychologie religieuse du condamné révèle comment l'être humain développe des mécanismes de défense spirituels face à la mort."
+    },
+    {
+      "id": "ch6_q9",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "aumonier_visite",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'aumônier de la prison rend visite au condamné, lui proposant les derniers sacrements.",
+      "texte_cible": "Que propose l'aumônier au condamné ?\nA) De l'argent\nB) Les derniers sacrements\nC) Une évasion\nD) Une grâce\nRéponse correcte: B) Les derniers sacrements\nExplication: L'aumônier propose au condamné les derniers sacrements et un accompagnement spirituel."
+    },
+    {
+      "id": "ch6_q10",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "denonciation_religion",
+      "prefixe": "générer une question:",
+      "texte_entree": "À travers les doutes religieux du condamné, Victor Hugo questionne le rôle de la religion face à l'injustice.",
+      "texte_cible": "Que questionne Victor Hugo à travers les doutes religieux ?\nA) La vie en prison\nB) Le rôle de la religion face à l'injustice\nC) La société\nD) La justice\nRéponse correcte: B) Le rôle de la religion face à l'injustice\nExplication: Victor Hugo utilise les doutes religieux du condamné pour questionner le rôle de la religion face à l'injustice sociale."
+    },
+    {
+      "id": "ch6_q11",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_divine",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une angoisse terrible à l'idée de paraître devant Dieu.",
+      "texte_cible": "Quelle angoisse éprouve le condamné concernant Dieu ?\nA) L'angoisse de ne pas le connaître\nB) L'angoisse de paraître devant lui\nC) L'angoisse de sa colère\nD) L'angoisse de son indifférence\nRéponse correcte: B) L'angoisse de paraître devant lui\nExplication: Le condamné est torturé par l'idée de devoir rendre compte de sa vie devant Dieu."
+    },
+    {
+      "id": "ch6_q12",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "existentialisme_religieux",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les questionnements religieux du condamné préfigurent les interrogations existentialistes sur le sens de l'existence.",
+      "texte_cible": "Que préfigurent les questionnements religieux du condamné ?\nA) Le positivisme\nB) Les interrogations existentialistes sur le sens de l'existence\nC) Le matérialisme\nD) L'idéalisme\nRéponse correcte: B) Les interrogations existentialistes sur le sens de l'existence\nExplication: Les questionnements religieux du condamné anticipent les interrogations existentialistes sur le sens de l'existence."
+    },
+    {
+      "id": "ch6_q13",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_au_dela",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur l'au-delà, se demandant s'il y a une vie après la mort.",
+      "texte_cible": "Sur quoi médite le condamné concernant l'au-delà ?\nA) Sur le passé\nB) Sur l'existence d'une vie après la mort\nC) Sur le présent\nD) Sur les autres\nRéponse correcte: B) Sur l'existence d'une vie après la mort\nExplication: Le condamné se questionne sur l'existence d'une vie après la mort et sur l'au-delà."
+    },
+    {
+      "id": "ch6_q14",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "psychologie_espoir",
+      "prefixe": "générer une question:",
+      "texte_entree": "La religion offre au condamné un espoir fragile face à l'inéluctabilité de la mort.",
+      "texte_cible": "Que représente la religion pour le condamné ?\nA) Une contrainte\nB) Un espoir fragile face à la mort\nC) Une source d'ennui\nD) Une source de colère\nRéponse correcte: B) Un espoir fragile face à la mort\nExplication: La religion offre au condamné un espoir, si ténu soit-il, face à l'inéluctabilité de sa mort."
+    },
+    {
+      "id": "ch6_q15",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "culpabilite_religieuse",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une culpabilité religieuse, se demandant s'il a péché.",
+      "texte_cible": "Quel sentiment religieux éprouve le condamné ?\nA) De la fierté\nB) Une culpabilité religieuse\nC) De l'indifférence\nD) De la satisfaction\nRéponse correcte: B) Une culpabilité religieuse\nExplication: Le condamné éprouve une culpabilité religieuse, questionnant ses péchés et sa relation à Dieu."
+    },
+    {
+      "id": "ch6_q16",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "universalite_spirituelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les questionnements spirituels du condamné touchent à des questions universelles sur la foi et la mort.",
+      "texte_cible": "Pourquoi les questionnements spirituels dépassent-ils le cas particulier ?\nA) Ils sont très détaillés\nB) Ils touchent à des questions universelles sur la foi et la mort\nC) Ils sont drôles\nD) Ils sont courts\nRéponse correcte: B) Ils touchent à des questions universelles sur la foi et la mort\nExplication: Les questionnements spirituels transcendent le cas particulier pour aborder des questions universelles sur la foi et la mort."
+    },
+    {
+      "id": "ch6_q17",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_justice_divine",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur la justice divine, se demandant pourquoi Dieu permet l'injustice.",
+      "texte_cible": "Sur quoi médite le condamné concernant la justice divine ?\nA) Sur sa richesse\nB) Sur pourquoi Dieu permet l'injustice\nC) Sur sa beauté\nD) Sur sa force\nRéponse correcte: B) Sur pourquoi Dieu permet l'injustice\nExplication: Le condamné questionne la justice divine face à l'injustice de sa condamnation."
+    },
+    {
+      "id": "ch6_q18",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "psychologie_espoir_desespoir",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné oscille entre l'espoir religieux et le désespoir spirituel.",
+      "texte_cible": "Entre quels sentiments oscille le condamné dans sa foi ?\nA) La joie et la tristesse\nB) L'espoir religieux et le désespoir spirituel\nC) La colère et la paix\nD) L'amour et la haine\nRéponse correcte: B) L'espoir religieux et le désespoir spirituel\nExplication: Le condamné vit une oscillation constante entre l'espoir que lui offre la religion et le désespoir spirituel."
+    },
+    {
+      "id": "ch6_q19",
+      "chapitre": 6,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_redemption",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur la possibilité de rédemption, se demandant s'il peut encore être sauvé.",
+      "texte_cible": "Sur quoi médite le condamné concernant la rédemption ?\nA) Sur sa richesse\nB) Sur la possibilité d'être sauvé\nC) Sur sa beauté\nD) Sur sa force\nRéponse correcte: B) Sur la possibilité d'être sauvé\nExplication: Le condamné se questionne sur la possibilité d'une rédemption et d'un salut spirituel."
+    },
+    {
+      "id": "ch6_q20",
+      "chapitre": 6,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "style_spirituel",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le style de Victor Hugo dans ce chapitre adopte un ton spirituel et mystique pour les questionnements religieux.",
+      "texte_cible": "Quelle caractéristique marque le style de Victor Hugo dans ce chapitre ?\nA) La légèreté\nB) Un ton spirituel et mystique\nC) L'humour\nD) La simplicité\nRéponse correcte: B) Un ton spirituel et mystique\nExplication: Le style de Victor Hugo adopte un ton spirituel et mystique pour traiter des questionnements religieux du condamné."
+    },
+    {
+      "id": "ch7_q1",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "derniere_nuit",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné vit sa dernière nuit, ne pouvant dormir, obsédé par l'idée de l'exécution du lendemain.",
+      "texte_cible": "Comment se passe la dernière nuit du condamné ?\nA) Il dort paisiblement\nB) Il ne peut dormir, obsédé par l'exécution\nC) Il s'évade de prison\nD) Il reçoit une grâce\nRéponse correcte: B) Il ne peut dormir, obsédé par l'exécution\nExplication: La dernière nuit du condamné est une nuit d'insomnie et d'angoisse, où il ne peut échapper à l'idée de son exécution imminente."
+    },
+    {
+      "id": "ch7_q2",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "tension_dramatique",
+      "prefixe": "générer une question:",
+      "texte_entree": "La dernière nuit crée une tension dramatique maximale, où chaque minute compte et amplifie l'angoisse.",
+      "texte_cible": "Quel effet produit la dernière nuit sur le récit ?\nA) Elle ralentit l'action\nB) Elle crée une tension dramatique maximale\nC) Elle rend l'histoire comique\nD) Elle supprime toute émotion\nRéponse correcte: B) Elle crée une tension dramatique maximale\nExplication: La dernière nuit intensifie la tension dramatique du récit, chaque minute rapprochant le condamné de son exécution."
+    },
+    {
+      "id": "ch7_q3",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "bruits_prison",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné écoute les bruits de la prison, les pas des gardiens, les cris des autres détenus, dans l'attente angoissante.",
+      "texte_cible": "Que fait le condamné pendant sa dernière nuit ?\nA) Il lit des livres\nB) Il écoute les bruits de la prison\nC) Il chante\nD) Il danse\nRéponse correcte: B) Il écoute les bruits de la prison\nExplication: Le condamné passe sa dernière nuit à écouter les bruits de la prison, chaque son pouvant annoncer l'arrivée de ses bourreaux."
+    },
+    {
+      "id": "ch7_q4",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "suspense_psychologique",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'attente de l'exécution crée un suspense psychologique intense, où l'angoisse monte crescendo.",
+      "texte_cible": "Quel type de suspense domine la dernière nuit ?\nA) Un suspense policier\nB) Un suspense psychologique intense\nC) Un suspense romantique\nD) Un suspense comique\nRéponse correcte: B) Un suspense psychologique intense\nExplication: Le suspense de la dernière nuit est essentiellement psychologique, basé sur l'angoisse croissante du condamné face à son exécution imminente."
+    },
+    {
+      "id": "ch7_q5",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "insomnie_condamne",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné ne peut dormir pendant sa dernière nuit, obsédé par l'idée de l'exécution.",
+      "texte_cible": "Comment se passe la dernière nuit du condamné ?\nA) Il dort paisiblement\nB) Il ne peut dormir, obsédé par l'exécution\nC) Il s'évade\nD) Il reçoit une grâce\nRéponse correcte: B) Il ne peut dormir, obsédé par l'exécution\nExplication: La dernière nuit du condamné est une nuit d'insomnie totale, hantée par l'idée de son exécution imminente."
+    },
+    {
+      "id": "ch7_q6",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "tension_dramatique",
+      "prefixe": "générer une question:",
+      "texte_entree": "La dernière nuit crée une tension dramatique maximale, où chaque minute compte.",
+      "texte_cible": "Quel effet produit la dernière nuit sur le récit ?\nA) Elle ralentit l'action\nB) Elle crée une tension dramatique maximale\nC) Elle rend l'histoire comique\nD) Elle supprime toute émotion\nRéponse correcte: B) Elle crée une tension dramatique maximale\nExplication: La dernière nuit intensifie la tension dramatique du récit, chaque minute rapprochant le condamné de sa mort."
+    },
+    {
+      "id": "ch7_q7",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "bruits_nuit",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné écoute les bruits de la nuit, chaque son pouvant annoncer l'arrivée de ses bourreaux.",
+      "texte_cible": "Que fait le condamné pendant sa dernière nuit ?\nA) Il lit\nB) Il écoute les bruits de la nuit\nC) Il chante\nD) Il danse\nRéponse correcte: B) Il écoute les bruits de la nuit\nExplication: Le condamné passe sa dernière nuit à écouter les bruits, chaque son pouvant annoncer l'arrivée de ses bourreaux."
+    },
+    {
+      "id": "ch7_q8",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "suspense_psychologique",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'attente de l'exécution crée un suspense psychologique intense, où l'angoisse monte crescendo.",
+      "texte_cible": "Quel type de suspense domine la dernière nuit ?\nA) Un suspense policier\nB) Un suspense psychologique intense\nC) Un suspense romantique\nD) Un suspense comique\nRéponse correcte: B) Un suspense psychologique intense\nExplication: Le suspense de la dernière nuit est essentiellement psychologique, basé sur l'angoisse croissante du condamné."
+    },
+    {
+      "id": "ch7_q9",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_temps",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné compte les heures, les minutes qui lui restent, créant une angoisse temporelle intense.",
+      "texte_cible": "Que fait le condamné pour mesurer le temps qui lui reste ?\nA) Il dort\nB) Il compte les heures et les minutes\nC) Il chante\nD) Il danse\nRéponse correcte: B) Il compte les heures et les minutes\nExplication: Le condamné obsessivement compte le temps qui lui reste, intensifiant son angoisse temporelle."
+    },
+    {
+      "id": "ch7_q10",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "psychologie_attente",
+      "prefixe": "générer une question:",
+      "texte_entree": "La psychologie de l'attente révèle les mécanismes de défense humains face à l'angoisse de la mort.",
+      "texte_cible": "Que révèle la psychologie de l'attente ?\nA) La faiblesse humaine\nB) Les mécanismes de défense face à l'angoisse de la mort\nC) L'indifférence\nD) La folie\nRéponse correcte: B) Les mécanismes de défense face à l'angoisse de la mort\nExplication: La psychologie de l'attente révèle comment l'être humain développe des mécanismes de défense face à l'angoisse de la mort."
+    },
+    {
+      "id": "ch7_q11",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "memoire_derniere_nuit",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné garde précieusement en mémoire chaque instant de sa dernière nuit.",
+      "texte_cible": "Que fait le condamné avec les instants de sa dernière nuit ?\nA) Il les oublie\nB) Il les garde précieusement en mémoire\nC) Il les invente\nD) Il les raconte aux gardiens\nRéponse correcte: B) Il les garde précieusement en mémoire\nExplication: Le condamné chérit chaque instant de sa dernière nuit comme des trésors précieux."
+    },
+    {
+      "id": "ch7_q12",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "denonciation_peine_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "À travers la souffrance de la dernière nuit, Victor Hugo dénonce la cruauté de la peine de mort.",
+      "texte_cible": "Que dénonce Victor Hugo à travers la souffrance de la dernière nuit ?\nA) La vie en prison\nB) La cruauté de la peine de mort\nC) La société\nD) La justice\nRéponse correcte: B) La cruauté de la peine de mort\nExplication: Victor Hugo utilise la souffrance de la dernière nuit pour dénoncer la cruauté et l'inhumanité de la peine de mort."
+    },
+    {
+      "id": "ch7_q13",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_imminence",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné éprouve une angoisse terrible face à l'imminence de son exécution.",
+      "texte_cible": "Quelle angoisse éprouve le condamné face à l'exécution ?\nA) L'angoisse de la douleur\nB) L'angoisse de l'imminence\nC) L'angoisse de la solitude\nD) L'angoisse de l'oubli\nRéponse correcte: B) L'angoisse de l'imminence\nExplication: Le condamné est torturé par l'angoisse de l'imminence de son exécution."
+    },
+    {
+      "id": "ch7_q14",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "universalite_attente",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'angoisse de l'attente du condamné touche à des questions universelles sur la condition humaine.",
+      "texte_cible": "Pourquoi l'angoisse de l'attente dépasse-t-elle le cas particulier ?\nA) Elle est très intense\nB) Elle touche à des questions universelles sur la condition humaine\nC) Elle est bien décrite\nD) Elle est unique\nRéponse correcte: B) Elle touche à des questions universelles sur la condition humaine\nExplication: L'angoisse de l'attente transcende le cas particulier pour aborder des questions universelles sur la condition humaine."
+    },
+    {
+      "id": "ch7_q15",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_derniere_nuit",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur le sens de sa dernière nuit, sur ce qu'elle représente.",
+      "texte_cible": "Sur quoi médite le condamné concernant sa dernière nuit ?\nA) Sur le passé\nB) Sur le sens de sa dernière nuit\nC) Sur l'avenir\nD) Sur les autres\nRéponse correcte: B) Sur le sens de sa dernière nuit\nExplication: Le condamné réfléchit sur la signification profonde de sa dernière nuit."
+    },
+    {
+      "id": "ch7_q16",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "psychologie_derniere_nuit",
+      "prefixe": "générer une question:",
+      "texte_entree": "La psychologie de la dernière nuit révèle la complexité des émotions humaines face à la mort.",
+      "texte_cible": "Que révèle la psychologie de la dernière nuit ?\nA) La simplicité humaine\nB) La complexité des émotions humaines face à la mort\nC) L'indifférence\nD) La folie\nRéponse correcte: B) La complexité des émotions humaines face à la mort\nExplication: La psychologie de la dernière nuit révèle toute la complexité des émotions humaines confrontées à la mort."
+    },
+    {
+      "id": "ch7_q17",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "angoisse_derniere_nuit",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné est obsédé par l'idée que c'est sa dernière nuit sur terre.",
+      "texte_cible": "De quoi le condamné est-il obsédé concernant sa dernière nuit ?\nA) De sa beauté\nB) Du fait que c'est sa dernière nuit sur terre\nC) De sa richesse\nD) De sa force\nRéponse correcte: B) Du fait que c'est sa dernière nuit sur terre\nExplication: L'idée que c'est sa dernière nuit sur terre obsède complètement le condamné."
+    },
+    {
+      "id": "ch7_q18",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "effet_pathétique",
+      "prefixe": "générer une question:",
+      "texte_entree": "La dernière nuit crée un effet pathétique intense, renforçant l'émotion du lecteur.",
+      "texte_cible": "Quel effet produit la dernière nuit ?\nA) Un effet comique\nB) Un effet pathétique intense\nC) Un effet neutre\nD) Un effet joyeux\nRéponse correcte: B) Un effet pathétique intense\nExplication: La dernière nuit crée un pathos intense qui renforce l'émotion et l'empathie du lecteur."
+    },
+    {
+      "id": "ch7_q19",
+      "chapitre": 7,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "meditation_derniers_instants",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné médite sur ses derniers instants de vie, sur ce qu'il ressentira.",
+      "texte_cible": "Sur quoi médite le condamné concernant ses derniers instants ?\nA) Sur le passé\nB) Sur ce qu'il ressentira dans ses derniers instants\nC) Sur l'avenir\nD) Sur les autres\nRéponse correcte: B) Sur ce qu'il ressentira dans ses derniers instants\nExplication: Le condamné anticipe ses derniers instants de vie, imaginant ses sensations."
+    },
+    {
+      "id": "ch7_q20",
+      "chapitre": 7,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "style_dramatique",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le style de Victor Hugo dans ce chapitre adopte un ton dramatique intense pour la dernière nuit.",
+      "texte_cible": "Quelle caractéristique marque le style de Victor Hugo dans ce chapitre ?\nA) La légèreté\nB) Un ton dramatique intense\nC) L'humour\nD) La simplicité\nRéponse correcte: B) Un ton dramatique intense\nExplication: Le style de Victor Hugo adopte un ton dramatique intense pour traiter de la dernière nuit du condamné."
+    },
+    {
+      "id": "ch8_q1",
+      "chapitre": 8,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "aube_execution",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'aube se lève, annonçant le jour de l'exécution. Le condamné sait que ses dernières heures sont comptées.",
+      "texte_cible": "Que représente l'aube pour le condamné ?\nA) Un nouveau départ\nB) L'annonce du jour de l'exécution\nC) Un moment de joie\nD) Une libération\nRéponse correcte: B) L'annonce du jour de l'exécution\nExplication: L'aube marque le début du jour de l'exécution, confirmant au condamné que ses dernières heures sont arrivées."
+    },
+    {
+      "id": "ch8_q2",
+      "chapitre": 8,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "symbolisme_aube",
+      "prefixe": "générer une question:",
+      "texte_entree": "L'aube, symbole traditionnel de renaissance et d'espoir, devient ici l'annonce de la mort, créant un contraste ironique.",
+      "texte_cible": "Quel contraste crée l'évocation de l'aube dans ce contexte ?\nA) L'aube symbolise la renaissance mais annonce la mort\nB) L'aube est normale et sans signification\nC) L'aube apporte de la joie\nD) L'aube n'a aucun effet\nRéponse correcte: A) L'aube symbolise la renaissance mais annonce la mort\nExplication: L'aube, traditionnellement symbole de renaissance, devient ironiquement l'annonce de la mort, créant un contraste saisissant."
+    },
+    {
+      "id": "ch8_q3",
+      "chapitre": 8,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "preparatifs_execution",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné entend les préparatifs de son exécution, les bruits de la guillotine qu'on monte, l'agitation des gardiens.",
+      "texte_cible": "Que fait le condamné en entendant les préparatifs ?\nA) Il se réjouit\nB) Il les écoute avec angoisse\nC) Il les ignore\nD) Il s'évade\nRéponse correcte: B) Il les écoute avec angoisse\nExplication: Le condamné écoute avec angoisse les préparatifs de son exécution, chaque bruit confirmant l'imminence de sa mort."
+    },
+    {
+      "id": "ch8_q4",
+      "chapitre": 8,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "banalite_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les préparatifs de l'exécution révèlent la banalité administrative de la mort, réduite à une procédure mécanique.",
+      "texte_cible": "Que révèlent les préparatifs de l'exécution ?\nA) La complexité de la procédure\nB) La banalité administrative de la mort\nC) L'humanité des bourreaux\nD) La joie des spectateurs\nRéponse correcte: B) La banalité administrative de la mort\nExplication: Les préparatifs révèlent comment la mort est réduite à une simple procédure administrative, déshumanisant l'exécution."
+    },
+    {
+      "id": "ch9_q1",
+      "chapitre": 9,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "derniers_moments",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné vit ses derniers moments, fait ses adieux, se prépare mentalement à l'exécution.",
+      "texte_cible": "Que fait le condamné dans ses derniers moments ?\nA) Il s'évade\nB) Il fait ses adieux et se prépare mentalement\nC) Il se réjouit\nD) Il dort\nRéponse correcte: B) Il fait ses adieux et se prépare mentalement\nExplication: Dans ses derniers moments, le condamné fait ses adieux et tente de se préparer mentalement à l'inéluctable."
+    },
+    {
+      "id": "ch9_q2",
+      "chapitre": 9,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "acceptation_mort",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné semble accepter son sort, atteignant une forme de résignation face à l'inéluctable.",
+      "texte_cible": "Comment le condamné réagit-il face à l'imminence de sa mort ?\nA) Il refuse totalement\nB) Il semble accepter et se résigner\nC) Il s'en réjouit\nD) Il l'ignore\nRéponse correcte: B) Il semble accepter et se résigner\nExplication: Face à l'inéluctable, le condamné atteint une forme d'acceptation et de résignation, marquant l'aboutissement de son parcours psychologique."
+    },
+    {
+      "id": "ch9_q3",
+      "chapitre": 9,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "adieux_famille",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné fait ses derniers adieux à sa famille, dans une scène d'une grande intensité émotionnelle.",
+      "texte_cible": "À qui le condamné fait-il ses derniers adieux ?\nA) À ses amis\nB) À sa famille\nC) À ses gardiens\nD) À personne\nRéponse correcte: B) À sa famille\nExplication: Les derniers adieux du condamné s'adressent à sa famille, créant une scène d'une intensité émotionnelle maximale."
+    },
+    {
+      "id": "ch9_q4",
+      "chapitre": 9,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "catharsis_emotionnelle",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les derniers adieux créent une catharsis émotionnelle, purgeant les sentiments et préparant à l'acceptation finale.",
+      "texte_cible": "Quel effet produisent les derniers adieux ?\nA) Ils créent de la confusion\nB) Ils créent une catharsis émotionnelle\nC) Ils suppriment toute émotion\nD) Ils rendent joyeux\nRéponse correcte: B) Ils créent une catharsis émotionnelle\nExplication: Les derniers adieux permettent une catharsis émotionnelle, purgeant les sentiments et préparant psychologiquement à l'acceptation finale."
+    },
+    {
+      "id": "ch10_q1",
+      "chapitre": 10,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "marche_execution",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné marche vers l'échafaud, entouré de gardiens, sous les yeux de la foule qui assiste au spectacle.",
+      "texte_cible": "Que fait le condamné dans ce dernier chapitre ?\nA) Il s'évade\nB) Il marche vers l'échafaud\nC) Il reçoit une grâce\nD) Il se suicide\nRéponse correcte: B) Il marche vers l'échafaud\nExplication: Le condamné effectue sa dernière marche vers l'échafaud, entouré de gardiens et sous le regard de la foule."
+    },
+    {
+      "id": "ch10_q2",
+      "chapitre": 10,
+      "type": "analyse",
+      "difficulte": "moyen",
+      "theme_semantique": "spectacle_foule",
+      "prefixe": "générer une question:",
+      "texte_entree": "La marche vers l'échafaud se déroule devant une foule de spectateurs, transformant l'exécution en spectacle public.",
+      "texte_cible": "Quel aspect de l'exécution est mis en évidence par la présence de la foule ?\nA) Son caractère privé\nB) Son caractère de spectacle public\nC) Son humanité\nD) Sa rapidité\nRéponse correcte: B) Son caractère de spectacle public\nExplication: La présence de la foule transforme l'exécution en spectacle public, dénonçant implicitement cette pratique barbare."
+    },
+    {
+      "id": "ch10_q3",
+      "chapitre": 10,
+      "type": "comprehension",
+      "difficulte": "facile",
+      "theme_semantique": "derniers_mots",
+      "prefixe": "générer une question:",
+      "texte_entree": "Le condamné prononce ses derniers mots, s'adressant à la foule, dénonçant l'injustice de sa condamnation.",
+      "texte_cible": "Que fait le condamné avant de mourir ?\nA) Il se tait\nB) Il prononce ses derniers mots\nC) Il chante\nD) Il rit\nRéponse correcte: B) Il prononce ses derniers mots\nExplication: Le condamné profère ses derniers mots, s'adressant à la foule et dénonçant l'injustice de sa situation."
+    },
+    {
+      "id": "ch10_q4",
+      "chapitre": 10,
+      "type": "analyse",
+      "difficulte": "difficile",
+      "theme_semantique": "denonciation_sociale",
+      "prefixe": "générer une question:",
+      "texte_entree": "Les derniers mots du condamné constituent une dénonciation sociale de la peine de mort et de l'injustice du système judiciaire.",
+      "texte_cible": "Que représentent les derniers mots du condamné ?\nA) Une acceptation de son sort\nB) Une dénonciation sociale de la peine de mort\nC) Une prière religieuse\nD) Un chant d'adieu\nRéponse correcte: B) Une dénonciation sociale de la peine de mort\nExplication: Les derniers mots du condamné constituent un acte de dénonciation sociale, critiquant la peine de mort et l'injustice du système."
+    }
+  ]
+}

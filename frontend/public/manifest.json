@@ -1,0 +1,21 @@
+{
+  "name": "Najah AI - Plateforme d'Apprentissage Adaptatif",
+  "short_name": "Najah AI",
+  "description": "Plateforme d'apprentissage adaptatif avec IA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 

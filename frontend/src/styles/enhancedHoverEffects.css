@@ -1,0 +1,419 @@
+/* Effets de hover sophistiqués et engageants */
+
+/* Effet de survol avec élévation */
+.hover-lift-enhanced {
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+}
+
+.hover-lift-enhanced:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 
+    0 32px 64px -12px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(59, 130, 246, 0.1);
+}
+
+/* Effet de survol avec rotation 3D */
+.hover-3d-rotate {
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.hover-3d-rotate:hover {
+  transform: rotateY(15deg) rotateX(10deg) scale(1.05);
+  box-shadow: 
+    -20px 20px 30px rgba(0, 0, 0, 0.2),
+    0 0 0 1px rgba(59, 130, 246, 0.2);
+}
+
+/* Effet de survol avec morphing */
+.hover-morph {
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hover-morph:hover {
+  border-radius: 25px;
+  transform: scale(1.08) skew(-2deg);
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0 0 0 1px rgba(59, 130, 246, 0.3);
+}
+
+/* Effet de survol avec pulsation */
+.hover-pulse-enhanced {
+  transition: all 0.3s ease;
+}
+
+.hover-pulse-enhanced:hover {
+  animation: enhancedPulse 0.8s ease-in-out infinite;
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.4);
+}
+
+@keyframes enhancedPulse {
+  0%, 100% { 
+    transform: scale(1);
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.4);
+  }
+  50% { 
+    transform: scale(1.05);
+    box-shadow: 0 0 50px rgba(59, 130, 246, 0.6);
+  }
+}
+
+/* Effet de survol avec vibration */
+.hover-vibrate {
+  transition: all 0.3s ease;
+}
+
+.hover-vibrate:hover {
+  animation: enhancedVibrate 0.4s linear infinite both;
+}
+
+@keyframes enhancedVibrate {
+  0%, 100% { transform: translate(0); }
+  10% { transform: translate(-2px, -2px); }
+  20% { transform: translate(-2px, 0px); }
+  30% { transform: translate(-2px, 2px); }
+  40% { transform: translate(0px, 2px); }
+  50% { transform: translate(2px, 2px); }
+  60% { transform: translate(2px, 0px); }
+  70% { transform: translate(2px, -2px); }
+  80% { transform: translate(0px, -2px); }
+  90% { transform: translate(-2px, -2px); }
+}
+
+/* Effet de survol avec effet de néon */
+.hover-neon {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.hover-neon::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #3B82F6, #8B5CF6, #EC4899, #3B82F6);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-neon:hover::before {
+  opacity: 1;
+}
+
+.hover-neon:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 0 20px rgba(59, 130, 246, 0.6),
+    0 0 40px rgba(59, 130, 246, 0.4),
+    0 0 60px rgba(59, 130, 246, 0.2);
+}
+
+/* Effet de survol avec effet de brillance */
+.hover-shine {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.hover-shine::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transform: rotate(45deg) translate(-100%, -100%);
+  transition: all 0.6s;
+}
+
+.hover-shine:hover::after {
+  transform: rotate(45deg) translate(100%, 100%);
+}
+
+.hover-shine:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Effet de survol avec effet de particules */
+.hover-particles {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.hover-particles::before,
+.hover-particles::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #3B82F6;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.hover-particles::before {
+  top: 20px;
+  right: 20px;
+}
+
+.hover-particles::after {
+  bottom: 20px;
+  left: 20px;
+}
+
+.hover-particles:hover::before {
+  opacity: 1;
+  animation: particleFloat1 2s ease-in-out infinite;
+}
+
+.hover-particles:hover::after {
+  opacity: 1;
+  animation: particleFloat2 2s ease-in-out infinite;
+}
+
+@keyframes particleFloat1 {
+  0%, 100% { 
+    opacity: 0; 
+    transform: translateY(0) scale(1); 
+  }
+  50% { 
+    opacity: 1; 
+    transform: translateY(-15px) scale(1.5); 
+  }
+}
+
+@keyframes particleFloat2 {
+  0%, 100% { 
+    opacity: 0; 
+    transform: translateY(0) scale(1); 
+  }
+  50% { 
+    opacity: 1; 
+    transform: translateY(15px) scale(1.5); 
+  }
+}
+
+/* Effet de survol avec effet de glassmorphism */
+.hover-glass {
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.hover-glass:hover {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  transform: translateY(-5px);
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* Effet de survol avec effet de gradient animé */
+.hover-gradient-animated {
+  background-size: 200% 200%;
+  transition: all 0.5s ease;
+}
+
+.hover-gradient-animated:hover {
+  background-position: 100% 100%;
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Effet de survol avec effet de rebond */
+.hover-bounce-enhanced {
+  transition: all 0.3s ease;
+}
+
+.hover-bounce-enhanced:hover {
+  animation: enhancedBounce 0.8s ease-in-out;
+}
+
+@keyframes enhancedBounce {
+  0%, 20%, 53%, 80%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  40%, 43% {
+    transform: translate3d(0, -20px, 0);
+  }
+  70% {
+    transform: translate3d(0, -10px, 0);
+  }
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+}
+
+/* Effet de survol avec effet de rotation */
+.hover-rotate {
+  transition: all 0.4s ease;
+}
+
+.hover-rotate:hover {
+  transform: rotate(5deg) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Effet de survol avec effet de zoom */
+.hover-zoom {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+/* Effet de survol avec effet de glitch */
+.hover-glitch {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.hover-glitch:hover {
+  animation: glitchEffect 0.3s ease-in-out;
+}
+
+@keyframes glitchEffect {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+/* Effet de survol avec effet de vague */
+.hover-wave {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-wave::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.hover-wave:hover::before {
+  left: 100%;
+}
+
+.hover-wave:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Effet de survol avec effet de focus */
+.hover-focus {
+  transition: all 0.3s ease;
+}
+
+.hover-focus:hover {
+  transform: scale(1.02);
+  box-shadow: 
+    0 0 0 3px rgba(59, 130, 246, 0.1),
+    0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Effet de survol avec effet de profondeur */
+.hover-depth {
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform-style: preserve-3d;
+}
+
+.hover-depth:hover {
+  transform: translateZ(20px) rotateX(5deg);
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0 0 0 1px rgba(59, 130, 246, 0.1);
+}
+
+/* Effet de survol avec effet de magnétisme */
+.hover-magnetic {
+  transition: all 0.3s ease;
+}
+
+.hover-magnetic:hover {
+  transform: scale(1.05);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    0 0 0 1px rgba(59, 130, 246, 0.2);
+}
+
+/* Effet de survol avec effet de respiration */
+.hover-breathe {
+  transition: all 0.6s ease;
+}
+
+.hover-breathe:hover {
+  animation: breatheEffect 2s ease-in-out infinite;
+}
+
+@keyframes breatheEffect {
+  0%, 100% { 
+    transform: scale(1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  50% { 
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Effet de survol avec effet de flottement */
+.hover-float {
+  transition: all 0.4s ease;
+}
+
+.hover-float:hover {
+  animation: floatEffect 3s ease-in-out infinite;
+}
+
+@keyframes floatEffect {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Responsive hover effects */
+@media (max-width: 768px) {
+  .hover-lift-enhanced:hover {
+    transform: translateY(-6px) scale(1.02);
+  }
+  
+  .hover-3d-rotate:hover {
+    transform: rotateY(8deg) rotateX(5deg) scale(1.03);
+  }
+  
+  .hover-morph:hover {
+    transform: scale(1.05) skew(-1deg);
+  }
+}

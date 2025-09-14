@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    networks:
+      - najah-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./app.db
+      - CORS_ORIGINS=http://localhost:3000
+    volumes:
+      - ./data:/app/data
+    networks:
+      - najah-network
+
+  # Optionnel : Base de données PostgreSQL pour la production
+  # postgres:
+  #   image: postgres:15
+  #   environment:
+  #     POSTGRES_DB: najah_ai
+  #     POSTGRES_USER: najah_user
+  #     POSTGRES_PASSWORD: najah_password
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   networks:
+  #     - najah-network
+
+networks:
+  najah-network:
+    driver: bridge
+
+# volumes:
+#   postgres_data:
+
+
+
+

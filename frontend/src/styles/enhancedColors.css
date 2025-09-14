@@ -1,0 +1,328 @@
+/* Palette de couleurs enrichie et plus vive */
+
+:root {
+  /* Couleurs principales plus vives */
+  --color-primary-50: #EFF6FF;
+  --color-primary-100: #DBEAFE;
+  --color-primary-200: #BFDBFE;
+  --color-primary-300: #93C5FD;
+  --color-primary-400: #60A5FA;
+  --color-primary-500: #3B82F6; /* Bleu principal plus vif */
+  --color-primary-600: #2563EB;
+  --color-primary-700: #1D4ED8;
+  --color-primary-800: #1E40AF;
+  --color-primary-900: #1E3A8A;
+
+  /* Couleurs d'accent */
+  --color-accent-success: #10B981; /* Vert émeraude vif */
+  --color-accent-success-light: #34D399;
+  --color-accent-success-dark: #059669;
+  
+  --color-accent-warning: #F59E0B; /* Orange ambré vif */
+  --color-accent-warning-light: #FBBF24;
+  --color-accent-warning-dark: #D97706;
+  
+  --color-accent-danger: #EF4444; /* Rouge vif */
+  --color-accent-danger-light: #F87171;
+  --color-accent-danger-dark: #DC2626;
+  
+  --color-accent-info: #06B6D4; /* Cyan vif */
+  --color-accent-info-light: #22D3EE;
+  --color-accent-info-dark: #0891B2;
+  
+  --color-accent-purple: #8B5CF6; /* Violet vif */
+  --color-accent-purple-light: #A78BFA;
+  --color-accent-purple-dark: #7C3AED;
+
+  /* Couleurs de progression */
+  --color-progress-low: #EF4444;     /* Rouge */
+  --color-progress-medium: #F59E0B;  /* Orange */
+  --color-progress-high: #10B981;    /* Vert */
+  --color-progress-excellent: #059669; /* Vert foncé */
+
+  /* Couleurs d'émotion */
+  --color-emotion-joy: #FFD93D;      /* Jaune joyeux */
+  --color-emotion-calm: #6BCF7F;     /* Vert calme */
+  --color-emotion-energy: #FF6B6B;   /* Rouge énergique */
+  --color-emotion-focus: #4ECDC4;    /* Cyan focalisé */
+
+  /* Couleurs de gamification */
+  --color-gamification-bronze: #CD7F32;  /* Bronze */
+  --color-gamification-silver: #C0C0C0;  /* Argent */
+  --color-gamification-gold: #FFD700;    /* Or */
+  --color-gamification-platinum: #E5E4E2; /* Platine */
+
+  /* Couleurs de niveau */
+  --color-level-beginner: #FF9F43;    /* Orange débutant */
+  --color-level-intermediate: #54A0FF; /* Bleu intermédiaire */
+  --color-level-advanced: #5F27CD;    /* Violet avancé */
+  --color-level-expert: #00D2D3;      /* Cyan expert */
+
+  /* Couleurs de matière */
+  --color-subject-math: #FF6B6B;      /* Rouge mathématiques */
+  --color-subject-science: #4ECDC4;   /* Cyan sciences */
+  --color-subject-history: #45B7D1;   /* Bleu histoire */
+  --color-subject-literature: #96CEB4; /* Vert littérature */
+  --color-subject-art: #FFEAA7;       /* Jaune art */
+  --color-subject-sport: #DDA0DD;     /* Violet sport */
+
+  /* Couleurs de statut */
+  --color-status-online: #10B981;     /* Vert en ligne */
+  --color-status-offline: #6B7280;    /* Gris hors ligne */
+  --color-status-busy: #EF4444;       /* Rouge occupé */
+  --color-status-away: #F59E0B;       /* Orange absent */
+
+  /* Couleurs de notification */
+  --color-notification-info: #3B82F6;    /* Bleu info */
+  --color-notification-success: #10B981; /* Vert succès */
+  --color-notification-warning: #F59E0B; /* Orange avertissement */
+  --color-notification-error: #EF4444;   /* Rouge erreur */
+
+  /* Couleurs de fond */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F8FAFC;
+  --color-bg-tertiary: #F1F5F9;
+  --color-bg-dark: #0F172A;
+  --color-bg-darker: #020617;
+
+  /* Couleurs de texte */
+  --color-text-primary: #1E293B;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748B;
+  --color-text-light: #94A3B8;
+  --color-text-white: #FFFFFF;
+
+  /* Couleurs de bordure */
+  --color-border-light: #E2E8F0;
+  --color-border-medium: #CBD5E1;
+  --color-border-dark: #94A3B8;
+  --color-border-focus: #3B82F6;
+
+  /* Couleurs d'ombre */
+  --color-shadow-light: rgba(0, 0, 0, 0.05);
+  --color-shadow-medium: rgba(0, 0, 0, 0.1);
+  --color-shadow-dark: rgba(0, 0, 0, 0.2);
+  --color-shadow-colored: rgba(59, 130, 246, 0.25);
+}
+
+/* Classes utilitaires pour les couleurs */
+.text-primary { color: var(--color-primary-500); }
+.text-success { color: var(--color-accent-success); }
+.text-warning { color: var(--color-accent-warning); }
+.text-danger { color: var(--color-accent-danger); }
+.text-info { color: var(--color-accent-info); }
+.text-purple { color: var(--color-accent-purple); }
+
+.bg-primary { background-color: var(--color-primary-500); }
+.bg-success { background-color: var(--color-accent-success); }
+.bg-warning { background-color: var(--color-accent-warning); }
+.bg-danger { background-color: var(--color-accent-danger); }
+.bg-info { background-color: var(--color-accent-info); }
+.bg-purple { background-color: var(--color-accent-purple); }
+
+.border-primary { border-color: var(--color-primary-500); }
+.border-success { border-color: var(--color-accent-success); }
+.border-warning { border-color: var(--color-accent-warning); }
+.border-danger { border-color: var(--color-accent-danger); }
+.border-info { border-color: var(--color-accent-info); }
+.border-purple { border-color: var(--color-accent-purple); }
+
+/* Gradients de couleurs */
+.gradient-primary {
+  background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-600));
+}
+
+.gradient-success {
+  background: linear-gradient(135deg, var(--color-accent-success), var(--color-accent-success-dark));
+}
+
+.gradient-warning {
+  background: linear-gradient(135deg, var(--color-accent-warning), var(--color-accent-warning-dark));
+}
+
+.gradient-danger {
+  background: linear-gradient(135deg, var(--color-accent-danger), var(--color-accent-danger-dark));
+}
+
+.gradient-info {
+  background: linear-gradient(135deg, var(--color-accent-info), var(--color-accent-info-dark));
+}
+
+.gradient-purple {
+  background: linear-gradient(135deg, var(--color-accent-purple), var(--color-accent-purple-dark));
+}
+
+.gradient-rainbow {
+  background: linear-gradient(135deg, 
+    var(--color-primary-500), 
+    var(--color-accent-success), 
+    var(--color-accent-warning), 
+    var(--color-accent-danger), 
+    var(--color-accent-purple)
+  );
+}
+
+.gradient-sunset {
+  background: linear-gradient(135deg, 
+    #FF6B6B, 
+    #FFE66D, 
+    #4ECDC4
+  );
+}
+
+.gradient-ocean {
+  background: linear-gradient(135deg, 
+    #667eea, 
+    #764ba2
+  );
+}
+
+.gradient-forest {
+  background: linear-gradient(135deg, 
+    #11998e, 
+    #38ef7d
+  );
+}
+
+.gradient-fire {
+  background: linear-gradient(135deg, 
+    #FF416C, 
+    #FF4B2B
+  );
+}
+
+/* Couleurs avec transparence */
+.bg-primary-transparent {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.bg-success-transparent {
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+.bg-warning-transparent {
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+.bg-danger-transparent {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.bg-info-transparent {
+  background-color: rgba(6, 182, 212, 0.1);
+}
+
+.bg-purple-transparent {
+  background-color: rgba(139, 92, 246, 0.1);
+}
+
+/* Couleurs de progression avec gradients */
+.progress-gradient-low {
+  background: linear-gradient(90deg, var(--color-progress-low), #FF8A80);
+}
+
+.progress-gradient-medium {
+  background: linear-gradient(90deg, var(--color-progress-medium), #FFB74D);
+}
+
+.progress-gradient-high {
+  background: linear-gradient(90deg, var(--color-progress-high), #81C784);
+}
+
+.progress-gradient-excellent {
+  background: linear-gradient(90deg, var(--color-progress-excellent), #66BB6A);
+}
+
+/* Couleurs de niveau avec effets */
+.level-beginner {
+  background: linear-gradient(135deg, var(--color-level-beginner), #FFB74D);
+  color: white;
+}
+
+.level-intermediate {
+  background: linear-gradient(135deg, var(--color-level-intermediate), #42A5F5);
+  color: white;
+}
+
+.level-advanced {
+  background: linear-gradient(135deg, var(--color-level-advanced), #AB47BC);
+  color: white;
+}
+
+.level-expert {
+  background: linear-gradient(135deg, var(--color-level-expert), #26C6DA);
+  color: white;
+}
+
+/* Couleurs de matière */
+.subject-math {
+  background: linear-gradient(135deg, var(--color-subject-math), #FF8A80);
+  color: white;
+}
+
+.subject-science {
+  background: linear-gradient(135deg, var(--color-subject-science), #80CBC4);
+  color: white;
+}
+
+.subject-history {
+  background: linear-gradient(135deg, var(--color-subject-history), #90CAF9);
+  color: white;
+}
+
+.subject-literature {
+  background: linear-gradient(135deg, var(--color-subject-literature), #A5D6A7);
+  color: white;
+}
+
+.subject-art {
+  background: linear-gradient(135deg, var(--color-subject-art), #FFF59D);
+  color: #333;
+}
+
+.subject-sport {
+  background: linear-gradient(135deg, var(--color-subject-sport), #CE93D8);
+  color: white;
+}
+
+/* Couleurs de gamification */
+.gamification-bronze {
+  background: linear-gradient(135deg, var(--color-gamification-bronze), #D4AF37);
+  color: white;
+}
+
+.gamification-silver {
+  background: linear-gradient(135deg, var(--color-gamification-silver), #E5E4E2);
+  color: #333;
+}
+
+.gamification-gold {
+  background: linear-gradient(135deg, var(--color-gamification-gold), #FFD700);
+  color: #333;
+}
+
+.gamification-platinum {
+  background: linear-gradient(135deg, var(--color-gamification-platinum), #E5E4E2);
+  color: #333;
+}
+
+/* Couleurs d'émotion */
+.emotion-joy {
+  background: linear-gradient(135deg, var(--color-emotion-joy), #FFEB3B);
+  color: #333;
+}
+
+.emotion-calm {
+  background: linear-gradient(135deg, var(--color-emotion-calm), #81C784);
+  color: white;
+}
+
+.emotion-energy {
+  background: linear-gradient(135deg, var(--color-emotion-energy), #FF8A80);
+  color: white;
+}
+
+.emotion-focus {
+  background: linear-gradient(135deg, var(--color-emotion-focus), #4DD0E1);
+  color: white;
+}

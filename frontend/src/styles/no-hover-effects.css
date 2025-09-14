@@ -1,0 +1,73 @@
+/* Désactiver tous les effets de survol sur le composant EnhancedHomeworkWidget */
+
+/* Désactiver les effets de survol sur le conteneur principal */
+.enhanced-homework-widget,
+.enhanced-homework-widget * {
+  transition: none !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+/* Désactiver les effets de survol sur les cartes de devoirs */
+.enhanced-homework-widget .bg-gray-50,
+.enhanced-homework-widget .bg-red-50,
+.enhanced-homework-widget .bg-green-50 {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Désactiver les effets de survol sur les boutons */
+.enhanced-homework-widget button {
+  transition: none !important;
+  transform: none !important;
+}
+
+.enhanced-homework-widget button:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Désactiver les effets de survol sur les éléments avec des classes CSS spécifiques */
+.enhanced-homework-widget .card-enhanced,
+.enhanced-homework-widget .hover-lift-enhanced,
+.enhanced-homework-widget .hover-3d-rotate,
+.enhanced-homework-widget .hover-morph,
+.enhanced-homework-widget .hover-pulse-enhanced,
+.enhanced-homework-widget .hover-vibrate,
+.enhanced-homework-widget .hover-neon,
+.enhanced-homework-widget .hover-shine,
+.enhanced-homework-widget .hover-particles,
+.enhanced-homework-widget .hover-wave {
+  transition: none !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+.enhanced-homework-widget .card-enhanced:hover,
+.enhanced-homework-widget .hover-lift-enhanced:hover,
+.enhanced-homework-widget .hover-3d-rotate:hover,
+.enhanced-homework-widget .hover-morph:hover,
+.enhanced-homework-widget .hover-pulse-enhanced:hover,
+.enhanced-homework-widget .hover-vibrate:hover,
+.enhanced-homework-widget .hover-neon:hover,
+.enhanced-homework-widget .hover-shine:hover,
+.enhanced-homework-widget .hover-particles:hover,
+.enhanced-homework-widget .hover-wave:hover {
+  transform: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Désactiver les pseudo-éléments qui causent des effets */
+.enhanced-homework-widget .card-enhanced::before,
+.enhanced-homework-widget .card-enhanced::after,
+.enhanced-homework-widget .hover-lift-enhanced::before,
+.enhanced-homework-widget .hover-lift-enhanced::after,
+.enhanced-homework-widget .hover-neon::before,
+.enhanced-homework-widget .hover-shine::after,
+.enhanced-homework-widget .hover-particles::before,
+.enhanced-homework-widget .hover-particles::after,
+.enhanced-homework-widget .hover-wave::before {
+  display: none !important;
+}
+
