@@ -2,13 +2,6 @@
 builder = "NIXPACKS"
 buildCommand = "pip install -r requirements.txt"
 
-[environments.production.variables]
-PYTHON_VERSION = "3.11"
-PYTHON_ENV = "production"
-SECRET_KEY = "najah-ai-secret-key-super-secure-2024"
-JWT_SECRET_KEY = "najah-ai-jwt-secret-key-ultra-secure-2024"
-CORS_ORIGINS = "https://localhost:3000,https://vercel.app"
-
 [deploy]
 startCommand = "python start_minimal.py"
 # healthcheckPath = "/health"
@@ -17,6 +10,7 @@ restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
 
 [environments.production.variables]
+PYTHON_VERSION = "3.11"
 PYTHON_ENV = "production"
 SECRET_KEY = "najah-ai-secret-key-super-secure-2024"
 JWT_SECRET_KEY = "najah-ai-jwt-secret-key-ultra-secure-2024"
