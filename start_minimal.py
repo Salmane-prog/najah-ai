@@ -50,6 +50,18 @@ try:
     except ImportError as e:
         print(f"❌ SQLAlchemy: {e}")
     
+    try:
+        import jwt
+        print("✅ PyJWT importé")
+    except ImportError as e:
+        print(f"❌ PyJWT: {e}")
+    
+    try:
+        from jose import jwt as jose_jwt
+        print("✅ python-jose JWT importé")
+    except ImportError as e:
+        print(f"❌ python-jose JWT: {e}")
+    
     # Importer et démarrer l'application
     print("🚀 Import de l'application...")
     from app import app
