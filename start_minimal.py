@@ -14,12 +14,32 @@ port = int(os.environ.get("PORT", 8000))
 host = "0.0.0.0"
 
 # Variables d'environnement minimales
-os.environ['DATABASE_URL'] = os.environ.get('DATABASE_URL', 'sqlite:///./najah_ai.db')
+db_url = os.environ.get('DATABASE_URL')
+if not db_url:
+    # Utiliser SQLite par défaut si pas de PostgreSQL
+    db_url = 'sqlite:///./najah_ai.db'
+    print("⚠️ DATABASE_URL non configurée, utilisation de SQLite")
+
+os.environ['DATABASE_URL'] = db_url
 os.environ['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'najah-ai-secret-key-2024')
 os.environ['JWT_SECRET_KEY'] = os.environ.get('JWT_SECRET_KEY', 'najah-ai-jwt-secret-2024')
 
 print(f"🔧 Port: {port}")
-print(f"📁 DATABASE_URL: {os.environ.get('DATABASE_URL')}")
+print(f"📁 DATABASE_URL: {db_url[:50]}...")
+
+# Migration automatique si PostgreSQL
+if db_url.startswith('postgresql://'):
+    print("🗄️ Détection PostgreSQL - Migration automatique...")
+    try:
+        import subprocess
+        result = subprocess.run([sys.executable, 'migrate_postgres.py'], 
+                              capture_output=True, text=True, cwd=backend_dir)
+        if result.returncode == 0:
+            print("✅ Migration PostgreSQL réussie")
+        else:
+            print(f"⚠️ Migration PostgreSQL échouée: {result.stderr}")
+    except Exception as e:
+        print(f"⚠️ Erreur migration: {e}")
 
 try:
     # Changer vers le dossier backend
