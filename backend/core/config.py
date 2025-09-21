@@ -11,8 +11,8 @@ class Settings:
     ACCESS_TOKEN_EXPIRE_MINUTES: int = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", 60))
     ALGORITHM: str = os.getenv("ALGORITHM", "HS256")
     
-    # Chemin correct vers la base de données (racine du projet)
-    SQLALCHEMY_DATABASE_URL: str = "sqlite:///F:/IMT/stage/Yancode/Najah__AI/data/app.db"
+    # Configuration de base de données dynamique
+    SQLALCHEMY_DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./najah_ai.db")
     
     BACKEND_CORS_ORIGINS: list = os.getenv("BACKEND_CORS_ORIGINS", "*").split(",")
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
