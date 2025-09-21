@@ -250,3 +250,9 @@ class TeacherDashboardService {
 export const teacherDashboardService = new TeacherDashboardService();
 export default teacherDashboardService;
 
+// Exports de compatibilité pour les composants existants
+export const getTeacherDashboardData = () => teacherDashboardService.getTeacherDashboardData();
+export const getTeacherAnalytics = () => teacherDashboardService.getTeacherAnalytics();
+export const getTeacherStudents = () => teacherDashboardService.getTeacherStudents();
+export const getTeacherQuizzes = () => teacherDashboardService.getTeacherQuizzes();
+

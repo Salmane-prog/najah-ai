@@ -320,3 +320,11 @@ class AIAnalyticsService {
 export const aiAnalyticsService = new AIAnalyticsService();
 export default aiAnalyticsService;
 
+// Exports de compatibilité pour les composants existants
+export const getAIAnalyticsData = () => aiAnalyticsService.getAIAnalyticsData();
+export const getLearningAnalytics = (studentId: number) => aiAnalyticsService.getLearningAnalytics(studentId);
+export const getAIPredictions = (studentId: number) => aiAnalyticsService.getAIPredictions(studentId);
+export const getBlockageDetections = (studentId: number) => aiAnalyticsService.getBlockageDetections(studentId);
+export const getLearningPatterns = (studentId: number) => aiAnalyticsService.getLearningPatterns(studentId);
+export const getAIRecommendations = (studentId: number) => aiAnalyticsService.getAIRecommendations(studentId);
+
