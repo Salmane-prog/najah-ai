@@ -92,6 +92,18 @@ try:
     except ImportError as e:
         print(f"❌ scipy: {e}")
     
+    try:
+        import reportlab
+        print("✅ reportlab importé")
+    except ImportError as e:
+        print(f"❌ reportlab: {e}")
+    
+    try:
+        import openpyxl
+        print("✅ openpyxl importé")
+    except ImportError as e:
+        print(f"❌ openpyxl: {e}")
+    
     # Importer et démarrer l'application
     print("🚀 Import de l'application...")
     from app import app
