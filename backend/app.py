@@ -1,3 +1,10 @@
+# Configuration Railway en premier
+try:
+    import railway_config
+    print("✅ Configuration Railway chargée")
+except ImportError:
+    print("⚠️ Configuration Railway non trouvée, utilisation des paramètres par défaut")
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response

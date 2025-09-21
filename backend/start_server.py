@@ -23,6 +23,13 @@ def main():
     print(f"   - PYTHON_ENV: {os.environ.get('PYTHON_ENV', 'development')}")
     print(f"   - DATABASE_URL: {'✅ Configurée' if os.environ.get('DATABASE_URL') else '❌ Non configurée'}")
     
+    # Forcer les variables d'environnement pour la production
+    if not os.environ.get('DATABASE_URL'):
+        # Utiliser SQLite en production si pas de PostgreSQL
+        db_path = backend_dir / "najah_ai.db"
+        os.environ['DATABASE_URL'] = f"sqlite:///{db_path}"
+        print(f"📁 Base de données SQLite: {db_path}")
+    
     try:
         # Importer l'application
         from app import app
