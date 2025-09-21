@@ -86,6 +86,12 @@ try:
     except ImportError as e:
         print(f"❌ pandas: {e}")
     
+    try:
+        import scipy
+        print("✅ scipy importé")
+    except ImportError as e:
+        print(f"❌ scipy: {e}")
+    
     # Importer et démarrer l'application
     print("🚀 Import de l'application...")
     from app import app
