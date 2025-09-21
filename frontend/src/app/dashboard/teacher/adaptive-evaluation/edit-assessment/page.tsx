@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Sidebar from '@/components/Sidebar';
 import { useAuth  } from '@/hooks/useAuth';
@@ -24,7 +24,7 @@ import {
 } from 'lucide-react';
 import { FormativeEvaluation, formativeEvaluationService } from '@/services/formativeEvaluationService';
 
-export default function EditAssessment() {
+function EditAssessmentContent() {
   const searchParams = useSearchParams();
   const { user, token } = useAuth();
   const [evaluation, setEvaluation] = useState<FormativeEvaluation | null>(null);
@@ -745,5 +745,13 @@ export default function EditAssessment() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function EditAssessment() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <EditAssessmentContent />
+    </Suspense>
   );
 }

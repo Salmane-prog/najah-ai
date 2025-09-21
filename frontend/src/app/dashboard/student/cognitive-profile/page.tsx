@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Line, Doughnut, Bar } from 'react-chartjs-2';
 import {
@@ -37,7 +37,7 @@ interface CognitiveProfile {
   confidence_level: number;
 }
 
-export default function CognitiveProfilePage() {
+function CognitiveProfileContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [profile, setProfile] = useState<CognitiveProfile | null>(null);
@@ -347,6 +347,14 @@ export default function CognitiveProfilePage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function CognitiveProfilePage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <CognitiveProfileContent />
+    </Suspense>
   );
 }
 

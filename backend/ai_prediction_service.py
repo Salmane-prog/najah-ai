@@ -280,3 +280,6 @@ ai_prediction_service = AIPredictionService()
 
 
 
+
+
+

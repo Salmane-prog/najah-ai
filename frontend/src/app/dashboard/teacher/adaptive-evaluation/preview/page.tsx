@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Brain, ArrowLeft, Clock, Users, Target } from 'lucide-react';
 
@@ -31,7 +31,7 @@ interface PreviewTest {
   questions: TestQuestion[];
 }
 
-export default function TestPreviewPage() {
+function TestPreviewContent() {
   const [test, setTest] = useState<PreviewTest | null>(null);
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -275,5 +275,13 @@ export default function TestPreviewPage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function TestPreviewPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TestPreviewContent />
+    </Suspense>
   );
 }

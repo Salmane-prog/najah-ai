@@ -1,0 +1,22 @@
+📊 RÉSUMÉ DE L'EXPORT - 2025-09-17T21:21:44.065885
+==================================================
+
+Source: backend/app.db
+Nombre total de tables: 14
+
+✅ adaptive_questions: 0 lignes
+✅ adaptive_tests: 0 lignes
+✅ classes: 1 lignes
+✅ formative_evaluations: 0 lignes
+✅ questions: 1 lignes
+✅ quiz_assignments: 0 lignes
+✅ quiz_results: 0 lignes
+✅ quizzes: 1 lignes
+✅ remediation_badges: 0 lignes
+✅ remediation_progress: 0 lignes
+✅ remediation_results: 0 lignes
+✅ students: 3 lignes
+✅ test_assignments: 0 lignes
+✅ users: 1 lignes
+
+📈 TOTAL: 7 lignes exportées

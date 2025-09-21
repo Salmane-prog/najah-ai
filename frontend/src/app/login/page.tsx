@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { useAuth } from '../../hooks/useAuth';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Card } from '../../components/Card';
@@ -8,7 +8,7 @@ import Logo from '../../components/Logo';
 import Link from 'next/link';
 import { BookOpen, Eye, EyeOff, Mail, Lock, Home, AlertCircle } from 'lucide-react';
 
-export default function LoginPage() {
+function LoginPageContent() {
   const { login, isLoading, isAuthenticated, user, error, clearError } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -150,5 +150,13 @@ export default function LoginPage() {
         </Card>
       </div>
     </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LoginPageContent />
+    </Suspense>
   );
 } 

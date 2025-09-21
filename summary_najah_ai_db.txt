@@ -1,0 +1,25 @@
+📊 RÉSUMÉ DE L'EXPORT - 2025-09-17T21:21:44.081892
+==================================================
+
+Source: backend/najah_ai.db
+Nombre total de tables: 17
+
+✅ adaptive_questions: 5 lignes
+✅ adaptive_sessions: 0 lignes
+✅ adaptive_tests: 5 lignes
+✅ class_students: 0 lignes
+✅ classes: 3 lignes
+✅ cognitive_profiles: 0 lignes
+✅ competency_analysis: 0 lignes
+✅ extended_questions: 0 lignes
+✅ question_metadata: 0 lignes
+✅ question_responses: 0 lignes
+✅ question_tag_relations: 0 lignes
+✅ question_tags: 20 lignes
+✅ response_analyses: 0 lignes
+✅ student_abilities: 0 lignes
+✅ student_learning_paths: 0 lignes
+✅ test_assignments: 3 lignes
+✅ test_attempts: 0 lignes
+
+📈 TOTAL: 36 lignes exportées

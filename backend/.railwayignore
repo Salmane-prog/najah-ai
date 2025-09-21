@@ -1,0 +1,77 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Fichiers de base de données
+*.db
+*.sqlite
+*.sqlite3
+*.sqbpro
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environnements virtuels
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+logs/
+answer_backup_*.log
+
+# Fichiers temporaires
+tmp/
+temp/
+
+# Fichiers de données volumineux
+data/
+uploads/
+*.json
+*.rar
+
+# Cache
+.cache/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic versions (garde la structure mais pas les migrations)
+alembic/versions/
+
+# Tests et scripts de développement
+test_*.py
+*_test.py
+test_*.html
+check_*.py
+fix_*.py
+create_*.py
+start_*.py
+populate_*.py
+migrate_*.py
+debug_*.py
+simple_*.py
+restart_*.py
+
+# Documentation de développement
+*.md
+README*
+
+# Scripts batch
+*.bat
+*.ps1
+
+# Configuration d'exemple
+config_example.env
+seed_database.sql

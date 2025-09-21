@@ -257,7 +257,7 @@ const AdvancedAnalyticsDashboard: React.FC = () => {
               </Button>
               <Button
                 variant={viewMode === 'detailed' ? 'default' : 'ghost'}
-                size="sm'
+                size="sm"
                 onClick={() => setViewMode('detailed')}
               >
                 Détail

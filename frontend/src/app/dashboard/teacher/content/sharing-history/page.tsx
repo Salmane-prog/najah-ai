@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Sidebar from '../../../../components/Sidebar';
-import { useAuth  } from '../../../../hooks/useAuth';
+import Sidebar from '../../../../../components/Sidebar';
+import { useAuth  } from '../../../../../hooks/useAuth';
 import { 
   BookOpen, Search, Filter, Share2, Eye, Download, Users, 
   Calendar, Clock, CheckCircle, XCircle, Edit, Trash2, BarChart3 

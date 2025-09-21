@@ -342,3 +342,6 @@ logger.error(f"Erreur lors de la création: {str(e)}")
 
 
 
+
+
+
