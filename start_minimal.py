@@ -62,6 +62,30 @@ try:
     except ImportError as e:
         print(f"❌ python-jose JWT: {e}")
     
+    try:
+        import fpdf
+        print("✅ fpdf importé")
+    except ImportError as e:
+        print(f"❌ fpdf: {e}")
+    
+    try:
+        import openai
+        print("✅ openai importé")
+    except ImportError as e:
+        print(f"❌ openai: {e}")
+    
+    try:
+        import numpy
+        print("✅ numpy importé")
+    except ImportError as e:
+        print(f"❌ numpy: {e}")
+    
+    try:
+        import pandas
+        print("✅ pandas importé")
+    except ImportError as e:
+        print(f"❌ pandas: {e}")
+    
     # Importer et démarrer l'application
     print("🚀 Import de l'application...")
     from app import app
