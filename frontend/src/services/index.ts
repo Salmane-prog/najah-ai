@@ -2,33 +2,42 @@
 // EXPORT DE TOUS LES SERVICES
 // ============================================================================
 
-// Services existants
-export * from './teacherDashboardService';
-export * from './aiAnalyticsService';
-export * from './adaptiveAlgorithmService';
-export * from './aiModelsService';
-export * from './cognitiveDiagnosticService';
-export * from './adaptiveLearningService';
-export * from './analyticsService';
-export * from './adaptiveEvaluationService';
+// Services principaux - exports spécifiques pour éviter les conflits
+export { 
+  teacherDashboardService, 
+  getTeacherDashboardData, 
+  getTeacherAnalytics, 
+  getTeacherStudents, 
+  getTeacherQuizzes 
+} from './teacherDashboardService';
 
-// Service IA français spécialisé
-export * from './frenchAIService';
+export { 
+  aiAnalyticsService, 
+  getAIAnalyticsData, 
+  getLearningAnalytics, 
+  getAIPredictions, 
+  getBlockageDetections, 
+  getLearningPatterns, 
+  getAIRecommendations 
+} from './aiAnalyticsService';
 
-// Nouveaux services pour les vraies données
-export * from './studentDashboardService';
-export * from './teacherClassesService';
-export * from './quizService';
-export * from './messagingService';
-export * from './calendarService';
-
-// NOUVEAUX SERVICES IA POUR LES VRAIES DONNÉES
-export * from './realAIModelsService';
-export * from './realDataCollectionService';
-export * from './realTrainingSessionsService';
-
-// SERVICE UNIFIÉ POUR TOUTES LES FONCTIONNALITÉS AI
-export * from './unifiedAIService';
+// Services secondaires - exports par défaut uniquement
+export { default as adaptiveAlgorithmService } from './adaptiveAlgorithmService';
+export { default as aiModelsService } from './aiModelsService';
+export { default as cognitiveDiagnosticService } from './cognitiveDiagnosticService';
+export { default as adaptiveLearningService } from './adaptiveLearningService';
+export { default as analyticsService } from './analyticsService';
+export { default as adaptiveEvaluationService } from './adaptiveEvaluationService';
+export { default as frenchAIService } from './frenchAIService';
+export { default as studentDashboardService } from './studentDashboardService';
+export { default as teacherClassesService } from './teacherClassesService';
+export { default as quizService } from './quizService';
+export { default as messagingService } from './messagingService';
+export { default as calendarService } from './calendarService';
+export { default as realAIModelsService } from './realAIModelsService';
+export { default as realDataCollectionService } from './realDataCollectionService';
+export { default as realTrainingSessionsService } from './realTrainingSessionsService';
+export { default as unifiedAIService } from './unifiedAIService';
 
 // ============================================================================
 // RÉSUMÉ DES SERVICES DISPONIBLES
