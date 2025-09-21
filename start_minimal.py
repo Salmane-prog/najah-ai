@@ -104,6 +104,30 @@ try:
     except ImportError as e:
         print(f"❌ openpyxl: {e}")
     
+    try:
+        import requests
+        print("✅ requests importé")
+    except ImportError as e:
+        print(f"❌ requests: {e}")
+    
+    try:
+        import jinja2
+        print("✅ jinja2 importé")
+    except ImportError as e:
+        print(f"❌ jinja2: {e}")
+    
+    try:
+        import redis
+        print("✅ redis importé")
+    except ImportError as e:
+        print(f"❌ redis: {e}")
+    
+    try:
+        import celery
+        print("✅ celery importé")
+    except ImportError as e:
+        print(f"❌ celery: {e}")
+    
     # Importer et démarrer l'application
     print("🚀 Import de l'application...")
     from app import app
